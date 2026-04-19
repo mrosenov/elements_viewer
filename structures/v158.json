@@ -1,0 +1,184 @@
+{
+    "version": "v158",
+    "version_hex": "0x1000009E",
+    "lists": {
+        "0": {
+            "name": "EQUIPMENT_ADDON",
+            "fields": [
+                {
+                    "name": "ID",
+                    "type": "int32"
+                },
+                {
+                    "name": "Name",
+                    "type": "wstring:64"
+                },
+                {
+                    "name": "Type",
+                    "type": "int32"
+                },
+                {
+                    "name": "Count",
+                    "type": "int32"
+                },
+                {
+                    "name": "Value_1",
+                    "type": "float"
+                },
+                {
+                    "name": "Value_2",
+                    "type": "float"
+                },
+                {
+                    "name": "Value_3",
+                    "type": "float"
+                }
+            ]
+        },
+        "1": {
+            "name": "EQUIPMENT_MAJOR_TYPE",
+            "fields": [
+                {
+                    "name": "ID",
+                    "type": "int32"
+                },
+                {
+                    "name": "Name",
+                    "type": "wstring:64"
+                }
+            ]
+        },
+        "2": {
+            "name": "EQUIPMENT_SUB_TYPE",
+            "fields": [
+                {
+                    "name": "ID",
+                    "type": "int32"
+                },
+                {
+                    "name": "Name",
+                    "type": "wstring:64"
+                }
+            ]
+        },
+        "4": {
+            "name": "MEDICINE_MAJOR_TYPE",
+            "fields": [
+                {
+                    "name": "ID",
+                    "type": "int32"
+                },
+                {
+                    "name": "Name",
+                    "type": "wstring:64"
+                }
+            ]
+        },
+        "5": {
+            "name": "MEDICINE_SUB_TYPE",
+            "fields": [
+                {
+                    "name": "ID",
+                    "type": "int32"
+                },
+                {
+                    "name": "Name",
+                    "type": "wstring:64"
+                }
+            ]
+        },
+        "7": {
+            "name": "MATERIAL_MAJOR_TYPE",
+            "fields": [
+                {
+                    "name": "ID",
+                    "type": "int32"
+                },
+                {
+                    "name": "Name",
+                    "type": "wstring:64"
+                }
+            ]
+        },
+        "8": {
+            "name": "MATERIAL_SUB_TYPE",
+            "fields": [
+                {
+                    "name": "ID",
+                    "type": "int32"
+                },
+                {
+                    "name": "Name",
+                    "type": "wstring:64"
+                }
+            ]
+        },
+        "9": {
+            "name": "MATERIAL_ESSENCE",
+            "fields": [
+                {
+                    "name": "ID",
+                    "type": "int32"
+                },
+                {
+                    "name": "Type",
+                    "type": "int32",
+                    "refs": [
+                        7
+                    ]
+                },
+                {
+                    "name": "Sub_Type",
+                    "type": "int32",
+                    "refs": [
+                        8
+                    ]
+                },
+                {
+                    "name": "Name",
+                    "type": "wstring:64"
+                },
+                {
+                    "name": "Model_Path",
+                    "type": "int32"
+                },
+                {
+                    "name": "Icon_Path",
+                    "type": "int32"
+                },
+                {
+                    "name": "Sell_Price",
+                    "type": "int32"
+                },
+                {
+                    "name": "Buy_Price",
+                    "type": "int32"
+                },
+                {
+                    "name": "Decompose_Price",
+                    "type": "int32"
+                },
+                {
+                    "name": "Decompose_Time",
+                    "type": "int32"
+                },
+                {
+                    "name": "Element_ID",
+                    "type": "int32"
+                },
+                {
+                    "name": "Element_Num",
+                    "type": "int32"
+                },
+                {
+                    "name": "Stack_Amt",
+                    "type": "int32"
+                },
+                {
+                    "name": "Trade_Behavior",
+                    "type": "int32"
+                }
+            ]
+        }
+    }
+}
