@@ -19,7 +19,7 @@ require __DIR__ . '/ElementsReader.php';
 // ---------------------------------------------------------------------------
 // Resolve data folder (parent of php_reader)
 // ---------------------------------------------------------------------------
-$dataDir = realpath(__DIR__ . '/..');
+$dataDir = realpath(__DIR__ . '/data');
 $structDir = __DIR__ . '/structures';
 
 function list_data_files($dir) {
