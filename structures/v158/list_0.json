@@ -1,0 +1,33 @@
+{
+    "name": "EQUIPMENT_ADDON",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Type",
+            "type": "int32"
+        },
+        {
+            "name": "Count",
+            "type": "int32"
+        },
+        {
+            "name": "Value_1",
+            "type": "float"
+        },
+        {
+            "name": "Value_2",
+            "type": "float"
+        },
+        {
+            "name": "Value_3",
+            "type": "float"
+        }
+    ]
+}

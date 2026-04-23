@@ -1,0 +1,341 @@
+{
+    "name": "TASKDICE_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Matter Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon Path",
+            "type": "int32"
+        },
+        {
+            "name": "Task_ID_1",
+            "type": "int32"
+        },
+        {
+            "name": "Task_ID_1_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Task_ID_2",
+            "type": "int32"
+        },
+        {
+            "name": "Task_ID_2_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Task_ID_3",
+            "type": "int32"
+        },
+        {
+            "name": "Task_ID_3_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Task_ID_4",
+            "type": "int32"
+        },
+        {
+            "name": "Task_ID_4_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Task_ID_5",
+            "type": "int32"
+        },
+        {
+            "name": "Task_ID_5_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Task_ID_6",
+            "type": "int32"
+        },
+        {
+            "name": "Task_ID_6_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Task_ID_7",
+            "type": "int32"
+        },
+        {
+            "name": "Task_ID_7_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Task_ID_8",
+            "type": "int32"
+        },
+        {
+            "name": "Task_ID_8_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Type",
+            "type": "int32"
+        },
+        {
+            "name": "Map_Trigger",
+            "type": "int32"
+        },
+        {
+            "name": "Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Radius_Trigger",
+            "type": "float"
+        },
+        {
+            "name": "Map_ID_1",
+            "type": "int32"
+        },
+        {
+            "name": "Trigger_Pos_X_Min_1",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Min_1",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Min_1",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_X_Max_1",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Max_1",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Max_1",
+            "type": "float"
+        },
+        {
+            "name": "Map_ID_2",
+            "type": "int32"
+        },
+        {
+            "name": "Trigger_Pos_X_Min_2",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Min_2",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Min_2",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_X_Max_2",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Max_2",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Max_2",
+            "type": "float"
+        },
+        {
+            "name": "Map_ID_3",
+            "type": "int32"
+        },
+        {
+            "name": "Trigger_Pos_X_Min_3",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Min_3",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Min_3",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_X_Max_3",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Max_3",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Max_3",
+            "type": "float"
+        },
+        {
+            "name": "Map_ID_4",
+            "type": "int32"
+        },
+        {
+            "name": "Trigger_Pos_X_Min_4",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Min_4",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Min_4",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_X_Max_4",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Max_4",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Max_4",
+            "type": "float"
+        },
+        {
+            "name": "Map_ID_5",
+            "type": "int32"
+        },
+        {
+            "name": "Trigger_Pos_X_Min_5",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Min_5",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Min_5",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_X_Max_5",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Max_5",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Max_5",
+            "type": "float"
+        },
+        {
+            "name": "Map_ID_6",
+            "type": "int32"
+        },
+        {
+            "name": "Trigger_Pos_X_Min_6",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Min_6",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Min_6",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_X_Max_6",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Max_6",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Max_6",
+            "type": "float"
+        },
+        {
+            "name": "Map_ID_7",
+            "type": "int32"
+        },
+        {
+            "name": "Trigger_Pos_X_Min_7",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Min_7",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Min_7",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_X_Max_7",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Max_7",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Max_7",
+            "type": "float"
+        },
+        {
+            "name": "Map_ID_8",
+            "type": "int32"
+        },
+        {
+            "name": "Trigger_Pos_X_Min_8",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Min_8",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Min_8",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_X_Max_8",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Y_Max_8",
+            "type": "float"
+        },
+        {
+            "name": "Trigger_Pos_Z_Max_8",
+            "type": "float"
+        },
+        {
+            "name": "Stack",
+            "type": "int32"
+        },
+        {
+            "name": "Trade",
+            "type": "int32"
+        }
+    ]
+}

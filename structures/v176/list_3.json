@@ -1,0 +1,812 @@
+{
+    "name": "EQUIPMENT_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Type",
+            "type": "int32",
+            "refs": [
+                1
+            ]
+        },
+        {
+            "name": "Sub Type",
+            "type": "int32",
+            "refs": [
+                2
+            ]
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Equip Type",
+            "type": "int32"
+        },
+        {
+            "name": "Equip Mask",
+            "type": "int32"
+        },
+        {
+            "name": "Medium_Male",
+            "type": "int32"
+        },
+        {
+            "name": "Medium_Female",
+            "type": "int32"
+        },
+        {
+            "name": "Voida_Helmat_Male",
+            "type": "int32"
+        },
+        {
+            "name": "Voida_Helmat_Female",
+            "type": "int32"
+        },
+        {
+            "name": "Big_Male",
+            "type": "int32"
+        },
+        {
+            "name": "Big_Female",
+            "type": "int32"
+        },
+        {
+            "name": "Small_Male",
+            "type": "int32"
+        },
+        {
+            "name": "Small_Female",
+            "type": "int32"
+        },
+        {
+            "name": "Psychea_Male",
+            "type": "int32"
+        },
+        {
+            "name": "Psychea_Female",
+            "type": "int32"
+        },
+        {
+            "name": "Kytos",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Male",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Female",
+            "type": "int32"
+        },
+        {
+            "name": "Forta_Male",
+            "type": "int32"
+        },
+        {
+            "name": "Forta_Female",
+            "type": "int32"
+        },
+        {
+            "name": "Back_Male",
+            "type": "int32"
+        },
+        {
+            "name": "Back_Female",
+            "type": "int32"
+        },
+        {
+            "name": "Forta_Female_Fash",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Male_Sword",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Female_Sword",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Male_Scythe",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Female_Scythe",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Male_Bow",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Female_Bow",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Back_Male_Big_Axe",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Back_Female_Big_Axe",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Back_Male_Med_Axe",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Back_Female_Med_Axe",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Back_Male_Small_Axe",
+            "type": "int32"
+        },
+        {
+            "name": "Hydran_Back_Female_Small_Axe",
+            "type": "int32"
+        },
+        {
+            "name": "Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Unk5",
+            "type": "int32"
+        },
+        {
+            "name": "Unk6",
+            "type": "int32"
+        },
+        {
+            "name": "Unk7",
+            "type": "int32"
+        },
+        {
+            "name": "Unk8",
+            "type": "int32"
+        },
+        {
+            "name": "Unk9",
+            "type": "int32"
+        },
+        {
+            "name": "Unk10",
+            "type": "int32"
+        },
+        {
+            "name": "Unk11",
+            "type": "int32"
+        },
+        {
+            "name": "Unk12",
+            "type": "int32"
+        },
+        {
+            "name": "Unk13",
+            "type": "int32"
+        },
+        {
+            "name": "Unk14",
+            "type": "int32"
+        },
+        {
+            "name": "Unk15",
+            "type": "int32"
+        },
+        {
+            "name": "Unk16",
+            "type": "int32"
+        },
+        {
+            "name": "Unk17",
+            "type": "int32"
+        },
+        {
+            "name": "Unk18",
+            "type": "int32"
+        },
+        {
+            "name": "Unk19",
+            "type": "int32"
+        },
+        {
+            "name": "Unk20",
+            "type": "int32"
+        },
+        {
+            "name": "Drop Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon Path",
+            "type": "int32"
+        },
+        {
+            "name": "Equip Location",
+            "type": "int32"
+        },
+        {
+            "name": "Action Type",
+            "type": "int32"
+        },
+        {
+            "name": "Title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Level",
+            "type": "int32"
+        },
+        {
+            "name": "Grade",
+            "type": "int32"
+        },
+        {
+            "name": "Unk21",
+            "type": "int32"
+        },
+        {
+            "name": "Unk22",
+            "type": "int32"
+        },
+        {
+            "name": "Unk23",
+            "type": "int32"
+        },
+        {
+            "name": "Char_Combo_ID_1",
+            "type": "int64"
+        },
+        {
+            "name": "Char_Combo_ID_2",
+            "type": "int64"
+        },
+        {
+            "name": "Char_Level_1",
+            "type": "int64"
+        },
+        {
+            "name": "Char_Level_1_2",
+            "type": "int64"
+        },
+        {
+            "name": "Char_Level_2",
+            "type": "int64"
+        },
+        {
+            "name": "Char_Level_2_2",
+            "type": "int64"
+        },
+        {
+            "name": "Char_Level_3",
+            "type": "int64"
+        },
+        {
+            "name": "Char_Level_3_3",
+            "type": "int64"
+        },
+        {
+            "name": "Unk24",
+            "type": "int32"
+        },
+        {
+            "name": "Unk25",
+            "type": "int32"
+        },
+        {
+            "name": "Required Gender",
+            "type": "int32"
+        },
+        {
+            "name": "Required Level",
+            "type": "int32"
+        },
+        {
+            "name": "Required Faction_1",
+            "type": "int32"
+        },
+        {
+            "name": "Required Faction_2",
+            "type": "int32"
+        },
+        {
+            "name": "Required Faction_3",
+            "type": "int32"
+        },
+        {
+            "name": "Required Faction_4",
+            "type": "int32"
+        },
+        {
+            "name": "Required Race",
+            "type": "int32"
+        },
+        {
+            "name": "Required Tier",
+            "type": "int32"
+        },
+        {
+            "name": "Required Ascended",
+            "type": "int32"
+        },
+        {
+            "name": "God_Devil_Mask",
+            "type": "int32"
+        },
+        {
+            "name": "Coronation_Pos",
+            "type": "int32"
+        },
+        {
+            "name": "Required Title",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Reputation_1",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Reputation_Amt_1",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Reputation_2",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Reputation_Amt_2",
+            "type": "int32"
+        },
+        {
+            "name": "Required Territory",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Min_Atk_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Max_Atk_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Accuracy",
+            "type": "int32"
+        },
+        {
+            "name": "Evasion",
+            "type": "int32"
+        },
+        {
+            "name": "Atack_Range",
+            "type": "float"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Bonus_Attribute_1",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Bonus_Attribute_2",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Bonus_Attribute_3",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Bonus_Attribute_4",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Bonus_Attribute_5",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Bonus_Attribute_6",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Bonus_Attribute_7",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Bonus_Attribute_8",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Bonus_Attribute_9",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Bonus_Attribute_10",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Bonus_Attribute_11",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Refine_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Imbune_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Imbune_Price_Remove",
+            "type": "int32"
+        },
+        {
+            "name": "SStone_Price",
+            "type": "int32"
+        },
+        {
+            "name": "SStone_Price_Remove",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Tailsman",
+            "type": "int32",
+            "refs": [
+                53
+            ]
+        },
+        {
+            "name": "REF_1",
+            "type": "int32"
+        },
+        {
+            "name": "REF_2",
+            "type": "int32"
+        },
+        {
+            "name": "REF_3",
+            "type": "int32"
+        },
+        {
+            "name": "REF_4",
+            "type": "int32"
+        },
+        {
+            "name": "REF_5",
+            "type": "int32"
+        },
+        {
+            "name": "REF_6",
+            "type": "int32"
+        },
+        {
+            "name": "REF_7",
+            "type": "int32"
+        },
+        {
+            "name": "REF_8",
+            "type": "int32"
+        },
+        {
+            "name": "REF_9",
+            "type": "int32"
+        },
+        {
+            "name": "REF_10",
+            "type": "int32"
+        },
+        {
+            "name": "REF_11",
+            "type": "int32"
+        },
+        {
+            "name": "REF_12",
+            "type": "int32"
+        },
+        {
+            "name": "REF_13",
+            "type": "int32"
+        },
+        {
+            "name": "REF_14",
+            "type": "int32"
+        },
+        {
+            "name": "REF_15",
+            "type": "int32"
+        },
+        {
+            "name": "REF_16",
+            "type": "int32"
+        },
+        {
+            "name": "REF_17",
+            "type": "int32"
+        },
+        {
+            "name": "REF_18",
+            "type": "int32"
+        },
+        {
+            "name": "REF_19",
+            "type": "int32"
+        },
+        {
+            "name": "REF_20",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Level_1",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_ID_1_1",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_Chance_1_1",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_ID_1_2",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_Chance_1_2",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_ID_1_3",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_Chance_1_3",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_ID_1_4",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_Chance_1_4",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_ID_1_5",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_Chance_1_5",
+            "type": "float"
+        },
+        {
+            "name": "Refine_Level_2",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_ID_2_1",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_Chance_2_1",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_ID_2_2",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_Chance_2_2",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_ID_2_3",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_Chance_2_3",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_ID_2_4",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_Chance_2_4",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_ID_2_5",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_Chance_2_5",
+            "type": "float"
+        },
+        {
+            "name": "Bloodbound",
+            "type": "int32"
+        },
+        {
+            "name": "Can_Punching",
+            "type": "int32"
+        },
+        {
+            "name": "Dyeable",
+            "type": "int32"
+        },
+        {
+            "name": "Dyed_Fixed_Color",
+            "type": "int32"
+        },
+        {
+            "name": "Dyed",
+            "type": "int32"
+        },
+        {
+            "name": "Soul_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Level_1",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_ID_1",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Refine_Level_2",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_ID_2",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Refine_Level_3",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_ID_3",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Gem_Slot_Identifiable",
+            "type": "int32"
+        },
+        {
+            "name": "Unk26",
+            "type": "int32"
+        },
+        {
+            "name": "Unk27",
+            "type": "int32"
+        },
+        {
+            "name": "Unk28",
+            "type": "int32"
+        },
+        {
+            "name": "Unk29",
+            "type": "int32"
+        },
+        {
+            "name": "Unk30",
+            "type": "int32"
+        },
+        {
+            "name": "Stack",
+            "type": "int32"
+        },
+        {
+            "name": "Trade",
+            "type": "int32"
+        },
+        {
+            "name": "Unk31",
+            "type": "int32"
+        },
+        {
+            "name": "Unk32",
+            "type": "int32"
+        },
+        {
+            "name": "Unk33",
+            "type": "int32"
+        },
+        {
+            "name": "Unk34",
+            "type": "int32"
+        },
+        {
+            "name": "Unk35",
+            "type": "int32"
+        }
+    ]
+}

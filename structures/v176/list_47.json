@@ -1,0 +1,25 @@
+{
+    "name": "UNKNOWN47",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Unk1",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Unk2",
+            "type": "wstring:16"
+        },
+        {
+            "name": "Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Unk4",
+            "type": "int32"
+        }
+    ]
+}

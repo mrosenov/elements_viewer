@@ -1,0 +1,97 @@
+{
+    "name": "CHANGE_SHAPE_PROP_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Action_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Is_Replace_Name",
+            "type": "int32"
+        },
+        {
+            "name": "Move_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Recover_Prop",
+            "type": "int32"
+        },
+        {
+            "name": "Change_Faction",
+            "type": "int32"
+        },
+        {
+            "name": "Faction",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction",
+            "type": "int32"
+        },
+        {
+            "name": "Shield_Skill",
+            "type": "int32"
+        },
+        {
+            "name": "Can_Use_Medicine",
+            "type": "int32"
+        },
+        {
+            "name": "Can_Run_Helper",
+            "type": "int32"
+        },
+        {
+            "name": "Can_Fight",
+            "type": "int32"
+        },
+        {
+            "name": "Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Is_Fly",
+            "type": "int32"
+        },
+        {
+            "name": "HP Cost",
+            "type": "int32"
+        },
+        {
+            "name": "MP Cost",
+            "type": "int32"
+        },
+        {
+            "name": "Is_Equip_Invalid",
+            "type": "int32"
+        },
+        {
+            "name": "Is_Replace_Prop",
+            "type": "int32"
+        },
+        {
+            "name": "Is_Buff_Positive",
+            "type": "int32"
+        },
+        {
+            "name": "Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Unk3",
+            "type": "int32"
+        }
+    ]
+}

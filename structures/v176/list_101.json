@@ -1,0 +1,141 @@
+{
+    "name": "SCORE_TO_RANK_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Map_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Controller",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_1_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_1_Task_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_1_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Rank_2_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_2_Task_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_2_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Rank_3_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_3_Task_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_3_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Rank_4_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_4_Task_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_4_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Rank_5_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_5_Task_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_5_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Rank_6_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_6_Task_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_6_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Rank_7_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_7_Task_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_7_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Rank_8_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_8_Task_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_8_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Rank_9_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_9_Task_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_9_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Rank_10_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_10_Task_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Rank_10_Name",
+            "type": "wstring:32"
+        }
+    ]
+}

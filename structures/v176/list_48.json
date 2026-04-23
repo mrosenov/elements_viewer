@@ -1,0 +1,57 @@
+{
+    "name": "FIREWORKS_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon Path",
+            "type": "int32"
+        },
+        {
+            "name": "GFX Path",
+            "type": "int32"
+        },
+        {
+            "name": "Level",
+            "type": "int32"
+        },
+        {
+            "name": "Delay",
+            "type": "int32"
+        },
+        {
+            "name": "Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack",
+            "type": "int32"
+        },
+        {
+            "name": "Trade",
+            "type": "int32"
+        }
+    ]
+}

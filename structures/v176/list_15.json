@@ -1,0 +1,45 @@
+{
+    "name": "TOWNSCROLL_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Matter Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon Path",
+            "type": "int32"
+        },
+        {
+            "name": "Use_Time",
+            "type": "float"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Blank",
+            "type": "int32"
+        },
+        {
+            "name": "Stack",
+            "type": "int32"
+        },
+        {
+            "name": "Trade",
+            "type": "int32"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "RECIPEROLL_MAJOR_TYPE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        }
+    ]
+}

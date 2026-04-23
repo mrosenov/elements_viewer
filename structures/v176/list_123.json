@@ -1,0 +1,301 @@
+{
+    "name": "LOTTERY2_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Dice_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Type",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_1_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_1_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_2_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_2_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_3_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_3_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_4_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_4_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_5_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_5_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_6_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_6_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_7_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_7_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_8_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_8_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_9_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_9_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_10_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_10_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_11_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_11_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_12_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_12_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_13_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_13_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_14_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_14_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_15_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_15_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_16_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_16_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_17_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_17_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_18_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_18_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_19_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_19_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_20_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_20_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_21_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_21_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_22_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_22_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_23_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_23_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_24_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_24_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_25_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_25_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_26_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_26_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_27_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_27_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_28_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_28_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_29_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_29_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_30_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_30_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_31_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_31_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Canididates_32_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Canididates_32_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

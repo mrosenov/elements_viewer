@@ -1,0 +1,273 @@
+{
+    "name": "VEHICLE_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Ascened",
+            "type": "int32"
+        },
+        {
+            "name": "Coronation_Pos",
+            "type": "int32"
+        },
+        {
+            "name": "Only_Psychea",
+            "type": "int32"
+        },
+        {
+            "name": "War_Only",
+            "type": "int32"
+        },
+        {
+            "name": "Is_Multi_Ride",
+            "type": "int32"
+        },
+        {
+            "name": "Multi_Ride_Mode",
+            "type": "int32"
+        },
+        {
+            "name": "Multi_Ride_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Speed",
+            "type": "float"
+        },
+        {
+            "name": "Max_Speed",
+            "type": "float"
+        },
+        {
+            "name": "Height",
+            "type": "float"
+        },
+        {
+            "name": "Auto_Train",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_Count_1_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_Count_2_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_Count_3_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_Count_4_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_Count_5_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_Count_6_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_2_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_4_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_5_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_6_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_7_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_8_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_9_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_10_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_11_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_12_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_13_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_14_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_15_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_16_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_17_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_18_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_19_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_20_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_21_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_22_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_23_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_24_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_25_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_26_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_27_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_28_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_29_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_30_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_31_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_32_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_33_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_34_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_35_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_36_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_37_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_38_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_39_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_40_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "name": "CHANGE_SHAPE_CARD_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Require_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Require_Sect",
+            "type": "int32"
+        },
+        {
+            "name": "Character_Combo_ID",
+            "type": "int64"
+        },
+        {
+            "name": "Character_Combo_Id_2",
+            "type": "int64"
+        },
+        {
+            "name": "Character_Combo_Id_3",
+            "type": "int64"
+        },
+        {
+            "name": "Renascence_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Require_Gender",
+            "type": "int32"
+        },
+        {
+            "name": "Repu_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Require_Repu",
+            "type": "int32"
+        },
+        {
+            "name": "Ref_Temp_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Preface",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Epiloque",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Enerqy_Decrease_Speed",
+            "type": "float"
+        },
+        {
+            "name": "Fee_Restore",
+            "type": "int32"
+        },
+        {
+            "name": "Fee_Refine",
+            "type": "int32"
+        },
+        {
+            "name": "Fee_Contract",
+            "type": "int32"
+        },
+        {
+            "name": "Fee_Recover",
+            "type": "int32"
+        },
+        {
+            "name": "Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Unk5",
+            "type": "int32"
+        },
+        {
+            "name": "Unk6",
+            "type": "int32"
+        },
+        {
+            "name": "Unk7",
+            "type": "int32"
+        },
+        {
+            "name": "Unk8",
+            "type": "int32"
+        },
+        {
+            "name": "Unk9",
+            "type": "int32"
+        },
+        {
+            "name": "Unk10",
+            "type": "int32"
+        },
+        {
+            "name": "Unk11",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

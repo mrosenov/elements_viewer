@@ -1,0 +1,61 @@
+{
+    "name": "PET_FOOD_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Matter_Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Level_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Level_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Type_Mask",
+            "type": "int32"
+        },
+        {
+            "name": "Remedy_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Remedy_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Remedy_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

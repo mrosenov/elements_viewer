@@ -1,0 +1,209 @@
+{
+    "name": "CHARACTER_CLASS_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Char_Class_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Faction",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Mask",
+            "type": "int32"
+        },
+        {
+            "name": "Level_2",
+            "type": "int32"
+        },
+        {
+            "name": "HP",
+            "type": "int32"
+        },
+        {
+            "name": "MP",
+            "type": "int32"
+        },
+        {
+            "name": "Dmg",
+            "type": "int32"
+        },
+        {
+            "name": "Def",
+            "type": "int32"
+        },
+        {
+            "name": "Atk",
+            "type": "int32"
+        },
+        {
+            "name": "Armor",
+            "type": "int32"
+        },
+        {
+            "name": "Criti_Rate",
+            "type": "float"
+        },
+        {
+            "name": "Criti_Damage",
+            "type": "float"
+        },
+        {
+            "name": "Anti_Stun",
+            "type": "int32"
+        },
+        {
+            "name": "Anti_Weaken",
+            "type": "int32"
+        },
+        {
+            "name": "Anti_Slow",
+            "type": "int32"
+        },
+        {
+            "name": "Anti_Silence",
+            "type": "int32"
+        },
+        {
+            "name": "Anti_Sleep",
+            "type": "int32"
+        },
+        {
+            "name": "Anti_Twist",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Up_HP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_MP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_Dmg",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_Def",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_Armor",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_Criti_Rate",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_Criti_Damage",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_Anti_Stun",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_Anti_Weaken",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_Anti_Slow",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_Anti_Silence",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_Anti_Sleep",
+            "type": "float"
+        },
+        {
+            "name": "Level_Up_Anti_Twist",
+            "type": "float"
+        },
+        {
+            "name": "Walk_Speed",
+            "type": "float"
+        },
+        {
+            "name": "Run_Speed",
+            "type": "float"
+        },
+        {
+            "name": "HP_Gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "HP_Gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "HP_Gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "HP_Gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "MP_Gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "MP_Gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "MP_Gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "MP_Gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Char_Combo_1",
+            "type": "int64"
+        },
+        {
+            "name": "Char_Combo_2",
+            "type": "int64"
+        },
+        {
+            "name": "Unk1",
+            "type": "float"
+        },
+        {
+            "name": "Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Limitation",
+            "type": "int32"
+        }
+    ]
+}

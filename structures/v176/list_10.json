@@ -1,0 +1,137 @@
+{
+    "name": "REFINE_TICKET_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Matter Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon Path",
+            "type": "int32"
+        },
+        {
+            "name": "Shatter_Protect",
+            "type": "int32"
+        },
+        {
+            "name": "Success_Increase",
+            "type": "float"
+        },
+        {
+            "name": "Sigil_Mode",
+            "type": "int32"
+        },
+        {
+            "name": "Max_Enchant",
+            "type": "int32"
+        },
+        {
+            "name": "Bind_On_Use",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_1",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_2",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_3",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_4",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_5",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_6",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_7",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_8",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_9",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_10",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_11",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_12",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_13",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_14",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_15",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_16",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_17",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_18",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_19",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Chance_20",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack",
+            "type": "int32"
+        },
+        {
+            "name": "Trade",
+            "type": "int32"
+        }
+    ]
+}

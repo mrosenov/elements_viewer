@@ -1,0 +1,824 @@
+{
+    "name": "NPC_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Type",
+            "type": "int32"
+        },
+        {
+            "name": "Title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Refresh_Time",
+            "type": "float"
+        },
+        {
+            "name": "Size",
+            "type": "int32"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Profile_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Source",
+            "type": "int32"
+        },
+        {
+            "name": "Greeting",
+            "type": "wstring:512"
+        },
+        {
+            "name": "Discover_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Domain_Related",
+            "type": "int32"
+        },
+        {
+            "name": "Guard",
+            "type": "int32"
+        },
+        {
+            "name": "Vehicle",
+            "type": "int32"
+        },
+        {
+            "name": "Fort_Config",
+            "type": "int32"
+        },
+        {
+            "name": "NPC_Dialog",
+            "type": "int32"
+        },
+        {
+            "name": "Shop",
+            "type": "int32",
+            "refs": [
+                24
+            ]
+        },
+        {
+            "name": "gShop_Major_Type_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Purchase_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Task_Start_Map",
+            "type": "int32"
+        },
+        {
+            "name": "Task_End_Map",
+            "type": "int32"
+        },
+        {
+            "name": "Taskmatter_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Heal_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Teleport",
+            "type": "int32"
+        },
+        {
+            "name": "Proxy_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Stash",
+            "type": "int32"
+        },
+        {
+            "name": "Tower_Build_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Reset_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Bind_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Destroy_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Cancel_Destroy_Service",
+            "type": "int32"
+        },
+        {
+            "name": "War_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Exchange_1_1",
+            "type": "int32"
+        },
+        {
+            "name": "Exchange_1_2",
+            "type": "int32"
+        },
+        {
+            "name": "Exchange_1_3",
+            "type": "int32"
+        },
+        {
+            "name": "Exchange_1_4",
+            "type": "int32"
+        },
+        {
+            "name": "Crafting_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Consignment_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Reputation_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Transfer_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Open_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Exchange_2_1",
+            "type": "int32"
+        },
+        {
+            "name": "Exchange_2_2",
+            "type": "int32"
+        },
+        {
+            "name": "Special_Mode_1",
+            "type": "int32"
+        },
+        {
+            "name": "Special_Mode_2",
+            "type": "int32"
+        },
+        {
+            "name": "Special_Mode_3",
+            "type": "int32"
+        },
+        {
+            "name": "Special_Mode_4",
+            "type": "int32"
+        },
+        {
+            "name": "Has_PK_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Fee_Per_PK",
+            "type": "int32"
+        },
+        {
+            "name": "Refine_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Mine_Service",
+            "type": "int32"
+        },
+        {
+            "name": "Interation_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Collision_in_Server",
+            "type": "int32"
+        },
+        {
+            "name": "Vehicle_Min_Length",
+            "type": "float"
+        },
+        {
+            "name": "Vehicle_Min_Width",
+            "type": "float"
+        },
+        {
+            "name": "Vehicle_Min_Height",
+            "type": "float"
+        },
+        {
+            "name": "Vehicle_Max_Length",
+            "type": "float"
+        },
+        {
+            "name": "Vehicle_Max_Width",
+            "type": "float"
+        },
+        {
+            "name": "Vehicle_Max_Height",
+            "type": "float"
+        },
+        {
+            "name": "Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Territory_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Instance_1",
+            "type": "int32"
+        },
+        {
+            "name": "Instance_2",
+            "type": "int32"
+        },
+        {
+            "name": "Instance_3",
+            "type": "int32"
+        },
+        {
+            "name": "Instance_4",
+            "type": "int32"
+        },
+        {
+            "name": "Instance_5",
+            "type": "int32"
+        },
+        {
+            "name": "Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Unk5",
+            "type": "int32"
+        },
+        {
+            "name": "Unk6",
+            "type": "int32"
+        },
+        {
+            "name": "Unk7",
+            "type": "int32"
+        },
+        {
+            "name": "Unk8",
+            "type": "int32"
+        },
+        {
+            "name": "Unk9",
+            "type": "int32"
+        },
+        {
+            "name": "Unk10",
+            "type": "int32"
+        },
+        {
+            "name": "Unk11",
+            "type": "int32"
+        },
+        {
+            "name": "Unk12",
+            "type": "int32"
+        },
+        {
+            "name": "Unk13",
+            "type": "int32"
+        },
+        {
+            "name": "Unk14",
+            "type": "int32"
+        },
+        {
+            "name": "Unk15",
+            "type": "int32"
+        },
+        {
+            "name": "f80",
+            "type": "int32"
+        },
+        {
+            "name": "f81",
+            "type": "int32"
+        },
+        {
+            "name": "f82",
+            "type": "int32"
+        },
+        {
+            "name": "f83",
+            "type": "int32"
+        },
+        {
+            "name": "f84",
+            "type": "int32"
+        },
+        {
+            "name": "f85",
+            "type": "int32"
+        },
+        {
+            "name": "f86",
+            "type": "int32"
+        },
+        {
+            "name": "f87",
+            "type": "int32"
+        },
+        {
+            "name": "f88",
+            "type": "int32"
+        },
+        {
+            "name": "f89",
+            "type": "int32"
+        },
+        {
+            "name": "f90",
+            "type": "int32"
+        },
+        {
+            "name": "f91",
+            "type": "int32"
+        },
+        {
+            "name": "f92",
+            "type": "int32"
+        },
+        {
+            "name": "f93",
+            "type": "int32"
+        },
+        {
+            "name": "f94",
+            "type": "int32"
+        },
+        {
+            "name": "f95",
+            "type": "int32"
+        },
+        {
+            "name": "f96",
+            "type": "int32"
+        },
+        {
+            "name": "f97",
+            "type": "int32"
+        },
+        {
+            "name": "f98",
+            "type": "int32"
+        },
+        {
+            "name": "f99",
+            "type": "int32"
+        },
+        {
+            "name": "f100",
+            "type": "int32"
+        },
+        {
+            "name": "f101",
+            "type": "int32"
+        },
+        {
+            "name": "f102",
+            "type": "int32"
+        },
+        {
+            "name": "f103",
+            "type": "int32"
+        },
+        {
+            "name": "f104",
+            "type": "int32"
+        },
+        {
+            "name": "f105",
+            "type": "int32"
+        },
+        {
+            "name": "f106",
+            "type": "int32"
+        },
+        {
+            "name": "f107",
+            "type": "int32"
+        },
+        {
+            "name": "f108",
+            "type": "int32"
+        },
+        {
+            "name": "f109",
+            "type": "int32"
+        },
+        {
+            "name": "f110",
+            "type": "int32"
+        },
+        {
+            "name": "f111",
+            "type": "int32"
+        },
+        {
+            "name": "f112",
+            "type": "int32"
+        },
+        {
+            "name": "f113",
+            "type": "int32"
+        },
+        {
+            "name": "f114",
+            "type": "int32"
+        },
+        {
+            "name": "f115",
+            "type": "int32"
+        },
+        {
+            "name": "f116",
+            "type": "int32"
+        },
+        {
+            "name": "f117",
+            "type": "int32"
+        },
+        {
+            "name": "f118",
+            "type": "int32"
+        },
+        {
+            "name": "f119",
+            "type": "int32"
+        },
+        {
+            "name": "f120",
+            "type": "int32"
+        },
+        {
+            "name": "f121",
+            "type": "int32"
+        },
+        {
+            "name": "f122",
+            "type": "int32"
+        },
+        {
+            "name": "f123",
+            "type": "int32"
+        },
+        {
+            "name": "f124",
+            "type": "int32"
+        },
+        {
+            "name": "f125",
+            "type": "int32"
+        },
+        {
+            "name": "f126",
+            "type": "int32"
+        },
+        {
+            "name": "f127",
+            "type": "int32"
+        },
+        {
+            "name": "f128",
+            "type": "int32"
+        },
+        {
+            "name": "f129",
+            "type": "int32"
+        },
+        {
+            "name": "f130",
+            "type": "int32"
+        },
+        {
+            "name": "f131",
+            "type": "int32"
+        },
+        {
+            "name": "f132",
+            "type": "int32"
+        },
+        {
+            "name": "f133",
+            "type": "int32"
+        },
+        {
+            "name": "f134",
+            "type": "int32"
+        },
+        {
+            "name": "f135",
+            "type": "int32"
+        },
+        {
+            "name": "f136",
+            "type": "int32"
+        },
+        {
+            "name": "f137",
+            "type": "int32"
+        },
+        {
+            "name": "f138",
+            "type": "int32"
+        },
+        {
+            "name": "f139",
+            "type": "int32"
+        },
+        {
+            "name": "f140",
+            "type": "int32"
+        },
+        {
+            "name": "f141",
+            "type": "int32"
+        },
+        {
+            "name": "f142",
+            "type": "int32"
+        },
+        {
+            "name": "f143",
+            "type": "int32"
+        },
+        {
+            "name": "f144",
+            "type": "int32"
+        },
+        {
+            "name": "f145",
+            "type": "int32"
+        },
+        {
+            "name": "f146",
+            "type": "int32"
+        },
+        {
+            "name": "f147",
+            "type": "int32"
+        },
+        {
+            "name": "f148",
+            "type": "int32"
+        },
+        {
+            "name": "f149",
+            "type": "int32"
+        },
+        {
+            "name": "f150",
+            "type": "int32"
+        },
+        {
+            "name": "f151",
+            "type": "int32"
+        },
+        {
+            "name": "f152",
+            "type": "int32"
+        },
+        {
+            "name": "f153",
+            "type": "int32"
+        },
+        {
+            "name": "f154",
+            "type": "int32"
+        },
+        {
+            "name": "f155",
+            "type": "int32"
+        },
+        {
+            "name": "f156",
+            "type": "int32"
+        },
+        {
+            "name": "f157",
+            "type": "int32"
+        },
+        {
+            "name": "f158",
+            "type": "int32"
+        },
+        {
+            "name": "f159",
+            "type": "int32"
+        },
+        {
+            "name": "f160",
+            "type": "int32"
+        },
+        {
+            "name": "f161",
+            "type": "int32"
+        },
+        {
+            "name": "f162",
+            "type": "int32"
+        },
+        {
+            "name": "f163",
+            "type": "int32"
+        },
+        {
+            "name": "f164",
+            "type": "int32"
+        },
+        {
+            "name": "f165",
+            "type": "int32"
+        },
+        {
+            "name": "f166",
+            "type": "int32"
+        },
+        {
+            "name": "f167",
+            "type": "int32"
+        },
+        {
+            "name": "f168",
+            "type": "int32"
+        },
+        {
+            "name": "f169",
+            "type": "int32"
+        },
+        {
+            "name": "f170",
+            "type": "int32"
+        },
+        {
+            "name": "f171",
+            "type": "int32"
+        },
+        {
+            "name": "f172",
+            "type": "int32"
+        },
+        {
+            "name": "f173",
+            "type": "int32"
+        },
+        {
+            "name": "f174",
+            "type": "int32"
+        },
+        {
+            "name": "f175",
+            "type": "int32"
+        },
+        {
+            "name": "f176",
+            "type": "int32"
+        },
+        {
+            "name": "f177",
+            "type": "int32"
+        },
+        {
+            "name": "f178",
+            "type": "int32"
+        },
+        {
+            "name": "f179",
+            "type": "int32"
+        },
+        {
+            "name": "f180",
+            "type": "int32"
+        },
+        {
+            "name": "f181",
+            "type": "int32"
+        },
+        {
+            "name": "f182",
+            "type": "int32"
+        },
+        {
+            "name": "f183",
+            "type": "int32"
+        },
+        {
+            "name": "f184",
+            "type": "int32"
+        },
+        {
+            "name": "f185",
+            "type": "int32"
+        },
+        {
+            "name": "f186",
+            "type": "int32"
+        },
+        {
+            "name": "f187",
+            "type": "int32"
+        },
+        {
+            "name": "f188",
+            "type": "int32"
+        },
+        {
+            "name": "f189",
+            "type": "int32"
+        },
+        {
+            "name": "f190",
+            "type": "int32"
+        },
+        {
+            "name": "f191",
+            "type": "int32"
+        },
+        {
+            "name": "f192",
+            "type": "int32"
+        },
+        {
+            "name": "f193",
+            "type": "int32"
+        },
+        {
+            "name": "f194",
+            "type": "int32"
+        },
+        {
+            "name": "f195",
+            "type": "int32"
+        },
+        {
+            "name": "f196",
+            "type": "int32"
+        },
+        {
+            "name": "f197",
+            "type": "int32"
+        },
+        {
+            "name": "f198",
+            "type": "int32"
+        },
+        {
+            "name": "f199",
+            "type": "int32"
+        },
+        {
+            "name": "f200",
+            "type": "int32"
+        },
+        {
+            "name": "f201",
+            "type": "int32"
+        },
+        {
+            "name": "f202",
+            "type": "int32"
+        },
+        {
+            "name": "f203",
+            "type": "int32"
+        }
+    ]
+}

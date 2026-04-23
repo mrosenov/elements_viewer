@@ -1,0 +1,45 @@
+{
+    "name": "UNKNOWN94",
+    "fields": [
+        {
+            "name": "Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Unk2",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Unk5",
+            "type": "int32"
+        },
+        {
+            "name": "Unk6",
+            "type": "int32"
+        },
+        {
+            "name": "Unk7",
+            "type": "int32"
+        },
+        {
+            "name": "Unk8",
+            "type": "int32"
+        },
+        {
+            "name": "Unk9",
+            "type": "int32"
+        },
+        {
+            "name": "Unk10",
+            "type": "int32"
+        }
+    ]
+}

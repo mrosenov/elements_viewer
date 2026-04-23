@@ -1,0 +1,817 @@
+{
+    "name": "RECYCLE_ITEM_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Map_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_1_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_2_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_3_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_4_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_5_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_6_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_7_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_8_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_9_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_10_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_11_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_12_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_13_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_14_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_15_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_16_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_17_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_18_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_19_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_20_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_21_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_22_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_23_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_24_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_25_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_26_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_27_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_28_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_29_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_30_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_31_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_32_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_33_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_34_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_35_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_36_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_37_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_38_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_39_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_40_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_41_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_42_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_43_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_44_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_45_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_46_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_47_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_48_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_49_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_50_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_51_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_52_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_53_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_54_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_55_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_56_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_57_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_58_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_59_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_60_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_61_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_62_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_63_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_64_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_65_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_66_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_67_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_68_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_69_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_70_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_71_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_72_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_73_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_74_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_75_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_76_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_77_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_78_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_79_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_80_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_81_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_82_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_83_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_84_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_85_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_86_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_87_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_88_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_89_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_90_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_91_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_92_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_93_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_94_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_95_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_96_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_97_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_98_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_99_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_100_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_101_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_102_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_103_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_104_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_105_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_106_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_107_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_108_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_109_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_110_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_111_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_112_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_113_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_114_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_115_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_116_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_117_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_118_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_119_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_120_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_121_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_122_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_123_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_124_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_125_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_126_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_127_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_128_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_129_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_130_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_131_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_132_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_133_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_134_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_135_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_136_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_137_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_138_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_139_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_140_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_141_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_142_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_143_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_144_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_145_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_146_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_147_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_148_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_149_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_150_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_151_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_152_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_153_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_154_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_155_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_156_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_157_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_158_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_159_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_160_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_161_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_162_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_163_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_164_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_165_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_166_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_167_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_168_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_169_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_170_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_171_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_172_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_173_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_174_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_175_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_176_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_177_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_178_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_179_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_180_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_181_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_182_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_183_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_184_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_185_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_186_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_187_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_188_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_189_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_190_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_191_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_192_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_193_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_194_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_195_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_196_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_197_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_198_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_199_Object_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Recycle_List_200_Object_ID",
+            "type": "int32"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "UNKNOWN31",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "f1",
+            "type": "int32"
+        },
+        {
+            "name": "f2",
+            "type": "wstring:64"
+        }
+    ]
+}

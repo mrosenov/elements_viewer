@@ -1,0 +1,305 @@
+{
+    "name": "LOTTERY3_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Item",
+            "type": "int32"
+        },
+        {
+            "name": "Dice_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Type",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_1_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_2_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_3_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_4_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_5_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_6_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_6_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_7_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_7_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_8_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_8_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_9_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_9_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_10_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_10_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_11_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_11_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_12_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_12_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_13_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_13_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_14_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_14_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_15_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_15_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_16_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_16_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_17_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_17_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_18_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_18_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_19_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_19_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_20_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_20_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_21_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_21_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_22_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_22_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_23_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_23_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_24_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_24_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_25_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_25_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_26_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_26_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_27_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_27_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_28_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_28_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_29_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_29_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_30_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_30_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_31_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_31_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_32_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Candidate_Items_32_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

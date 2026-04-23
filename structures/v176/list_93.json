@@ -1,0 +1,61 @@
+{
+    "name": "AIRCRAFT_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Matter_Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path",
+            "type": "int32"
+        },
+        {
+            "name": "Model_Path",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Char_Combo_ID",
+            "type": "int64"
+        },
+        {
+            "name": "Char_Combo_ID_2",
+            "type": "int64"
+        },
+        {
+            "name": "Speed",
+            "type": "float"
+        },
+        {
+            "name": "Fly_Mode",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

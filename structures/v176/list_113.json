@@ -1,0 +1,57 @@
+{
+    "name": "ARENA_DROPTABLE_CONFIG",
+    "fields": [
+        {
+            "name": "f0",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Map_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Droptable_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Droptable_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Droptable_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Droptable_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Droptable_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Droptable_6_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Droptable_7_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Droptable_8_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Droptable_9_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Droptable_10_Item_ID",
+            "type": "int32"
+        }
+    ]
+}

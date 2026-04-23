@@ -1,0 +1,555 @@
+{
+    "name": "DROPTABLE_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Type",
+            "type": "int32",
+            "refs": [
+                18
+            ]
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Item_Chance_1",
+            "type": "float"
+        },
+        {
+            "name": "Item_Chance_2",
+            "type": "float"
+        },
+        {
+            "name": "Item_Chance_3",
+            "type": "float"
+        },
+        {
+            "name": "Item_Chance_4",
+            "type": "float"
+        },
+        {
+            "name": "Item_Chance_5",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_1",
+            "type": "int32",
+            "refs": [
+                0
+            ]
+        },
+        {
+            "name": "Item_Drop_Chance_1",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_2",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_2",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_3",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_3",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_4",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_4",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_5",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_5",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_6",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_6",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_7",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_7",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_8",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_8",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_9",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_9",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_10",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_10",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_11",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_11",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_12",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_12",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_13",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_13",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_14",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_14",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_15",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_15",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_16",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_16",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_17",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_17",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_18",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_18",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_19",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_19",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_20",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_20",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_21",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_21",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_22",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_22",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_23",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_23",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_24",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_24",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_25",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_25",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_26",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_26",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_27",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_27",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_28",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_28",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_29",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_29",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_30",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_30",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_31",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_31",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_32",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_32",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_33",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_33",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_34",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_34",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_35",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_35",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_36",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_36",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_37",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_37",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_38",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_38",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_39",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_39",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_40",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_40",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_41",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_41",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_42",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_42",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_43",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_43",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_44",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_44",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_45",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_45",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_46",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_46",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_47",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_47",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_48",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_48",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_49",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_49",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_50",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_50",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_51",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_51",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_52",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_52",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_53",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_53",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_54",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_54",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_55",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_55",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_56",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_56",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_57",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_57",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_58",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_58",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_59",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_59",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_60",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_60",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_61",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_61",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_62",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_62",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_63",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_63",
+            "type": "float"
+        },
+        {
+            "name": "Item_ID_64",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Drop_Chance_64",
+            "type": "float"
+        }
+    ]
+}

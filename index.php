@@ -1,54 +1,108 @@
 <?php
 /**
- * index.php — simple web UI for browsing elements.data files.
+ * index.php — ElementsViewer v2 UI for browsing elements.data files.
  *
  * Query parameters:
- *   file   = path to a .data file (relative to parent of php_reader)
- *   list   = list index to view/edit
- *   off    = row offset within the selected list (default 0)
- *   limit  = rows per page (default 100)
- *   hex    = bytes of hex dump for the selected list (default 256)
+ *   file = path to a .data file (relative to ./data)
+ *   list = list index to view/edit
+ *   off  = record offset within the selected list (default 0)
+ *   msg  = flash message rendered as a toast
  *
- * POST parameters (for saving a list definition):
+ * POST parameters (saving a list definition):
  *   action = 'save_list'
- *   version, list, name, names[], types[]
+ *   version, list, name, names[], types[], refs[]
+ *
+ * Schema storage:
+ *   structures/{version}/list_{idx}.json — one file per list (lazy migration
+ *   from the old structures/{version}.json single-file layout, which gets
+ *   renamed to *.bak after the first split).
  */
 
 require __DIR__ . '/ElementsReader.php';
 
 // ---------------------------------------------------------------------------
-// Resolve data folder (parent of php_reader)
+// Resolve folders
 // ---------------------------------------------------------------------------
-$dataDir = realpath(__DIR__ . '/data');
+$dataDir   = realpath(__DIR__ . '/data');
 $structDir = __DIR__ . '/structures';
 
 function list_data_files($dir) {
     $out = [];
-    foreach (scandir($dir) as $f) {
-        if (preg_match('/^elements.*\.data$/i', $f)) $out[] = $f;
+    if ($dir && is_dir($dir)) {
+        foreach (scandir($dir) as $f) {
+            if (preg_match('/^elements.*\.data$/i', $f)) $out[] = $f;
+        }
     }
     sort($out);
     return $out;
 }
 
-function load_structure($dir, $versionLabel) {
-    $path = $dir . '/' . $versionLabel . '.json';
-    if (!is_file($path)) return ['version' => $versionLabel, 'lists' => [], '_path' => $path];
-    $raw = file_get_contents($path);
-    $data = json_decode($raw, true);
-    if (!is_array($data)) $data = ['version' => $versionLabel, 'lists' => []];
-    if (!isset($data['lists']) || !is_array($data['lists'])) $data['lists'] = [];
-    $data['_path'] = $path;
-    return $data;
+function structure_folder($dir, $versionLabel) {
+    return $dir . '/' . $versionLabel;
 }
 
-function save_structure($struct) {
-    $path = $struct['_path'];
-    $copy = $struct;
-    unset($copy['_path']);
+function list_file_path($dir, $versionLabel, $listIdx) {
+    return structure_folder($dir, $versionLabel) . '/list_' . (int)$listIdx . '.json';
+}
+
+/**
+ * One-time migration: if a legacy structures/{version}.json exists but the
+ * per-list folder doesn't, split the old file into per-list JSON files and
+ * rename the original to *.bak so the migration is reversible and doesn't
+ * re-run.
+ */
+function maybe_migrate_legacy($dir, $versionLabel) {
+    $folder = structure_folder($dir, $versionLabel);
+    $legacy = $dir . '/' . $versionLabel . '.json';
+    if (is_dir($folder) || !is_file($legacy)) return;
+
+    $raw  = file_get_contents($legacy);
+    $data = json_decode($raw, true);
+    if (!is_array($data) || !isset($data['lists']) || !is_array($data['lists'])) return;
+
+    if (!@mkdir($folder, 0777, true) && !is_dir($folder)) return;
+    foreach ($data['lists'] as $idx => $entry) {
+        if (!is_array($entry) || !ctype_digit((string)$idx)) continue;
+        @file_put_contents(
+            list_file_path($dir, $versionLabel, (int)$idx),
+            json_encode($entry, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+        );
+    }
+    @rename($legacy, $legacy . '.bak');
+}
+
+/**
+ * Load every per-list schema for a version.
+ * Returns ['version' => ..., 'lists' => [idx => entry], '_folder' => path].
+ */
+function load_structure($dir, $versionLabel) {
+    maybe_migrate_legacy($dir, $versionLabel);
+    $folder = structure_folder($dir, $versionLabel);
+    $lists  = [];
+    if (is_dir($folder)) {
+        foreach (scandir($folder) as $f) {
+            if (!preg_match('/^list_(\d+)\.json$/', $f, $m)) continue;
+            $raw   = file_get_contents($folder . '/' . $f);
+            $entry = json_decode($raw, true);
+            if (is_array($entry)) $lists[(string)(int)$m[1]] = $entry;
+        }
+    }
+    return ['version' => $versionLabel, 'lists' => $lists, '_folder' => $folder];
+}
+
+/**
+ * Persist a single list schema. Pass $entry = null to delete the file.
+ */
+function save_list_entry($dir, $versionLabel, $listIdx, $entry) {
+    $folder = structure_folder($dir, $versionLabel);
+    $path   = list_file_path($dir, $versionLabel, $listIdx);
+    if ($entry === null) {
+        return !is_file($path) || @unlink($path);
+    }
+    if (!is_dir($folder) && !@mkdir($folder, 0777, true) && !is_dir($folder)) return false;
     return file_put_contents(
         $path,
-        json_encode($copy, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+        json_encode($entry, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
     ) !== false;
 }
 
@@ -57,15 +111,17 @@ function save_structure($struct) {
 // ---------------------------------------------------------------------------
 $saveMsg = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'save_list') {
-    $versionLabel  = preg_replace('/[^a-zA-Z0-9_]/', '', $_POST['version'] ?? '');
-    $listIdx       = (int)($_POST['list'] ?? -1);
-    $listName      = trim($_POST['name'] ?? '');
-    $nameField     = trim($_POST['name_field'] ?? '');
-    $names         = $_POST['names'] ?? [];
-    $types         = $_POST['types'] ?? [];
-    $refs          = $_POST['refs']  ?? [];
+    $versionLabel = preg_replace('/[^a-zA-Z0-9_]/', '', $_POST['version'] ?? '');
+    $listIdx      = (int)($_POST['list'] ?? -1);
+    $listName     = trim($_POST['name'] ?? '');
+    $names        = $_POST['names'] ?? [];
+    $types        = $_POST['types'] ?? [];
+    $refs         = $_POST['refs']  ?? [];
+    // Preserve existing name_field / id_field (the template UI doesn't expose them).
+    $preservedNameField = trim($_POST['name_field'] ?? '');
+    $preservedIdField   = trim($_POST['id_field']   ?? '');
+
     if ($versionLabel && $listIdx >= 0) {
-        $struct = load_structure($structDir, $versionLabel);
         $fields = [];
         for ($i = 0; $i < count($names); $i++) {
             $n = trim($names[$i]);
@@ -76,7 +132,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'save_
             if ($t === '') $t = 'int32';
             $entry = ['name' => $n, 'type' => $t];
             if ($r !== '') {
-                // "3, 6,9" → [3, 6, 9]
                 $parsed = [];
                 foreach (preg_split('/[\s,]+/', $r) as $tok) {
                     if ($tok === '' || !ctype_digit($tok)) continue;
@@ -87,36 +142,36 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'save_
             $fields[] = $entry;
         }
         if (empty($fields)) {
-            // Delete the entry entirely if the form is empty.
-            unset($struct['lists'][(string)$listIdx]);
+            // Truncate → delete the per-list file.
+            $ok = save_list_entry($structDir, $versionLabel, $listIdx, null);
+            $saveMsg = $ok
+                ? "Schema for list $listIdx truncated (file removed)."
+                : "ERROR removing list_{$listIdx}.json";
         } else {
-            // Validate that $nameField is actually one of the defined fields,
-            // otherwise drop it. Avoids saving stale references.
-            $validNameField = '';
-            if ($nameField !== '') {
-                foreach ($fields as $fdef) {
-                    if ($fdef['name'] === $nameField) { $validNameField = $nameField; break; }
-                }
-            }
+            $validate = function ($wanted) use ($fields) {
+                if ($wanted === '') return '';
+                foreach ($fields as $fdef) if ($fdef['name'] === $wanted) return $wanted;
+                return '';
+            };
+            $validNameField = $validate($preservedNameField);
+            $validIdField   = $validate($preservedIdField);
             $entry = [
                 'name'   => $listName !== '' ? $listName : "LIST_$listIdx",
                 'fields' => $fields,
             ];
             if ($validNameField !== '') $entry['name_field'] = $validNameField;
-            $struct['lists'][(string)$listIdx] = $entry;
+            if ($validIdField   !== '') $entry['id_field']   = $validIdField;
+            $ok = save_list_entry($structDir, $versionLabel, $listIdx, $entry);
+            $saveMsg = $ok
+                ? "Saved list $listIdx — " . count($fields) . " field(s) → {$versionLabel}/list_{$listIdx}.json"
+                : "ERROR writing {$versionLabel}/list_{$listIdx}.json";
         }
-        $saveMsg = save_structure($struct)
-            ? "Saved list $listIdx to {$versionLabel}.json"
-            : "ERROR writing {$versionLabel}.json";
     }
-    // PRG redirect
     $qs = http_build_query([
-        'file'  => $_POST['file_qs'] ?? '',
-        'list'  => $listIdx,
-        'off'   => $_POST['off_qs'] ?? 0,
-        'limit' => $_POST['limit_qs'] ?? 100,
-        'hex'   => $_POST['hex_qs'] ?? 256,
-        'msg'   => $saveMsg,
+        'file' => $_POST['file_qs'] ?? '',
+        'list' => $listIdx,
+        'off'  => $_POST['off_qs'] ?? 0,
+        'msg'  => $saveMsg,
     ]);
     header('Location: ?' . $qs);
     exit;
@@ -125,48 +180,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'save_
 // ---------------------------------------------------------------------------
 // GET parameters
 // ---------------------------------------------------------------------------
-$fileName   = basename($_GET['file'] ?? '');
+$fileName        = basename($_GET['file'] ?? '');
 $selectedListIdx = isset($_GET['list']) ? (int)$_GET['list'] : -1;
-$rowOffset  = max(0, (int)($_GET['off'] ?? 0));
-$rowLimit   = max(1, min(1000, (int)($_GET['limit'] ?? 100)));
-$hexBytes   = max(16, min(4096, (int)($_GET['hex'] ?? 256)));
-$flashMsg   = $_GET['msg'] ?? $saveMsg;
-
-// Reference lookup query: clicking a cell with refs navigates with these params.
-$refVal   = $_GET['ref_val']   ?? '';       // string — parsed per target key type
-$refField = $_GET['ref_field'] ?? '';
-$refLists = [];
-if (!empty($_GET['ref_lists'])) {
-    foreach (preg_split('/[\s,]+/', (string)$_GET['ref_lists']) as $tok) {
-        if ($tok !== '' && ctype_digit($tok)) $refLists[] = (int)$tok;
-    }
-}
-
-// Records search: 'q' is the substring, 'qf' (optional) restricts to a field.
-$searchQuery = (string)($_GET['q']  ?? '');
-$searchField = (string)($_GET['qf'] ?? '');
-
-// Hidden columns (CSV of field names to hide from the records table).
-$hiddenCols = [];
-if (!empty($_GET['hide'])) {
-    foreach (explode(',', (string)$_GET['hide']) as $n) {
-        $n = trim($n);
-        if ($n !== '') $hiddenCols[$n] = true;
-    }
-}
-
-// View mode: 'table' (wide, many rows) or 'record' (one record, transposed).
-// Record view forces rowLimit = 1 so we only fetch/render the single record.
-$view = ($_GET['view'] ?? '') === 'record' ? 'record' : 'table';
-if ($view === 'record') $rowLimit = 1;
+$rowOffset       = max(0, (int)($_GET['off'] ?? 0));
+$flashMsg        = (string)($_GET['msg'] ?? '');
 
 $dataFiles = list_data_files($dataDir);
 if ($fileName === '' && !empty($dataFiles)) $fileName = $dataFiles[0];
 
-$reader = null;
-$struct = null;
+$reader    = null;
+$struct    = null;
 $readError = '';
-if ($fileName !== '' && is_file($dataDir . '/' . $fileName)) {
+if ($fileName !== '' && $dataDir && is_file($dataDir . '/' . $fileName)) {
     try {
         $reader = new ElementsReader($dataDir . '/' . $fileName);
         $reader->scan();
@@ -177,9 +202,9 @@ if ($fileName !== '' && is_file($dataDir . '/' . $fileName)) {
 }
 
 // ---------------------------------------------------------------------------
-// Build current list decode (if a list is selected)
+// Selected list + decoded record
 // ---------------------------------------------------------------------------
-$decoded = null;
+$decoded          = null;
 $selectedListMeta = null;
 $selectedListDef  = null;
 if ($reader && $selectedListIdx >= 0) {
@@ -192,7 +217,7 @@ if ($reader && $selectedListIdx >= 0) {
                 $decoded = $reader->decodeList(
                     $selectedListIdx,
                     $selectedListDef['fields'],
-                    $rowLimit,
+                    1,
                     $rowOffset
                 );
             } catch (Throwable $e) {
@@ -203,146 +228,84 @@ if ($reader && $selectedListIdx >= 0) {
 }
 
 // ---------------------------------------------------------------------------
-// Sidebar record list: dropdown + paginated list of rows (with optional
-// "name_field" preview). We decode just that one field across the page window
-// so the sidebar stays cheap even on huge tables.
+// Sidebar pagination + ID/Name preview
 //
-// Effective-name-field precedence:
-//   1. explicit "name_field" in structures JSON, if it matches a real field
-//   2. auto-detect a field literally named "name" (case-insensitive)
-//   3. none — each row displays "record <N>"
+// Resolve a "preview field" by:
+//   1. Honoring an explicit *_field key in the schema JSON, if it points to a
+//      field that still exists.
+//   2. Auto-detecting a field literally named the slot's name (case-insensitive)
+//      — e.g. a field called "id" / "ID" populates the ID column.
 // ---------------------------------------------------------------------------
-$sidebarLimit     = 200;  // rows shown in the sidebar at a time
-$sidebarPageStart = 0;
-$sidebarPageEnd   = 0;
-$sidebarNames     = [];
-$sidebarNameField = '';
-$sidebarNameSource = '';  // 'configured' or 'auto' — for the UI hint
+function resolve_preview_field($listDef, $configKey, $autoName) {
+    if (empty($listDef['fields'])) return '';
+    if (!empty($listDef[$configKey])) {
+        foreach ($listDef['fields'] as $fd) {
+            if ($fd['name'] === $listDef[$configKey]) return $listDef[$configKey];
+        }
+    }
+    foreach ($listDef['fields'] as $fd) {
+        if (strcasecmp($fd['name'], $autoName) === 0) return $fd['name'];
+    }
+    return '';
+}
+
+$sidebarLimit      = 200;
+$sidebarPageStart  = 0;
+$sidebarPageEnd    = 0;
+$sidebarIds        = [];
+$sidebarNames      = [];
+$sidebarIdField    = '';
+$sidebarNameField  = '';
 if ($reader && $selectedListMeta) {
     $total = (int)$selectedListMeta['count'];
     if ($total > 0) {
         $sidebarPageStart = (int)(floor(max(0, $rowOffset) / $sidebarLimit) * $sidebarLimit);
         $sidebarPageEnd   = min($total, $sidebarPageStart + $sidebarLimit);
     }
-    if ($selectedListDef && !empty($selectedListDef['fields'])) {
-        // (1) honor explicit config, but only if the field still exists
-        if (!empty($selectedListDef['name_field'])) {
-            foreach ($selectedListDef['fields'] as $fd) {
-                if ($fd['name'] === $selectedListDef['name_field']) {
-                    $sidebarNameField  = $selectedListDef['name_field'];
-                    $sidebarNameSource = 'configured';
-                    break;
-                }
-            }
-        }
-        // (2) auto-detect a field literally named "name" (case-insensitive)
-        if ($sidebarNameField === '') {
-            foreach ($selectedListDef['fields'] as $fd) {
-                if (strcasecmp($fd['name'], 'name') === 0) {
-                    $sidebarNameField  = $fd['name'];
-                    $sidebarNameSource = 'auto';
-                    break;
-                }
-            }
-        }
+    if ($selectedListDef) {
+        $sidebarIdField   = resolve_preview_field($selectedListDef, 'id_field',   'id');
+        $sidebarNameField = resolve_preview_field($selectedListDef, 'name_field', 'name');
     }
-    if ($sidebarNameField !== '' && $sidebarPageEnd > $sidebarPageStart) {
-        try {
-            $sidebarNames = $reader->decodeField(
-                $selectedListIdx,
-                $selectedListDef['fields'],
-                $sidebarNameField,
-                $sidebarPageStart,
-                $sidebarPageEnd - $sidebarPageStart
-            );
-        } catch (Throwable $e) {
-            // non-fatal — sidebar just falls back to "record <N>" labels
-            $sidebarNames = [];
-        }
-    }
-}
-
-// If the user typed a search query, run it now.  It replaces the paged
-// record list with up to 500 matching rows from anywhere in the list.
-$searchResult = null;
-if ($reader && $selectedListIdx >= 0 && $selectedListDef
-    && !empty($selectedListDef['fields']) && $searchQuery !== '') {
-    try {
-        $fieldArg = $searchField !== '' ? $searchField : null;
-        $searchResult = $reader->searchList(
-            $selectedListIdx,
-            $selectedListDef['fields'],
-            $searchQuery,
-            $fieldArg,
-            500
-        );
-    } catch (Throwable $e) {
-        $readError = $e->getMessage();
-    }
-}
-
-/**
- * Resolve a reference lookup: for each referenced list, search rows where
- * the first field (the list's key) equals the supplied value, and decode
- * those matching rows using the list's schema.
- *
- * Returns [listIdx => [
- *   'name'    => string,
- *   'error'   => string|null,
- *   'matches' => [ ['row' => int, 'fields' => [...], 'data' => [...]] ]
- * ]]
- */
-function resolve_references($reader, $struct, $refValue, $refLists, $perListLimit = 20)
-{
-    $out = [];
-    foreach ($refLists as $rIdx) {
-        $def = $struct['lists'][(string)$rIdx] ?? null;
-        if (!$def || empty($def['fields'])) {
-            $out[$rIdx] = [
-                'name'  => $def['name'] ?? "LIST_$rIdx",
-                'error' => 'no schema defined for this list',
-                'matches' => [],
-            ];
-            continue;
-        }
-        $keyType = $def['fields'][0]['type'];
-        $searchable = ['int32','int64','float','double'];
-        if (!in_array($keyType, $searchable, true)) {
-            $out[$rIdx] = [
-                'name'  => $def['name'],
-                'error' => "first-field type '$keyType' is not searchable",
-                'matches' => [],
-            ];
-            continue;
-        }
-        $rows = $reader->findMatchingRows($rIdx, $keyType, $refValue, $perListLimit);
-        $matches = [];
-        foreach ($rows as $rowIdx) {
+    $pageRows = $sidebarPageEnd - $sidebarPageStart;
+    if ($pageRows > 0) {
+        foreach ([
+            ['field' => $sidebarIdField,   'out' => &$sidebarIds],
+            ['field' => $sidebarNameField, 'out' => &$sidebarNames],
+        ] as $job) {
+            if ($job['field'] === '') continue;
             try {
-                $dec = $reader->decodeList($rIdx, $def['fields'], 1, $rowIdx);
-                if (!empty($dec['rows'])) {
-                    $matches[] = [
-                        'row'    => $rowIdx,
-                        'fields' => $dec['fields'],
-                        'data'   => $dec['rows'][0],
-                    ];
-                }
+                $job['out'] = $reader->decodeField(
+                    $selectedListIdx,
+                    $selectedListDef['fields'],
+                    $job['field'],
+                    $sidebarPageStart,
+                    $pageRows
+                );
             } catch (Throwable $e) {
-                // ignore
+                $job['out'] = [];
             }
         }
-        $out[$rIdx] = [
-            'name'    => $def['name'],
-            'error'   => null,
-            'matches' => $matches,
-        ];
+        unset($job);
     }
-    return $out;
 }
 
-$refResults = null;
-if ($reader && $refVal !== '' && !empty($refLists)) {
-    $refResults = resolve_references($reader, $struct, $refVal, $refLists);
+// ---------------------------------------------------------------------------
+// Hex bytes for the selected record (sized to record size, capped 512)
+// ---------------------------------------------------------------------------
+$hexBytesArr = [];
+$hexAddrBase = 0;
+if ($reader && $selectedListMeta && (int)$selectedListMeta['count'] > 0) {
+    $sz = (int)$selectedListMeta['sizeof'];
+    if ($sz > 0) {
+        $hexLen = min(max(48, $sz), 512);
+        try {
+            $raw = $reader->hexDumpList($selectedListIdx, $hexLen, $rowOffset);
+            for ($i = 0; $i < strlen($raw); $i++) $hexBytesArr[] = ord($raw[$i]);
+            $hexAddrBase = (int)$selectedListMeta['data_offset'] + (int)$rowOffset * $sz;
+        } catch (Throwable $e) {
+            // ignore
+        }
+    }
 }
 
 // ---------------------------------------------------------------------------
@@ -352,1087 +315,713 @@ function h($s) { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
 
 function page_url($params) {
     $base = [
-        'file'  => $_GET['file']  ?? '',
-        'list'  => $_GET['list']  ?? '',
-        'off'   => $_GET['off']   ?? 0,
-        'limit' => $_GET['limit'] ?? 100,
-        'hex'   => $_GET['hex']   ?? 256,
-        'hide'  => $_GET['hide']  ?? '',
-        'view'  => $_GET['view']  ?? '',
+        'file' => $_GET['file'] ?? '',
+        'list' => $_GET['list'] ?? '',
+        'off'  => $_GET['off']  ?? 0,
     ];
     foreach ($params as $k => $v) $base[$k] = $v;
-    return '?' . http_build_query(array_filter($base, function($v){ return $v !== '' && $v !== null; }));
+    return '?' . http_build_query(array_filter($base, function ($v) {
+        return $v !== '' && $v !== null;
+    }));
 }
 
-/**
- * Return fields with a 'visible' bool added, based on $hiddenCols map.
- */
-function mark_visibility($fields, $hiddenCols) {
-    $out = [];
-    foreach ($fields as $f) {
-        $f['visible'] = !isset($hiddenCols[$f['name']]);
-        $out[] = $f;
-    }
-    return $out;
+function format_value($v) {
+    if (is_float($v)) return rtrim(rtrim(sprintf('%.6f', $v), '0'), '.');
+    return (string)$v;
 }
 
-function format_hex_dump($raw, $bytesPerRow = 16) {
-    $out = '';
-    $len = strlen($raw);
-    for ($i = 0; $i < $len; $i += $bytesPerRow) {
-        $slice = substr($raw, $i, $bytesPerRow);
-        $hex = '';
-        $ascii = '';
-        for ($j = 0; $j < strlen($slice); $j++) {
-            $b = ord($slice[$j]);
-            $hex .= sprintf('%02x ', $b);
-            $ascii .= ($b >= 0x20 && $b < 0x7F) ? chr($b) : '.';
-        }
-        $hex = str_pad($hex, $bytesPerRow * 3);
-        $out .= sprintf("%04x  %s %s\n", $i, $hex, $ascii);
-    }
-    return $out;
+// Pretty type-color class buckets matching template's typeColor() palette.
+function type_color_class($t) {
+    if (preg_match('/^int/', $t))                   return 'bg-blue-950 text-blue-300 border-blue-800';
+    if ($t === 'float' || $t === 'double')          return 'bg-purple-950 text-purple-300 border-purple-800';
+    if (strncmp($t, 'wstring:', 8) === 0)           return 'bg-emerald-950 text-emerald-300 border-emerald-800';
+    if (strncmp($t, 'byte:', 5) === 0)              return 'bg-orange-950 text-orange-300 border-orange-800';
+    return 'bg-slate-800 text-slate-400 border-slate-700';
 }
+
+// ---------------------------------------------------------------------------
+// Pre-compute info-bar values & schema rows for the template below
+// ---------------------------------------------------------------------------
+$listLabel = '';
+$listSizeof = 0;
+$listCount  = 0;
+$listBody   = 0;
+$listOffset = 0;
+if ($selectedListMeta) {
+    $listLabel  = ($selectedListDef['name'] ?? '') !== ''
+                    ? $selectedListDef['name']
+                    : 'LIST_' . $selectedListIdx;
+    $listSizeof = (int)$selectedListMeta['sizeof'];
+    $listCount  = (int)$selectedListMeta['count'];
+    $listBody   = (int)$selectedListMeta['body_bytes'];
+    $listOffset = (int)$selectedListMeta['data_offset'];
+}
+
+$schemaFields = $selectedListDef['fields'] ?? [];
+$schemaSize   = 0;
+foreach ($schemaFields as $fd) {
+    $w = ElementsReader::typeWidth($fd['type']);
+    $schemaSize += $w === null ? 0 : $w;
+}
+
+$availableTypes = ElementsReader::availableTypes();
+$preservedNameField = $selectedListDef['name_field'] ?? '';
+$preservedIdField   = $selectedListDef['id_field']   ?? '';
 ?>
-<!doctype html>
-<html lang="en" data-bs-theme="light">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>elements.data viewer</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-<style>
-  /* ===== App-specific styles that Bootstrap doesn't cover directly ===== */
-  body { font-size: 13px; }
-  .nav-meta { color: rgba(255,255,255,.6); font-size: 12px; }
-  .nav-meta-mono { font-family: var(--bs-font-monospace); }
-
-  /* Main two-pane layout */
-  .app-body { display: flex; height: calc(100vh - 56px); }
-  .sidebar { width: 320px; background: #fff; display: flex; flex-direction: column; min-height: 0; }
-  .sidebar .sidebar-head { flex: 0 0 auto; }
-  .sidebar .record-list { flex: 1 1 auto; overflow-y: auto; min-height: 0; font-size: 12px; }
-  .main-pane { flex: 1; overflow: auto; min-width: 0; padding: 1rem 1.25rem; }
-
-  /* Record list items (sidebar) */
-  .record-list-head { display: grid; grid-template-columns: 48px 1fr; gap: 8px;
-                      position: sticky; top: 0; z-index: 1;
-                      padding: 4px 10px; background: #e9ecef;
-                      border-bottom: 1px solid var(--bs-border-color);
-                      font-size: 11px; font-weight: 600; color: #495057;
-                      text-transform: uppercase; letter-spacing: .03em; }
-  .record-list-head .rh-idx { text-align: right; }
-  .record-item { display: grid; grid-template-columns: 48px 1fr; gap: 8px;
-                 padding: 4px 10px; text-decoration: none; color: inherit;
-                 border-bottom: 1px solid #f1f3f5;
-                 white-space: nowrap; overflow: hidden; }
-  .record-item:hover { background: #f8f9fa; }
-  .record-item.active { background: #cfe2ff; color: #084298; font-weight: 500; }
-  .record-item .rec-idx { text-align: right; color: #6c757d;
-                          font-variant-numeric: tabular-nums;
-                          font-family: var(--bs-font-monospace); font-size: 11px; }
-  .record-item.active .rec-idx { color: #084298; }
-  .record-item .rec-name { overflow: hidden; text-overflow: ellipsis; }
-  .record-item .rec-name .muted { color: #adb5bd; font-style: italic; }
-  .record-item.d-none-filter { display: none !important; }
-
-  /* Records / search / reference tables */
-  .two-col { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 1rem; }
-  .two-col > div { min-width: 0; }
-  .rows-scroll { overflow-x: auto; max-width: 100%; border: 1px solid var(--bs-border-color); border-radius: .25rem; }
-  .rows-scroll table { margin: 0; font-size: 12px; white-space: nowrap; }
-  .rows-scroll thead th { position: sticky; top: 0; z-index: 1; background: #e9ecef; }
-
-  /* Dense schema editor */
-  .schema-wrap { max-height: 60vh; overflow-y: auto; border: 1px solid var(--bs-border-color); border-radius: .25rem; background: #fff; }
-  .schema-wrap table { margin: 0; font-size: 11px; }
-  .schema-wrap thead th { position: sticky; top: 0; z-index: 2; background: #e9ecef; padding: 4px 6px; }
-  .schema-wrap tbody td { padding: 2px 4px; vertical-align: middle; }
-  .schema-wrap td.idx, .schema-wrap td.off { color: #6c757d; text-align: right; font-variant-numeric: tabular-nums; }
-  .schema-wrap input.form-control-xs { font-size: 11px; padding: 1px 4px; height: auto; min-width: 40px; }
-  .schema-wrap tr.hidden { display: none; }
-  .schema-wrap .xbtn { background: none; border: 0; color: var(--bs-danger); padding: 0 4px; font-size: 14px; line-height: 1; cursor: pointer; }
-  .schema-wrap .xbtn:hover { color: #a50000; }
-
-  /* Column picker */
-  .col-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-              gap: 2px 12px; max-height: 260px; overflow-y: auto;
-              padding: .5rem; border: 1px solid var(--bs-border-color); border-radius: .25rem;
-              background: #fff; }
-  .col-grid label { font-size: 11px; display: flex; align-items: center; gap: 4px;
-                    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-                    cursor: pointer; margin: 0; padding: 2px 4px; border-radius: .125rem; }
-  .col-grid label:hover { background: #f1f3f5; }
-  .col-grid label.hidden { display: none; }
-  .col-grid input[type=checkbox] { margin: 0; }
-
-  /* Record view (transposed) */
-  .record-view .card-body { padding: 0; }
-  .record-view table { margin: 0; font-size: 12px; table-layout: fixed; }
-  .record-view th { width: 30%; background: #f8f9fa; font-weight: 600; vertical-align: top;
-                    word-break: break-word; }
-  .record-view td.value { font-family: var(--bs-font-monospace); word-break: break-word; }
-  .record-view .rv-type { font-weight: normal; color: #6c757d; font-size: 11px; margin-left: 4px; }
-  .record-view .rv-off  { font-weight: normal; color: #adb5bd; font-size: 11px; }
-  .record-view tr.hidden { display: none; }
-
-  /* Hex dump */
-  pre.hex { background: #212529; color: #9ec5fe; font-size: 12px; padding: 0.75rem;
-            border-radius: .25rem; margin: 0.5rem 0 0 0; overflow-x: auto; }
-
-  /* Little helpers */
-  code.inline { background: #f1f3f5; padding: 1px 4px; border-radius: 2px; font-size: 12px; color: #212529; }
-  .small-muted { color: #6c757d; font-size: 11px; }
-
-  /* Rotate collapse caret when expanded */
-  [data-bs-toggle="collapse"][aria-expanded="true"] .collapse-caret { transform: rotate(90deg); }
-  .collapse-caret { transition: transform .15s ease-in-out; display: inline-block; }
-
-  /* Bootstrap doesn't ship form-control-xs — we ship our own dense variant for the schema editor */
-  .form-control.form-control-xs { font-size: 11px; padding: 1px 4px; height: auto; min-width: 40px; }
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>ElementsViewer v2</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+  @import "tailwindcss";
+  body { font-family:'Inter',sans-serif; background:#0b0f18; color:#cbd5e1; overflow:hidden; }
+  .mono { font-family:'JetBrains Mono',monospace !important; }
+  ::-webkit-scrollbar{width:5px;height:5px}
+  ::-webkit-scrollbar-track{background:#0d1117}
+  ::-webkit-scrollbar-thumb{background:#1e2d3d;border-radius:4px}
+  ::-webkit-scrollbar-thumb:hover{background:#2d3f52}
+  select option{background:#0f172a;color:#cbd5e1}
+  .dropdown-open .dd-menu{display:block}
+  .row-active{background:rgba(8,145,178,0.08)!important;border-left-color:#06b6d4!important}
+  .hidden-row{display:none !important}
 </style>
 </head>
-<body class="bg-body-tertiary">
+<body class="flex flex-col h-screen overflow-hidden">
 
-<nav class="navbar navbar-dark bg-dark px-3 py-2" style="min-height:56px;">
-  <span class="navbar-brand fs-6 mb-0 me-3">
-    <i class="bi bi-database"></i> elements.data viewer
-  </span>
-  <form method="get" class="d-flex me-3">
-    <select name="file" class="form-select form-select-sm" style="min-width: 220px;"
-            onchange="this.form.submit()">
-      <?php foreach ($dataFiles as $f): ?>
-        <option value="<?= h($f) ?>" <?= $f === $fileName ? 'selected' : '' ?>><?= h($f) ?></option>
-      <?php endforeach; ?>
-    </select>
-  </form>
-  <?php if ($reader): ?>
-    <span class="badge text-bg-primary me-2"><?= h($reader->getVersionLabel()) ?></span>
-    <span class="nav-meta nav-meta-mono me-2">0x<?= sprintf('%08X', $reader->getVersion()) ?></span>
-    <span class="nav-meta me-2">lists: <?= count($reader->getLists()) ?></span>
-    <?php if ($reader->getTalkProcCount() !== null): ?>
-      <span class="nav-meta me-2">talk_proc: <?= (int)$reader->getTalkProcCount() ?> (skipped)</span>
-    <?php endif; ?>
-    <span class="nav-meta nav-meta-mono ms-auto">structures/<?= h($reader->getVersionLabel()) ?>.json</span>
-  <?php endif; ?>
-</nav>
+<!-- ░░ TOASTS ░░ -->
+<div id="toast-container" class="fixed top-3 right-3 z-[200] flex flex-col gap-2 pointer-events-none"></div>
 
-<?php if ($flashMsg): ?>
-  <div class="alert alert-warning rounded-0 mb-0 py-2 small d-flex align-items-center">
-    <i class="bi bi-info-circle me-2"></i><?= h($flashMsg) ?>
-  </div>
-<?php endif; ?>
-<?php if ($readError): ?>
-  <div class="alert alert-danger rounded-0 mb-0 py-2 small d-flex align-items-center">
-    <i class="bi bi-exclamation-triangle me-2"></i>Error: <?= h($readError) ?>
-  </div>
-<?php endif; ?>
-
-<div class="app-body">
-  <aside class="sidebar border-end">
-    <div class="sidebar-head p-2 border-bottom">
-      <label class="small-muted mb-1 d-block">Table</label>
-      <select class="form-select form-select-sm" id="tablePicker"
-              onchange="if(this.value) location = this.value">
-        <option value="">— pick a table —</option>
-        <?php if ($reader): foreach ($reader->getLists() as $L):
-            $defName   = $struct['lists'][(string)$L['index']]['name'] ?? '';
-            $isSel     = $L['index'] === $selectedListIdx;
-            $label     = $defName !== '' ? $defName : 'LIST_' . $L['index'];
-            // Selecting a table jumps to record view at row 0.
-            $optUrl    = page_url([
-                'list' => $L['index'],
-                'off'  => 0,
-                'view' => 'record',
-                'q'    => null, 'qf' => null,
-                'hide' => null,
-                'ref_val' => null, 'ref_lists' => null, 'ref_field' => null,
-            ]);
-        ?>
-          <option value="<?= h($optUrl) ?>" <?= $isSel ? 'selected' : '' ?>>
-            #<?= (int)$L['index'] ?> · <?= h($label) ?> · <?= (int)$L['count'] ?> × <?= (int)$L['sizeof'] ?>B
-          </option>
-        <?php endforeach; endif; ?>
-      </select>
+<!-- ░░ TOPBAR ░░ -->
+<header class="h-11 shrink-0 bg-[#0d1117] border-b border-slate-800 flex items-center px-4 gap-3 z-50 relative">
+  <!-- Logo -->
+  <div class="flex items-center gap-2 mr-1">
+    <div class="w-5 h-5 rounded bg-cyan-500/15 border border-cyan-500/40 flex items-center justify-center">
+      <div class="w-2 h-2 rounded-sm bg-cyan-400"></div>
     </div>
+    <span class="mono font-semibold text-[13px] text-slate-100 tracking-tight">ElementsViewer</span>
+    <span class="mono text-[11px] text-slate-300">v2</span>
+  </div>
+  <div class="w-px h-4 bg-slate-800"></div>
 
-    <?php if ($reader && $selectedListMeta): ?>
-      <?php
-        $total = (int)$selectedListMeta['count'];
+  <!-- File picker dropdown -->
+  <div class="relative" id="dd-file">
+    <button type="button" onclick="toggleDD('dd-file')"
+      class="flex items-center gap-2 px-2.5 py-1 rounded border text-[11px] mono bg-slate-800/50 hover:bg-slate-800 border-slate-700/50 hover:border-slate-600 text-slate-300 transition-colors">
+      <span class="text-slate-600">elements.data</span>
+      <span class="text-cyan-400 font-semibold"><?= h($fileName !== '' ? $fileName : '(none)') ?></span>
+      <svg class="w-3 h-3 text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+    </button>
+    <div class="dd-menu hidden absolute top-full mt-1 left-0 bg-slate-900 border border-slate-700 rounded-md shadow-2xl z-50 min-w-[14rem] py-0.5 max-h-72 overflow-y-auto">
+      <?php if (empty($dataFiles)): ?>
+        <div class="px-3 py-1.5 text-[11px] mono text-slate-500">no files in data/</div>
+      <?php else: foreach ($dataFiles as $f):
+        $isSel = $f === $fileName;
+        $url   = '?' . http_build_query(['file' => $f]);
       ?>
-      <div class="sidebar-head p-2 border-bottom">
-        <div class="d-flex align-items-center gap-1 mb-1 small-muted">
-          <span>
-            <?php if ($total > 0): ?>
-              Rows <strong><?= $sidebarPageStart ?></strong>–<strong><?= max($sidebarPageStart, $sidebarPageEnd - 1) ?></strong>
-              of <strong><?= $total ?></strong>
+        <a href="<?= h($url) ?>"
+           class="block px-3 py-1.5 text-[11px] mono <?= $isSel ? 'text-cyan-400' : 'text-slate-300' ?> hover:bg-slate-800"><?= h($f) ?></a>
+      <?php endforeach; endif; ?>
+    </div>
+  </div>
+
+  <?php if ($reader): ?>
+    <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-cyan-950 text-cyan-300 border-cyan-800"><?= h($reader->getVersionLabel()) ?></span>
+    <div class="flex items-center gap-1.5">
+      <span class="text-[11px] mono text-slate-300">Lists Count</span>
+      <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-slate-900 text-slate-400 border-slate-700"><?= count($reader->getLists()) ?></span>
+    </div>
+    <?php if ($reader->getTalkProcCount() !== null): ?>
+      <div class="flex items-center gap-1.5">
+        <span class="text-[11px] mono text-slate-300">Talk Proc Records</span>
+        <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-orange-950 text-orange-300 border-orange-800"><?= (int)$reader->getTalkProcCount() ?></span>
+      </div>
+    <?php endif; ?>
+  <?php endif; ?>
+
+  <!-- Struct folder label (right-aligned, read-only) -->
+  <?php if ($reader):
+      $structCount = count($struct['lists'] ?? []);
+  ?>
+    <div class="ml-auto flex items-center gap-2 px-2.5 py-1 rounded border text-[11px] mono bg-slate-800/40 border-slate-700/40 text-slate-300"
+         title="Per-list schema files in this folder">
+      <span class="text-slate-600">struct</span>
+      <span class="text-emerald-400"><?= h($reader->getVersionLabel()) ?>/</span>
+      <span class="text-slate-600"><?= (int)$structCount ?> file<?= $structCount === 1 ? '' : 's' ?></span>
+    </div>
+  <?php endif; ?>
+</header>
+
+<?php if ($readError): ?>
+  <div class="shrink-0 bg-red-950/40 border-b border-red-800 px-4 py-1.5 text-[11px] mono text-red-300 flex items-center gap-2">
+    <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
+    <?= h($readError) ?>
+  </div>
+<?php endif; ?>
+
+<!-- ░░ BODY ░░ -->
+<div class="flex flex-1 overflow-hidden">
+
+  <!-- ░░ SIDEBAR ░░ -->
+  <aside class="w-100 shrink-0 bg-[#0d1117] border-r border-slate-800 flex flex-col overflow-hidden">
+
+    <div class="p-2 border-b border-slate-800 space-y-1.5">
+      <!-- List picker dropdown -->
+      <div class="relative" id="dd-listtype">
+        <button type="button" onclick="toggleDD('dd-listtype')"
+          class="w-full flex items-center justify-between px-2.5 py-1.5 rounded border text-[11px] mono bg-slate-800/50 hover:bg-slate-800 border-slate-700/50 text-slate-300 transition-colors">
+          <span class="text-cyan-400 font-semibold truncate">
+            <?php if ($selectedListMeta): ?>
+              #<?= (int)$selectedListIdx ?> · <?= h($listLabel) ?>
             <?php else: ?>
-              (empty)
+              — pick a list —
             <?php endif; ?>
           </span>
-          <div class="btn-group btn-group-sm ms-auto" role="group">
-            <a class="btn btn-outline-secondary <?= $sidebarPageStart > 0 ? '' : 'disabled' ?>"
-               title="previous page"
-               href="<?= h(page_url(['off' => max(0, $sidebarPageStart - $sidebarLimit)])) ?>">
-              <i class="bi bi-chevron-left"></i>
-            </a>
-            <a class="btn btn-outline-secondary <?= $sidebarPageEnd < $total ? '' : 'disabled' ?>"
-               title="next page"
-               href="<?= h(page_url(['off' => $sidebarPageEnd])) ?>">
-              <i class="bi bi-chevron-right"></i>
-            </a>
+          <svg class="w-3 h-3 text-slate-600 shrink-0 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="dd-menu hidden absolute top-full mt-0.5 left-0 right-0 bg-slate-900 border border-slate-700 rounded-md shadow-2xl z-40">
+          <div class="p-1.5">
+            <input id="listtype-search" oninput="filterListPicker(this.value)" placeholder="search lists…"
+              class="w-full bg-slate-800 border border-slate-700 focus:border-cyan-700 rounded px-2 py-1 text-[11px] mono text-slate-300 placeholder-slate-600 outline-none"/>
+          </div>
+          <div id="listtype-options" class="max-h-72 overflow-y-auto pb-0.5">
+            <?php if ($reader): foreach ($reader->getLists() as $L):
+              $defName = $struct['lists'][(string)$L['index']]['name'] ?? '';
+              $label   = $defName !== '' ? $defName : 'LIST_' . $L['index'];
+              $isSel   = $L['index'] === $selectedListIdx;
+              $url     = '?' . http_build_query([
+                  'file' => $fileName,
+                  'list' => $L['index'],
+                  'off'  => 0,
+              ]);
+              $search  = strtolower('#' . $L['index'] . ' ' . $label);
+            ?>
+              <a href="<?= h($url) ?>"
+                 data-search="<?= h($search) ?>"
+                 class="dd-list-item block px-3 py-1.5 text-[11px] mono <?= $isSel ? 'text-cyan-400' : 'text-slate-300' ?> hover:bg-slate-800 truncate"
+                 title="<?= h($label) ?> — count <?= (int)$L['count'] ?>, sizeof <?= (int)$L['sizeof'] ?>B">
+                #<?= (int)$L['index'] ?> · <?= h($label) ?>
+                <span class="text-slate-600"><?= (int)$L['count'] ?> × <?= (int)$L['sizeof'] ?>B</span>
+              </a>
+            <?php endforeach; endif; ?>
           </div>
         </div>
-        <input type="search" class="form-control form-control-sm"
-               placeholder="filter records…"
-               oninput="filterRecList(this.value)">
-        <?php if ($sidebarNameField !== ''): ?>
-          <div class="small text-muted mt-1"
-               title="Change this in the Schema editor ('Name field' input)">
-            <i class="bi bi-tag"></i> names from
-            <code class="inline"><?= h($sidebarNameField) ?></code>
-            <?php if ($sidebarNameSource === 'auto'): ?>
-              <span class="small-muted">(auto)</span>
-            <?php endif; ?>
-          </div>
-        <?php elseif ($selectedListDef): ?>
-          <div class="small text-muted mt-1"
-               title="Set a 'Name field' in the schema editor, or add a field called 'Name' and it'll auto-detect.">
-            <i class="bi bi-info-circle"></i> no name field available
-          </div>
-        <?php endif; ?>
       </div>
 
-      <div class="record-list" id="recordList">
-        <?php if ($total === 0): ?>
-          <div class="p-3 text-muted small">List is empty.</div>
-        <?php else: ?>
-          <div class="record-list-head">
-            <span class="rh-idx">#</span>
-            <span>Name</span>
-          </div>
-        <?php
-          for ($r = $sidebarPageStart; $r < $sidebarPageEnd; $r++):
-            $active = ($r === $rowOffset && $view === 'record') ? 'active' : '';
-            $rawName = $sidebarNames[$r] ?? null;
-            if (is_float($rawName)) {
-                $rawName = rtrim(rtrim(sprintf('%.6f', $rawName), '0'), '.');
-            }
-            $nameStr = $rawName === null ? '' : (string)$rawName;
-            $rUrl = page_url([
-                'list' => $selectedListIdx,
-                'off'  => $r,
-                'view' => 'record',
-                'q' => null, 'qf' => null,
-                'ref_val' => null, 'ref_lists' => null, 'ref_field' => null,
-            ]);
-        ?>
-          <a class="record-item <?= $active ?>"
-             data-fname="<?= h(strtolower($nameStr)) ?>"
-             data-ridx="<?= (int)$r ?>"
-             href="<?= h($rUrl) ?>">
-            <span class="rec-idx"><?= (int)$r ?></span>
-            <span class="rec-name">
-              <?php if ($nameStr !== ''): ?>
-                <?= h($nameStr) ?>
-              <?php elseif ($sidebarNameField !== ''): ?>
-                <span class="muted">(blank)</span>
-              <?php else: ?>
-                <span class="muted">record <?= (int)$r ?></span>
-              <?php endif; ?>
-            </span>
+      <!-- Search records in selected list -->
+      <div class="relative">
+        <svg class="absolute left-2 top-1/2 -translate-y-1/2 w-3 h-3 text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0"/></svg>
+        <input id="sidebar-search" oninput="filterRecList(this.value)" placeholder="filter by #, ID or name…"
+          class="w-full bg-slate-800/50 border border-slate-700/50 focus:border-cyan-700/60 rounded pl-6 pr-2 py-1.5 text-[11px] mono text-slate-300 placeholder-slate-600 outline-none transition-colors"/>
+      </div>
+    </div>
+
+    <?php if ($selectedListMeta && $listCount > 0): ?>
+      <!-- Pagination bar -->
+      <div class="px-3 py-1.5 border-b border-slate-800 flex items-center justify-between shrink-0">
+        <span class="text-[11px] mono text-slate-300">
+          Rows
+          <span class="text-slate-400"><?= number_format($sidebarPageStart) ?>–<?= number_format(max($sidebarPageStart, $sidebarPageEnd - 1)) ?></span>
+          of <span class="text-slate-300"><?= number_format($listCount) ?></span>
+        </span>
+        <div class="flex gap-0.5">
+          <a href="<?= h(page_url(['off' => max(0, $sidebarPageStart - $sidebarLimit)])) ?>"
+             class="w-5 h-5 flex items-center justify-center rounded hover:bg-slate-800 text-slate-500 transition-colors <?= $sidebarPageStart > 0 ? '' : 'opacity-20 pointer-events-none' ?>">
+            <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
           </a>
-        <?php endfor; endif; ?>
+          <a href="<?= h(page_url(['off' => $sidebarPageEnd])) ?>"
+             class="w-5 h-5 flex items-center justify-center rounded hover:bg-slate-800 text-slate-500 transition-colors <?= $sidebarPageEnd < $listCount ? '' : 'opacity-20 pointer-events-none' ?>">
+            <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- List header -->
+      <div class="grid grid-cols-[2.5rem_5rem_1fr] px-2 py-1 border-b border-slate-800 text-[10px] mono text-slate-600 uppercase tracking-widest shrink-0">
+        <span>#</span><span>ID</span><span>Name</span>
+      </div>
+
+      <!-- List body -->
+      <div id="sidebar-list" class="flex-1 overflow-y-auto">
+        <?php for ($r = $sidebarPageStart; $r < $sidebarPageEnd; $r++):
+          $active  = ($r === $rowOffset);
+          $rawId   = $sidebarIds[$r]   ?? null;
+          $rawName = $sidebarNames[$r] ?? null;
+          $idStr   = $rawId   === null ? '' : format_value($rawId);
+          $nameStr = $rawName === null ? '' : format_value($rawName);
+          $rUrl    = page_url(['list' => $selectedListIdx, 'off' => $r]);
+        ?>
+          <a href="<?= h($rUrl) ?>"
+             data-fname="<?= h(strtolower($nameStr)) ?>"
+             data-fid="<?= h(strtolower($idStr)) ?>"
+             data-ridx="<?= (int)$r ?>"
+             class="rec-item w-full grid px-2 py-[5px] text-[11px] mono text-left hover:bg-slate-800/50 transition-colors border-l-2 <?= $active ? 'bg-cyan-950/30 border-cyan-500' : 'border-transparent' ?>"
+             style="grid-template-columns:2.5rem 5rem 1fr;">
+            <span class="text-slate-700"><?= (int)$r ?></span>
+            <?php if ($idStr !== ''): ?>
+              <span class="truncate <?= $active ? 'text-cyan-400/80' : 'text-slate-500' ?>" title="<?= h($idStr) ?>"><?= h($idStr) ?></span>
+            <?php else: ?>
+              <span class="truncate text-slate-700">—</span>
+            <?php endif; ?>
+            <?php if ($nameStr !== ''): ?>
+              <span class="truncate <?= $active ? 'text-cyan-300' : 'text-slate-300' ?>"><?= h($nameStr) ?></span>
+            <?php else: ?>
+              <span class="truncate text-slate-600 italic">record <?= (int)$r ?></span>
+            <?php endif; ?>
+          </a>
+        <?php endfor; ?>
       </div>
     <?php else: ?>
-      <div class="p-3 text-muted small">Pick a table above to browse its records.</div>
+      <div class="p-3 text-[11px] mono text-slate-300">
+        <?php if (!$reader): ?>
+          Pick a data file above to begin.
+        <?php elseif ($selectedListIdx < 0): ?>
+          Pick a list from the dropdown.
+        <?php else: ?>
+          List is empty.
+        <?php endif; ?>
+      </div>
     <?php endif; ?>
   </aside>
 
-  <section class="main-pane">
+  <!-- ░░ MAIN ░░ -->
+  <div class="flex flex-col flex-1 overflow-hidden min-w-0">
+
     <?php if (!$reader): ?>
-      <div class="alert alert-info">Select an elements.data file above.</div>
-    <?php elseif ($selectedListIdx < 0): ?>
-      <div class="card shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Pick a list from the sidebar to inspect.</h5>
-          <dl class="row mb-0 small">
-            <dt class="col-sm-3">File version</dt>
-            <dd class="col-sm-9">
-              <strong><?= h($reader->getVersionLabel()) ?></strong>
-              <code class="inline">0x<?= sprintf('%08X', $reader->getVersion()) ?></code>
-            </dd>
-            <dt class="col-sm-3">Lists scanned</dt>
-            <dd class="col-sm-9"><?= count($reader->getLists()) ?></dd>
-            <?php if ($reader->getTalkProcCount() !== null): ?>
-              <dt class="col-sm-3">talk_proc records</dt>
-              <dd class="col-sm-9"><?= (int)$reader->getTalkProcCount() ?> <span class="text-muted">(skipped, not decoded)</span></dd>
-            <?php endif; ?>
-            <dt class="col-sm-3">Structure file</dt>
-            <dd class="col-sm-9">
-              <code class="inline">structures/<?= h($reader->getVersionLabel()) ?>.json</code>
-              <span class="text-muted">(<?= count($struct['lists']) ?> defined)</span>
-            </dd>
-          </dl>
-        </div>
+      <div class="flex-1 flex items-center justify-center text-slate-600 mono text-[12px]">
+        Select an elements.data file from the top bar.
       </div>
     <?php elseif (!$selectedListMeta): ?>
-      <div class="alert alert-warning">Invalid list index.</div>
+      <div class="flex-1 flex items-center justify-center text-slate-600 mono text-[12px]">
+        Pick a list from the sidebar to inspect.
+      </div>
     <?php else: ?>
-      <div class="d-flex align-items-baseline flex-wrap gap-3 mb-2">
-        <h5 class="mb-0">
-          List <?= $selectedListIdx ?>
-          <?php if ($selectedListDef): ?>
-            <span class="text-success">— <?= h($selectedListDef['name']) ?></span>
-          <?php endif; ?>
-        </h5>
-        <small class="text-muted">
-          sizeof <code class="inline"><?= $selectedListMeta['sizeof'] ?></code>
-          · count <code class="inline"><?= $selectedListMeta['count'] ?></code>
-          · body <code class="inline"><?= $selectedListMeta['body_bytes'] ?></code> B
-          · offset <code class="inline">0x<?= dechex($selectedListMeta['data_offset']) ?></code>
-        </small>
+
+      <!-- Top info bar -->
+      <div class="shrink-0 bg-[#0d1117] border-b border-slate-800 px-4 py-2 flex items-center gap-3 flex-wrap">
+        <div class="flex items-center gap-2">
+          <span class="text-[11px] mono text-slate-300">LIST_#</span>
+          <span class="mono text-sm font-semibold text-slate-100"><?= (int)$selectedListIdx ?></span>
+        </div>
+        <div class="w-px h-4 bg-slate-800"></div>
+        <div class="flex items-center gap-2">
+          <span class="text-[11px] mono text-slate-300">LIST_Name</span>
+          <span class="mono text-sm font-semibold text-cyan-300"><?= h($listLabel) ?></span>
+        </div>
+        <div class="flex items-center gap-2 ml-auto flex-wrap">
+          <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">sizeof</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-purple-950 text-purple-300 border-purple-800"><?= $listSizeof ?> bytes</span></div>
+          <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">records sum</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-slate-900 text-slate-400 border-slate-700"><?= number_format($listCount) ?></span></div>
+          <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">body_size</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-cyan-950 text-cyan-300 border-cyan-800"><?= number_format($listBody) ?> bytes</span></div>
+          <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">list_offset</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-orange-950 text-orange-300 border-orange-800">0x<?= str_pad(strtoupper(dechex($listOffset)), 8, '0', STR_PAD_LEFT) ?></span></div>
+        </div>
       </div>
 
       <?php if ($decoded && $decoded['warning']): ?>
-        <div class="alert alert-warning py-2 small mb-2">
-          <i class="bi bi-exclamation-triangle me-1"></i><?= h($decoded['warning']) ?>
+        <div class="shrink-0 bg-yellow-950/30 border-b border-yellow-800/50 px-4 py-1.5 text-[11px] mono text-yellow-300 flex items-center gap-2">
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
+          <?= h($decoded['warning']) ?>
         </div>
       <?php endif; ?>
 
-      <?php if ($refResults !== null): ?>
-        <div class="card border-primary mb-3">
-          <div class="card-header bg-primary-subtle d-flex align-items-center">
-            <span>
-              References for
-              <code class="inline"><?= h($refField) ?></code> =
-              <strong><?= h((string)$refVal) ?></strong>
-            </span>
-            <a class="btn-close ms-auto" aria-label="clear"
-               href="<?= h(page_url(['ref_val' => null, 'ref_lists' => null, 'ref_field' => null])) ?>"></a>
+      <!-- Middle: fields + schema -->
+      <div class="flex flex-1 overflow-hidden min-w-0">
+
+        <!-- Fields table -->
+        <div class="w-[50rem] shrink-0 border-r border-slate-800 flex flex-col overflow-hidden">
+          <div class="px-3 py-2 border-b border-slate-800 bg-[#0d1117]">
+            <span class="text-[10px] mono text-slate-600 uppercase tracking-widest">Fields</span>
+            <?php if ($decoded && !empty($decoded['rows'])): ?>
+              <span class="text-[10px] mono text-slate-500 ml-1">— record #<?= (int)$rowOffset ?></span>
+            <?php endif; ?>
           </div>
-          <div class="card-body p-2">
-          <?php foreach ($refResults as $rIdx => $r): ?>
-            <div class="mb-3">
-              <div class="d-flex align-items-center gap-2 mb-1">
-                <a class="fw-semibold text-decoration-none" href="<?= h(page_url([
-                    'list' => $rIdx, 'off' => 0,
-                    'ref_val' => null, 'ref_lists' => null, 'ref_field' => null
-                ])) ?>">
-                  List <?= (int)$rIdx ?> — <?= h($r['name']) ?>
-                </a>
-                <?php if ($r['error']): ?>
-                  <span class="badge text-bg-warning"><?= h($r['error']) ?></span>
-                <?php else: ?>
-                  <span class="badge text-bg-secondary"><?= count($r['matches']) ?> match(es)</span>
-                <?php endif; ?>
-              </div>
-              <?php if (!empty($r['matches'])): ?>
-                <div class="rows-scroll">
-                <table class="table table-sm table-striped table-hover">
-                  <thead>
-                    <tr>
-                      <th>#row</th>
-                      <?php foreach ($r['matches'][0]['fields'] as $f): ?>
-                        <th title="<?= h($f['type']) ?> @<?= $f['offset'] ?>"><?= h($f['name']) ?></th>
-                      <?php endforeach; ?>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <?php foreach ($r['matches'] as $m): ?>
-                      <tr>
-                        <td>
-                          <a href="<?= h(page_url([
-                              'list' => $rIdx, 'off' => $m['row'],
-                              'ref_val' => null, 'ref_lists' => null, 'ref_field' => null,
-                              'view' => 'record',
-                          ])) ?>"><?= (int)$m['row'] ?></a>
-                        </td>
-                        <?php foreach ($m['fields'] as $f):
-                            $v = $m['data'][$f['name']] ?? '';
-                            if (is_float($v)) $v = rtrim(rtrim(sprintf('%.6f', $v), '0'), '.');
-                        ?>
-                          <td><?= h((string)$v) ?></td>
-                        <?php endforeach; ?>
-                      </tr>
-                    <?php endforeach; ?>
-                  </tbody>
-                </table>
-                </div>
-              <?php endif; ?>
-            </div>
-          <?php endforeach; ?>
-          </div>
-        </div>
-      <?php endif; ?>
-
-      <div class="two-col">
-        <!-- Decoded rows -->
-        <div>
-          <h6 class="mb-2 fw-semibold">Records</h6>
-
-          <?php if ($decoded):
-              $allFields   = $decoded['fields'];
-              $totalCols   = count($allFields);
-              $hiddenCount = 0;
-              foreach ($allFields as $f) if (isset($hiddenCols[$f['name']])) $hiddenCount++;
-              $visibleCount = $totalCols - $hiddenCount;
-          ?>
-            <form method="get" class="d-flex gap-2 align-items-center mb-2 flex-wrap">
-              <input type="hidden" name="file"  value="<?= h($fileName) ?>">
-              <input type="hidden" name="list"  value="<?= $selectedListIdx ?>">
-              <input type="hidden" name="limit" value="<?= $rowLimit ?>">
-              <input type="hidden" name="hex"   value="<?= $hexBytes ?>">
-              <input type="hidden" name="hide"  value="<?= h($_GET['hide'] ?? '') ?>">
-              <input type="hidden" name="view"  value="<?= h($view) ?>">
-              <div class="input-group input-group-sm" style="width:auto;">
-                <span class="input-group-text"><i class="bi bi-search"></i></span>
-                <input type="text" class="form-control" name="q"
-                       value="<?= h($searchQuery) ?>"
-                       placeholder="search records…" style="width:200px;">
-                <select name="qf" class="form-select" title="restrict search to one field"
-                        style="max-width:160px;">
-                  <option value="">any field</option>
-                  <?php foreach ($allFields as $f): ?>
-                    <option value="<?= h($f['name']) ?>" <?= $searchField === $f['name'] ? 'selected' : '' ?>>
-                      <?= h($f['name']) ?>
-                    </option>
-                  <?php endforeach; ?>
-                </select>
-                <button type="submit" class="btn btn-primary">Search</button>
-                <?php if ($searchQuery !== ''): ?>
-                  <a class="btn btn-outline-danger"
-                     href="<?= h(page_url(['q' => null, 'qf' => null])) ?>">Clear</a>
-                <?php endif; ?>
-              </div>
-              <div class="btn-group btn-group-sm ms-auto" role="group" aria-label="view mode">
-                <a class="btn btn-outline-primary <?= $view === 'table'  ? 'active' : '' ?>"
-                   href="<?= h(page_url(['view' => null])) ?>">
-                  <i class="bi bi-table"></i> Table
-                </a>
-                <a class="btn btn-outline-primary <?= $view === 'record' ? 'active' : '' ?>"
-                   href="<?= h(page_url(['view' => 'record'])) ?>">
-                  <i class="bi bi-card-list"></i> Record
-                </a>
-              </div>
-            </form>
-
-            <div class="card mb-2">
-              <div class="card-header py-1 px-2 d-flex align-items-center gap-2 flex-wrap">
-                <a class="text-decoration-none text-body fw-semibold small"
-                   data-bs-toggle="collapse" href="#colPickerBody" role="button"
-                   aria-expanded="<?= $hiddenCount > 0 ? 'true' : 'false' ?>" aria-controls="colPickerBody">
-                  <i class="bi bi-chevron-right collapse-caret"></i>
-                  Columns
-                </a>
-                <span class="badge text-bg-secondary" id="colCountPill"><?= $visibleCount ?>/<?= $totalCols ?></span>
-                <?php if ($hiddenCount > 0): ?>
-                  <a class="small text-decoration-none"
-                     href="<?= h(page_url(['hide' => null])) ?>">show all</a>
-                <?php endif; ?>
-                <input type="search" id="colFilter" class="form-control form-control-sm ms-auto"
-                       placeholder="filter columns…" style="max-width:200px;"
-                       oninput="filterColList(this.value)">
-              </div>
-              <div class="collapse <?= $hiddenCount > 0 ? 'show' : '' ?>" id="colPickerBody">
-                <div class="card-body p-2">
-                  <form method="get" id="colForm">
-                    <?php foreach (['file','list','off','limit','hex','q','qf'] as $k):
-                        if (isset($_GET[$k]) && $_GET[$k] !== ''): ?>
-                      <input type="hidden" name="<?= h($k) ?>" value="<?= h($_GET[$k]) ?>">
-                    <?php endif; endforeach; ?>
-                    <div class="col-grid" id="colGrid">
-                      <?php foreach ($allFields as $f):
-                          $checked = !isset($hiddenCols[$f['name']]);
-                      ?>
-                        <label data-fname="<?= h(strtolower($f['name'])) ?>">
-                          <input type="checkbox" class="form-check-input"
-                                 name="show[]" value="<?= h($f['name']) ?>"
-                                 <?= $checked ? 'checked' : '' ?>>
-                          <span title="<?= h($f['name'] . ' — ' . $f['type']) ?>"><?= h($f['name']) ?></span>
-                        </label>
-                      <?php endforeach; ?>
-                    </div>
-                    <div class="d-flex gap-1 align-items-center mt-2 flex-wrap">
-                      <div class="btn-group btn-group-sm" role="group">
-                        <button type="button" class="btn btn-outline-secondary" onclick="colsAll(true)">all</button>
-                        <button type="button" class="btn btn-outline-secondary" onclick="colsAll(false)">none</button>
-                        <button type="button" class="btn btn-outline-secondary" onclick="colsInvert()">invert</button>
-                      </div>
-                      <button type="submit" class="btn btn-sm btn-primary">apply</button>
-                      <span class="small-muted ms-2">
-                        (checked = visible, tip: type a filter then click <em>none</em> to hide only those)
-                      </span>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          <?php endif; ?>
-
-          <?php if (!$decoded): ?>
-            <div class="alert alert-info py-2 small">
-              <i class="bi bi-info-circle me-1"></i>
-              No schema defined for this list yet. Use the form on the right to add fields.
-            </div>
-          <?php elseif ($searchResult !== null): /* --- search results mode --- */ ?>
-            <div class="alert alert-light border py-2 px-3 small mb-2">
-              <?php if (empty($searchResult['rows'])): ?>
-                <i class="bi bi-search me-1"></i>No matches for
-                <code class="inline"><?= h($searchQuery) ?></code>
-                <?php if ($searchField): ?> in <code class="inline"><?= h($searchField) ?></code><?php endif; ?>
-                (scanned <?= (int)$searchResult['scanned_rows'] ?> of
-                <?= (int)$searchResult['total_rows'] ?> rows).
-              <?php else: ?>
-                <i class="bi bi-check2-circle me-1"></i>
-                <strong><?= count($searchResult['rows']) ?></strong>
-                <?= $searchResult['truncated'] ? 'first ' : '' ?>
-                match(es) for
-                <code class="inline"><?= h($searchQuery) ?></code>
-                <?php if ($searchField): ?> in <code class="inline"><?= h($searchField) ?></code><?php endif; ?>
-                <?php if ($searchResult['truncated']): ?>
-                  — result capped at 500; refine the query to see more.
-                <?php endif; ?>
-              <?php endif; ?>
-            </div>
-            <?php if (!empty($searchResult['rows'])):
-                $visibleFields = array_values(array_filter($searchResult['fields'],
-                    function($f) use ($hiddenCols) { return !isset($hiddenCols[$f['name']]); }));
+          <div class="flex-1 overflow-y-auto">
+            <?php if ($decoded && !empty($decoded['rows'])):
+              $row = $decoded['rows'][0];
             ?>
-              <div class="rows-scroll">
-              <table class="table table-sm table-striped table-hover mb-0">
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <?php foreach ($visibleFields as $f): ?>
-                      <th title="<?= h($f['type']) ?> @<?= $f['offset'] ?>"><?= h($f['name']) ?></th>
-                    <?php endforeach; ?>
+              <table class="w-full text-[11px] mono">
+                <thead class="sticky top-0 bg-[#0d1117]">
+                  <tr class="border-b border-slate-800">
+                    <th class="text-left px-3 py-1.5 font-normal text-slate-600">Label</th>
+                    <th class="text-left px-3 py-1.5 font-normal text-slate-600">Value</th>
                   </tr>
                 </thead>
                 <tbody>
-                <?php foreach ($searchResult['rows'] as $m):
-                    $row = $m['data'];
-                ?>
-                  <tr>
-                    <td>
-                      <a title="open in record view"
-                         href="<?= h(page_url([
-                             'q' => null, 'qf' => null,
-                             'off' => $m['row'],
-                             'view' => 'record',
-                         ])) ?>"><?= (int)$m['row'] ?></a>
-                    </td>
-                    <?php foreach ($visibleFields as $f):
-                        $v = $row[$f['name']] ?? '';
-                        $fieldRefs = $selectedListDef['fields'][array_search($f['name'],
-                            array_column($selectedListDef['fields'], 'name'))]['refs'] ?? [];
-                        $display = is_float($v)
-                            ? rtrim(rtrim(sprintf('%.6f', $v), '0'), '.')
-                            : (string)$v;
-                        $clickable = !empty($fieldRefs)
-                            && (is_int($v) || is_float($v) || (is_string($v) && $v !== '' && is_numeric($v)));
-                    ?>
-                      <td>
-                      <?php if ($clickable): ?>
-                        <a href="<?= h(page_url([
-                            'ref_val'   => $display,
-                            'ref_lists' => implode(',', $fieldRefs),
-                            'ref_field' => $f['name'],
-                        ])) ?>"><?= h($display) ?></a>
-                      <?php else: ?>
-                        <?= h($display) ?>
-                      <?php endif; ?>
+                  <?php foreach ($decoded['fields'] as $f):
+                    $val = $row[$f['name']] ?? '';
+                    $disp = format_value($val);
+                    $tc   = type_color_class($f['type']);
+                    $offHex = '0x' . str_pad(strtoupper(dechex((int)$f['offset'])), 4, '0', STR_PAD_LEFT);
+                  ?>
+                    <tr class="border-b border-slate-800/50 hover:bg-slate-800/25 transition-colors">
+                      <td class="px-3 py-2 w-50">
+                        <div class="text-slate-300 mb-1"><?= h($f['name']) ?></div>
+                        <div class="flex gap-1 flex-wrap">
+                          <span class="inline-flex px-1 py-0.5 rounded text-[9px] border <?= $tc ?>"><?= h($f['type']) ?></span>
+                          <span class="inline-flex px-1 py-0.5 rounded text-[9px] bg-slate-800 text-slate-500 border border-slate-700"><?= h($offHex) ?></span>
+                        </div>
                       </td>
-                    <?php endforeach; ?>
-                  </tr>
-                <?php endforeach; ?>
+                      <td class="px-3 py-2 text-slate-200 max-w-0"><span class="block truncate" title="<?= h($disp) ?>"><?= h($disp) ?></span></td>
+                    </tr>
+                  <?php endforeach; ?>
                 </tbody>
               </table>
-              </div>
+            <?php elseif (!$selectedListDef): ?>
+              <div class="p-3 text-[11px] mono text-slate-300">No schema defined yet — use the editor to add fields.</div>
+            <?php elseif ($listCount === 0): ?>
+              <div class="p-3 text-[11px] mono text-slate-300">List is empty.</div>
+            <?php else: ?>
+              <div class="p-3 text-[11px] mono text-slate-300">No record loaded.</div>
             <?php endif; ?>
-          <?php elseif (empty($decoded['rows'])): ?>
-            <div class="alert alert-secondary py-2 small">
-              <i class="bi bi-inbox me-1"></i>
-              List is empty (count = 0) or offset past the end.
-            </div>
-          <?php elseif ($view === 'record'): /* --- one record, transposed --- */ ?>
-            <?php
-              $rowIdx = $rowOffset;
-              $row    = $decoded['rows'][0];
-              // We render every defined field in record view (column-hide is a
-              // wide-table concern). User can still filter with the input below.
-              $visibleFields = $decoded['fields'];
-              $defsByName = [];
-              foreach ($selectedListDef['fields'] as $fd) $defsByName[$fd['name']] = $fd;
-            ?>
-            <div class="card record-view">
-              <div class="card-header py-1 px-2 d-flex align-items-center gap-2 flex-wrap">
-                <strong class="me-1">Record #<?= (int)$rowIdx ?></strong>
-                <span class="small-muted">of <?= (int)$decoded['count'] ?></span>
-                <div class="btn-group btn-group-sm ms-1" role="group">
-                  <a class="btn btn-outline-secondary <?= $rowIdx > 0 ? '' : 'disabled' ?>"
-                     href="<?= h(page_url(['off' => max(0, $rowIdx - 1)])) ?>"
-                     title="previous record">
-                    <i class="bi bi-chevron-left"></i>
-                  </a>
-                  <a class="btn btn-outline-secondary <?= $rowIdx + 1 < $decoded['count'] ? '' : 'disabled' ?>"
-                     href="<?= h(page_url(['off' => $rowIdx + 1])) ?>"
-                     title="next record">
-                    <i class="bi bi-chevron-right"></i>
-                  </a>
-                </div>
-                <form method="get" class="d-inline-flex align-items-center gap-1 mb-0">
-                  <?php foreach (['file','list','limit','hex','hide','view','q','qf'] as $k):
-                      if (($val = $_GET[$k] ?? '') !== ''): ?>
-                    <input type="hidden" name="<?= h($k) ?>" value="<?= h($val) ?>">
-                  <?php endif; endforeach; ?>
-                  <label class="small-muted mb-0">go to #</label>
-                  <input type="number" name="off" class="form-control form-control-sm"
-                         value="<?= (int)$rowIdx ?>" min="0"
-                         max="<?= max(0, (int)$decoded['count'] - 1) ?>"
-                         style="width:90px;">
-                </form>
-                <input type="search" class="form-control form-control-sm ms-auto"
-                       placeholder="filter fields…" style="max-width:180px;"
-                       oninput="rvFilter(this.value)">
-              </div>
-              <div class="card-body p-0">
-                <table class="table table-sm table-striped mb-0" id="rvTbl">
-                  <tbody>
-                    <?php foreach ($visibleFields as $f):
-                        $v  = $row[$f['name']] ?? '';
-                        $fd = $defsByName[$f['name']] ?? null;
-                        $fieldRefs = $fd['refs'] ?? [];
-                        $display = is_float($v)
-                            ? rtrim(rtrim(sprintf('%.6f', $v), '0'), '.')
-                            : (string)$v;
-                        $clickable = !empty($fieldRefs)
-                            && (is_int($v) || is_float($v) || (is_string($v) && $v !== '' && is_numeric($v)));
-                    ?>
-                      <tr data-fname="<?= h(strtolower($f['name'])) ?>">
-                        <th>
-                          <?= h($f['name']) ?>
-                          <span class="rv-type"><?= h($f['type']) ?></span>
-                          <span class="rv-off">@<?= (int)$f['offset'] ?></span>
-                        </th>
-                        <td class="value">
-                          <?php if ($display === ''): ?>
-                            <span class="text-muted">·</span>
-                          <?php elseif ($clickable): ?>
-                            <a href="<?= h(page_url([
-                                'ref_val'   => $display,
-                                'ref_lists' => implode(',', $fieldRefs),
-                                'ref_field' => $f['name'],
-                            ])) ?>" title="Look up in lists: <?= h(implode(', ', $fieldRefs)) ?>"><?= h($display) ?></a>
-                          <?php else: ?>
-                            <?= h($display) ?>
-                          <?php endif; ?>
-                        </td>
-                      </tr>
-                    <?php endforeach; ?>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          <?php else: /* --- wide table view --- */ ?>
-            <div class="d-flex align-items-center gap-2 mb-1 small">
-              <span class="text-muted">
-                Rows <strong><?= $rowOffset ?></strong>–<strong><?= $rowOffset + count($decoded['rows']) - 1 ?></strong>
-                of <strong><?= $decoded['count'] ?></strong>
-              </span>
-              <div class="btn-group btn-group-sm ms-auto" role="group">
-                <a class="btn btn-outline-secondary <?= $rowOffset > 0 ? '' : 'disabled' ?>"
-                   href="<?= h(page_url(['off' => max(0, $rowOffset - $rowLimit)])) ?>">
-                  <i class="bi bi-chevron-left"></i> prev
-                </a>
-                <a class="btn btn-outline-secondary <?= $rowOffset + $rowLimit < $decoded['count'] ? '' : 'disabled' ?>"
-                   href="<?= h(page_url(['off' => $rowOffset + $rowLimit])) ?>">
-                  next <i class="bi bi-chevron-right"></i>
-                </a>
-              </div>
-            </div>
-            <?php
-              $visibleFields = array_values(array_filter($decoded['fields'],
-                  function($f) use ($hiddenCols) { return !isset($hiddenCols[$f['name']]); }));
-            ?>
-            <div class="rows-scroll">
-            <table class="table table-sm table-striped table-hover mb-0">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <?php foreach ($visibleFields as $f): ?>
-                    <th title="<?= h($f['type']) ?> @<?= $f['offset'] ?>"><?= h($f['name']) ?></th>
-                  <?php endforeach; ?>
-                </tr>
-              </thead>
-              <tbody>
-              <?php foreach ($decoded['rows'] as $i => $row): ?>
-                <tr>
-                  <td>
-                    <a title="open in record view"
-                       href="<?= h(page_url([
-                           'off' => $rowOffset + $i, 'view' => 'record',
-                       ])) ?>"><?= $rowOffset + $i ?></a>
-                  </td>
-                  <?php foreach ($visibleFields as $f):
-                      $v = $row[$f['name']] ?? '';
-                      $fieldRefs = $selectedListDef['fields'][array_search($f['name'],
-                          array_column($selectedListDef['fields'], 'name'))]['refs'] ?? [];
-                      $display = is_float($v)
-                          ? rtrim(rtrim(sprintf('%.6f', $v), '0'), '.')
-                          : (string)$v;
-                      $clickable = !empty($fieldRefs)
-                          && (is_int($v) || is_float($v) || (is_string($v) && $v !== '' && is_numeric($v)));
-                  ?>
-                    <td>
-                    <?php if ($clickable): ?>
-                      <a href="<?= h(page_url([
-                          'ref_val'   => $display,
-                          'ref_lists' => implode(',', $fieldRefs),
-                          'ref_field' => $f['name'],
-                      ])) ?>" title="Look up in lists: <?= h(implode(', ', $fieldRefs)) ?>"><?= h($display) ?></a>
-                    <?php else: ?>
-                      <?= h($display) ?>
-                    <?php endif; ?>
-                    </td>
-                  <?php endforeach; ?>
-                </tr>
-              <?php endforeach; ?>
-              </tbody>
-            </table>
-            </div>
-          <?php endif; ?>
+          </div>
         </div>
 
-        <!-- Schema editor + hex dump -->
-        <div>
-          <?php
-            $fieldsArr = $selectedListDef['fields'] ?? [];
-            if (empty($fieldsArr)) $fieldsArr = [['name' => 'f0', 'type' => 'int32']];
-            $fieldCount = count($fieldsArr);
-          ?>
-          <div class="d-flex align-items-baseline gap-2 mb-2 flex-wrap">
-            <h6 class="mb-0 fw-semibold">Schema</h6>
-            <small class="text-muted">
-              <?= $fieldCount ?> field<?= $fieldCount === 1 ? '' : 's' ?><?php if ($decoded): ?>
-              · size = <code class="inline"><?= $decoded['schema_size'] ?></code>
-              / sizeof = <code class="inline"><?= $decoded['actual_size'] ?></code>
-              <?php endif; ?>
-            </small>
-          </div>
-
-          <form method="post" id="schemaForm">
+        <!-- Schema Editor -->
+        <div class="flex-1 flex flex-col overflow-hidden min-w-0">
+          <form method="post" id="schemaForm" class="flex-1 flex flex-col overflow-hidden min-w-0">
             <input type="hidden" name="action"   value="save_list">
             <input type="hidden" name="version"  value="<?= h($reader->getVersionLabel()) ?>">
-            <input type="hidden" name="list"     value="<?= $selectedListIdx ?>">
+            <input type="hidden" name="list"     value="<?= (int)$selectedListIdx ?>">
             <input type="hidden" name="file_qs"  value="<?= h($fileName) ?>">
-            <input type="hidden" name="off_qs"   value="<?= $rowOffset ?>">
-            <input type="hidden" name="limit_qs" value="<?= $rowLimit ?>">
-            <input type="hidden" name="hex_qs"   value="<?= $hexBytes ?>">
+            <input type="hidden" name="off_qs"   value="<?= (int)$rowOffset ?>">
+            <input type="hidden" name="name_field" value="<?= h($preservedNameField) ?>">
+            <input type="hidden" name="id_field"   value="<?= h($preservedIdField) ?>">
 
-            <div class="d-flex gap-2 align-items-center mb-2 flex-wrap">
-              <div class="input-group input-group-sm" style="max-width:240px;">
-                <span class="input-group-text">Name</span>
-                <input type="text" class="form-control" name="name"
-                       value="<?= h($selectedListDef['name'] ?? '') ?>">
-              </div>
-              <div class="input-group input-group-sm" style="max-width:240px;"
-                   title="Which field to show as the 'name' in the sidebar record list">
-                <span class="input-group-text">Name field</span>
-                <input type="text" class="form-control" name="name_field"
-                       list="nameFieldList" autocomplete="off"
-                       placeholder="(none)"
-                       value="<?= h($selectedListDef['name_field'] ?? '') ?>">
-              </div>
-              <datalist id="nameFieldList">
-                <?php foreach ($fieldsArr as $fd): ?>
-                  <option value="<?= h($fd['name']) ?>">
-                <?php endforeach; ?>
-              </datalist>
-              <input type="search" id="fieldFilter" class="form-control form-control-sm"
-                     placeholder="filter fields…" style="max-width:180px;"
-                     oninput="filterFields(this.value)">
-              <span class="badge text-bg-secondary" id="fieldCount"><?= $fieldCount ?> shown</span>
+            <!-- Header -->
+            <div class="shrink-0 bg-[#0d1117] border-b border-slate-800 px-4 py-2 flex items-center gap-2 flex-wrap">
+              <span class="text-[10px] mono text-slate-600 uppercase tracking-widest mr-1">Schema Editor</span>
+              <span id="badge-fields" class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-slate-900 text-slate-400 border-slate-700"><?= count($schemaFields) ?> fields</span>
+              <span id="badge-size"   class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-cyan-950 text-cyan-300 border-cyan-800">size = <?= $schemaSize ?></span>
+              <span id="badge-sizeof" class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-purple-950 text-purple-300 border-purple-800">sizeof = <?= $listSizeof ?></span>
             </div>
 
-            <div class="schema-wrap">
-            <table class="table table-sm table-hover mb-0" id="fieldsTbl">
-              <colgroup>
-                <col style="width:36px"><col style="width:46px">
-                <col><col style="width:28%"><col style="width:22%">
-                <col style="width:28px">
-              </colgroup>
-              <thead>
-                <tr>
-                  <th class="idx">#</th>
-                  <th class="off" title="byte offset of this field within a record">off</th>
-                  <th>Name</th><th>Type</th>
-                  <th title="Comma-separated list indices this field references">Refs</th>
-                  <th></th>
-                </tr>
-              </thead>
-              <tbody>
-              <?php
-                $off = 0;
-                foreach ($fieldsArr as $i => $f):
-                    $w = ElementsReader::typeWidth($f['type']);
-                    $displayOff = $off;
-                    $off += $w === null ? 0 : $w;
-                    $refStr = !empty($f['refs']) && is_array($f['refs'])
-                        ? implode(',', $f['refs']) : '';
-              ?>
-                <tr data-fname="<?= h(strtolower($f['name'])) ?>">
-                  <td class="idx"><?= $i ?></td>
-                  <td class="off"><?= $displayOff ?></td>
-                  <td><input type="text" class="form-control form-control-xs"
-                             name="names[]" value="<?= h($f['name']) ?>"></td>
-                  <td><input type="text" class="form-control form-control-xs"
-                             name="types[]" value="<?= h($f['type']) ?>"
-                             list="typelist" autocomplete="off"></td>
-                  <td><input type="text" class="form-control form-control-xs"
-                             name="refs[]" value="<?= h($refStr) ?>"
-                             placeholder="e.g. 3,6,9"></td>
-                  <td><button type="button" class="xbtn" title="remove field"
-                              onclick="this.closest('tr').remove();updateFieldCount();">
-                    <i class="bi bi-x-lg"></i>
-                  </button></td>
-                </tr>
-              <?php endforeach; ?>
-              </tbody>
-            </table>
+            <!-- Name input -->
+            <div class="shrink-0 border-b border-slate-800 px-4 py-2 flex items-center gap-3">
+              <span class="text-[11px] mono text-slate-500 shrink-0">List name</span>
+              <input type="text" name="name" value="<?= h($selectedListDef['name'] ?? ('LIST_' . $selectedListIdx)) ?>"
+                     class="bg-slate-800/50 border border-slate-700/50 focus:border-cyan-700/70 focus:bg-slate-800 rounded px-2.5 py-1 text-[11px] mono text-cyan-300 outline-none transition-colors w-64"/>
             </div>
-            <datalist id="typelist">
-              <?php foreach (ElementsReader::availableTypes() as $t): ?>
-                <option value="<?= h($t) ?>">
-              <?php endforeach; ?>
-            </datalist>
-            <div class="mt-2 d-flex gap-2 flex-wrap">
-              <button type="button" class="btn btn-sm btn-outline-success" onclick="addField()">
-                <i class="bi bi-plus-lg"></i> add field
+
+            <!-- Schema table -->
+            <div class="flex-1 overflow-y-auto">
+              <table class="w-full text-[11px] mono border-collapse" id="schemaTbl">
+                <thead class="sticky top-0 bg-[#0d1117] z-10">
+                  <tr class="border-b border-slate-800 text-slate-600 text-[10px] uppercase tracking-widest">
+                    <th class="text-left px-3 py-2 font-normal w-8">#</th>
+                    <th class="text-left px-3 py-2 font-normal w-24">Offset</th>
+                    <th class="text-left px-3 py-2 font-normal">Name</th>
+                    <th class="text-left px-3 py-2 font-normal w-40">Type</th>
+                    <th class="text-left px-3 py-2 font-normal w-32">Reference</th>
+                    <th class="w-8 px-2 py-2"></th>
+                  </tr>
+                </thead>
+                <tbody id="schema-tbody">
+                  <?php
+                    $off = 0;
+                    foreach ($schemaFields as $i => $f):
+                      $w = ElementsReader::typeWidth($f['type']);
+                      $offHex = '0x' . str_pad(strtoupper(dechex($off)), 4, '0', STR_PAD_LEFT);
+                      $off += $w === null ? 0 : $w;
+                      $refStr = !empty($f['refs']) && is_array($f['refs']) ? implode(',', $f['refs']) : '';
+                      $tc = type_color_class($f['type']);
+                      // strip non-text classes
+                      $textClass = '';
+                      foreach (explode(' ', $tc) as $c) if (strpos($c, 'text-') === 0) $textClass .= ' ' . $c;
+                  ?>
+                    <tr class="border-b border-slate-800/40 hover:bg-slate-800/20 group transition-colors">
+                      <td class="px-3 py-1.5 text-slate-700"><?= $i ?></td>
+                      <td class="px-3 py-1.5">
+                        <span class="text-slate-500"><?= h($offHex) ?></span>
+                      </td>
+                      <td class="px-3 py-1.5">
+                        <input type="text" name="names[]" value="<?= h($f['name']) ?>"
+                          class="w-full bg-transparent border border-transparent hover:border-slate-700 focus:border-cyan-700 focus:bg-slate-800/60 rounded px-1.5 py-0.5 text-slate-200 outline-none transition-colors text-[11px] mono"/>
+                      </td>
+                      <td class="px-3 py-1.5">
+                        <select name="types[]"
+                          class="bg-transparent border border-transparent hover:border-slate-700 focus:border-cyan-700 focus:bg-slate-900 rounded px-1.5 py-0.5 outline-none cursor-pointer transition-colors text-[11px] mono <?= trim($textClass) ?>">
+                          <?php foreach ($availableTypes as $t): ?>
+                            <option value="<?= h($t) ?>" <?= $t === $f['type'] ? 'selected' : '' ?>><?= h($t) ?></option>
+                          <?php endforeach; ?>
+                          <?php if (!in_array($f['type'], $availableTypes, true)): ?>
+                            <option value="<?= h($f['type']) ?>" selected><?= h($f['type']) ?></option>
+                          <?php endif; ?>
+                        </select>
+                      </td>
+                      <td class="px-3 py-1.5">
+                        <input type="text" name="refs[]" value="<?= h($refStr) ?>" placeholder="—"
+                          class="w-full bg-transparent border border-transparent hover:border-slate-700 focus:border-cyan-700 focus:bg-slate-800/60 rounded px-1.5 py-0.5 text-slate-500 placeholder-slate-700 outline-none transition-colors text-[11px] mono"/>
+                      </td>
+                      <td class="px-2 py-1.5">
+                        <button type="button" onclick="removeSchemaRow(this)"
+                          class="w-5 h-5 flex items-center justify-center rounded hover:bg-red-900/40 text-slate-700 hover:text-red-400 transition-colors opacity-0 group-hover:opacity-100">
+                          <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                        </button>
+                      </td>
+                    </tr>
+                  <?php endforeach; ?>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Action buttons -->
+            <div class="shrink-0 border-t border-slate-800 px-4 py-2.5 flex gap-2 items-center bg-[#0d1117]">
+              <button type="button" onclick="addSchemaRow()"
+                class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-slate-800/60 hover:bg-slate-800 border-slate-700/50 hover:border-slate-600 text-slate-300 transition-colors">
+                Add Field
               </button>
-              <button type="submit" class="btn btn-sm btn-primary">
-                <i class="bi bi-save"></i> Save schema
+              <button type="submit"
+                class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-cyan-950/30 hover:bg-cyan-950/60 border-cyan-800/40 hover:border-cyan-700/60 text-cyan-300 transition-colors">
+                Save Schema
               </button>
-              <?php if ($selectedListDef): ?>
-                <button type="submit" class="btn btn-sm btn-outline-danger"
-                        onclick="if(!confirm('Delete schema for this list?'))return false;
-                                 document.querySelectorAll('#fieldsTbl tbody tr').forEach(r=>r.remove());">
-                  <i class="bi bi-trash"></i> Delete
-                </button>
-              <?php endif; ?>
+              <button type="button" onclick="truncateSchema()"
+                class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-red-950/20 hover:bg-red-950/40 border-red-900/30 hover:border-red-800/50 text-red-400 transition-colors ml-auto">
+                Truncate Schema
+              </button>
             </div>
           </form>
 
-          <?php $hexOpen = $selectedListMeta['sizeof'] > 0 && $selectedListMeta['count'] > 0; ?>
-          <div class="card mt-3">
-            <div class="card-header py-1 px-2">
-              <a class="text-decoration-none text-body fw-semibold small"
-                 data-bs-toggle="collapse" href="#hexDumpBody" role="button"
-                 aria-expanded="<?= $hexOpen ? 'true' : 'false' ?>" aria-controls="hexDumpBody">
-                <i class="bi bi-chevron-right collapse-caret"></i>
-                Hex dump <span class="text-muted">(first record, <?= $hexBytes ?> bytes)</span>
-              </a>
+          <!-- Hex viewer -->
+          <div class="shrink-0 border-t border-slate-800 bg-[#090c12]" style="max-height:240px">
+            <div class="px-4 py-2 border-b border-slate-800 flex items-center gap-2">
+              <span class="text-[10px] mono text-slate-600 uppercase tracking-widest">Hex</span>
+              <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-orange-950 text-orange-300 border-orange-800">0x<?= str_pad(strtoupper(dechex($hexAddrBase)), 8, '0', STR_PAD_LEFT) ?></span>
+              <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-slate-900 text-slate-400 border-slate-700 ml-1"><?= count($hexBytesArr) ?> bytes</span>
+              <span class="ml-auto text-[10px] mono text-slate-300">record #<?= (int)$rowOffset ?></span>
             </div>
-            <div class="collapse <?= $hexOpen ? 'show' : '' ?>" id="hexDumpBody">
-              <div class="card-body p-2">
-                <form method="get" class="d-flex align-items-center gap-2 mb-1 flex-wrap">
-                  <?php foreach (['file','list','off','limit'] as $k):
-                      if (isset($_GET[$k])): ?>
-                    <input type="hidden" name="<?= h($k) ?>" value="<?= h($_GET[$k]) ?>">
-                  <?php endif; endforeach; ?>
-                  <div class="input-group input-group-sm" style="max-width:220px;">
-                    <span class="input-group-text">Bytes</span>
-                    <input type="number" class="form-control" name="hex"
-                           value="<?= $hexBytes ?>" min="16" max="4096" step="16">
-                    <button class="btn btn-outline-primary" type="submit">refresh</button>
-                  </div>
-                </form>
-                <pre class="hex"><?= h(format_hex_dump($reader->hexDumpList($selectedListIdx, $hexBytes, $rowOffset))) ?></pre>
-              </div>
+            <div class="px-4 py-3 overflow-auto" style="max-height:190px">
+              <div id="hex-viewer" class="mono text-[11px] leading-5 select-all min-w-max"></div>
             </div>
           </div>
         </div>
       </div>
     <?php endif; ?>
-  </section>
+  </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-function addField() {
-  var tbody = document.querySelector('#fieldsTbl tbody');
-  var idx = tbody.rows.length;
-  var tr = document.createElement('tr');
-  tr.setAttribute('data-fname', 'f' + idx);
-  tr.innerHTML =
-    '<td class="idx">' + idx + '</td>' +
-    '<td class="off">?</td>' +
-    '<td><input type="text" class="form-control form-control-xs" name="names[]" value="f' + idx + '"></td>' +
-    '<td><input type="text" class="form-control form-control-xs" name="types[]" value="int32" list="typelist" autocomplete="off"></td>' +
-    '<td><input type="text" class="form-control form-control-xs" name="refs[]" value="" placeholder="e.g. 3,6,9"></td>' +
-    '<td><button type="button" class="xbtn" title="remove field" ' +
-        'onclick="this.closest(\'tr\').remove();updateFieldCount();">' +
-        '<i class="bi bi-x-lg"></i></button></td>';
-  // Keep the data-fname attribute in sync as the user types, so the live filter
-  // matches against the currently-typed name rather than the original.
-  var nameInput = tr.querySelector('input[name="names[]"]');
-  nameInput.addEventListener('input', function () {
-    tr.setAttribute('data-fname', this.value.toLowerCase());
+// ── Hex bytes (server-rendered) ──────────────────────────────────────────────
+const HEX_BYTES = <?= json_encode($hexBytesArr) ?>;
+const HEX_ADDR_BASE = <?= (int)$hexAddrBase ?>;
+const FLASH_MSG = <?= json_encode($flashMsg) ?>;
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+// ── Toasts ───────────────────────────────────────────────────────────────────
+const TOAST_CFG={
+  success:{bar:'bg-emerald-500',icon:'bg-emerald-950 border-emerald-700',ic:'text-emerald-400',title:'Success',tc:'text-emerald-300',path:'M5 13l4 4L19 7'},
+  error:  {bar:'bg-red-500',   icon:'bg-red-950 border-red-700',       ic:'text-red-400',   title:'Error',   tc:'text-red-300',   path:'M6 18L18 6M6 6l12 12'},
+  warning:{bar:'bg-yellow-500',icon:'bg-yellow-950 border-yellow-700', ic:'text-yellow-400',title:'Warning', tc:'text-yellow-300',path:'M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z'},
+  info:   {bar:'bg-cyan-500',  icon:'bg-cyan-950 border-cyan-700',     ic:'text-cyan-400',  title:'Info',    tc:'text-cyan-300',  path:'M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z'},
+};
+function toast(msg, type){
+  type = type || 'success';
+  const c=TOAST_CFG[type]||TOAST_CFG.success;
+  const el=document.createElement('div');
+  el.className='pointer-events-auto w-72 bg-[#0d1117] border border-slate-700/80 rounded-md shadow-2xl overflow-hidden cursor-pointer hover:border-slate-600 transition-colors';
+  el.style.cssText='opacity:0;transform:translateX(1.5rem);transition:opacity 180ms ease,transform 180ms ease';
+  el.innerHTML='<div class="h-0.5 '+c.bar+'"></div>'+
+'<div class="flex items-start gap-3 px-3 py-3">'+
+'<div class="w-7 h-7 rounded border '+c.icon+' flex items-center justify-center shrink-0 mt-0.5">'+
+'<svg class="w-3.5 h-3.5 '+c.ic+'" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">'+
+'<path stroke-linecap="round" stroke-linejoin="round" d="'+c.path+'"/></svg></div>'+
+'<div class="flex-1 min-w-0">'+
+'<div class="text-[11px] mono font-semibold uppercase tracking-widest mb-0.5 '+c.tc+'">'+c.title+'</div>'+
+'<div class="text-[12px] text-slate-300 leading-snug">'+esc(msg)+'</div>'+
+'</div>'+
+'<svg class="w-3.5 h-3.5 text-slate-600 hover:text-slate-400 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">'+
+'<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg></div>';
+  el.onclick=function(){dismissToast(el);};
+  document.getElementById('toast-container').appendChild(el);
+  requestAnimationFrame(function(){requestAnimationFrame(function(){el.style.opacity='1';el.style.transform='translateX(0)';});});
+  setTimeout(function(){dismissToast(el);},3800);
+}
+function dismissToast(el){
+  el.style.opacity='0';el.style.transform='translateX(1.5rem)';
+  setTimeout(function(){el.remove();},200);
+}
+
+// ── Dropdowns ────────────────────────────────────────────────────────────────
+function toggleDD(id){
+  const el=document.getElementById(id);
+  if(!el) return;
+  const menu=el.querySelector('.dd-menu');
+  const open=!menu.classList.contains('hidden');
+  closeAllDD();
+  if(!open){
+    menu.classList.remove('hidden');
+    const search=el.querySelector('input[type=text],input:not([type])');
+    if(search && id==='dd-listtype') setTimeout(function(){search.focus();},10);
+  }
+}
+function closeAllDD(){
+  document.querySelectorAll('.dd-menu').forEach(function(m){m.classList.add('hidden');});
+}
+document.addEventListener('click',function(e){
+  if(!e.target.closest('[id^="dd-"]')) closeAllDD();
+});
+
+// ── Sidebar: filter records by #, ID or name ─────────────────────────────────
+function filterRecList(q){
+  q=(q||'').trim().toLowerCase();
+  const items=document.querySelectorAll('#sidebar-list .rec-item');
+  for(let i=0;i<items.length;i++){
+    const el=items[i];
+    const name=el.getAttribute('data-fname')||'';
+    const fid =el.getAttribute('data-fid')  ||'';
+    const ridx=el.getAttribute('data-ridx') ||'';
+    const match=q===''
+      ||name.indexOf(q)!==-1
+      ||fid.indexOf(q)!==-1
+      ||ridx.indexOf(q)!==-1
+      ||('#'+ridx).indexOf(q)!==-1;
+    el.classList.toggle('hidden-row',!match);
+  }
+}
+
+// ── List picker: filter dropdown options ─────────────────────────────────────
+function filterListPicker(q){
+  q=(q||'').trim().toLowerCase();
+  const items=document.querySelectorAll('#listtype-options .dd-list-item');
+  for(let i=0;i<items.length;i++){
+    const el=items[i];
+    const s=el.getAttribute('data-search')||'';
+    el.classList.toggle('hidden-row', q!=='' && s.indexOf(q)===-1);
+  }
+}
+
+// ── Schema editor: add/remove rows + badges ──────────────────────────────────
+function typeWidth(t){
+  const widths={int32:4,int64:8,float:4,double:8};
+  if(widths[t]) return widths[t];
+  if(t.indexOf('wstring:')===0){const n=parseInt(t.slice(8),10);return n>0?n:0;}
+  if(t.indexOf('byte:')===0){const tail=t.slice(5);if(tail==='AUTO')return 0;const n=parseInt(tail,10);return n>0?n:0;}
+  return 0;
+}
+function recomputeSchemaBadges(){
+  const tbody=document.getElementById('schema-tbody');
+  if(!tbody) return;
+  const rows=tbody.querySelectorAll('tr');
+  let total=0, off=0;
+  rows.forEach(function(tr,i){
+    const tSel=tr.querySelector('select[name="types[]"]');
+    const t=tSel?tSel.value:'int32';
+    const w=typeWidth(t);
+    // update # cell
+    const idxCell=tr.children[0];
+    if(idxCell) idxCell.textContent=i;
+    // update offset cell
+    const offCell=tr.children[1];
+    if(offCell){
+      const span=offCell.querySelector('span');
+      const hex='0x'+off.toString(16).toUpperCase().padStart(4,'0');
+      if(span) span.textContent=hex;
+    }
+    off+=w;
+    total+=w;
   });
+  const bf=document.getElementById('badge-fields');
+  const bs=document.getElementById('badge-size');
+  if(bf) bf.textContent=rows.length+' fields';
+  if(bs) bs.textContent='size = '+total;
+}
+function removeSchemaRow(btn){
+  const tr=btn.closest('tr');
+  const nameInp=tr.querySelector('input[name="names[]"]');
+  const fname=nameInp?nameInp.value:'(unnamed)';
+  tr.remove();
+  recomputeSchemaBadges();
+  toast('Field "'+fname+'" removed.','warning');
+}
+function addSchemaRow(){
+  const tbody=document.getElementById('schema-tbody');
+  if(!tbody) return;
+  const types=<?= json_encode($availableTypes) ?>;
+  const idx=tbody.querySelectorAll('tr').length;
+  const tr=document.createElement('tr');
+  tr.className='border-b border-slate-800/40 hover:bg-slate-800/20 group transition-colors';
+  let opts='';
+  for(let i=0;i<types.length;i++) opts+='<option value="'+esc(types[i])+'"'+(types[i]==='int32'?' selected':'')+'>'+esc(types[i])+'</option>';
+  tr.innerHTML=
+    '<td class="px-3 py-1.5 text-slate-700">'+idx+'</td>'+
+    '<td class="px-3 py-1.5"><span class="text-slate-500">0x0000</span></td>'+
+    '<td class="px-3 py-1.5"><input type="text" name="names[]" value="f'+idx+'" class="w-full bg-transparent border border-transparent hover:border-slate-700 focus:border-cyan-700 focus:bg-slate-800/60 rounded px-1.5 py-0.5 text-slate-200 outline-none transition-colors text-[11px] mono"/></td>'+
+    '<td class="px-3 py-1.5"><select name="types[]" class="bg-transparent border border-transparent hover:border-slate-700 focus:border-cyan-700 focus:bg-slate-900 rounded px-1.5 py-0.5 outline-none cursor-pointer transition-colors text-[11px] mono text-blue-300">'+opts+'</select></td>'+
+    '<td class="px-3 py-1.5"><input type="text" name="refs[]" value="" placeholder="—" class="w-full bg-transparent border border-transparent hover:border-slate-700 focus:border-cyan-700 focus:bg-slate-800/60 rounded px-1.5 py-0.5 text-slate-500 placeholder-slate-700 outline-none transition-colors text-[11px] mono"/></td>'+
+    '<td class="px-2 py-1.5"><button type="button" onclick="removeSchemaRow(this)" class="w-5 h-5 flex items-center justify-center rounded hover:bg-red-900/40 text-slate-700 hover:text-red-400 transition-colors opacity-0 group-hover:opacity-100">'+
+    '<svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button></td>';
   tbody.appendChild(tr);
-  updateFieldCount();
-  nameInput.focus();
+  const sel=tr.querySelector('select[name="types[]"]');
+  if(sel) sel.addEventListener('change',recomputeSchemaBadges);
+  recomputeSchemaBadges();
+  const nm=tr.querySelector('input[name="names[]"]');
+  if(nm){nm.focus();nm.select();}
+  toast('New field added.','info');
+}
+function truncateSchema(){
+  const tbody=document.getElementById('schema-tbody');
+  if(!tbody) return;
+  const n=tbody.querySelectorAll('tr').length;
+  if(n===0){toast('Schema is already empty.','warning');return;}
+  if(!confirm('Remove all '+n+' fields from this schema?')) return;
+  tbody.innerHTML='';
+  recomputeSchemaBadges();
+  toast('All '+n+' fields removed. Click "Save Schema" to persist.','error');
 }
 
-function filterFields(q) {
-  q = (q || '').trim().toLowerCase();
-  var rows = document.querySelectorAll('#fieldsTbl tbody tr');
-  for (var i = 0; i < rows.length; i++) {
-    var name = rows[i].getAttribute('data-fname') || '';
-    var typeInput = rows[i].querySelector('input[name="types[]"]');
-    var type = typeInput ? typeInput.value.toLowerCase() : '';
-    var match = q === '' || name.indexOf(q) !== -1 || type.indexOf(q) !== -1;
-    rows[i].classList.toggle('hidden', !match);
-  }
-  updateFieldCount();
-}
-
-function updateFieldCount() {
-  var rows = document.querySelectorAll('#fieldsTbl tbody tr');
-  var shown = 0;
-  for (var i = 0; i < rows.length; i++) {
-    if (!rows[i].classList.contains('hidden')) shown++;
-  }
-  var c = document.getElementById('fieldCount');
-  if (c) c.textContent = shown + ' of ' + rows.length + ' shown';
-}
-
-// Record view — filter visible Field|Value rows by name/type substring.
-function rvFilter(q) {
-  q = (q || '').trim().toLowerCase();
-  var rows = document.querySelectorAll('#rvTbl tr');
-  for (var i = 0; i < rows.length; i++) {
-    var name = rows[i].getAttribute('data-fname') || '';
-    rows[i].classList.toggle('hidden', q !== '' && name.indexOf(q) === -1);
-  }
-}
-
-// Record-view "go to #" input — jump on Enter AND on blur.
-(function () {
-  var form = document.querySelector('.record-view form');
-  if (!form) return;
-  var inp = form.querySelector('input[name=off]');
-  if (!inp) return;
-  inp.addEventListener('blur', function () { form.requestSubmit(); });
-})();
-
-// Column picker — convert checkbox state into a 'hide' CSV on submit.
-(function () {
-  var form = document.getElementById('colForm');
-  if (!form) return;
-  form.addEventListener('submit', function (ev) {
-    ev.preventDefault();
-    var hidden = [];
-    var cbs = form.querySelectorAll('input[type=checkbox][name="show[]"]');
-    for (var i = 0; i < cbs.length; i++) {
-      if (!cbs[i].checked) hidden.push(cbs[i].value);
-    }
-    // Build URL from the form's hidden inputs + 'hide' param.
-    var params = new URLSearchParams();
-    var hids = form.querySelectorAll('input[type=hidden]');
-    for (var j = 0; j < hids.length; j++) {
-      if (hids[j].value !== '') params.set(hids[j].name, hids[j].value);
-    }
-    if (hidden.length) params.set('hide', hidden.join(','));
-    window.location = '?' + params.toString();
+// Recompute badges on every type change (initial wiring)
+(function(){
+  const tbody=document.getElementById('schema-tbody');
+  if(!tbody) return;
+  tbody.querySelectorAll('select[name="types[]"]').forEach(function(sel){
+    sel.addEventListener('change',recomputeSchemaBadges);
   });
 })();
 
-function colsAll(onlyVisibleInFilter) {
-  // If a column filter is active, operate only on visible rows.
-  var labels = document.querySelectorAll('#colGrid label');
-  for (var i = 0; i < labels.length; i++) {
-    var l = labels[i];
-    if (l.classList.contains('hidden')) continue;
-    var cb = l.querySelector('input[type=checkbox]');
-    if (cb) cb.checked = !!onlyVisibleInFilter;
+// ── Hex viewer ───────────────────────────────────────────────────────────────
+function renderHex(){
+  const host=document.getElementById('hex-viewer');
+  if(!host) return;
+  const bytes=HEX_BYTES;
+  let html='<div class="flex gap-3 text-slate-700 mb-1"><span class="w-[5.5rem]">OFFSET</span><span class="w-[11.5rem]">00 01 02 03 04 05 06 07</span><span class="w-[11.5rem]">08 09 0A 0B 0C 0D 0E 0F</span><span>ASCII</span></div>';
+  for(let i=0;i<bytes.length;i+=16){
+    const chunk=bytes.slice(i,i+16);
+    const hex=chunk.map(function(b){return b.toString(16).toUpperCase().padStart(2,'0');});
+    const asc=chunk.map(function(b){return b>=0x20&&b<0x7F?String.fromCharCode(b):'·';});
+    const addr=(HEX_ADDR_BASE+i).toString(16).toUpperCase().padStart(8,'0');
+    html+='<div class="flex gap-3 py-0.5 hover:bg-slate-800/50 rounded group">'+
+      '<span class="w-[5.5rem] text-slate-600 group-hover:text-cyan-700">'+addr+':</span>'+
+      '<span class="w-[11.5rem] text-slate-300 tracking-wide">'+hex.slice(0,8).join(' ')+'</span>'+
+      '<span class="w-[11.5rem] text-slate-300 tracking-wide">'+hex.slice(8).join(' ')+'</span>'+
+      '<span class="text-slate-600 tracking-wider">'+esc(asc.join(''))+'</span>'+
+    '</div>';
   }
-  updateColCountPill();
+  host.innerHTML=html;
 }
+renderHex();
 
-function colsInvert() {
-  var labels = document.querySelectorAll('#colGrid label');
-  for (var i = 0; i < labels.length; i++) {
-    if (labels[i].classList.contains('hidden')) continue;
-    var cb = labels[i].querySelector('input[type=checkbox]');
-    if (cb) cb.checked = !cb.checked;
-  }
-  updateColCountPill();
-}
-
-function filterColList(q) {
-  q = (q || '').trim().toLowerCase();
-  var labels = document.querySelectorAll('#colGrid label');
-  for (var i = 0; i < labels.length; i++) {
-    var name = labels[i].getAttribute('data-fname') || '';
-    labels[i].classList.toggle('hidden', q !== '' && name.indexOf(q) === -1);
-  }
-}
-
-function updateColCountPill() {
-  var cbs = document.querySelectorAll('#colGrid input[type=checkbox][name="show[]"]');
-  var total = cbs.length, checked = 0;
-  for (var i = 0; i < cbs.length; i++) if (cbs[i].checked) checked++;
-  var p = document.getElementById('colCountPill');
-  if (p) p.textContent = checked + '/' + total;
-}
-// Initial update + on every click inside the grid.
-(function () {
-  var grid = document.getElementById('colGrid');
-  if (grid) grid.addEventListener('change', updateColCountPill);
-  updateColCountPill();
+// ── Scroll active sidebar row into view ──────────────────────────────────────
+(function(){
+  const active=document.querySelector('#sidebar-list .rec-item.bg-cyan-950\\/30');
+  if(active && active.scrollIntoView) active.scrollIntoView({block:'center'});
 })();
 
-// Sidebar record list — filter by row index or name substring.
-function filterRecList(q) {
-  q = (q || '').trim().toLowerCase();
-  var items = document.querySelectorAll('#recordList .record-item');
-  for (var i = 0; i < items.length; i++) {
-    var el    = items[i];
-    var name  = el.getAttribute('data-fname') || '';
-    var ridx  = el.getAttribute('data-ridx') || '';
-    var match = q === ''
-             || name.indexOf(q) !== -1
-             || ridx.indexOf(q) !== -1
-             || ('#' + ridx).indexOf(q) !== -1;
-    el.classList.toggle('d-none-filter', !match);
+// ── Flash message → toast ────────────────────────────────────────────────────
+if(FLASH_MSG){
+  let t='success';
+  const m=FLASH_MSG.toLowerCase();
+  if(m.indexOf('error')!==-1) t='error';
+  else if(m.indexOf('truncat')!==-1) t='warning';
+  toast(FLASH_MSG, t);
+  // strip msg from URL
+  if(window.history && window.history.replaceState){
+    const u=new URL(window.location.href);
+    u.searchParams.delete('msg');
+    window.history.replaceState({},'',u.toString());
   }
 }
-
-// Scroll the active record into view in the sidebar on page load.
-(function () {
-  var active = document.querySelector('#recordList .record-item.active');
-  if (active && typeof active.scrollIntoView === 'function') {
-    // nearest = don't jump main pane; block:center so context rows remain visible
-    active.scrollIntoView({ block: 'center' });
-  }
-})();
-
-// Keep data-fname synced for pre-rendered rows too.
-(function () {
-  var rows = document.querySelectorAll('#fieldsTbl tbody tr');
-  for (var i = 0; i < rows.length; i++) {
-    var inp = rows[i].querySelector('input[name="names[]"]');
-    if (!inp) continue;
-    (function (row, el) {
-      el.addEventListener('input', function () {
-        row.setAttribute('data-fname', this.value.toLowerCase());
-      });
-    })(rows[i], inp);
-  }
-  updateFieldCount();
-})();
 </script>
-</body>
-</html>
+</

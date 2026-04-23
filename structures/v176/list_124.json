@@ -1,0 +1,93 @@
+{
+    "name": "GEM_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Gem_ID_1_Ordinary_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_1_Perfect_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_2_Ordinary_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_2_Perfect_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_3_Ordinary_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_3_Perfect_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_4_Ordinary_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_4_Perfect_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_5_Ordinary_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_5_Perfect_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_6_Ordinary_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_6_Perfect_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_7_Ordinary_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_7_Perfect_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_8_Ordinary_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_8_Perfect_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_9_Ordinary_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_9_Perfect_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_10_Ordinary_Gem_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_ID_10_Perfect_Gem_ID",
+            "type": "int32"
+        }
+    ]
+}

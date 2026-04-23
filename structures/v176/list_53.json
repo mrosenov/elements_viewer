@@ -1,0 +1,77 @@
+{
+    "name": "ESTONE_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Matter Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon Path",
+            "type": "int32"
+        },
+        {
+            "name": "Equip_Mask_1",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_type_1",
+            "type": "int32"
+        },
+        {
+            "name": "Equip_Mask_2",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_type_2",
+            "type": "int32"
+        },
+        {
+            "name": "Equip_Mask_3",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_type_3",
+            "type": "int32"
+        },
+        {
+            "name": "Equip_Mask_4",
+            "type": "int32"
+        },
+        {
+            "name": "Attribute_type_4",
+            "type": "int32"
+        },
+        {
+            "name": "Equip_Mask_5",
+            "type": "float"
+        },
+        {
+            "name": "Attribute_type_5",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack",
+            "type": "int32"
+        },
+        {
+            "name": "Trade",
+            "type": "int32"
+        }
+    ]
+}

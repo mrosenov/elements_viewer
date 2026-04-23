@@ -1,0 +1,211 @@
+{
+    "name": "RECIPE_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Type",
+            "type": "int32",
+            "refs": [
+                35
+            ]
+        },
+        {
+            "name": "Sub_type",
+            "type": "int32",
+            "refs": [
+                36
+            ]
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Level",
+            "type": "int32"
+        },
+        {
+            "name": "Product_1_Probabilty",
+            "type": "float"
+        },
+        {
+            "name": "Product_1_ID_To_Make",
+            "type": "int32"
+        },
+        {
+            "name": "Product_1_Min_Num_Make",
+            "type": "int32"
+        },
+        {
+            "name": "Product_1_Max_Num_Make",
+            "type": "int32"
+        },
+        {
+            "name": "Product_2_Probabilty",
+            "type": "float"
+        },
+        {
+            "name": "Product_2_ID_To_Make",
+            "type": "int32"
+        },
+        {
+            "name": "Product_2_Min_Num_Make",
+            "type": "int32"
+        },
+        {
+            "name": "Product_2_Max_Num_Make",
+            "type": "int32"
+        },
+        {
+            "name": "Product_3_Probabilty",
+            "type": "float"
+        },
+        {
+            "name": "Product_3_ID_To_Make",
+            "type": "int32"
+        },
+        {
+            "name": "Product_3_Min_Num_Make",
+            "type": "int32"
+        },
+        {
+            "name": "Product_3_Max_Num_Make",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Unk1",
+            "type": "float"
+        },
+        {
+            "name": "Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Unk5",
+            "type": "int32"
+        },
+        {
+            "name": "Unk6",
+            "type": "int32"
+        },
+        {
+            "name": "Unk7",
+            "type": "int32"
+        },
+        {
+            "name": "Unk8",
+            "type": "int32"
+        },
+        {
+            "name": "Unk9",
+            "type": "int32"
+        },
+        {
+            "name": "Duration",
+            "type": "float"
+        },
+        {
+            "name": "Material_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Material_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Material_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Material_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Material_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Material_3_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Material_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Material_4_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Material_5_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Material_5_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Material_6_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Material_6_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Recipe_Class",
+            "type": "int32"
+        },
+        {
+            "name": "Req_1",
+            "type": "int32"
+        },
+        {
+            "name": "Req_2",
+            "type": "int32"
+        },
+        {
+            "name": "Req_3",
+            "type": "int32"
+        },
+        {
+            "name": "Req_4",
+            "type": "int32"
+        },
+        {
+            "name": "Req_5",
+            "type": "int32"
+        },
+        {
+            "name": "Req_6",
+            "type": "int32"
+        },
+        {
+            "name": "Req_7",
+            "type": "int32"
+        },
+        {
+            "name": "Cooldown_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Cooldown_Type",
+            "type": "int32"
+        }
+    ]
+}

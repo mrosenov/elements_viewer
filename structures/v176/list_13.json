@@ -1,0 +1,61 @@
+{
+    "name": "TRANSMITROLL_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Matter Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon Path",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Ascended",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Map_ID",
+            "type": "int32"
+        },
+        {
+            "name": "POS_X",
+            "type": "int32"
+        },
+        {
+            "name": "POS_Y",
+            "type": "int32"
+        },
+        {
+            "name": "POS_Z",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack",
+            "type": "int32"
+        },
+        {
+            "name": "Trade",
+            "type": "int32"
+        }
+    ]
+}

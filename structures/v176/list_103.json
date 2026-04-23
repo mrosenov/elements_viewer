@@ -1,0 +1,97 @@
+{
+    "name": "BATTLE_DEPRIVE_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Map_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_1_ID_Obj",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_1_Max_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_2_ID_Obj",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_2_Max_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_3_ID_Obj",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_3_Max_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_4_ID_Obj",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_4_Max_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_5_ID_Obj",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_5_Max_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_6_ID_Obj",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_6_Max_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_7_ID_Obj",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_7_Max_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_8_ID_Obj",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_8_Max_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_9_ID_Obj",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_9_Max_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_10_ID_Obj",
+            "type": "int32"
+        },
+        {
+            "name": "Deprive_10_Max_Num",
+            "type": "int32"
+        }
+    ]
+}

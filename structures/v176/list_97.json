@@ -1,0 +1,93 @@
+{
+    "name": "EQUIP_SOUL_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Equip_Mask",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Required",
+            "type": "int32"
+        },
+        {
+            "name": "Soul_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Soul_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Character_Combo_ID",
+            "type": "int64"
+        },
+        {
+            "name": "Character_Combo_ID_2",
+            "type": "int64"
+        },
+        {
+            "name": "Unk1",
+            "type": "int64"
+        },
+        {
+            "name": "Sect_Mask",
+            "type": "int32"
+        },
+        {
+            "name": "Required_Race",
+            "type": "int32"
+        },
+        {
+            "name": "Hole_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cost_Soul",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Install_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Remove_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

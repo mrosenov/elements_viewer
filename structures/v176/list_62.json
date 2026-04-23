@@ -1,0 +1,21 @@
+{
+    "name": "NPC_EQUIP_BIND_SERVICE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Object_Need_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        }
+    ]
+}

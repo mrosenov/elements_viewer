@@ -1,0 +1,17 @@
+{
+    "name": "NPC_TALK_SERVICE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Dialogue",
+            "type": "int32"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "name": "SKILLMATTER_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Matter Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon Path",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Ascended",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_Str",
+            "type": "int32"
+        },
+        {
+            "name": "War_Only",
+            "type": "int32"
+        },
+        {
+            "name": "Cooldown_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Permenant",
+            "type": "int32"
+        },
+        {
+            "name": "Cast_Skill",
+            "type": "int32"
+        },
+        {
+            "name": "God_Devil_Mask",
+            "type": "int32"
+        },
+        {
+            "name": "Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack",
+            "type": "int32"
+        },
+        {
+            "name": "Trade",
+            "type": "int32"
+        }
+    ]
+}

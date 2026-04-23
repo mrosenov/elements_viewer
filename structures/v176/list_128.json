@@ -1,0 +1,49 @@
+{
+    "name": "GEM_EXTRACT_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Gem_Dust_Config_1_Gem_Dust_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_Dust_Config_1_Gem_Dust_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_Dust_Config_1_Gem_Dust_Prob",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_Dust_Config_2_Gem_Dust_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_Dust_Config_2_Gem_Dust_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_Dust_Config_2_Gem_Dust_Prob",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_Dust_Config_3_Gem_Dust_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_Dust_Config_3_Gem_Dust_Prob",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_Dust_Config_3_Gem_Dust_ID",
+            "type": "int32"
+        }
+    ]
+}

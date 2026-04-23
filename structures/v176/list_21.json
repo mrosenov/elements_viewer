@@ -1,0 +1,20 @@
+{
+    "name": "MONSTER_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Type",
+            "type": "int32",
+            "refs": [
+                20
+            ]
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        }
+    ]
+}

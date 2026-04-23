@@ -1,0 +1,141 @@
+{
+    "name": "ENEMY_FACTION_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Enemy_Faction_1",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_2",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_3",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_4",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_5",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_6",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_7",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_8",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_9",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_10",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_11",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_12",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_13",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_14",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_15",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_16",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_17",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_18",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_19",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_20",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_21",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_22",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_23",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_24",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_25",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_26",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_27",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_28",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_29",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_30",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_31",
+            "type": "int32"
+        },
+        {
+            "name": "Enemy_Faction_32",
+            "type": "int32"
+        }
+    ]
+}

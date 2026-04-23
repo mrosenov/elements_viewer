@@ -1,0 +1,333 @@
+{
+    "name": "PIE_LOVE_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "SNS_Config_1_Fee_Press_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Press_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Press_Msg_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Press_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Support_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Support_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Against_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Against_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_Fee_Apply_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Apply_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Apply_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_Fee_Response_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Response_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Accept_Apply_Task_1",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Accept_Apply_Task_2",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_1_ID_Accept_Apply_Task_3",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_Fee_Press_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Press_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Press_Msg_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Press_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Support_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Support_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Against_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Against_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_Fee_Apply_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Apply_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Apply_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_Fee_Response_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Response_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Accept_Apply_Task_1",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Accept_Apply_Task_2",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_2_ID_Accept_Apply_Task_3",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_Fee_Press_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Press_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Press_Msg_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Press_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Support_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Support_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Against_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Against_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_Fee_Apply_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Apply_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Apply_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_Fee_Response_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Response_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Accept_Apply_Task_1",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Accept_Apply_Task_2",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_3_ID_Accept_Apply_Task_3",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_Fee_Press_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Press_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Press_Msg_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Press_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Support_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Support_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Against_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Against_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_Fee_Apply_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Apply_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Apply_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_Fee_Response_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Response_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Accept_Apply_Task_1",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Accept_Apply_Task_2",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_4_ID_Accept_Apply_Task_3",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_Fee_Press_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Press_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Press_Msg_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Press_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Support_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Support_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Against_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Against_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_Fee_Apply_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Apply_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Apply_Msg_Task",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_Fee_Response_Msg",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Response_Msg_Item",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Accept_Apply_Task_1",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Accept_Apply_Task_2",
+            "type": "int32"
+        },
+        {
+            "name": "SNS_Config_5_ID_Accept_Apply_Task_3",
+            "type": "int32"
+        }
+    ]
+}

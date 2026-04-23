@@ -1,0 +1,121 @@
+{
+    "name": "VIP_CARD_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Matter_Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path",
+            "type": "int32"
+        },
+        {
+            "name": "VIP_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "EXP_Bonus",
+            "type": "float"
+        },
+        {
+            "name": "Free_Helper",
+            "type": "int32"
+        },
+        {
+            "name": "Prevent_EXP_Loss",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_ID_1",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_Sthrength_1",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_ID_2",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_Sthrength_2",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_ID_3",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_Sthrength_3",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_ID_4",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_Sthrength_4",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_ID_5",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_Sthrength_5",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_ID_6",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_Sthrength_6",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_ID_7",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_Sthrength_7",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_ID_8",
+            "type": "int32"
+        },
+        {
+            "name": "Buff_Sthrength_8",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

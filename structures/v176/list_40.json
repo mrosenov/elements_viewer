@@ -1,0 +1,533 @@
+{
+    "name": "PARAM_ADJUST_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Adjust_Config_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_1_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_1_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_1_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_1_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_1_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_2_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_2_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_2_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_2_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_2_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_3_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_3_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_3_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_3_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_3_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_4_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_4_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_4_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_4_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_4_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_5_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_5_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_5_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_5_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_5_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_6_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_6_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_6_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_6_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_6_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_7_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_7_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_7_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_7_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_7_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_8_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_8_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_8_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_8_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_8_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_9_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_9_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_9_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_9_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_9_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_10_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_10_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_10_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_10_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_10_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_11_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_11_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_11_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_11_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_11_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_12_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_12_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_12_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_12_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_12_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_13_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_13_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_13_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_13_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_13_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_14_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_14_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_14_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_14_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_14_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_15_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_15_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_15_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_15_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_15_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_16_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_16_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_16_Money",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_16_Matter",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_16_Atk",
+            "type": "float"
+        },
+        {
+            "name": "Team_Count_1_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Count_2_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Count_3_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Count_4_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Count_5_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Count_6_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Count_7_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Count_8_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Count_9_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Count_10_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Count_11_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Pro_Count_1_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Pro_Count_2_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Pro_Count_3_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Pro_Count_4_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Pro_Count_5_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Pro_Count_6_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Pro_Count_7_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Pro_Count_8_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Team_Pro_Count_9_Adjust_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_Produce_1_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_Produce_1_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_Produce_2_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_Produce_2_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_Produce_3_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_Produce_3_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_Produce_4_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_Produce_4_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_Produce_5_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_Produce_5_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_Produce_6_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_Produce_6_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_Produce_7_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_Produce_7_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_Produce_8_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_Produce_8_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Level_Diff_Produce_9_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Level_Diff_Produce_9_EXP",
+            "type": "float"
+        },
+        {
+            "name": "Unk1",
+            "type": "float"
+        },
+        {
+            "name": "Unk2",
+            "type": "float"
+        },
+        {
+            "name": "Unk3",
+            "type": "float"
+        },
+        {
+            "name": "Unk4",
+            "type": "float"
+        },
+        {
+            "name": "Unk5",
+            "type": "float"
+        },
+        {
+            "name": "Unk6",
+            "type": "float"
+        },
+        {
+            "name": "Unk7",
+            "type": "float"
+        },
+        {
+            "name": "Unk8",
+            "type": "float"
+        },
+        {
+            "name": "Unk9",
+            "type": "float"
+        },
+        {
+            "name": "Unk10",
+            "type": "float"
+        },
+        {
+            "name": "Unk11",
+            "type": "float"
+        }
+    ]
+}

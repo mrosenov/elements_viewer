@@ -1,0 +1,9 @@
+{
+    "name": "UNKNOWN51",
+    "fields": [
+        {
+            "name": "Unk1",
+            "type": "wstring:1024"
+        }
+    ]
+}

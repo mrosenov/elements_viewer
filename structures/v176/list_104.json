@@ -1,0 +1,493 @@
+{
+    "name": "BATTLE_SCORE_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Map_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Scores_1_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Scores_2_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Scores_3_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Scores_4_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Scores_5_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Scores_6_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Scores_7_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Scores_8_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Scores_9_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Scores_10_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Ext_Score_1_Ext_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Ext_Score_2_Ext_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Ext_Score_3_Ext_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Ext_Score_4_Ext_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Ext_Score_5_Ext_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Ext_Score_6_Ext_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Ext_Score_7_Ext_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Ext_Score_8_Ext_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_1_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_1_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_2_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_2_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_3_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_3_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_4_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_4_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_5_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_5_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_6_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_6_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_7_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_7_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_8_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_8_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_9_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_9_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_10_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_10_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_11_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_11_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_12_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_12_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_13_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_13_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_14_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_14_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_15_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_15_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_16_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_16_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_17_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_17_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_18_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_18_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_19_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_19_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_20_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_20_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_21_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_21_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_22_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_22_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_23_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_23_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_24_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_24_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_25_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_25_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_26_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_26_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_27_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_27_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_28_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_28_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_29_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_29_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_30_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_30_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_31_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_31_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_32_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_32_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_33_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_33_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_34_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_34_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_35_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_35_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_36_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_36_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_37_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_37_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_38_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_38_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_39_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_39_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_40_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_40_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_41_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_41_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_42_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_42_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_43_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_43_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_44_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_44_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_45_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_45_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_46_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_46_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_47_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_47_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_48_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_48_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_49_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_49_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_50_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Scores_50_Monster_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Victory_Score",
+            "type": "int32"
+        }
+    ]
+}

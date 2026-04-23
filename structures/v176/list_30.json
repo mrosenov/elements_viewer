@@ -1,0 +1,1117 @@
+{
+    "name": "NPC_TRANSMIT_SERVICE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Targets_1_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_1_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_1_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_1_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_1_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_1_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_1_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_1_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_1_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_1_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_1_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_2_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_2_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_2_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_2_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_2_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_2_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_2_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_2_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_2_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_2_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_2_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_3_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_3_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_3_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_3_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_3_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_3_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_3_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_3_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_3_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_3_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_3_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_4_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_4_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_4_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_4_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_4_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_4_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_4_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_4_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_4_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_4_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_4_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_5_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_5_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_5_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_5_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_5_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_5_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_5_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_5_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_5_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_5_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_5_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_6_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_6_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_6_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_6_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_6_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_6_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_6_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_6_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_6_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_6_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_6_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_7_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_7_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_7_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_7_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_7_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_7_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_7_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_7_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_7_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_7_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_7_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_8_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_8_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_8_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_8_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_8_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_8_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_8_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_8_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_8_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_8_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_8_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_9_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_9_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_9_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_9_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_9_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_9_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_9_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_9_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_9_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_9_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_9_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_10_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_10_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_10_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_10_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_10_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_10_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_10_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_10_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_10_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_10_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_10_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_11_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_11_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_11_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_11_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_11_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_11_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_11_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_11_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_11_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_11_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_11_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_12_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_12_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_12_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_12_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_12_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_12_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_12_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_12_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_12_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_12_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_12_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_13_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_13_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_13_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_13_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_13_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_13_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_13_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_13_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_13_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_13_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_13_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_14_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_14_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_14_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_14_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_14_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_14_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_14_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_14_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_14_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_14_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_14_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_15_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_15_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_15_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_15_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_15_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_15_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_15_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_15_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_15_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_15_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_15_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_16_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_16_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_16_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_16_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_16_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_16_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_16_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_16_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_16_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_16_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_16_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_17_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_17_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_17_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_17_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_17_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_17_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_17_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_17_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_17_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_17_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_17_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_18_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_18_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_18_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_18_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_18_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_18_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_18_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_18_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_18_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_18_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_18_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_19_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_19_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_19_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_19_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_19_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_19_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_19_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_19_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_19_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_19_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_19_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_20_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_20_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_20_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_20_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_20_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_20_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_20_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_20_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_20_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_20_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_20_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_21_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_21_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_21_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_21_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_21_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_21_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_21_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_21_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_21_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_21_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_21_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_22_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_22_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_22_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_22_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_22_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_22_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_22_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_22_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_22_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_22_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_22_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_23_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_23_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_23_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_23_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_23_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_23_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_23_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_23_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_23_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_23_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_23_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_24_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_24_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_24_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_24_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_24_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_24_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_24_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_24_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_24_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_24_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_24_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_25_World_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_25_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Targets_25_Pos_X",
+            "type": "float"
+        },
+        {
+            "name": "Targets_25_Pos_Y",
+            "type": "float"
+        },
+        {
+            "name": "Targets_25_Pos_Z",
+            "type": "float"
+        },
+        {
+            "name": "Targets_25_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_25_Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_25_Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_25_Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_25_Unk4",
+            "type": "int32"
+        },
+        {
+            "name": "Targets_25_Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Dialogue",
+            "type": "int32"
+        }
+    ]
+}

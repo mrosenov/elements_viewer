@@ -1,0 +1,93 @@
+{
+    "name": "NPC_WAR_TOWERBUILD_SERVICE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Build_Info_1_ID_in_Build",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_1_ID_Build_Up",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_1_ID_Object_Need",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_1_Time_Use",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_1_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_2_ID_in_Build",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_2_ID_Build_Up",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_2_ID_Object_Need",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_2_Time_Use",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_2_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_3_ID_in_Build",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_3_ID_Build_Up",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_3_ID_Object_Need",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_3_Time_Use",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_3_Fee",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_4_ID_in_Build",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_4_ID_Build_Up",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_4_ID_Object_Need",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_4_Time_Use",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Info_4_Fee",
+            "type": "int32"
+        }
+    ]
+}

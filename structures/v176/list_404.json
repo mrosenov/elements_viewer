@@ -1,0 +1,113 @@
+{
+    "name": "FIREFLY_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "f2",
+            "type": "int32"
+        },
+        {
+            "name": "f3",
+            "type": "int32"
+        },
+        {
+            "name": "f4",
+            "type": "int32"
+        },
+        {
+            "name": "f5",
+            "type": "int32"
+        },
+        {
+            "name": "f6",
+            "type": "int32"
+        },
+        {
+            "name": "f7",
+            "type": "int32"
+        },
+        {
+            "name": "f8",
+            "type": "int32"
+        },
+        {
+            "name": "f9",
+            "type": "int32"
+        },
+        {
+            "name": "f10",
+            "type": "int32"
+        },
+        {
+            "name": "f11",
+            "type": "int32"
+        },
+        {
+            "name": "f12",
+            "type": "int32"
+        },
+        {
+            "name": "f13",
+            "type": "int32"
+        },
+        {
+            "name": "f14",
+            "type": "int32"
+        },
+        {
+            "name": "f15",
+            "type": "int32"
+        },
+        {
+            "name": "f16",
+            "type": "int32"
+        },
+        {
+            "name": "f17",
+            "type": "int32"
+        },
+        {
+            "name": "f18",
+            "type": "int32"
+        },
+        {
+            "name": "f19",
+            "type": "int32"
+        },
+        {
+            "name": "f20",
+            "type": "int32"
+        },
+        {
+            "name": "Firefly_ID_1",
+            "type": "int32"
+        },
+        {
+            "name": "Firefly_ID_2",
+            "type": "int32"
+        },
+        {
+            "name": "f23",
+            "type": "int32"
+        },
+        {
+            "name": "f24",
+            "type": "int32"
+        },
+        {
+            "name": "f25",
+            "type": "int32"
+        },
+        {
+            "name": "f26",
+            "type": "int32"
+        }
+    ]
+}

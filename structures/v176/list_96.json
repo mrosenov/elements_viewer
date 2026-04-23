@@ -1,0 +1,169 @@
+{
+    "name": "BOOK_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Book_Type",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_1",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_2",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_3",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_4",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_5",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_6",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_7",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_8",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_9",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_10",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_11",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_12",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_13",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_14",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_15",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_16",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_17",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_18",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_19",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_20",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_21",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_22",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_23",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_24",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_25",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_26",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_27",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_28",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_29",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_30",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_31",
+            "type": "int32"
+        },
+        {
+            "name": "File_Content_32",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

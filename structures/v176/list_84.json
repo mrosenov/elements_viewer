@@ -1,0 +1,181 @@
+{
+    "name": "PET_BEDGE_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Matter_Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path",
+            "type": "int32"
+        },
+        {
+            "name": "Grade_1_Normal_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Grade_1_Mutated_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Grade_12_Normal_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Grade_12_Mutated_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Grade_18_Normal_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Grade_18_Mutated_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Ascended_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Grade_1_Normal_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Grade_1_Mutated_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Grade_12_Normal_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Grade_12_Mutated_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Grade_18_Normal_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Grade_18_Mutated_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Ascended_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Size",
+            "type": "float"
+        },
+        {
+            "name": "Pet_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Color_Name",
+            "type": "int32"
+        },
+        {
+            "name": "Show_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Unk1",
+            "type": "int32"
+        },
+        {
+            "name": "Immunity",
+            "type": "int32"
+        },
+        {
+            "name": "Level",
+            "type": "float"
+        },
+        {
+            "name": "Sight_Range",
+            "type": "float"
+        },
+        {
+            "name": "DMPPos",
+            "type": "float"
+        },
+        {
+            "name": "Attack_Range",
+            "type": "float"
+        },
+        {
+            "name": "Hunger_Speed_1",
+            "type": "int32"
+        },
+        {
+            "name": "Hunger_Speed_2",
+            "type": "int32"
+        },
+        {
+            "name": "Health_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Health_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Stand_Mode",
+            "type": "int32"
+        },
+        {
+            "name": "Walk_Speed",
+            "type": "float"
+        },
+        {
+            "name": "Run_Speed",
+            "type": "float"
+        },
+        {
+            "name": "Unk2",
+            "type": "int32"
+        },
+        {
+            "name": "Unk3",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

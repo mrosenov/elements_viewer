@@ -1,0 +1,7213 @@
+{
+    "name": "DEITY_CHARACTER_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Vigor_Chroma_Level_1",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_2",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_3",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_4",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_5",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_6",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_7",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_8",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_9",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_10",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_11",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_12",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_13",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_14",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_15",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_16",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_17",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_18",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_19",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_20",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_21",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_22",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_23",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_24",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_25",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_26",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_27",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_28",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_29",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_30",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_31",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_32",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_33",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_34",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_35",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_36",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_37",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_38",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_39",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_40",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_41",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_42",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_43",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_44",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_45",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_46",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_47",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_48",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_49",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_50",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_51",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_52",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_53",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_54",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_55",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_56",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_57",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_58",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_59",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_60",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_61",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_62",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_63",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_64",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_65",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_66",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_67",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_68",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_69",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_70",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_71",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_72",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_73",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_74",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_75",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_76",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_77",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_78",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_79",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_80",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_81",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_82",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_83",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_84",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_85",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_86",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_87",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_88",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_89",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_90",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_91",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_92",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_93",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_94",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_95",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_96",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_97",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_98",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_99",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_Chroma_Level_100",
+            "type": "int32"
+        },
+        {
+            "name": "Health",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit",
+            "type": "int32"
+        },
+        {
+            "name": "Attack_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Defense",
+            "type": "int32"
+        },
+        {
+            "name": "Chroma_Power",
+            "type": "int32"
+        },
+        {
+            "name": "Stun_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Weaken_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Paralyze_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Silence_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Sleep_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Slow_RES",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_1",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_2",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_3",
+            "type": "int32"
+        },
+        {
+            "name": "Deity_config_1_dp_gen_4",
+            "type": "int32"
+        },
+        {
+            "name": "Tome_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Skill_Points",
+            "type": "int32"
+        }
+    ]
+}

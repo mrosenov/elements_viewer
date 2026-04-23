@@ -1,0 +1,53 @@
+{
+    "name": "POTENTIAL_TOME_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Matter_Path",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path",
+            "type": "int32"
+        },
+        {
+            "name": "Sect_Mask",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Race",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Potential_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

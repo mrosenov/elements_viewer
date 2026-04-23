@@ -1,0 +1,137 @@
+{
+    "name": "SUITE_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Max_Equips",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_1",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_2",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_3",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_4",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_5",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_6",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_7",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_8",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_9",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_10",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_11",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_12",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_13",
+            "type": "int32"
+        },
+        {
+            "name": "Equips_ID_14",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_1",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_2",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_3",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_4",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_5",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_6",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_7",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_8",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_9",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_10",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_11",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_12",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_ID_13",
+            "type": "int32"
+        },
+        {
+            "name": "File_GFX",
+            "type": "wstring:128"
+        },
+        {
+            "name": "HH_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Equip_Soul_Suite",
+            "type": "int32"
+        }
+    ]
+}

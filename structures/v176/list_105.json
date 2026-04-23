@@ -1,0 +1,1045 @@
+{
+    "name": "GIFT_BAG_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Required_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Required_Min_level",
+            "type": "int32"
+        },
+        {
+            "name": "Required_Max_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Required_Gender",
+            "type": "int32"
+        },
+        {
+            "name": "Required_Ascension",
+            "type": "int32"
+        },
+        {
+            "name": "Character_Combo_ID",
+            "type": "int64"
+        },
+        {
+            "name": "Character_Combo_ID_2",
+            "type": "int64"
+        },
+        {
+            "name": "Character_Combo_ID_3",
+            "type": "int64"
+        },
+        {
+            "name": "God_Devil_Mask",
+            "type": "int32"
+        },
+        {
+            "name": "Open_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Success_Chance",
+            "type": "float"
+        },
+        {
+            "name": "Disappear_On_Success",
+            "type": "int32"
+        },
+        {
+            "name": "Disappear_On_Fail",
+            "type": "int32"
+        },
+        {
+            "name": "Required_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Required_Item_1_Amount",
+            "type": "int32"
+        },
+        {
+            "name": "Required_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Required_Item_2_Amount",
+            "type": "int32"
+        },
+        {
+            "name": "Required_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Unk10",
+            "type": "int32"
+        },
+        {
+            "name": "Unk11",
+            "type": "int32"
+        },
+        {
+            "name": "Unk12",
+            "type": "int32"
+        },
+        {
+            "name": "Unk13",
+            "type": "int32"
+        },
+        {
+            "name": "Unk14",
+            "type": "int32"
+        },
+        {
+            "name": "Unk15",
+            "type": "int32"
+        },
+        {
+            "name": "Unk16",
+            "type": "int32"
+        },
+        {
+            "name": "Unk17",
+            "type": "int32"
+        },
+        {
+            "name": "Unk18",
+            "type": "int32"
+        },
+        {
+            "name": "Unk19",
+            "type": "int32"
+        },
+        {
+            "name": "Unk20",
+            "type": "int32"
+        },
+        {
+            "name": "Unk21",
+            "type": "int32"
+        },
+        {
+            "name": "Unk22",
+            "type": "int32"
+        },
+        {
+            "name": "Unk23",
+            "type": "int32"
+        },
+        {
+            "name": "Unk24",
+            "type": "int32"
+        },
+        {
+            "name": "Unk25",
+            "type": "int32"
+        },
+        {
+            "name": "Unk26",
+            "type": "int32"
+        },
+        {
+            "name": "Unk27",
+            "type": "int32"
+        },
+        {
+            "name": "Unk28",
+            "type": "int32"
+        },
+        {
+            "name": "Unk29",
+            "type": "int32"
+        },
+        {
+            "name": "Unk30",
+            "type": "int32"
+        },
+        {
+            "name": "Unk31",
+            "type": "int32"
+        },
+        {
+            "name": "Unk32",
+            "type": "int32"
+        },
+        {
+            "name": "Unk33",
+            "type": "int32"
+        },
+        {
+            "name": "Unk34",
+            "type": "int32"
+        },
+        {
+            "name": "Unk35",
+            "type": "int32"
+        },
+        {
+            "name": "Unk36",
+            "type": "int32"
+        },
+        {
+            "name": "Unk37",
+            "type": "int32"
+        },
+        {
+            "name": "Unk38",
+            "type": "int32"
+        },
+        {
+            "name": "Unk39",
+            "type": "int32"
+        },
+        {
+            "name": "Unk40",
+            "type": "int32"
+        },
+        {
+            "name": "Unk41",
+            "type": "int32"
+        },
+        {
+            "name": "Unk42",
+            "type": "int32"
+        },
+        {
+            "name": "Unk43",
+            "type": "int32"
+        },
+        {
+            "name": "Unk44",
+            "type": "int32"
+        },
+        {
+            "name": "Unk45",
+            "type": "int32"
+        },
+        {
+            "name": "Unk46",
+            "type": "int32"
+        },
+        {
+            "name": "Unk47",
+            "type": "int32"
+        },
+        {
+            "name": "Unk48",
+            "type": "int32"
+        },
+        {
+            "name": "Unk49",
+            "type": "int32"
+        },
+        {
+            "name": "Unk50",
+            "type": "int32"
+        },
+        {
+            "name": "Unk51",
+            "type": "int32"
+        },
+        {
+            "name": "Unk52",
+            "type": "int32"
+        },
+        {
+            "name": "Unk53",
+            "type": "int32"
+        },
+        {
+            "name": "Unk54",
+            "type": "int32"
+        },
+        {
+            "name": "Unk55",
+            "type": "int32"
+        },
+        {
+            "name": "Unk56",
+            "type": "int32"
+        },
+        {
+            "name": "Unk57",
+            "type": "int32"
+        },
+        {
+            "name": "Unk58",
+            "type": "int32"
+        },
+        {
+            "name": "Unk59",
+            "type": "int32"
+        },
+        {
+            "name": "Unk60",
+            "type": "int32"
+        },
+        {
+            "name": "Unk61",
+            "type": "int32"
+        },
+        {
+            "name": "Unk62",
+            "type": "int32"
+        },
+        {
+            "name": "Unk63",
+            "type": "int32"
+        },
+        {
+            "name": "Unk64",
+            "type": "int32"
+        },
+        {
+            "name": "Unk65",
+            "type": "int32"
+        },
+        {
+            "name": "Unk66",
+            "type": "int32"
+        },
+        {
+            "name": "Unk67",
+            "type": "int32"
+        },
+        {
+            "name": "Unk68",
+            "type": "int32"
+        },
+        {
+            "name": "Unk69",
+            "type": "int32"
+        },
+        {
+            "name": "Unk70",
+            "type": "int32"
+        },
+        {
+            "name": "Unk71",
+            "type": "int32"
+        },
+        {
+            "name": "Unk72",
+            "type": "int32"
+        },
+        {
+            "name": "Unk73",
+            "type": "int32"
+        },
+        {
+            "name": "Unk74",
+            "type": "int32"
+        },
+        {
+            "name": "Unk75",
+            "type": "int32"
+        },
+        {
+            "name": "Unk76",
+            "type": "int32"
+        },
+        {
+            "name": "Unk77",
+            "type": "int32"
+        },
+        {
+            "name": "Unk78",
+            "type": "int32"
+        },
+        {
+            "name": "Unk79",
+            "type": "int32"
+        },
+        {
+            "name": "Unk80",
+            "type": "int32"
+        },
+        {
+            "name": "Unk81",
+            "type": "int32"
+        },
+        {
+            "name": "Unk82",
+            "type": "int32"
+        },
+        {
+            "name": "Unk83",
+            "type": "int32"
+        },
+        {
+            "name": "Unk84",
+            "type": "int32"
+        },
+        {
+            "name": "Unk85",
+            "type": "int32"
+        },
+        {
+            "name": "Unk86",
+            "type": "int32"
+        },
+        {
+            "name": "Unk87",
+            "type": "int32"
+        },
+        {
+            "name": "Unk88",
+            "type": "int32"
+        },
+        {
+            "name": "Unk89",
+            "type": "int32"
+        },
+        {
+            "name": "Unk90",
+            "type": "int32"
+        },
+        {
+            "name": "Unk91",
+            "type": "int32"
+        },
+        {
+            "name": "Unk92",
+            "type": "int32"
+        },
+        {
+            "name": "Unk93",
+            "type": "int32"
+        },
+        {
+            "name": "Unk94",
+            "type": "int32"
+        },
+        {
+            "name": "Unk95",
+            "type": "int32"
+        },
+        {
+            "name": "Unk96",
+            "type": "int32"
+        },
+        {
+            "name": "Unk97",
+            "type": "int32"
+        },
+        {
+            "name": "Unk98",
+            "type": "int32"
+        },
+        {
+            "name": "Unk99",
+            "type": "int32"
+        },
+        {
+            "name": "Unk100",
+            "type": "int32"
+        },
+        {
+            "name": "Unk101",
+            "type": "int32"
+        },
+        {
+            "name": "Unk102",
+            "type": "int32"
+        },
+        {
+            "name": "Unk103",
+            "type": "int32"
+        },
+        {
+            "name": "Unk104",
+            "type": "int32"
+        },
+        {
+            "name": "Unk105",
+            "type": "int32"
+        },
+        {
+            "name": "Unk106",
+            "type": "int32"
+        },
+        {
+            "name": "Unk107",
+            "type": "int32"
+        },
+        {
+            "name": "Unk108",
+            "type": "int32"
+        },
+        {
+            "name": "Unk109",
+            "type": "int32"
+        },
+        {
+            "name": "Unk110",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_1",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_1",
+            "type": "float"
+        },
+        {
+            "name": "Item_1_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_1_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_1_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk113",
+            "type": "int32"
+        },
+        {
+            "name": "Unk114",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_2",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_2",
+            "type": "float"
+        },
+        {
+            "name": "Item_2_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_2_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_2_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk117",
+            "type": "int32"
+        },
+        {
+            "name": "Unk118",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_3",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_3",
+            "type": "float"
+        },
+        {
+            "name": "Item_3_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_3_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_3_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk121",
+            "type": "int32"
+        },
+        {
+            "name": "Unk122",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_4",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_4",
+            "type": "float"
+        },
+        {
+            "name": "Item_4_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_4_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_4_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk125",
+            "type": "int32"
+        },
+        {
+            "name": "Unk126",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_5",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_5",
+            "type": "float"
+        },
+        {
+            "name": "Item_5_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_5_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_5_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk129",
+            "type": "int32"
+        },
+        {
+            "name": "Unk130",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_6",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_6",
+            "type": "float"
+        },
+        {
+            "name": "Item_6_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_6_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_6_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_6_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk133",
+            "type": "int32"
+        },
+        {
+            "name": "Unk134",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_7",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_7",
+            "type": "float"
+        },
+        {
+            "name": "Item_7_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_7_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_7_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_7_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk137",
+            "type": "int32"
+        },
+        {
+            "name": "Unk138",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_8",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_8",
+            "type": "float"
+        },
+        {
+            "name": "Item_8_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_8_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_8_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_8_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk141",
+            "type": "int32"
+        },
+        {
+            "name": "Unk142",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_9",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_9",
+            "type": "float"
+        },
+        {
+            "name": "Item_9_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_9_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_9_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_9_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk145",
+            "type": "int32"
+        },
+        {
+            "name": "Unk146",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_10",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_10",
+            "type": "float"
+        },
+        {
+            "name": "Item_10_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_10_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_10_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_10_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk148",
+            "type": "int32"
+        },
+        {
+            "name": "Unk149",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_11",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_11",
+            "type": "float"
+        },
+        {
+            "name": "Item_11_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_11_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_11_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_11_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk152",
+            "type": "int32"
+        },
+        {
+            "name": "Unk153",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_12",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_12",
+            "type": "float"
+        },
+        {
+            "name": "Item_12_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_12_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_12_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_12_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk156",
+            "type": "int32"
+        },
+        {
+            "name": "Unk157",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_13",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_13",
+            "type": "float"
+        },
+        {
+            "name": "Item_13_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_13_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_13_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_13_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk160",
+            "type": "int32"
+        },
+        {
+            "name": "Unk161",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_14",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_14",
+            "type": "float"
+        },
+        {
+            "name": "Item_14_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_14_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_14_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_14_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk164",
+            "type": "int32"
+        },
+        {
+            "name": "Unk165",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_15",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_15",
+            "type": "float"
+        },
+        {
+            "name": "Item_15_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_15_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_15_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_15_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk168",
+            "type": "int32"
+        },
+        {
+            "name": "Unk169",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID_16",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Chance_16",
+            "type": "float"
+        },
+        {
+            "name": "Item_16_Qnt_Min",
+            "type": "int32"
+        },
+        {
+            "name": "Item_16_Qnt_Max",
+            "type": "int32"
+        },
+        {
+            "name": "Item_16_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_16_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Unk176",
+            "type": "int32"
+        },
+        {
+            "name": "Unk177",
+            "type": "int32"
+        },
+        {
+            "name": "Normalize_Group_1",
+            "type": "int32"
+        },
+        {
+            "name": "Normalize_Group_2",
+            "type": "int32"
+        },
+        {
+            "name": "Normalize_Group_3",
+            "type": "int32"
+        },
+        {
+            "name": "Normalize_Group_4",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

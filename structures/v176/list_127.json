@@ -1,0 +1,113 @@
+{
+    "name": "GEM_DUST_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Grade",
+            "type": "int32"
+        },
+        {
+            "name": "Upgrade_Prob_1_Ordinary_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_1_Perfect_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_2_Ordinary_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_2_Perfect_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_3_Ordinary_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_3_Perfect_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_4_Ordinary_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_4_Perfect_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_5_Ordinary_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_5_Perfect_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_6_Ordinary_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_6_Perfect_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_7_Ordinary_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_7_Perfect_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_8_Ordinary_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_8_Perfect_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_9_Ordinary_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Upgrade_Prob_9_Perfect_Upgrade_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

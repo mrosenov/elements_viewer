@@ -1,0 +1,113 @@
+{
+    "name": "NPC_WAR_BUY_ARCHER_SERVICE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "War_Material_ID",
+            "type": "int32"
+        },
+        {
+            "name": "War_Material_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Wanted",
+            "type": "int32"
+        },
+        {
+            "name": "Remove_One_Item",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_1",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_2",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_3",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_4",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_5",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_6",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_7",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_8",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_9",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_10",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_11",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_12",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_13",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_14",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_15",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_16",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_17",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_18",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_19",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_20",
+            "type": "int32"
+        }
+    ]
+}

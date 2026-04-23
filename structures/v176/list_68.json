@@ -1,0 +1,301 @@
+{
+    "name": "LOTTERY_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Dice_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Type",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_1_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_1_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_2_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_2_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_3_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_3_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_4_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_4_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_5_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_5_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_6_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_6_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_7_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_7_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_8_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_8_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_9_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_9_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_10_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_10_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_11_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_11_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_12_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_12_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_13_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_13_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_14_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_14_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_15_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_15_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_16_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_16_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_17_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_17_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_18_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_18_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_19_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_19_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_20_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_20_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_21_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_21_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_22_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_22_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_23_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_23_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_24_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_24_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_25_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_25_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_26_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_26_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_27_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_27_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_28_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_28_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_29_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_29_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_30_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_30_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_31_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_31_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Candidates_32_Desc",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Candidates_32_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

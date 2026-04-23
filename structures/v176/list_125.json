@@ -1,0 +1,113 @@
+{
+    "name": "GEM_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "File_Shape_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Shape_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Grade",
+            "type": "int32"
+        },
+        {
+            "name": "Quality",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_Config_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_Property_1_Addon_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_Property_1_Addon_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_Property_2_Addon_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_Property_2_Addon_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_Property_3_Addon_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_Property_3_Addon_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_Property_4_Addon_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_Property_4_Addon_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_Property_5_Addon_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_Property_5_Addon_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_Property_6_Addon_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Addon_Property_6_Addon_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fee_Upgrade",
+            "type": "int32"
+        },
+        {
+            "name": "Gem_Extract_Config_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

@@ -1,0 +1,143 @@
+{
+    "name": "MEDICINE_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Type",
+            "type": "int32",
+            "refs": [
+                4
+            ]
+        },
+        {
+            "name": "Sub_Type",
+            "type": "int32",
+            "refs": [
+                5
+            ]
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Ascended",
+            "type": "int32"
+        },
+        {
+            "name": "Cooldown",
+            "type": "int32"
+        },
+        {
+            "name": "Only_in_War",
+            "type": "int32"
+        },
+        {
+            "name": "Recovery_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Health_1",
+            "type": "int32"
+        },
+        {
+            "name": "Health_2",
+            "type": "int32"
+        },
+        {
+            "name": "Health_3",
+            "type": "int32"
+        },
+        {
+            "name": "Health_4",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit_1",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit_2",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit_3",
+            "type": "int32"
+        },
+        {
+            "name": "Spirit_4",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_1",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_2",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_3",
+            "type": "int32"
+        },
+        {
+            "name": "Vigor_4",
+            "type": "int32"
+        },
+        {
+            "name": "HMP",
+            "type": "int32"
+        },
+        {
+            "name": "Map_Restrict_1",
+            "type": "int32"
+        },
+        {
+            "name": "Map_Restrict_2",
+            "type": "int32"
+        },
+        {
+            "name": "Map_Restrict_3",
+            "type": "int32"
+        },
+        {
+            "name": "Map_Restrict_4",
+            "type": "int32"
+        },
+        {
+            "name": "Map_Restrict_5",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack",
+            "type": "int32"
+        },
+        {
+            "name": "Trade",
+            "type": "int32"
+        }
+    ]
+}
