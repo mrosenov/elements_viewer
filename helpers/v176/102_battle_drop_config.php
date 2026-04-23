@@ -1,0 +1,30 @@
+<?php
+
+$configName = "BATTLE_DROP_CONFIG";
+
+$fields = "ID;Name;Map_ID;Drops_1_1_ID_Obj;Drops_1_1_Probability;Drops_1_2_ID_Obj;Drops_1_2_Probability;Drops_1_3_ID_Obj;Drops_1_3_Probability;Drops_1_4_ID_Obj;Drops_1_4_Probability;Drops_1_5_ID_Obj;Drops_1_5_Probability;Drops_1_6_ID_Obj;Drops_1_6_Probability;Drops_1_7_ID_Obj;Drops_1_7_Probability;Drops_1_8_ID_Obj;Drops_1_8_Probability;Drops_1_9_ID_Obj;Drops_1_9_Probability;Drops_1_10_ID_Obj;Drops_1_10_Probability;Drops_2_1_ID_Obj;Drops_2_1_Probability;Drops_2_2_ID_Obj;Drops_2_2_Probability;Drops_2_3_ID_Obj;Drops_2_3_Probability;Drops_2_4_ID_Obj;Drops_2_4_Probability;Drops_2_5_ID_Obj;Drops_2_5_Probability;Drops_2_6_ID_Obj;Drops_2_6_Probability;Drops_2_7_ID_Obj;Drops_2_7_Probability;Drops_2_8_ID_Obj;Drops_2_8_Probability;Drops_2_9_ID_Obj;Drops_2_9_Probability;Drops_2_10_ID_Obj;Drops_2_10_Probability;Drops_3_1_ID_Obj;Drops_3_1_Probability;Drops_3_2_ID_Obj;Drops_3_2_Probability;Drops_3_3_ID_Obj;Drops_3_3_Probability;Drops_3_4_ID_Obj;Drops_3_4_Probability;Drops_3_5_ID_Obj;Drops_3_5_Probability;Drops_3_6_ID_Obj;Drops_3_6_Probability;Drops_3_7_ID_Obj;Drops_3_7_Probability;Drops_3_8_ID_Obj;Drops_3_8_Probability;Drops_3_9_ID_Obj;Drops_3_9_Probability;Drops_3_10_ID_Obj;Drops_3_10_Probability;Drops_4_1_ID_Obj;Drops_4_1_Probability;Drops_4_2_ID_Obj;Drops_4_2_Probability;Drops_4_3_ID_Obj;Drops_4_3_Probability;Drops_4_4_ID_Obj;Drops_4_4_Probability;Drops_4_5_ID_Obj;Drops_4_5_Probability;Drops_4_6_ID_Obj;Drops_4_6_Probability;Drops_4_7_ID_Obj;Drops_4_7_Probability;Drops_4_8_ID_Obj;Drops_4_8_Probability;Drops_4_9_ID_Obj;Drops_4_9_Probability;Drops_4_10_ID_Obj;Drops_4_10_Probability;Drops_5_1_ID_Obj;Drops_5_1_Probability;Drops_5_2_ID_Obj;Drops_5_2_Probability;Drops_5_3_ID_Obj;Drops_5_3_Probability;Drops_5_4_ID_Obj;Drops_5_4_Probability;Drops_5_5_ID_Obj;Drops_5_5_Probability;Drops_5_6_ID_Obj;Drops_5_6_Probability;Drops_5_7_ID_Obj;Drops_5_7_Probability;Drops_5_8_ID_Obj;Drops_5_8_Probability;Drops_5_9_ID_Obj;Drops_5_9_Probability;Drops_5_10_ID_Obj;Drops_5_10_Probability;Drops_6_1_ID_Obj;Drops_6_1_Probability;Drops_6_2_ID_Obj;Drops_6_2_Probability;Drops_6_3_ID_Obj;Drops_6_3_Probability;Drops_6_4_ID_Obj;Drops_6_4_Probability;Drops_6_5_ID_Obj;Drops_6_5_Probability;Drops_6_6_ID_Obj;Drops_6_6_Probability;Drops_6_7_ID_Obj;Drops_6_7_Probability;Drops_6_8_ID_Obj;Drops_6_8_Probability;Drops_6_9_ID_Obj;Drops_6_9_Probability;Drops_6_10_ID_Obj;Drops_6_10_Probability;Drops_7_1_ID_Obj;Drops_7_1_Probability;Drops_7_2_ID_Obj;Drops_7_2_Probability;Drops_7_3_ID_Obj;Drops_7_3_Probability;Drops_7_4_ID_Obj;Drops_7_4_Probability;Drops_7_5_ID_Obj;Drops_7_5_Probability;Drops_7_6_ID_Obj;Drops_7_6_Probability;Drops_7_7_ID_Obj;Drops_7_7_Probability;Drops_7_8_ID_Obj;Drops_7_8_Probability;Drops_7_9_ID_Obj;Drops_7_9_Probability;Drops_7_10_ID_Obj;Drops_7_10_Probability;Drops_8_1_ID_Obj;Drops_8_1_Probability;Drops_8_2_ID_Obj;Drops_8_2_Probability;Drops_8_3_ID_Obj;Drops_8_3_Probability;Drops_8_4_ID_Obj;Drops_8_4_Probability;Drops_8_5_ID_Obj;Drops_8_5_Probability;Drops_8_6_ID_Obj;Drops_8_6_Probability;Drops_8_7_ID_Obj;Drops_8_7_Probability;Drops_8_8_ID_Obj;Drops_8_8_Probability;Drops_8_9_ID_Obj;Drops_8_9_Probability;Drops_8_10_ID_Obj;Drops_8_10_Probability;Drops_9_1_ID_Obj;Drops_9_1_Probability;Drops_9_2_ID_Obj;Drops_9_2_Probability;Drops_9_3_ID_Obj;Drops_9_3_Probability;Drops_9_4_ID_Obj;Drops_9_4_Probability;Drops_9_5_ID_Obj;Drops_9_5_Probability;Drops_9_6_ID_Obj;Drops_9_6_Probability;Drops_9_7_ID_Obj;Drops_9_7_Probability;Drops_9_8_ID_Obj;Drops_9_8_Probability;Drops_9_9_ID_Obj;Drops_9_9_Probability;Drops_9_10_ID_Obj;Drops_9_10_Probability;Drops_10_1_ID_Obj;Drops_10_1_Probability;Drops_10_2_ID_Obj;Drops_10_2_Probability;Drops_10_3_ID_Obj;Drops_10_3_Probability;Drops_10_4_ID_Obj;Drops_10_4_Probability;Drops_10_5_ID_Obj;Drops_10_5_Probability;Drops_10_6_ID_Obj;Drops_10_6_Probability;Drops_10_7_ID_Obj;Drops_10_7_Probability;Drops_10_8_ID_Obj;Drops_10_8_Probability;Drops_10_9_ID_Obj;Drops_10_9_Probability;Drops_10_10_ID_Obj;Drops_10_10_Probability";
+$types = "int32;wstring:64;int32;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float;int32;float";
+
+// Remove trailing empty item caused by the last ;
+$fieldsArray = array_values(array_filter(explode(';', $fields), 'strlen'));
+$typesArray  = array_values(array_filter(explode(';', $types), 'strlen'));
+
+if (count($fieldsArray) !== count($typesArray)) {
+    die("Fields count does not match types count");
+}
+
+$result = [
+    "name" => $configName,
+    "fields" => []
+];
+
+foreach ($fieldsArray as $i => $fieldName) {
+    $result["fields"][] = [
+        "name" => $fieldName,
+        "type" => $typesArray[$i]
+    ];
+}
+
+$json = json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+
+file_put_contents('list_102.json', $json);
