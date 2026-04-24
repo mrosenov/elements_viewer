@@ -1,0 +1,413 @@
+{
+    "name": "COLLISION_RAID_TRANSFIGURE_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Transfigure_Info_List_1_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_1_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_1_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_1_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_1_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_2_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_2_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_2_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_2_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_2_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_3_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_3_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_3_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_3_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_3_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_4_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_4_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_4_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_4_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_4_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_5_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_5_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_5_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_5_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_5_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_6_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_6_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_6_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_6_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_6_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_7_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_7_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_7_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_7_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_7_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_8_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_8_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_8_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_8_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_8_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_9_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_9_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_9_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_9_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_9_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_10_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_10_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_10_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_10_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_10_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_11_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_11_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_11_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_11_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_11_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_12_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_12_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_12_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_12_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_12_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_13_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_13_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_13_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_13_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_13_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_14_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_14_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_14_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_14_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_14_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_15_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_15_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_15_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_15_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_15_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_16_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_16_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_16_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_16_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_16_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_17_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_17_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_17_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_17_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_17_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_18_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_18_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_18_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_18_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_18_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_19_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_19_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_19_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_19_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_19_Description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Transfigure_Info_List_20_Transfigure_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_20_File_Matter",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_20_File_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_20_Mass",
+            "type": "int32"
+        },
+        {
+            "name": "Transfigure_Info_List_20_Description",
+            "type": "wstring:200"
+        }
+    ]
+}

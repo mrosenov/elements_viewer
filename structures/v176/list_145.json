@@ -1,0 +1,81 @@
+{
+    "name": "PK2012_GUESS_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "First_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Second_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Third_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Guess_Start_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Guess_End_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Accept_Award_Start_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Accept_Award_End_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Champion_Guess_Item",
+            "type": "int32"
+        },
+        {
+            "name": "Champion_Guess_Itemnum",
+            "type": "int32"
+        },
+        {
+            "name": "Champion_Guess_Award",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Back_Ratio",
+            "type": "float"
+        },
+        {
+            "name": "Guess_Item",
+            "type": "int32"
+        },
+        {
+            "name": "Guess_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Guess_Award_Item",
+            "type": "int32"
+        },
+        {
+            "name": "Guess_Award_Item_3",
+            "type": "int32"
+        },
+        {
+            "name": "Guess_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Guess_Award_Item_1",
+            "type": "int32"
+        }
+    ]
+}

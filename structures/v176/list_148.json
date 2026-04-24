@@ -1,5 +1,5 @@
 {
-    "name": "FIREFLY_CONFIG",
+    "name": "FLAG_BUFF_ITEM_ESSENCE",
     "fields": [
         {
             "name": "ID",
@@ -10,103 +10,127 @@
             "type": "wstring:64"
         },
         {
-            "name": "f2",
+            "name": "Model_Path_ID",
             "type": "int32"
         },
         {
-            "name": "f3",
+            "name": "Icon_Path_ID",
             "type": "int32"
         },
         {
-            "name": "f4",
+            "name": "Npc_ID",
             "type": "int32"
         },
         {
-            "name": "f5",
+            "name": "Require_Level",
             "type": "int32"
         },
         {
-            "name": "f6",
+            "name": "Exit_Time",
             "type": "int32"
         },
         {
-            "name": "f7",
+            "name": "Cool_Time",
             "type": "int32"
         },
         {
-            "name": "f8",
+            "name": "Dmg",
             "type": "int32"
         },
         {
-            "name": "f9",
+            "name": "Defence",
             "type": "int32"
         },
         {
-            "name": "f10",
+            "name": "HP",
             "type": "int32"
         },
         {
-            "name": "f11",
+            "name": "MP",
             "type": "int32"
         },
         {
-            "name": "f12",
+            "name": "Extra_Defence",
             "type": "int32"
         },
         {
-            "name": "f13",
+            "name": "Crit_Rate",
             "type": "int32"
         },
         {
-            "name": "f14",
+            "name": "Crit_Damage",
             "type": "int32"
         },
         {
-            "name": "f15",
+            "name": "Anti_Stunt",
             "type": "int32"
         },
         {
-            "name": "f16",
+            "name": "Anti_Weak",
             "type": "int32"
         },
         {
-            "name": "f17",
+            "name": "Anti_Slow",
             "type": "int32"
         },
         {
-            "name": "f18",
+            "name": "Anti_Silence",
             "type": "int32"
         },
         {
-            "name": "f19",
+            "name": "Anti_Sleep",
             "type": "int32"
         },
         {
-            "name": "f20",
+            "name": "Anti_Twist",
             "type": "int32"
         },
         {
-            "name": "Firefly_ID_1",
+            "name": "Skill_Attack_Rate",
             "type": "int32"
         },
         {
-            "name": "Firefly_ID_2",
+            "name": "Skill_Armor_Rate",
             "type": "int32"
         },
         {
-            "name": "f23",
+            "name": "Cult_Defense_1",
             "type": "int32"
         },
         {
-            "name": "f24",
+            "name": "Cult_Defense_2",
             "type": "int32"
         },
         {
-            "name": "f25",
+            "name": "Cult_Defense_3",
             "type": "int32"
         },
         {
-            "name": "f26",
+            "name": "Cult_Attack_1",
+            "type": "int32"
+        },
+        {
+            "name": "Cult_Attack_2",
+            "type": "int32"
+        },
+        {
+            "name": "Cult_Attack_3",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
             "type": "int32"
         }
     ]

@@ -1,0 +1,1185 @@
+{
+    "name": "SCROLL_REGION_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Desc",
+            "type": "wstring:400"
+        },
+        {
+            "name": "Region_Level_Prob_1",
+            "type": "float"
+        },
+        {
+            "name": "Region_Level_Prob_2",
+            "type": "float"
+        },
+        {
+            "name": "Region_Level_Prob_3",
+            "type": "float"
+        },
+        {
+            "name": "Region_Level_Prob_4",
+            "type": "float"
+        },
+        {
+            "name": "Region_Level_Prob_5",
+            "type": "float"
+        },
+        {
+            "name": "Region_Level_Prob_6",
+            "type": "float"
+        },
+        {
+            "name": "Region_Level_Up_Prob_1",
+            "type": "float"
+        },
+        {
+            "name": "Region_Level_Up_Prob_2",
+            "type": "float"
+        },
+        {
+            "name": "Region_Level_Up_Prob_3",
+            "type": "float"
+        },
+        {
+            "name": "Region_Level_Up_Prob_4",
+            "type": "float"
+        },
+        {
+            "name": "Region_Level_Up_Prob_5",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_1_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_1_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_1_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_1_1_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_2_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_2_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_1_2_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_3_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_3_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_1_3_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_4_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_4_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_1_4_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_5_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_5_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_1_5_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_6_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_6_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_6_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_1_6_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_7_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_7_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_7_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_1_7_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_8_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_8_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_8_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_1_8_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_9_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_9_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_9_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_1_9_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_10_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_10_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_1_10_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_1_10_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_1_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_1_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_2_1_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_2_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_2_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_2_2_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_3_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_3_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_2_3_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_4_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_4_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_2_4_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_5_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_5_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_2_5_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_6_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_6_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_6_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_2_6_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_7_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_7_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_7_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_2_7_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_8_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_8_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_8_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_2_8_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_9_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_9_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_9_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_2_9_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_10_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_10_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_2_10_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_2_10_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_1_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_1_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_3_1_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_2_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_2_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_3_2_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_3_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_3_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_3_3_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_4_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_4_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_3_4_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_5_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_5_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_3_5_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_6_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_6_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_6_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_3_6_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_7_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_7_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_7_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_3_7_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_8_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_8_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_8_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_3_8_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_9_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_9_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_9_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_3_9_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_10_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_10_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_3_10_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_3_10_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_1_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_1_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_4_1_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_2_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_2_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_4_2_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_3_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_3_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_4_3_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_4_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_4_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_4_4_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_5_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_5_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_4_5_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_6_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_6_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_6_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_4_6_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_7_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_7_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_7_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_4_7_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_8_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_8_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_8_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_4_8_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_9_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_9_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_9_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_4_9_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_10_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_10_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_4_10_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_4_10_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_1_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_1_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_5_1_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_2_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_2_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_5_2_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_3_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_3_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_5_3_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_4_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_4_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_5_4_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_5_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_5_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_5_5_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_6_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_6_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_6_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_5_6_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_7_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_7_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_7_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_5_7_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_8_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_8_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_8_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_5_8_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_9_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_9_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_9_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_5_9_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_10_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_10_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_5_10_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_5_10_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_1_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_1_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_6_1_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_2_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_2_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_6_2_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_3_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_3_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_6_3_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_4_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_4_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_6_4_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_5_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_5_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_6_5_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_6_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_6_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_6_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_6_6_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_7_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_7_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_7_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_6_7_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_8_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_8_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_8_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_6_8_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_9_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_9_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_9_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_6_9_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_10_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_10_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Award_List_6_10_Deliver_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Region_Award_List_6_10_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Region_Pos",
+            "type": "int32"
+        },
+        {
+            "name": "Hide_Region_Active_Time_1_Active_Start_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Hide_Region_Active_Time_1_Active_Stop_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Hide_Region_Active_Time_2_Active_Start_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Hide_Region_Active_Time_2_Active_Stop_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Hide_Region_Active_Time_3_Active_Start_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Hide_Region_Active_Time_3_Active_Stop_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Hide_Region_Active_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Hide_Region_Unlock_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_1_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_1_Event_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_1_Event_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Event_List_2_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_2_Event_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_2_Event_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Event_List_3_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_3_Event_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_3_Event_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Event_List_4_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_4_Event_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_4_Event_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Event_List_5_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_5_Event_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_5_Event_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Event_List_6_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_6_Event_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_6_Event_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Event_List_7_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_7_Event_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_7_Event_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Event_List_8_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_8_Event_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_8_Event_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Event_List_9_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_9_Event_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_9_Event_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Event_List_10_Event_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_10_Event_Icon",
+            "type": "int32"
+        },
+        {
+            "name": "Event_List_10_Event_Desc",
+            "type": "wstring:200"
+        }
+    ]
+}

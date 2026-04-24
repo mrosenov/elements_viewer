@@ -1,0 +1,1037 @@
+{
+    "name": "NPC_UI_TRANSFER_SERVICE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Trans_ID_1",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_2",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_3",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_4",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_5",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_6",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_7",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_8",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_9",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_10",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_11",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_12",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_13",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_14",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_15",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_16",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_17",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_18",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_19",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_20",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_21",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_22",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_23",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_24",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_25",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_26",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_27",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_28",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_29",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_30",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_31",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_32",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_33",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_34",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_35",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_36",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_37",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_38",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_39",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_40",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_41",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_42",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_43",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_44",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_45",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_46",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_47",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_48",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_49",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_50",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_51",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_52",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_53",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_54",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_55",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_56",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_57",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_58",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_59",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_60",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_61",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_62",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_63",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_64",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_65",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_66",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_67",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_68",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_69",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_70",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_71",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_72",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_73",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_74",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_75",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_76",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_77",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_78",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_79",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_80",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_81",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_82",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_83",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_84",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_85",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_86",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_87",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_88",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_89",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_90",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_91",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_92",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_93",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_94",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_95",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_96",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_97",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_98",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_99",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_100",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_101",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_102",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_103",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_104",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_105",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_106",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_107",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_108",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_109",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_110",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_111",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_112",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_113",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_114",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_115",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_116",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_117",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_118",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_119",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_120",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_121",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_122",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_123",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_124",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_125",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_126",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_127",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_128",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_129",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_130",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_131",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_132",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_133",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_134",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_135",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_136",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_137",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_138",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_139",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_140",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_141",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_142",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_143",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_144",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_145",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_146",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_147",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_148",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_149",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_150",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_151",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_152",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_153",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_154",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_155",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_156",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_157",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_158",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_159",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_160",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_161",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_162",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_163",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_164",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_165",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_166",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_167",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_168",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_169",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_170",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_171",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_172",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_173",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_174",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_175",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_176",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_177",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_178",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_179",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_180",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_181",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_182",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_183",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_184",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_185",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_186",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_187",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_188",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_189",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_190",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_191",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_192",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_193",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_194",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_195",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_196",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_197",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_198",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_199",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_200",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_201",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_202",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_203",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_204",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_205",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_206",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_207",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_208",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_209",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_210",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_211",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_212",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_213",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_214",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_215",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_216",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_217",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_218",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_219",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_220",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_221",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_222",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_223",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_224",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_225",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_226",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_227",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_228",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_229",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_230",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_231",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_232",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_233",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_234",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_235",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_236",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_237",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_238",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_239",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_240",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_241",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_242",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_243",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_244",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_245",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_246",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_247",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_248",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_249",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_250",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_251",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_252",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_253",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_254",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_255",
+            "type": "int32"
+        },
+        {
+            "name": "Trans_ID_256",
+            "type": "int32"
+        }
+    ]
+}

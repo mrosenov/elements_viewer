@@ -1,0 +1,41 @@
+{
+    "name": "DROP_INTERNAL_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Time_Of_Duration",
+            "type": "int32"
+        },
+        {
+            "name": "Start_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Speak_Words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Remain_Words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Remain_Speak_Interval",
+            "type": "int32"
+        }
+    ]
+}

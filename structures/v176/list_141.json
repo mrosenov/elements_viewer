@@ -1,5 +1,5 @@
 {
-    "name": "FIREFLY_ESSENCE",
+    "name": "RUNE_COMB_PROPERTY",
     "fields": [
         {
             "name": "ID",
@@ -10,15 +10,31 @@
             "type": "wstring:64"
         },
         {
-            "name": "Matter_Path",
+            "name": "File_Model",
             "type": "int32"
         },
         {
-            "name": "Icon_Path",
+            "name": "Model_Path_ID",
             "type": "int32"
         },
         {
-            "name": "Unk1",
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Quality",
+            "type": "int32"
+        },
+        {
+            "name": "Hole_max",
+            "type": "int32"
+        },
+        {
+            "name": "Req_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Renascense_Count",
             "type": "int32"
         },
         {
@@ -30,15 +46,11 @@
             "type": "int32"
         },
         {
-            "name": "Stack",
+            "name": "Stack_Amt",
             "type": "int32"
         },
         {
-            "name": "Trade",
-            "type": "int32"
-        },
-        {
-            "name": "Unk2",
+            "name": "Trade_Behavior",
             "type": "int32"
         }
     ]

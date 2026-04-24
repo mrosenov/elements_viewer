@@ -1,0 +1,205 @@
+{
+  "name": "ONLINE_GIFT_BAG_CONFIG",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "int32"
+    },
+    {
+      "name": "Name",
+      "type": "wstring:64"
+    },
+    {
+      "name": "Model_Path_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Icon_Path_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Award_Type",
+      "type": "int32"
+    },
+    {
+      "name": "Start_Time_Per_Day",
+      "type": "int32"
+    },
+    {
+      "name": "End_Time_Per_Day",
+      "type": "int32"
+    },
+    {
+      "name": "Start_Time_Per_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "End_Time_Per_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Expire_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Renascence_Count",
+      "type": "int32"
+    },
+    {
+      "name": "Require_Min_Level",
+      "type": "int32"
+    },
+    {
+      "name": "Require_Max_Level",
+      "type": "int32"
+    },
+    {
+      "name": "Require_Gender",
+      "type": "int32"
+    },
+    {
+      "name": "Character_Combo_ID",
+      "type": "int64"
+    },
+    {
+      "name": "Character_Combo_ID_2",
+      "type": "int64"
+    },
+    {
+      "name": "Character_Combo_ID_3",
+      "type": "int64"
+    },
+    {
+      "name": "Require_Race",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_1_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_1_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_2_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_2_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_3_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_3_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_4_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_4_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_5_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_5_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_6_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_6_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_7_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_7_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_8_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_8_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_9_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_9_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_10_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_10_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_11_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_11_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_12_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_12_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_13_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_13_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_14_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_14_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_15_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_15_Deliver_Interval",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_16_Gift_Baq_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Small_Gift_Baqs_16_Deliver_Interval",
+      "type": "int32"
+    }
+  ]
+}

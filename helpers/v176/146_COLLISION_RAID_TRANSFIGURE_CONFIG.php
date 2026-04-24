@@ -1,0 +1,30 @@
+<?php
+
+$configName = "COLLISION_RAID_TRANSFIGURE_CONFIG";
+
+$fields = "ID;Name;Transfigure_Info_List_1_Transfigure_ID;Transfigure_Info_List_1_File_Matter;Transfigure_Info_List_1_File_Icon;Transfigure_Info_List_1_Mass;Transfigure_Info_List_1_Description;Transfigure_Info_List_2_Transfigure_ID;Transfigure_Info_List_2_File_Matter;Transfigure_Info_List_2_File_Icon;Transfigure_Info_List_2_Mass;Transfigure_Info_List_2_Description;Transfigure_Info_List_3_Transfigure_ID;Transfigure_Info_List_3_File_Matter;Transfigure_Info_List_3_File_Icon;Transfigure_Info_List_3_Mass;Transfigure_Info_List_3_Description;Transfigure_Info_List_4_Transfigure_ID;Transfigure_Info_List_4_File_Matter;Transfigure_Info_List_4_File_Icon;Transfigure_Info_List_4_Mass;Transfigure_Info_List_4_Description;Transfigure_Info_List_5_Transfigure_ID;Transfigure_Info_List_5_File_Matter;Transfigure_Info_List_5_File_Icon;Transfigure_Info_List_5_Mass;Transfigure_Info_List_5_Description;Transfigure_Info_List_6_Transfigure_ID;Transfigure_Info_List_6_File_Matter;Transfigure_Info_List_6_File_Icon;Transfigure_Info_List_6_Mass;Transfigure_Info_List_6_Description;Transfigure_Info_List_7_Transfigure_ID;Transfigure_Info_List_7_File_Matter;Transfigure_Info_List_7_File_Icon;Transfigure_Info_List_7_Mass;Transfigure_Info_List_7_Description;Transfigure_Info_List_8_Transfigure_ID;Transfigure_Info_List_8_File_Matter;Transfigure_Info_List_8_File_Icon;Transfigure_Info_List_8_Mass;Transfigure_Info_List_8_Description;Transfigure_Info_List_9_Transfigure_ID;Transfigure_Info_List_9_File_Matter;Transfigure_Info_List_9_File_Icon;Transfigure_Info_List_9_Mass;Transfigure_Info_List_9_Description;Transfigure_Info_List_10_Transfigure_ID;Transfigure_Info_List_10_File_Matter;Transfigure_Info_List_10_File_Icon;Transfigure_Info_List_10_Mass;Transfigure_Info_List_10_Description;Transfigure_Info_List_11_Transfigure_ID;Transfigure_Info_List_11_File_Matter;Transfigure_Info_List_11_File_Icon;Transfigure_Info_List_11_Mass;Transfigure_Info_List_11_Description;Transfigure_Info_List_12_Transfigure_ID;Transfigure_Info_List_12_File_Matter;Transfigure_Info_List_12_File_Icon;Transfigure_Info_List_12_Mass;Transfigure_Info_List_12_Description;Transfigure_Info_List_13_Transfigure_ID;Transfigure_Info_List_13_File_Matter;Transfigure_Info_List_13_File_Icon;Transfigure_Info_List_13_Mass;Transfigure_Info_List_13_Description;Transfigure_Info_List_14_Transfigure_ID;Transfigure_Info_List_14_File_Matter;Transfigure_Info_List_14_File_Icon;Transfigure_Info_List_14_Mass;Transfigure_Info_List_14_Description;Transfigure_Info_List_15_Transfigure_ID;Transfigure_Info_List_15_File_Matter;Transfigure_Info_List_15_File_Icon;Transfigure_Info_List_15_Mass;Transfigure_Info_List_15_Description;Transfigure_Info_List_16_Transfigure_ID;Transfigure_Info_List_16_File_Matter;Transfigure_Info_List_16_File_Icon;Transfigure_Info_List_16_Mass;Transfigure_Info_List_16_Description;Transfigure_Info_List_17_Transfigure_ID;Transfigure_Info_List_17_File_Matter;Transfigure_Info_List_17_File_Icon;Transfigure_Info_List_17_Mass;Transfigure_Info_List_17_Description;Transfigure_Info_List_18_Transfigure_ID;Transfigure_Info_List_18_File_Matter;Transfigure_Info_List_18_File_Icon;Transfigure_Info_List_18_Mass;Transfigure_Info_List_18_Description;Transfigure_Info_List_19_Transfigure_ID;Transfigure_Info_List_19_File_Matter;Transfigure_Info_List_19_File_Icon;Transfigure_Info_List_19_Mass;Transfigure_Info_List_19_Description;Transfigure_Info_List_20_Transfigure_ID;Transfigure_Info_List_20_File_Matter;Transfigure_Info_List_20_File_Icon;Transfigure_Info_List_20_Mass;Transfigure_Info_List_20_Description";
+$types = "int32;wstring:64;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200;int32;int32;int32;int32;wstring:200";
+
+// Remove trailing empty item caused by the last ;
+$fieldsArray = array_values(array_filter(explode(';', $fields), 'strlen'));
+$typesArray  = array_values(array_filter(explode(';', $types), 'strlen'));
+
+if (count($fieldsArray) !== count($typesArray)) {
+    die("Fields count does not match types count");
+}
+
+$result = [
+    "name" => $configName,
+    "fields" => []
+];
+
+foreach ($fieldsArray as $i => $fieldName) {
+    $result["fields"][] = [
+        "name" => $fieldName,
+        "type" => $typesArray[$i]
+    ];
+}
+
+$json = json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+
+file_put_contents('list_146.json', $json);

@@ -1,0 +1,93 @@
+{
+    "name": "RUNE_COMB_PROPERTY",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Max_IDs",
+            "type": "int32"
+        },
+        {
+            "name": "IDs_1",
+            "type": "int32"
+        },
+        {
+            "name": "IDs_2",
+            "type": "int32"
+        },
+        {
+            "name": "IDs_3",
+            "type": "int32"
+        },
+        {
+            "name": "IDs_4",
+            "type": "int32"
+        },
+        {
+            "name": "IDs_5",
+            "type": "int32"
+        },
+        {
+            "name": "IDs_6",
+            "type": "int32"
+        },
+        {
+            "name": "IDs_7",
+            "type": "int32"
+        },
+        {
+            "name": "IDs_8",
+            "type": "int32"
+        },
+        {
+            "name": "IDs_9",
+            "type": "int32"
+        },
+        {
+            "name": "IDs_10",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_1",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_2",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_3",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_4",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_5",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_6",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_7",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_8",
+            "type": "int32"
+        },
+        {
+            "name": "Addons_9",
+            "type": "int32"
+        }
+    ]
+}

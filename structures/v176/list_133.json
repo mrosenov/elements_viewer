@@ -1,0 +1,301 @@
+{
+    "name": "SMALL_ONLINE_GIFT_BAG_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Open_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_1_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_1_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_2_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_2_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_3_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_3_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_3_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_4_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_4_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_4_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_5_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_5_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_5_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_6_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_6_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_6_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_6_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_7_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_7_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_7_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_7_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_8_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_8_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_8_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_8_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_9_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_9_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_9_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_9_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_10_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_10_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_10_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_10_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_11_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_11_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_11_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_11_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_12_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_12_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_12_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_12_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_13_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_13_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_13_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_13_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_14_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_14_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_14_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_14_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_15_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_15_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_15_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_15_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_16_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_16_Item_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_16_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Configs_16_Effect_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

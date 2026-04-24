@@ -1,0 +1,93 @@
+{
+    "name": "LITTLE_PET_UPGRADE_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Feed_Pet_1_Feed_Pet_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Feed_Pet_l_Gain_Exp",
+            "type": "int32"
+        },
+        {
+            "name": "Feed_Pet_2_Feed_Pet_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Feed_Pet_2_Gain_Exp",
+            "type": "int32"
+        },
+        {
+            "name": "Default_File_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_1_File_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_1_Reguired_Exp",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_1_Award_Item",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_2_File_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_2_Reguired_Exp",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_2_Award_Item",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_3_File_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_3_Reguired_Exp",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_3_Award_Item",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_4_File_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_4_Reguired_Exp",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_4_Award_Item",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_5_File_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_5_Reguired_Exp",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Upgrade_Info_List_5_Award_Item",
+            "type": "int32"
+        }
+    ]
+}

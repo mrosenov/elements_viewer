@@ -572,7 +572,7 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
                oninput="onSearchInput(this.value)"
                onkeydown="onSearchKey(event)"
                placeholder="filter by #, ID or name…"
-               class="w-full bg-slate-800/50 border border-slate-700/50 focus:border-cyan-700/60 rounded pl-6 pr-7 py-1.5 text-[11px] mono text-slate-300 placeholder-slate-600 outline-none transition-colors"/>
+               class="w-full bg-slate-800/50 border border-slate-700/50 focus:border-cyan-700/60 rounded pl-6 pr-7 py-1.5 text-[11px] mono text-slate-300 placeholder-slate-300 outline-none transition-colors"/>
         <?php if ($searchQ !== ''): ?>
           <a href="<?= h(page_url(['q' => null])) ?>"
              title="Clear search (Esc)"
@@ -651,7 +651,7 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
       <?php endif; ?>
 
       <!-- List header -->
-      <div class="grid grid-cols-[2.5rem_5rem_1fr] px-2 py-1 border-b border-slate-800 text-[10px] mono text-slate-600 uppercase tracking-widest shrink-0">
+      <div class="grid grid-cols-[2.5rem_5rem_1fr] px-2 py-1 border-b border-slate-800 text-[10px] mono text-slate-300 uppercase tracking-widest shrink-0">
         <span>#</span><span>ID</span><span>Name</span>
       </div>
 
@@ -744,14 +744,14 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
         </div>
         <div class="flex items-center gap-2 ml-auto flex-wrap">
           <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">sizeof</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-purple-950 text-purple-300 border-purple-800"><?= $listSizeof ?> bytes</span></div>
-          <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">records sum</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-slate-900 text-slate-400 border-slate-700"><?= number_format($listCount) ?></span></div>
-          <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">body_size</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-cyan-950 text-cyan-300 border-cyan-800"><?= number_format($listBody) ?> bytes</span></div>
-          <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">list_offset</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-orange-950 text-orange-300 border-orange-800">0x<?= str_pad(strtoupper(dechex($listOffset)), 8, '0', STR_PAD_LEFT) ?></span></div>
+          <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">Records</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-slate-900 text-slate-400 border-slate-700"><?= number_format($listCount) ?></span></div>
+          <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">Body Size</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-cyan-950 text-cyan-300 border-cyan-800"><?= number_format($listBody) ?> bytes</span></div>
+          <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">List Offset</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-orange-950 text-orange-300 border-orange-800">0x<?= str_pad(strtoupper(dechex($listOffset)), 8, '0', STR_PAD_LEFT) ?></span></div>
         </div>
       </div>
 
       <?php if ($decoded && $decoded['warning']): ?>
-        <div class="shrink-0 bg-yellow-950/30 border-b border-yellow-800/50 px-4 py-1.5 text-[11px] mono text-yellow-300 flex items-center gap-2">
+        <div class="shrink-0 bg-yellow-950/30 border border-yellow-800/50 px-4 py-1.5 text-[11px] mono text-yellow-300 flex items-center gap-2">
           <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
           <?= h($decoded['warning']) ?>
         </div>
@@ -763,9 +763,9 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
         <!-- Fields table -->
         <div class="w-[50rem] shrink-0 border-r border-slate-800 flex flex-col overflow-hidden">
           <div class="px-3 py-2 border-b border-slate-800 bg-[#0d1117]">
-            <span class="text-[10px] mono text-slate-600 uppercase tracking-widest">Fields</span>
+            <span class="text-[10px] mono text-slate-300 uppercase tracking-widest">Fields</span>
             <?php if ($decoded && !empty($decoded['rows'])): ?>
-              <span class="text-[10px] mono text-slate-500 ml-1">— record #<?= (int)$rowOffset ?></span>
+              <span class="text-[10px] mono text-slate-300 ml-1">— Record #<?= (int)$rowOffset ?></span>
             <?php endif; ?>
           </div>
           <div class="flex-1 overflow-y-auto">
@@ -822,7 +822,7 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
 
             <!-- Header -->
             <div class="shrink-0 bg-[#0d1117] border-b border-slate-800 px-4 py-2 flex items-center gap-2 flex-wrap">
-              <span class="text-[10px] mono text-slate-600 uppercase tracking-widest mr-1">Schema Editor</span>
+              <span class="text-[10px] mono text-slate-300 uppercase tracking-widest mr-1">Schema Editor</span>
               <span id="badge-fields" class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-slate-900 text-slate-400 border-slate-700"><?= count($schemaFields) ?> fields</span>
               <span id="badge-size"   class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-cyan-950 text-cyan-300 border-cyan-800">size = <?= $schemaSize ?></span>
               <span id="badge-sizeof" class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-purple-950 text-purple-300 border-purple-800">sizeof = <?= $listSizeof ?></span>
@@ -830,7 +830,7 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
 
             <!-- Name input -->
             <div class="shrink-0 border-b border-slate-800 px-4 py-2 flex items-center gap-3">
-              <span class="text-[11px] mono text-slate-500 shrink-0">List name</span>
+              <span class="text-[11px] mono text-slate-300 shrink-0">List name</span>
               <input type="text" name="name" value="<?= h($selectedListDef['name'] ?? ('LIST_' . $selectedListIdx)) ?>"
                      class="bg-slate-800/50 border border-slate-700/50 focus:border-cyan-700/70 focus:bg-slate-800 rounded px-2.5 py-1 text-[11px] mono text-cyan-300 outline-none transition-colors w-64"/>
             </div>
@@ -839,7 +839,7 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
             <div class="flex-1 overflow-y-auto">
               <table class="w-full text-[11px] mono border-collapse" id="schemaTbl">
                 <thead class="sticky top-0 bg-[#0d1117] z-10">
-                  <tr class="border-b border-slate-800 text-slate-600 text-[10px] uppercase tracking-widest">
+                  <tr class="border-b border-slate-800 text-slate-300 text-[10px] uppercase tracking-widest">
                     <th class="text-left px-3 py-2 font-normal w-8">#</th>
                     <th class="text-left px-3 py-2 font-normal w-24">Offset</th>
                     <th class="text-left px-3 py-2 font-normal">Name</th>
@@ -899,12 +899,10 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
 
             <!-- Action buttons -->
             <div class="shrink-0 border-t border-slate-800 px-4 py-2.5 flex gap-2 items-center bg-[#0d1117]">
-              <button type="button" onclick="addSchemaRow()"
-                class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-slate-800/60 hover:bg-slate-800 border-slate-700/50 hover:border-slate-600 text-slate-300 transition-colors">
+              <button type="button" onclick="addSchemaRow()" class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-slate-800/60 hover:bg-slate-800 border-slate-700/50 hover:border-slate-600 text-slate-300 transition-colors">
                 Add Field
               </button>
-              <button type="submit"
-                class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-cyan-950/30 hover:bg-cyan-950/60 border-cyan-800/40 hover:border-cyan-700/60 text-cyan-300 transition-colors">
+              <button type="submit" class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-emerald-950/30 hover:bg-emerald-950/60 border-emerald-800/40 hover:border-emerald-700/60 text-emerald-300 transition-colors">
                 Save Schema
               </button>
               <button type="button" onclick="truncateSchema()"
@@ -917,10 +915,10 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
           <!-- Hex viewer -->
           <div class="shrink-0 border-t border-slate-800 bg-[#090c12]" style="max-height:240px">
             <div class="px-4 py-2 border-b border-slate-800 flex items-center gap-2">
-              <span class="text-[10px] mono text-slate-600 uppercase tracking-widest">Hex</span>
+              <span class="text-[10px] mono text-slate-300 uppercase tracking-widest">Hex</span>
               <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-orange-950 text-orange-300 border-orange-800">0x<?= str_pad(strtoupper(dechex($hexAddrBase)), 8, '0', STR_PAD_LEFT) ?></span>
               <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-slate-900 text-slate-400 border-slate-700 ml-1"><?= count($hexBytesArr) ?> bytes</span>
-              <span class="ml-auto text-[10px] mono text-slate-300">record #<?= (int)$rowOffset ?></span>
+              <span class="ml-auto text-[10px] mono text-slate-300">Record #<?= (int)$rowOffset ?></span>
             </div>
             <div class="px-4 py-3 overflow-auto" style="max-height:190px">
               <div id="hex-viewer" class="mono text-[11px] leading-5 select-all min-w-max"></div>
