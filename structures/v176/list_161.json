@@ -1,0 +1,337 @@
+{
+    "name": "LOTTERY_TANGYUAN_ITEM_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Open_Item",
+            "type": "int32"
+        },
+        {
+            "name": "Open_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Exp_Get",
+            "type": "int32"
+        },
+        {
+            "name": "Exp_Level_1",
+            "type": "int32"
+        },
+        {
+            "name": "Exp_Level_2",
+            "type": "int32"
+        },
+        {
+            "name": "Exp_Level_3",
+            "type": "int32"
+        },
+        {
+            "name": "Exp_Level_4",
+            "type": "int32"
+        },
+        {
+            "name": "Exp_Level_5",
+            "type": "int32"
+        },
+        {
+            "name": "Exp_Level_6",
+            "type": "int32"
+        },
+        {
+            "name": "Exp_Level_7",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_1_Gifts_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_1_Gifts_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_1_Gifts_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_1_Gifts_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_1_Gifts_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_1_Gifts_3_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_1_Gifts_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_1_Gifts_4_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_2_Gifts_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_2_Gifts_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_2_Gifts_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_2_Gifts_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_2_Gifts_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_2_Gifts_3_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_2_Gifts_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_2_Gifts_4_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_3_Gifts_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_3_Gifts_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_3_Gifts_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_3_Gifts_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_3_Gifts_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_3_Gifts_3_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_3_Gifts_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_3_Gifts_4_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_4_Gifts_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_4_Gifts_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_4_Gifts_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_4_Gifts_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_4_Gifts_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_4_Gifts_3_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_4_Gifts_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_4_Gifts_4_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_5_Gifts_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_5_Gifts_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_5_Gifts_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_5_Gifts_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_5_Gifts_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_5_Gifts_3_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_5_Gifts_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_5_Gifts_4_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_6_Gifts_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_6_Gifts_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_6_Gifts_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_6_Gifts_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_6_Gifts_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_6_Gifts_3_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_6_Gifts_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_6_Gifts_4_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_7_Gifts_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_7_Gifts_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_7_Gifts_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_7_Gifts_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_7_Gifts_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_7_Gifts_3_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_7_Gifts_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_7_Gifts_4_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_8_Gifts_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_8_Gifts_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_8_Gifts_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_8_Gifts_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_8_Gifts_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_8_Gifts_3_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_8_Gifts_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Group_Gifts_8_Gifts_4_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

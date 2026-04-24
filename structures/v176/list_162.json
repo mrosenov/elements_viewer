@@ -1,0 +1,133 @@
+{
+    "name": "TASK_SPECIAL_AWARD_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "GFX_Path_1",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_2",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_3",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_4",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_5",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_6",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_7",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_8",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_9",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_10",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_11",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_12",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_13",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_14",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_15",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_16",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_17",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_18",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_19",
+            "type": "int32"
+        },
+        {
+            "name": "GFX_Path_20",
+            "type": "int32"
+        },
+        {
+            "name": "Mini_Game_1",
+            "type": "wstring:16"
+        },
+        {
+            "name": "Mini_Game_2",
+            "type": "wstring:16"
+        },
+        {
+            "name": "Mini_Game_3",
+            "type": "wstring:16"
+        },
+        {
+            "name": "Mini_Game_4",
+            "type": "wstring:16"
+        },
+        {
+            "name": "Mini_Game_5",
+            "type": "wstring:16"
+        },
+        {
+            "name": "Mini_Game_6",
+            "type": "wstring:16"
+        },
+        {
+            "name": "Mini_Game_7",
+            "type": "wstring:16"
+        },
+        {
+            "name": "Mini_Game_8",
+            "type": "wstring:16"
+        },
+        {
+            "name": "Mini_Game_9",
+            "type": "wstring:16"
+        },
+        {
+            "name": "Mini_Game_10",
+            "type": "wstring:16"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "name": "GIFT_PACK_ITEM_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Open_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Gifts_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Gifts_1_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Gifts_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Gifts_2_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Gifts_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Gifts_3_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Gifts_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Gifts_4_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

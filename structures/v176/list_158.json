@@ -1,0 +1,761 @@
+{
+    "name": "CHALLENGE_2012_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "ControlerlD",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Mine_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Mine_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Mine_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Dead_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Medic_Limit_HP",
+            "type": "int32"
+        },
+        {
+            "name": "Medic_Limit_MP",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_Challenge",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_min",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_max",
+            "type": "int32"
+        },
+        {
+            "name": "Controller_ID_Win",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Win_Control_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Controler_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Monster_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Monster_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Mine_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Mine_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Dead_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Medic_Limit_HP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Medic_Limit_MP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Controller_ID_Challenge",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Controller_ID_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Controller_ID_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Controller_ID_Win",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Award_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_1_Win_Control_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Controler_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Monster_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Monster_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Mine_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Mine_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Dead_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Medic_Limit_HP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Medic_Limit_MP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Controller_ID_Challenge",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Controller_ID_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Controller_ID_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Controller_ID_Win",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Award_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_2_Win_Control_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Controler_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Monster_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Monster_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Mine_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Mine_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Dead_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Medic_Limit_HP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Medic_Limit_MP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Controller_ID_Challenge",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Controller_ID_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Controller_ID_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Controller_ID_Win",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Award_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_3_Win_Control_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Controler_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Monster_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Monster_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Mine_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Mine_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Dead_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Medic_Limit_HP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Medic_Limit_MP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Controller_ID_Challenge",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Controller_ID_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Controller_ID_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Controller_ID_Win",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Award_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_4_Win_Control_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Controler_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Monster_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Monster_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Mine_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Mine_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Dead_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Medic_Limit_HP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Medic_Limit_MP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Controller_ID_Challenge",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Controller_ID_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Controller_ID_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Controller_ID_Win",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Award_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_5_Win_Control_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Controler_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Monster_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Monster_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Mine_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Mine_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Dead_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Medic_Limit_HP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Medic_Limit_MP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Controller_ID_Challenge",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Controller_ID_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Controller_ID_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Controller_ID_Win",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Award_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_6_Win_Control_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Controler_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Monster_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Monster_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Mine_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Mine_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Dead_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Medic_Limit_HP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Medic_Limit_MP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Controller_ID_Challenge",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Controller_ID_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Controller_ID_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Controller_ID_Win",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Award_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_7_Win_Control_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Controler_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Monster_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Monster_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Mine_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Mine_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Dead_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Medic_Limit_HP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Medic_Limit_MP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Controller_ID_Challenge",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Controller_ID_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Controller_ID_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Controller_ID_Win",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Award_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_8_Win_Control_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Controler_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Monster_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Monster_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Mine_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Mine_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Dead_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Medic_Limit_HP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Medic_Limit_MP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Controller_ID_Challenge",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Controller_ID_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Controller_ID_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Controller_ID_Win",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Award_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_9_Win_Control_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Controler_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Monster_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Monster_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Monster_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Mine_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Count_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Mine_Count_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Dead_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Medic_Limit_HP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Medic_Limit_MP",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Controller_ID_Challenge",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Controller_ID_min",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Controller_ID_max",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Controller_ID_Win",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Award_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Config_10_Win_Control_ID",
+            "type": "int32"
+        }
+    ]
+}

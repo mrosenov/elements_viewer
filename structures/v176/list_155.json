@@ -1,0 +1,133 @@
+{
+    "name": "CASH_MEDIC_MERGE_ITEM_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Require_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Renascence_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Type",
+            "type": "int32"
+        },
+        {
+            "name": "Cool_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_1",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_2",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_3",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_4",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_5",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_6",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_7",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_8",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_9",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_10",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_11",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_12",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_13",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_14",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_15",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_16",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_17",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_18",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_19",
+            "type": "int32"
+        },
+        {
+            "name": "Item_IDs_20",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

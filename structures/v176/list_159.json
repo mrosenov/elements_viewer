@@ -1,0 +1,1661 @@
+{
+    "name": "SALE_PROMOTION_ITEM_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "UI_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_1_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_2_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_2_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_3_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_3_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_4_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_4_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_5_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_5_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_6_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_6_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_7_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_7_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_8_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_8_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_9_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_9_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_10_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_10_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_11_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_11_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_12_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_12_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_13_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_13_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_14_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_14_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_15_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_15_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_16_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_16_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_17_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_17_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_18_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_18_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_19_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_19_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Element_List_20_Valid_Time_Start",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Valid_Time_End",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Get_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Condition_Type",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Condition_Arg_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Condition_Arg_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Condition_Arg_3",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Condition_Arg_4",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Condition_Arg_5",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Award_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Award_Item_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Award_Item_1_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Award_Item_1_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Award_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Award_Item_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Award_Item_2_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Award_Item_2_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Element_List_20_Desc",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Extra_Award_Need_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Extra_Award_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Extra_Award_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Extra_Award_Valid_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Extra_Award_Is_Bind",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

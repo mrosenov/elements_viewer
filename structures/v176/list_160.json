@@ -1,0 +1,513 @@
+{
+    "name": "GIFT_BAG_LOTTERY_DELIVER_ESSENCE",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "int32"
+    },
+    {
+      "name": "Name",
+      "type": "wstring:64"
+    },
+    {
+      "name": "Model_Path_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Icon_Path_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Level_Everlimit",
+      "type": "int32"
+    },
+    {
+      "name": "Level_Required",
+      "type": "int32"
+    },
+    {
+      "name": "Level_Upperlimit",
+      "type": "int32"
+    },
+    {
+      "name": "Require_Gender",
+      "type": "int32"
+    },
+    {
+      "name": "Renascence_Count",
+      "type": "int32"
+    },
+    {
+      "name": "Character_Combo_ID",
+      "type": "int64"
+    },
+    {
+      "name": "Character_Combo_ID_2",
+      "type": "int64"
+    },
+    {
+      "name": "Character_Combo_ID_3",
+      "type": "int64"
+    },
+    {
+      "name": "God_Devil_Mask",
+      "type": "int32"
+    },
+    {
+      "name": "Open_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Probability",
+      "type": "float"
+    },
+    {
+      "name": "Success_Disappear",
+      "type": "int32"
+    },
+    {
+      "name": "Faliure_Disappear",
+      "type": "int32"
+    },
+    {
+      "name": "ID_1_Object_Need",
+      "type": "int32"
+    },
+    {
+      "name": "ID_1_Object_Num",
+      "type": "int32"
+    },
+    {
+      "name": "ID_2_Object_Need",
+      "type": "int32"
+    },
+    {
+      "name": "ID_2_Object_Num",
+      "type": "int32"
+    },
+    {
+      "name": "Money_Need",
+      "type": "int32"
+    },
+    {
+      "name": "Num_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_1_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_1_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_1_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_1_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_1_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_1_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_2_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_2_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_2_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_2_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_2_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_2_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_3_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_3_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_3_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_3_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_3_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_3_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_4_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_4_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_4_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_4_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_4_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_4_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_5_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_5_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_5_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_5_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_5_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_5_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_6_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_6_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_6_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_6_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_6_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_6_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_7_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_7_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_7_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_7_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_7_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_7_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_8_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_8_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_8_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_8_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_8_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_8_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_9_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_9_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_9_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_9_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_9_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_9_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_10_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_10_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_10_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_10_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_10_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_10_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_11_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_11_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_11_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_11_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_11_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_11_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_12_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_12_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_12_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_12_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_12_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_12_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_13_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_13_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_13_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_13_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_13_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_13_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_14_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_14_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_14_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_14_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_14_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_14_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_15_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_15_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_15_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_15_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_15_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_15_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_16_ID_Object",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_16_Probability",
+      "type": "float"
+    },
+    {
+      "name": "Gifts_16_Num_min",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_16_Num_max",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_16_Is_Bind",
+      "type": "int32"
+    },
+    {
+      "name": "Gifts_16_Effect_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Normalize_Group_1",
+      "type": "int32"
+    },
+    {
+      "name": "Normalize_Group_2",
+      "type": "int32"
+    },
+    {
+      "name": "Normalize_Group_3",
+      "type": "int32"
+    },
+    {
+      "name": "Normalize_Group_4",
+      "type": "int32"
+    },
+    {
+      "name": "Sell_Price",
+      "type": "int32"
+    },
+    {
+      "name": "Buy_Price",
+      "type": "int32"
+    },
+    {
+      "name": "Stack_Amt",
+      "type": "int32"
+    },
+    {
+      "name": "Trade_Behavior",
+      "type": "int32"
+    }
+  ]
+}

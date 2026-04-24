@@ -1,0 +1,417 @@
+{
+    "name": "COLLISION_RAID_AWARD_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Daily_Award_Item",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_1_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_1_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_1_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_2_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_2_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_2_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_3_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_3_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_3_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_4_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_4_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_4_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_5_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_5_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_5_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_6_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_6_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_6_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_6_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_6_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_7_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_7_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_7_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_7_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_7_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_8_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_8_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_8_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_8_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_8_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_9_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_9_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_9_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_9_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_9_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_10_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_10_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_10_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_10_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_10_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_11_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_11_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_11_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_11_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_11_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_12_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_12_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_12_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_12_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_12_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_13_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_13_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_13_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_13_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_13_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_14_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_14_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_14_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_14_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_14_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_15_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_15_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_15_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_15_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_15_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_16_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_16_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_16_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_16_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_16_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_17_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_17_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_17_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_17_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_17_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_18_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_18_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_18_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_18_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_18_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_19_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_19_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_19_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_19_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_19_Win_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_20_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_20_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_20_Score_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_20_Score_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Award_List_20_Win_Num",
+            "type": "int32"
+        }
+    ]
+}
