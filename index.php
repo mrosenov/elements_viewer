@@ -448,6 +448,55 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
 <!-- ░░ TOASTS ░░ -->
 <div id="toast-container" class="fixed top-3 right-3 z-[200] flex flex-col gap-2 pointer-events-none"></div>
 
+<!-- ░░ IMPORT .CFG MODAL ░░ -->
+<div id="cfg-modal" class="hidden fixed inset-0 bg-black/70 backdrop-blur-sm z-[150] items-center justify-center p-4"
+     onclick="if(event.target===this)closeCfgModal()">
+  <div class="bg-[#0d1117] border border-slate-700 rounded-md shadow-2xl w-full max-w-xl flex flex-col max-h-[85vh]">
+    <!-- Header -->
+    <div class="px-4 py-3 border-b border-slate-800 flex items-center justify-between shrink-0">
+      <div class="flex items-center gap-2">
+        <svg class="w-4 h-4 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/></svg>
+        <span class="mono text-[12px] font-semibold text-slate-100">Import schema from .cfg</span>
+      </div>
+      <button type="button" onclick="closeCfgModal()"
+        class="w-6 h-6 flex items-center justify-center rounded text-slate-500 hover:text-slate-200 hover:bg-slate-800 transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <!-- Body -->
+    <div class="px-4 py-3 space-y-2 overflow-y-auto">
+      <p class="text-[11px] mono text-slate-400 leading-relaxed">
+        Paste 3 non-blank lines (semicolon-separated):
+      </p>
+      <ol class="text-[11px] mono text-slate-500 list-decimal list-inside space-y-0.5 pl-1">
+        <li><span class="text-cyan-300">List name</span></li>
+        <li><span class="text-cyan-300">Field names</span> — <span class="text-slate-600">ID;Name;…</span></li>
+        <li><span class="text-cyan-300">Field types</span> — <span class="text-slate-600">int32;wstring:64;…</span></li>
+      </ol>
+      <textarea id="cfg-textarea" rows="9"
+        placeholder="GIFT_PACK_ITEM_ESSENCE&#10;ID;Name;Model_Path_ID;Icon_Path_ID;…&#10;int32;wstring:64;int32;int32;…"
+        spellcheck="false"
+        class="w-full bg-slate-900/80 border border-slate-700/60 focus:border-cyan-700 rounded px-2 py-1.5 text-[11px] mono text-slate-200 placeholder-slate-700 outline-none transition-colors resize-y"></textarea>
+      <p class="text-[10px] mono text-slate-600 leading-relaxed">
+        Trailing semicolons are ignored. Importing replaces all current rows in the editor — you must still click
+        <span class="text-emerald-300">Save Schema</span> afterwards to persist to
+        <span id="cfg-target" class="text-cyan-300"></span>.
+      </p>
+    </div>
+    <!-- Footer -->
+    <div class="px-4 py-3 border-t border-slate-800 flex gap-2 justify-end shrink-0">
+      <button type="button" onclick="closeCfgModal()"
+        class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-slate-800/60 hover:bg-slate-800 border-slate-700/50 hover:border-slate-600 text-slate-300 transition-colors">
+        Cancel
+      </button>
+      <button type="button" onclick="importCfgFromText()"
+        class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-cyan-950/40 hover:bg-cyan-950/70 border-cyan-800/50 hover:border-cyan-700/70 text-cyan-300 transition-colors">
+        Import
+      </button>
+    </div>
+  </div>
+</div>
+
 <!-- ░░ TOPBAR ░░ -->
 <header class="h-11 shrink-0 bg-[#0d1117] border-b border-slate-800 flex items-center px-4 gap-3 z-50 relative">
   <!-- Logo -->
@@ -902,6 +951,11 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
               <button type="button" onclick="addSchemaRow()" class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-slate-800/60 hover:bg-slate-800 border-slate-700/50 hover:border-slate-600 text-slate-300 transition-colors">
                 Add Field
               </button>
+              <button type="button" onclick="openCfgModal()"
+                class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-cyan-950/20 hover:bg-cyan-950/50 border-cyan-800/30 hover:border-cyan-700/50 text-cyan-300 transition-colors flex items-center gap-1.5">
+                <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/></svg>
+                Import .cfg
+              </button>
               <button type="submit" class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-emerald-950/30 hover:bg-emerald-950/60 border-emerald-800/40 hover:border-emerald-700/60 text-emerald-300 transition-colors">
                 Save Schema
               </button>
@@ -1098,26 +1152,40 @@ function removeSchemaRow(btn){
   recomputeSchemaBadges();
   toast('Field "'+fname+'" removed.','warning');
 }
-function addSchemaRow(){
-  const tbody=document.getElementById('schema-tbody');
-  if(!tbody) return;
-  const types=<?= json_encode($availableTypes) ?>;
-  const idx=tbody.querySelectorAll('tr').length;
+// Type list shared between Add Field and Import .cfg.
+const AVAILABLE_TYPES = <?= json_encode($availableTypes) ?>;
+
+// Build a schema-editor row with the given values. Returns the <tr> element
+// (caller is responsible for inserting it into #schema-tbody).
+function _buildSchemaRow(idx, name, type, refs){
   const tr=document.createElement('tr');
   tr.className='border-b border-slate-800/40 hover:bg-slate-800/20 group transition-colors';
   let opts='';
-  for(let i=0;i<types.length;i++) opts+='<option value="'+esc(types[i])+'"'+(types[i]==='int32'?' selected':'')+'>'+esc(types[i])+'</option>';
+  let inAvail=false;
+  for(let i=0;i<AVAILABLE_TYPES.length;i++){
+    if(AVAILABLE_TYPES[i]===type) inAvail=true;
+    opts+='<option value="'+esc(AVAILABLE_TYPES[i])+'"'+(AVAILABLE_TYPES[i]===type?' selected':'')+'>'+esc(AVAILABLE_TYPES[i])+'</option>';
+  }
+  // If the requested type isn't in the standard list, expose it as a custom option so it round-trips on save.
+  if(!inAvail && type) opts+='<option value="'+esc(type)+'" selected>'+esc(type)+'</option>';
   tr.innerHTML=
     '<td class="px-3 py-1.5 text-slate-700">'+idx+'</td>'+
     '<td class="px-3 py-1.5"><span class="text-slate-500">0x0000</span></td>'+
-    '<td class="px-3 py-1.5"><input type="text" name="names[]" value="f'+idx+'" class="w-full bg-transparent border border-transparent hover:border-slate-700 focus:border-cyan-700 focus:bg-slate-800/60 rounded px-1.5 py-0.5 text-slate-200 outline-none transition-colors text-[11px] mono"/></td>'+
+    '<td class="px-3 py-1.5"><input type="text" name="names[]" value="'+esc(name)+'" class="w-full bg-transparent border border-transparent hover:border-slate-700 focus:border-cyan-700 focus:bg-slate-800/60 rounded px-1.5 py-0.5 text-slate-200 outline-none transition-colors text-[11px] mono"/></td>'+
     '<td class="px-3 py-1.5"><select name="types[]" class="bg-transparent border border-transparent hover:border-slate-700 focus:border-cyan-700 focus:bg-slate-900 rounded px-1.5 py-0.5 outline-none cursor-pointer transition-colors text-[11px] mono text-blue-300">'+opts+'</select></td>'+
-    '<td class="px-3 py-1.5"><input type="text" name="refs[]" value="" placeholder="—" class="w-full bg-transparent border border-transparent hover:border-slate-700 focus:border-cyan-700 focus:bg-slate-800/60 rounded px-1.5 py-0.5 text-slate-500 placeholder-slate-700 outline-none transition-colors text-[11px] mono"/></td>'+
+    '<td class="px-3 py-1.5"><input type="text" name="refs[]" value="'+esc(refs)+'" placeholder="—" class="w-full bg-transparent border border-transparent hover:border-slate-700 focus:border-cyan-700 focus:bg-slate-800/60 rounded px-1.5 py-0.5 text-slate-500 placeholder-slate-700 outline-none transition-colors text-[11px] mono"/></td>'+
     '<td class="px-2 py-1.5"><button type="button" onclick="removeSchemaRow(this)" class="w-5 h-5 flex items-center justify-center rounded hover:bg-red-900/40 text-slate-700 hover:text-red-400 transition-colors opacity-0 group-hover:opacity-100">'+
     '<svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></button></td>';
-  tbody.appendChild(tr);
   const sel=tr.querySelector('select[name="types[]"]');
   if(sel) sel.addEventListener('change',recomputeSchemaBadges);
+  return tr;
+}
+function addSchemaRow(){
+  const tbody=document.getElementById('schema-tbody');
+  if(!tbody) return;
+  const idx=tbody.querySelectorAll('tr').length;
+  const tr=_buildSchemaRow(idx, 'f'+idx, 'int32', '');
+  tbody.appendChild(tr);
   recomputeSchemaBadges();
   const nm=tr.querySelector('input[name="names[]"]');
   if(nm){nm.focus();nm.select();}
@@ -1133,6 +1201,73 @@ function truncateSchema(){
   recomputeSchemaBadges();
   toast('All '+n+' fields removed. Click "Save Schema" to persist.','error');
 }
+
+// ── Import .cfg modal ───────────────────────────────────────────────────────
+function _parseCfg(text){
+  // Split into trimmed non-empty lines so the source's blank separator lines
+  // (the typical .cfg format has blanks between the 3 chunks) don't break us.
+  const lines=text.split(/\r?\n/).map(function(l){return l.trim();}).filter(function(l){return l.length>0;});
+  if(lines.length<3) throw new Error('Need 3 non-empty lines: list name, field names, field types.');
+  if(lines.length>3) throw new Error('Got '+lines.length+' non-empty lines; expected exactly 3.');
+  const splitClean=function(s){
+    return s.split(';').map(function(p){return p.trim();}).filter(function(p){return p.length>0;});
+  };
+  const listName=lines[0];
+  const fields=splitClean(lines[1]);
+  const types =splitClean(lines[2]);
+  if(!listName) throw new Error('List name is empty.');
+  if(fields.length===0) throw new Error('No field names parsed from line 2.');
+  if(fields.length!==types.length) throw new Error('Field count ('+fields.length+') does not match type count ('+types.length+').');
+  return {name:listName, fields:fields, types:types};
+}
+function openCfgModal(){
+  const m=document.getElementById('cfg-modal');
+  if(!m) return;
+  // Surface the target file the import will eventually write to.
+  const tgt=document.getElementById('cfg-target');
+  const verEl=document.querySelector('input[name="version"]');
+  const lstEl=document.querySelector('input[name="list"]');
+  if(tgt && verEl && lstEl){
+    tgt.textContent='structures/'+verEl.value+'/list_'+lstEl.value+'.json';
+  }
+  m.classList.remove('hidden');
+  m.classList.add('flex');
+  const ta=document.getElementById('cfg-textarea');
+  if(ta) setTimeout(function(){ta.focus();},10);
+}
+function closeCfgModal(){
+  const m=document.getElementById('cfg-modal');
+  if(!m) return;
+  m.classList.add('hidden');
+  m.classList.remove('flex');
+}
+function importCfgFromText(){
+  const ta=document.getElementById('cfg-textarea');
+  if(!ta) return;
+  let parsed;
+  try { parsed=_parseCfg(ta.value); }
+  catch(e){ toast(e.message,'error'); return; }
+  // Replace list-name input
+  const nameInp=document.querySelector('#schemaForm input[name="name"]');
+  if(nameInp) nameInp.value=parsed.name;
+  // Wipe + repopulate schema rows
+  const tbody=document.getElementById('schema-tbody');
+  if(!tbody){ toast('Schema editor not available.','error'); return; }
+  tbody.innerHTML='';
+  for(let i=0;i<parsed.fields.length;i++){
+    tbody.appendChild(_buildSchemaRow(i, parsed.fields[i], parsed.types[i], ''));
+  }
+  recomputeSchemaBadges();
+  closeCfgModal();
+  toast('Imported '+parsed.fields.length+' field'+(parsed.fields.length===1?'':'s')+' into "'+parsed.name+'". Click Save Schema to persist.','success');
+}
+// Esc closes the modal when it's open.
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape'){
+    const m=document.getElementById('cfg-modal');
+    if(m && !m.classList.contains('hidden')) closeCfgModal();
+  }
+});
 
 // Recompute badges on every type change (initial wiring)
 (function(){
