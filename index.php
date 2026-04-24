@@ -290,6 +290,54 @@ if ($reader && $selectedListMeta) {
 }
 
 // ---------------------------------------------------------------------------
+// Full-list search (overrides sidebar pagination when active)
+//
+// When ?q=… is set, we decode the *entire* selected list's ID + Name fields,
+// match each row's index/ID/Name against the needle, and render a flat list
+// of hits in the sidebar (capped to $searchLimit so very common substrings
+// don't blow up the DOM).
+// ---------------------------------------------------------------------------
+$searchQ      = trim((string)($_GET['q'] ?? ''));
+$searchActive = false;
+$searchLimit  = 500;
+$searchTotal  = 0;
+$searchHits   = [];
+if ($searchQ !== '' && $reader && $selectedListMeta && (int)$selectedListMeta['count'] > 0) {
+    $needle = strtolower($searchQ);
+    $total  = (int)$selectedListMeta['count'];
+    $allIds = [];
+    $allNms = [];
+    if ($selectedListDef) {
+        try {
+            if ($sidebarIdField !== '')   $allIds = $reader->decodeField($selectedListIdx, $selectedListDef['fields'], $sidebarIdField,   0, $total);
+            if ($sidebarNameField !== '') $allNms = $reader->decodeField($selectedListIdx, $selectedListDef['fields'], $sidebarNameField, 0, $total);
+        } catch (Throwable $e) {
+            // fall through with empty arrays
+        }
+    }
+    for ($i = 0; $i < $total; $i++) {
+        $rawId   = $allIds[$i] ?? null;
+        $rawName = $allNms[$i] ?? null;
+        $idStr   = $rawId   === null ? '' : format_value($rawId);
+        $nameStr = $rawName === null ? '' : format_value($rawName);
+        if (
+            strpos((string)$i, $needle) !== false
+            || strpos('#' . $i, $needle) !== false
+            || ($idStr   !== '' && strpos(strtolower($idStr),   $needle) !== false)
+            || ($nameStr !== '' && strpos(strtolower($nameStr), $needle) !== false)
+        ) {
+            $searchTotal++;
+            if (count($searchHits) < $searchLimit) {
+                $searchHits[] = ['idx' => $i, 'id' => $idStr, 'name' => $nameStr];
+            }
+        }
+    }
+    $searchActive = true;
+} else {
+    $searchActive = false;
+}
+
+// ---------------------------------------------------------------------------
 // Hex bytes for the selected record (sized to record size, capped 512)
 // ---------------------------------------------------------------------------
 $hexBytesArr = [];
@@ -318,6 +366,7 @@ function page_url($params) {
         'file' => $_GET['file'] ?? '',
         'list' => $_GET['list'] ?? '',
         'off'  => $_GET['off']  ?? 0,
+        'q'    => $_GET['q']    ?? '',
     ];
     foreach ($params as $k => $v) $base[$k] = $v;
     return '?' . http_build_query(array_filter($base, function ($v) {
@@ -388,6 +437,10 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
   .dropdown-open .dd-menu{display:block}
   .row-active{background:rgba(8,145,178,0.08)!important;border-left-color:#06b6d4!important}
   .hidden-row{display:none !important}
+  /* Hide native number-input spinner arrows on the page-jump field */
+  #page-jump::-webkit-outer-spin-button,
+  #page-jump::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+  #page-jump{-moz-appearance:textfield;appearance:textfield}
 </style>
 </head>
 <body class="flex flex-col h-screen overflow-hidden">
@@ -511,33 +564,91 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
         </div>
       </div>
 
-      <!-- Search records in selected list -->
+      <!-- Search records in selected list (full-list, server-side) -->
       <div class="relative">
         <svg class="absolute left-2 top-1/2 -translate-y-1/2 w-3 h-3 text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0"/></svg>
-        <input id="sidebar-search" oninput="filterRecList(this.value)" placeholder="filter by #, ID or name…"
-          class="w-full bg-slate-800/50 border border-slate-700/50 focus:border-cyan-700/60 rounded pl-6 pr-2 py-1.5 text-[11px] mono text-slate-300 placeholder-slate-600 outline-none transition-colors"/>
+        <input id="sidebar-search" type="text" autocomplete="off"
+               value="<?= h($searchQ) ?>"
+               oninput="onSearchInput(this.value)"
+               onkeydown="onSearchKey(event)"
+               placeholder="filter by #, ID or name…"
+               class="w-full bg-slate-800/50 border border-slate-700/50 focus:border-cyan-700/60 rounded pl-6 pr-7 py-1.5 text-[11px] mono text-slate-300 placeholder-slate-600 outline-none transition-colors"/>
+        <?php if ($searchQ !== ''): ?>
+          <a href="<?= h(page_url(['q' => null])) ?>"
+             title="Clear search (Esc)"
+             class="absolute right-1.5 top-1/2 -translate-y-1/2 w-4 h-4 flex items-center justify-center rounded text-slate-600 hover:text-slate-300 hover:bg-slate-700/40">
+            <svg class="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+          </a>
+        <?php endif; ?>
       </div>
     </div>
 
     <?php if ($selectedListMeta && $listCount > 0): ?>
-      <!-- Pagination bar -->
-      <div class="px-3 py-1.5 border-b border-slate-800 flex items-center justify-between shrink-0">
-        <span class="text-[11px] mono text-slate-300">
-          Rows
-          <span class="text-slate-400"><?= number_format($sidebarPageStart) ?>–<?= number_format(max($sidebarPageStart, $sidebarPageEnd - 1)) ?></span>
-          of <span class="text-slate-300"><?= number_format($listCount) ?></span>
-        </span>
-        <div class="flex gap-0.5">
-          <a href="<?= h(page_url(['off' => max(0, $sidebarPageStart - $sidebarLimit)])) ?>"
-             class="w-5 h-5 flex items-center justify-center rounded hover:bg-slate-800 text-slate-500 transition-colors <?= $sidebarPageStart > 0 ? '' : 'opacity-20 pointer-events-none' ?>">
-            <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-          </a>
-          <a href="<?= h(page_url(['off' => $sidebarPageEnd])) ?>"
-             class="w-5 h-5 flex items-center justify-center rounded hover:bg-slate-800 text-slate-500 transition-colors <?= $sidebarPageEnd < $listCount ? '' : 'opacity-20 pointer-events-none' ?>">
-            <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-          </a>
+      <?php if ($searchActive): ?>
+        <!-- Search info bar (full-list scan) -->
+        <div class="px-3 py-1.5 border-b border-slate-800 flex items-center justify-between shrink-0 bg-cyan-950/10">
+          <span class="text-[11px] mono text-slate-500 truncate">
+            <span class="text-slate-300"><?= number_format($searchTotal) ?></span>
+            match<?= $searchTotal === 1 ? '' : 'es' ?>
+            for <span class="text-cyan-300">"<?= h($searchQ) ?>"</span>
+            <?php if ($searchTotal > $searchLimit): ?>
+              <span class="text-yellow-400/90">(first <?= number_format($searchLimit) ?>)</span>
+            <?php endif; ?>
+          </span>
+          <a href="<?= h(page_url(['q' => null])) ?>"
+             class="text-[10px] mono uppercase tracking-widest text-slate-500 hover:text-cyan-300 transition-colors">clear</a>
         </div>
-      </div>
+      <?php else:
+        // First / prev / input / next / last pagination
+        $totalPages = max(1, (int)ceil($listCount / $sidebarLimit));
+        $currentPg  = (int)floor($sidebarPageStart / $sidebarLimit) + 1;
+        $lastStart  = ($totalPages - 1) * $sidebarLimit;
+        $isFirst    = $sidebarPageStart === 0;
+        $isLast     = $sidebarPageStart >= $lastStart;
+      ?>
+        <!-- Pagination bar -->
+        <div class="px-2 py-1.5 border-b border-slate-800 flex items-center justify-between gap-1.5 shrink-0">
+          <span class="text-[11px] mono text-slate-300 truncate">
+            <span class="text-slate-400"><?= number_format($sidebarPageStart) ?>–<?= number_format(max($sidebarPageStart, $sidebarPageEnd - 1)) ?></span>
+            <span class="text-slate-600">/</span>
+            <span class="text-slate-300"><?= number_format($listCount) ?></span>
+          </span>
+          <div class="flex items-center gap-0.5 shrink-0">
+            <!-- First -->
+            <a href="<?= h(page_url(['off' => 0])) ?>"
+               title="First page"
+               class="w-5 h-5 flex items-center justify-center rounded hover:bg-slate-800 text-slate-500 hover:text-cyan-300 transition-colors <?= $isFirst ? 'opacity-20 pointer-events-none' : '' ?>">
+              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 19l-7-7 7-7m8 14l-7-7 7-7"/></svg>
+            </a>
+            <!-- Prev -->
+            <a href="<?= h(page_url(['off' => max(0, $sidebarPageStart - $sidebarLimit)])) ?>"
+               title="Previous page"
+               class="w-5 h-5 flex items-center justify-center rounded hover:bg-slate-800 text-slate-500 hover:text-cyan-300 transition-colors <?= $isFirst ? 'opacity-20 pointer-events-none' : '' ?>">
+              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            </a>
+            <!-- Page input -->
+            <input id="page-jump" type="number" min="1" max="<?= (int)$totalPages ?>" value="<?= (int)$currentPg ?>"
+                   onchange="jumpToPage(this.value)"
+                   onkeydown="if(event.key==='Enter'){event.preventDefault();jumpToPage(this.value);}"
+                   onfocus="this.select()"
+                   title="Jump to page"
+                   class="w-15 text-center bg-slate-800/60 border border-slate-700/60 focus:border-cyan-700 rounded text-[11px] mono text-cyan-300 px-1 py-0.5 outline-none transition-colors"/>
+            <span class="text-[10px] mono text-slate-600 px-0.5">/ <?= number_format($totalPages) ?></span>
+            <!-- Next -->
+            <a href="<?= h(page_url(['off' => $sidebarPageEnd])) ?>"
+               title="Next page"
+               class="w-5 h-5 flex items-center justify-center rounded hover:bg-slate-800 text-slate-500 hover:text-cyan-300 transition-colors <?= $isLast ? 'opacity-20 pointer-events-none' : '' ?>">
+              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+            <!-- Last -->
+            <a href="<?= h(page_url(['off' => $lastStart])) ?>"
+               title="Last page"
+               class="w-5 h-5 flex items-center justify-center rounded hover:bg-slate-800 text-slate-500 hover:text-cyan-300 transition-colors <?= $isLast ? 'opacity-20 pointer-events-none' : '' ?>">
+              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      <?php endif; ?>
 
       <!-- List header -->
       <div class="grid grid-cols-[2.5rem_5rem_1fr] px-2 py-1 border-b border-slate-800 text-[10px] mono text-slate-600 uppercase tracking-widest shrink-0">
@@ -546,33 +657,53 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
 
       <!-- List body -->
       <div id="sidebar-list" class="flex-1 overflow-y-auto">
-        <?php for ($r = $sidebarPageStart; $r < $sidebarPageEnd; $r++):
-          $active  = ($r === $rowOffset);
-          $rawId   = $sidebarIds[$r]   ?? null;
-          $rawName = $sidebarNames[$r] ?? null;
-          $idStr   = $rawId   === null ? '' : format_value($rawId);
-          $nameStr = $rawName === null ? '' : format_value($rawName);
-          $rUrl    = page_url(['list' => $selectedListIdx, 'off' => $r]);
+        <?php
+          // Build a uniform row list for either pagination or search mode.
+          $sidebarRows = [];
+          if ($searchActive) {
+              foreach ($searchHits as $hit) $sidebarRows[] = $hit;
+          } else {
+              for ($r = $sidebarPageStart; $r < $sidebarPageEnd; $r++) {
+                  $rawId   = $sidebarIds[$r]   ?? null;
+                  $rawName = $sidebarNames[$r] ?? null;
+                  $sidebarRows[] = [
+                      'idx'  => $r,
+                      'id'   => $rawId   === null ? '' : format_value($rawId),
+                      'name' => $rawName === null ? '' : format_value($rawName),
+                  ];
+              }
+          }
         ?>
-          <a href="<?= h($rUrl) ?>"
-             data-fname="<?= h(strtolower($nameStr)) ?>"
-             data-fid="<?= h(strtolower($idStr)) ?>"
-             data-ridx="<?= (int)$r ?>"
-             class="rec-item w-full grid px-2 py-[5px] text-[11px] mono text-left hover:bg-slate-800/50 transition-colors border-l-2 <?= $active ? 'bg-cyan-950/30 border-cyan-500' : 'border-transparent' ?>"
-             style="grid-template-columns:2.5rem 5rem 1fr;">
-            <span class="text-slate-700"><?= (int)$r ?></span>
-            <?php if ($idStr !== ''): ?>
-              <span class="truncate <?= $active ? 'text-cyan-400/80' : 'text-slate-500' ?>" title="<?= h($idStr) ?>"><?= h($idStr) ?></span>
-            <?php else: ?>
-              <span class="truncate text-slate-700">—</span>
-            <?php endif; ?>
-            <?php if ($nameStr !== ''): ?>
-              <span class="truncate <?= $active ? 'text-cyan-300' : 'text-slate-300' ?>"><?= h($nameStr) ?></span>
-            <?php else: ?>
-              <span class="truncate text-slate-600 italic">record <?= (int)$r ?></span>
-            <?php endif; ?>
-          </a>
-        <?php endfor; ?>
+        <?php if (empty($sidebarRows) && $searchActive): ?>
+          <div class="p-3 text-[11px] mono text-slate-600">No records match "<?= h($searchQ) ?>".</div>
+        <?php else: ?>
+          <?php foreach ($sidebarRows as $row):
+            $r       = (int)$row['idx'];
+            $idStr   = $row['id'];
+            $nameStr = $row['name'];
+            $active  = ($r === $rowOffset);
+            $rUrl    = page_url(['list' => $selectedListIdx, 'off' => $r]);
+          ?>
+            <a href="<?= h($rUrl) ?>"
+               data-fname="<?= h(strtolower($nameStr)) ?>"
+               data-fid="<?= h(strtolower($idStr)) ?>"
+               data-ridx="<?= (int)$r ?>"
+               class="rec-item w-full grid px-2 py-[5px] text-[11px] mono text-left hover:bg-slate-800/50 transition-colors border-l-2 <?= $active ? 'bg-cyan-950/30 border-cyan-500' : 'border-transparent' ?>"
+               style="grid-template-columns:2.5rem 5rem 1fr;">
+              <span class="text-slate-700"><?= (int)$r ?></span>
+              <?php if ($idStr !== ''): ?>
+                <span class="truncate <?= $active ? 'text-cyan-400/80' : 'text-slate-500' ?>" title="<?= h($idStr) ?>"><?= h($idStr) ?></span>
+              <?php else: ?>
+                <span class="truncate text-slate-700">—</span>
+              <?php endif; ?>
+              <?php if ($nameStr !== ''): ?>
+                <span class="truncate <?= $active ? 'text-cyan-300' : 'text-slate-300' ?>"><?= h($nameStr) ?></span>
+              <?php else: ?>
+                <span class="truncate text-slate-600 italic">record <?= (int)$r ?></span>
+              <?php endif; ?>
+            </a>
+          <?php endforeach; ?>
+        <?php endif; ?>
       </div>
     <?php else: ?>
       <div class="p-3 text-[11px] mono text-slate-300">
@@ -806,6 +937,8 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
 const HEX_BYTES = <?= json_encode($hexBytesArr) ?>;
 const HEX_ADDR_BASE = <?= (int)$hexAddrBase ?>;
 const FLASH_MSG = <?= json_encode($flashMsg) ?>;
+const SIDEBAR_PAGE_SIZE  = <?= (int)$sidebarLimit ?>;
+const SIDEBAR_TOTAL_PAGES = <?= isset($totalPages) ? (int)$totalPages : 1 ?>;
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
@@ -864,22 +997,53 @@ document.addEventListener('click',function(e){
   if(!e.target.closest('[id^="dd-"]')) closeAllDD();
 });
 
-// ── Sidebar: filter records by #, ID or name ─────────────────────────────────
-function filterRecList(q){
-  q=(q||'').trim().toLowerCase();
-  const items=document.querySelectorAll('#sidebar-list .rec-item');
-  for(let i=0;i<items.length;i++){
-    const el=items[i];
-    const name=el.getAttribute('data-fname')||'';
-    const fid =el.getAttribute('data-fid')  ||'';
-    const ridx=el.getAttribute('data-ridx') ||'';
-    const match=q===''
-      ||name.indexOf(q)!==-1
-      ||fid.indexOf(q)!==-1
-      ||ridx.indexOf(q)!==-1
-      ||('#'+ridx).indexOf(q)!==-1;
-    el.classList.toggle('hidden-row',!match);
+// ── Sidebar: full-list search via ?q= (server-side, debounced) ────────────────
+let _searchTimer=null;
+function _navigateSearch(v){
+  const u=new URL(window.location.href);
+  const trimmed=(v||'').trim();
+  if(trimmed===''){ u.searchParams.delete('q'); }
+  else { u.searchParams.set('q', trimmed); }
+  // strip transient flash
+  u.searchParams.delete('msg');
+  if(u.toString()!==window.location.href) window.location.href=u.toString();
+}
+function onSearchInput(v){
+  if(_searchTimer) clearTimeout(_searchTimer);
+  _searchTimer=setTimeout(function(){ _navigateSearch(v); }, 280);
+}
+function onSearchKey(e){
+  if(e.key==='Enter'){
+    e.preventDefault();
+    if(_searchTimer) clearTimeout(_searchTimer);
+    _navigateSearch(e.target.value);
+  } else if(e.key==='Escape' && e.target.value){
+    e.preventDefault();
+    e.target.value='';
+    if(_searchTimer) clearTimeout(_searchTimer);
+    _navigateSearch('');
   }
+}
+// Restore focus + caret-to-end after page reload while searching
+(function(){
+  const inp=document.getElementById('sidebar-search');
+  if(inp && inp.value){
+    setTimeout(function(){
+      try { inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length); } catch(_){}
+    },0);
+  }
+})();
+
+// ── Sidebar pagination: jump-to-page input ───────────────────────────────────
+function jumpToPage(p){
+  let n=parseInt(p,10);
+  if(!isFinite(n) || n<1) n=1;
+  if(n>SIDEBAR_TOTAL_PAGES) n=SIDEBAR_TOTAL_PAGES;
+  const off=(n-1)*SIDEBAR_PAGE_SIZE;
+  const u=new URL(window.location.href);
+  u.searchParams.set('off', String(off));
+  u.searchParams.delete('msg');
+  if(u.toString()!==window.location.href) window.location.href=u.toString();
 }
 
 // ── List picker: filter dropdown options ─────────────────────────────────────
@@ -1024,4 +1188,5 @@ if(FLASH_MSG){
   }
 }
 </script>
-</
+</body>
+</html>
