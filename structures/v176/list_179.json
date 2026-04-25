@@ -1,0 +1,129 @@
+{
+    "name": "INTERACTION_OBJECT_ESSENCE",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "int32"
+    },
+    {
+      "name": "Name",
+      "type": "wstring:64"
+    },
+    {
+      "name": "Model_Path_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Icon_Path_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Main_Body",
+      "type": "int32"
+    },
+    {
+      "name": "Client_Main_Body",
+      "type": "int32"
+    },
+    {
+      "name": "Hook_1",
+      "type": "int32"
+    },
+    {
+      "name": "Hook_2",
+      "type": "int32"
+    },
+    {
+      "name": "Hook_3",
+      "type": "int32"
+    },
+    {
+      "name": "Hook_4",
+      "type": "int32"
+    },
+    {
+      "name": "Hook_5",
+      "type": "int32"
+    },
+    {
+      "name": "Hook_6",
+      "type": "int32"
+    },
+    {
+      "name": "Max_Interaction_Num",
+      "type": "int32"
+    },
+    {
+      "name": "Disappear",
+      "type": "int32"
+    },
+    {
+      "name": "Require_Item_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Require_Task_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Require_Level",
+      "type": "int32"
+    },
+    {
+      "name": "Require_Gender",
+      "type": "int32"
+    },
+    {
+      "name": "Character_Combo_ID",
+      "type": "int64"
+    },
+    {
+      "name": "Character_Combo_ID_2",
+      "type": "int64"
+    },
+    {
+      "name": "Character_Combo_ID_3",
+      "type": "int64"
+    },
+    {
+      "name": "Consum_Item_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Open_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Interaction_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Finish_Time",
+      "type": "int32"
+    },
+    {
+      "name": "Monster_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Path_ID",
+      "type": "int32"
+    },
+    {
+      "name": "Move_Enable",
+      "type": "int32"
+    },
+    {
+      "name": "Velocity",
+      "type": "int32"
+    },
+    {
+      "name": "Auto_End",
+      "type": "int32"
+    },
+    {
+      "name": "New_Item_ID",
+      "type": "int32"
+    }
+  ]
+}

@@ -1,0 +1,1581 @@
+{
+    "name": "CROSS6V6_ITEM_EXCHANGE_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_1_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_1_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_1_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_2_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_2_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_2_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_3_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_3_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_3_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_4_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_4_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_4_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_5_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_5_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_5_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_6_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_6_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_6_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_6_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_6_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_6_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_7_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_7_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_7_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_7_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_7_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_7_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_8_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_8_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_8_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_8_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_8_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_8_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_9_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_9_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_9_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_9_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_9_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_9_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_10_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_10_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_10_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_10_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_10_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_10_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_11_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_11_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_11_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_11_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_11_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_11_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_12_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_12_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_12_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_12_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_12_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_12_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_13_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_13_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_13_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_13_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_13_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_13_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_14_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_14_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_14_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_14_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_14_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_14_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_15_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_15_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_15_Reguire_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_15_Reguire_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_15_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Cross_6v6_Item_Exchange_Info_15_Exchange_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        }
+    ]
+}

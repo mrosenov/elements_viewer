@@ -1,0 +1,169 @@
+{
+    "name": "PROP_ADD_ITEM_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Material_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Require_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Renascence_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_1",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_2",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_3",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_4",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_5",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_6",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_7",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_8",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_9",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_10",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_11",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_12",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_13",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_14",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_15",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_16",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_17",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_18",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_19",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_20",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_21",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_22",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_23",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_24",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_25",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_26",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_27",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_28",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_29",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_30",
+            "type": "int32"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

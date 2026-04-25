@@ -1,0 +1,133 @@
+{
+    "name": "PROP_ADD_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Prop_Add_Limit_1",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_2",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_3",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_4",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_5",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_6",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_7",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_8",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_9",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_10",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_11",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_12",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_13",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_14",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_15",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_16",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_17",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_18",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_19",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_20",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_21",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_22",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_23",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_24",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_25",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_26",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_27",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_28",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_29",
+            "type": "int32"
+        },
+        {
+            "name": "Prop_Add_Limit_30",
+            "type": "int32"
+        }
+    ]
+}

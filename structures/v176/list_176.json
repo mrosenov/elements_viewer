@@ -1,0 +1,373 @@
+{
+    "name": "WEEK_CURRNCY_AWARD_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Weekly_Award_1_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_1_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_1_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_1_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_1_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_2_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_2_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_2_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_2_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_2_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_3_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_3_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_3_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_3_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_3_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_4_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_4_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_4_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_4_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_4_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_5_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_5_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_5_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_5_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_5_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_6_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_6_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_6_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_6_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_6_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_6_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_7_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_7_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_7_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_7_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_7_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_7_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_8_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_8_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_8_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_8_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_8_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_8_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_9_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_9_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_9_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_9_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_9_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_9_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_10_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_10_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_10_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_10_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_10_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_10_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_11_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_11_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_11_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_11_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_11_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_11_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_12_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_12_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_12_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_12_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_12_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_12_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_13_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_13_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_13_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_13_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_13_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_13_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_14_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_14_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_14_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_14_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_14_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_14_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_15_Inception_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_15_Cutoff_Rank",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_15_Receive_Currency_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_15_Receive_Currnecy_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_15_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Weekly_Award_15_Time_Limit",
+            "type": "int32"
+        }
+    ]
+}

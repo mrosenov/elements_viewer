@@ -1,0 +1,2805 @@
+{
+    "name": "BUILDING_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Constructing_Model",
+            "type": "int32"
+        },
+        {
+            "name": "Building_Desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "Unk_1",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_2",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_3",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_4",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_5",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_6",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_7",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_8",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_9",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_10",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_11",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_12",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_13",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_14",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_15",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_16",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_17",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_18",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_19",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_20",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_21",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_22",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_23",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_24",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_25",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_26",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_27",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_28",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_29",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_30",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_31",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_32",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_33",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_34",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_35",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_36",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_37",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_38",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_39",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_40",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_41",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_42",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_43",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_44",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_45",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_46",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_47",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_48",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_49",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_50",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_51",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_52",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_53",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_54",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_55",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_56",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_57",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_58",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_59",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_60",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_61",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_62",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_63",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_64",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_65",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_66",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_67",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_68",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_69",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_70",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_71",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_72",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_73",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_74",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_75",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_76",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_77",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_78",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_79",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_80",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_81",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_82",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_83",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_84",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_85",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_86",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_87",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_88",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_89",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_90",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_91",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_92",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_93",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_94",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_95",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_96",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_97",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_98",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_99",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_100",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_101",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_102",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_103",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_104",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_105",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_106",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_107",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_108",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_109",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_110",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_111",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_112",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_113",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_114",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_115",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_116",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_117",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_118",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_119",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_120",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_121",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_122",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_123",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_124",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_125",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_126",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_127",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_128",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_129",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_130",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_131",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_132",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_133",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_134",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_135",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_136",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_137",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_138",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_139",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_140",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_141",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_142",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_143",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_144",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_145",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_146",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_147",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_148",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_149",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_150",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_151",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_152",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_153",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_154",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_155",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_156",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_157",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_158",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_159",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_160",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_161",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_162",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_163",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_164",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_165",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_166",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_167",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_168",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_169",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_170",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_171",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_172",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_173",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_174",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_175",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_176",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_177",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_178",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_179",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_180",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_181",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_182",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_183",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_184",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_185",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_186",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_187",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_188",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_189",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_190",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_191",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_192",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_193",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_194",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_195",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_196",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_197",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_198",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_199",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_200",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_201",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_202",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_203",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_204",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_205",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_206",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_207",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_208",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_209",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_210",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_211",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_212",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_213",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_214",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_215",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_216",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_217",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_218",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_219",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_220",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_221",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_222",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_223",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_224",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_225",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_226",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_227",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_228",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_229",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_230",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_231",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_232",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_233",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_234",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_235",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_236",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_237",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_238",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_239",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_240",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_241",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_242",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_243",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_244",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_245",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_246",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_247",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_248",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_249",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_250",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_251",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_252",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_253",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_254",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_255",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_256",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_257",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_258",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_259",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_260",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_261",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_262",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_263",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_264",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_265",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_266",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_267",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_268",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_269",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_270",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_271",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_272",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_273",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_274",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_275",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_276",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_277",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_278",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_279",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_280",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_281",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_282",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_283",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_284",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_285",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_286",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_287",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_288",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_289",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_290",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_291",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_292",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_293",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_294",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_295",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_296",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_297",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_298",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_299",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_300",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_301",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_302",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_303",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_304",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_305",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_306",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_307",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_308",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_309",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_310",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_311",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_312",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_313",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_314",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_315",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_316",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_317",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_318",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_319",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_320",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_321",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_322",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_323",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_324",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_325",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_326",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_327",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_328",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_329",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_330",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_331",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_332",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_333",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_334",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_335",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_336",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_337",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_338",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_339",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_340",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_341",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_342",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_343",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_344",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_345",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_346",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_347",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_348",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_349",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_350",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_351",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_352",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_353",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_354",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_355",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_356",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_357",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_358",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_359",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_360",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_361",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_362",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_363",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_364",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_365",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_366",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_367",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_368",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_369",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_370",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_371",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_372",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_373",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_374",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_375",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_376",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_377",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_378",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_379",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_380",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_381",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_382",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_383",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_384",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_385",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_386",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_387",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_388",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_389",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_390",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_391",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_392",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_393",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_394",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_395",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_396",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_397",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_398",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_399",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_400",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_401",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_402",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_403",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_404",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_405",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_406",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_407",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_408",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_409",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_410",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_411",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_412",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_413",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_414",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_415",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_416",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_417",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_418",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_419",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_420",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_421",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_422",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_423",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_424",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_425",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_426",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_427",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_428",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_429",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_430",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_431",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_432",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_433",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_434",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_435",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_436",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_437",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_438",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_439",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_440",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_441",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_442",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_443",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_444",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_445",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_446",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_447",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_448",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_449",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_450",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_451",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_452",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_453",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_454",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_455",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_456",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_457",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_458",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_459",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_460",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_461",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_462",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_463",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_464",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_465",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_466",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_467",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_468",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_469",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_470",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_471",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_472",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_473",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_474",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_475",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_476",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_477",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_478",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_479",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_480",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_481",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_482",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_483",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_484",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_485",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_486",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_487",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_488",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_489",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_490",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_491",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_492",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_493",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_494",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_495",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_496",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_497",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_498",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_499",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_500",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_501",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_502",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_503",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_504",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_505",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_506",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_507",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_508",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_509",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_510",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_511",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_512",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_513",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_514",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_515",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_516",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_517",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_518",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_519",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_520",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_521",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_522",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_523",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_524",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_525",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_526",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_527",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_528",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_529",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_530",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_531",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_532",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_533",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_534",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_535",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_536",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_537",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_538",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_539",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_540",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_541",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_542",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_543",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_544",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_545",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_546",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_547",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_548",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_549",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_550",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_551",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_552",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_553",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_554",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_555",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_556",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_557",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_558",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_559",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_560",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_561",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_562",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_563",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_564",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_565",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_566",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_567",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_568",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_569",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_570",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_571",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_572",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_573",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_574",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_575",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_576",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_577",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_578",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_579",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_580",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_581",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_582",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_583",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_584",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_585",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_586",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_587",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_588",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_589",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_590",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_591",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_592",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_593",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_594",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_595",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_596",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_597",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_598",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_599",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_600",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_601",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_602",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_603",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_604",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_605",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_606",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_607",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_608",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_609",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_610",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_611",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_612",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_613",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_614",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_615",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_616",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_617",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_618",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_619",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_620",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_621",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_622",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_623",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_624",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_625",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_626",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_627",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_628",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_629",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_630",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_631",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_632",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_633",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_634",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_635",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_636",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_637",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_638",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_639",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_640",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_641",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_642",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_643",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_644",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_645",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_646",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_647",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_648",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_649",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_650",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_651",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_652",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_653",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_654",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_655",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_656",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_657",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_658",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_659",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_660",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_661",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_662",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_663",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_664",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_665",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_666",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_667",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_668",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_669",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_670",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_671",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_672",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_673",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_674",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_675",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_676",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_677",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_678",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_679",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_680",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_681",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_682",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_683",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_684",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_685",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_686",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_687",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_688",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_689",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_690",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_691",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_692",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_693",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_694",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_695",
+            "type": "int32"
+        },
+        {
+            "name": "Unk_696",
+            "type": "int32"
+        }
+    ]
+}

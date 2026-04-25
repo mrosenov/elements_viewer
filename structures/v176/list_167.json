@@ -1,0 +1,517 @@
+{
+    "name": "KING_WAR_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "King_Continue_Item",
+            "type": "int32"
+        },
+        {
+            "name": "King_Continue_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_1_MonserlD",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_1_HP_Delta",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_2_MonserlD",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_2_HP_Delta",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_1_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_2_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_3_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_3_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_4_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_4_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_5_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_5_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_5_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_6_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_6_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_6_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_7_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_7_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_7_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_8_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_8_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_8_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_9_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_9_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_9_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_10_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_10_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_10_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_11_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_11_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_11_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_12_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_12_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_12_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_13_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_13_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_13_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_14_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_14_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_14_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_15_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_15_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_15_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_16_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_16_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_16_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_17_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_17_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_17_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_18_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_18_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_18_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_19_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_19_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_19_Score",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_20_ID",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_20_Num",
+            "type": "int32"
+        },
+        {
+            "name": "King_Shop_20_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_1_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_1_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_2_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_2_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_3_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_3_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_4_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_4_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_5_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_5_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_5_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_6_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_6_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_6_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_7_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_7_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_7_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_8_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_8_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_8_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_9_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_9_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_9_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_10_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_10_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_10_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_11_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_11_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_11_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_12_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_12_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_12_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_13_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_13_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_13_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_14_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_14_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_14_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_15_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_15_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_15_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_16_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_16_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_16_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_17_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_17_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_17_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_18_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_18_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_18_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_19_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_19_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_19_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_20_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_20_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Normal_Shop_20_Score",
+            "type": "int32"
+        }
+    ]
+}

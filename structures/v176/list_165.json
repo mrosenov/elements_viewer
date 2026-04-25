@@ -1,0 +1,133 @@
+{
+    "name": "PROP_ADD_MATERIAL_ITEM_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Model_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Icon_Path_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Require_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Item_1",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Item_2",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Item_3",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Result_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Result_1_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Forqe_Result_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Result_2_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Forqe_Result_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Result_3_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Forqe_Result_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Result_4_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Forqe_Result_5_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Result_5_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Forqe_Result_6_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Result_6_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Forqe_Result_7_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Result_7_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Forqe_Result_8_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Result_8_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Forqe_Result_9_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Result_9_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Forqe_Result_10_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Forqe_Result_10_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Sell_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Buy_Price",
+            "type": "int32"
+        },
+        {
+            "name": "Stack_Amt",
+            "type": "int32"
+        },
+        {
+            "name": "Trade_Behavior",
+            "type": "int32"
+        }
+    ]
+}

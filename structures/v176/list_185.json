@@ -1,0 +1,53 @@
+{
+    "name": "REGION_BLOCK_ESSENCE",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Building_1",
+            "type": "int32"
+        },
+        {
+            "name": "Building_2",
+            "type": "int32"
+        },
+        {
+            "name": "Building_3",
+            "type": "int32"
+        },
+        {
+            "name": "Building_4",
+            "type": "int32"
+        },
+        {
+            "name": "Building_5",
+            "type": "int32"
+        },
+        {
+            "name": "Building_6",
+            "type": "int32"
+        },
+        {
+            "name": "Building_7",
+            "type": "int32"
+        },
+        {
+            "name": "Building_8",
+            "type": "int32"
+        },
+        {
+            "name": "Building_9",
+            "type": "int32"
+        },
+        {
+            "name": "Building_10",
+            "type": "int32"
+        }
+    ]
+}

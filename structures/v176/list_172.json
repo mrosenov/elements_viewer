@@ -1,0 +1,137 @@
+{
+    "name": "BATH_AWARD_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Period",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_1_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_1_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Award_Info_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_2_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_2_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Award_Info_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_3_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_3_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Award_Info_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_4_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_4_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Award_Info_5_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_5_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_5_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Award_Info_6_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_6_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_6_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Award_Info_7_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_7_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_7_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Award_Info_8_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_8_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_8_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Award_Info_9_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_9_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_9_Prob",
+            "type": "float"
+        },
+        {
+            "name": "Award_Info_10_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_10_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Award_Info_10_Prob",
+            "type": "float"
+        }
+    ]
+}

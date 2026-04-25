@@ -1,0 +1,93 @@
+{
+    "name": "BATTLE_201304_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Map_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Add_Time_If_Full",
+            "type": "int32"
+        },
+        {
+            "name": "Minite_Add",
+            "type": "int32"
+        },
+        {
+            "name": "Require_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Renascence_Count",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Info_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Info_1_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Info_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Info_2_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Info_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Info_3_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Info_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Info_4_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Info_5_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Monster_Info_5_Score",
+            "type": "int32"
+        },
+        {
+            "name": "Score",
+            "type": "int32"
+        },
+        {
+            "name": "Score_Tarqet",
+            "type": "int32"
+        },
+        {
+            "name": "Task_ID_Success_Human",
+            "type": "int32"
+        },
+        {
+            "name": "Task_ID_Success_Wild",
+            "type": "int32"
+        },
+        {
+            "name": "Task_ID_Everyone",
+            "type": "int32"
+        }
+    ]
+}

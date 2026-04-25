@@ -1,0 +1,813 @@
+{
+    "name": "COLORANT_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Colorant_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_1_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_2_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_3_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_4_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_5_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_6_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_6_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_7_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_7_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_8_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_8_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_9_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_9_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_10_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_10_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_11_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_11_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_12_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_12_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_13_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_13_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_14_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_14_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_15_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_15_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_16_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_16_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_17_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_17_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_18_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_18_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_19_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_19_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_20_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_20_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_21_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_21_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_22_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_22_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_23_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_23_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_24_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_24_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_25_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_25_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_26_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_26_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_27_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_27_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_28_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_28_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_29_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_29_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_30_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_30_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_31_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_31_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_32_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_32_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_33_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_33_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_34_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_34_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_35_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_35_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_36_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_36_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_37_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_37_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_38_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_38_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_39_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_39_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_40_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_40_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_41_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_41_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_42_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_42_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_43_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_43_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_44_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_44_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_45_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_45_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_46_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_46_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_47_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_47_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_48_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_48_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_49_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_49_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_50_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_50_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_51_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_51_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_52_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_52_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_53_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_53_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_54_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_54_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_55_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_55_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_56_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_56_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_57_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_57_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_58_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_58_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_59_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_59_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_60_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_60_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_61_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_61_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_62_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_62_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_63_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_63_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_64_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_64_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_65_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_65_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_66_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_66_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_67_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_67_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_68_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_68_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_69_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_69_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_70_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_70_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_71_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_71_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_72_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_72_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_73_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_73_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_74_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_74_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_75_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_75_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_76_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_76_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_77_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_77_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_78_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_78_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_79_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_79_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_80_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_80_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_81_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_81_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_82_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_82_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_83_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_83_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_84_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_84_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_85_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_85_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_86_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_86_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_87_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_87_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_88_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_88_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_89_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_89_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_90_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_90_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_91_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_91_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_92_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_92_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_93_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_93_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_94_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_94_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_95_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_95_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_96_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_96_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_97_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_97_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_98_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_98_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_99_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_99_Probability",
+            "type": "float"
+        },
+        {
+            "name": "Colorant_100_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Colorant_100_Probability",
+            "type": "float"
+        }
+    ]
+}

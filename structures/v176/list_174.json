@@ -1,0 +1,1153 @@
+{
+    "name": "PERSONAL_LEVEL_AWARD_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Personal_Award_1_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_1_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_2_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_3_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_4_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_5_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_6_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_7_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_8_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_9_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_10_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_11_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_12_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_13_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_14_Item_Info_5_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Level",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Inception_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Cutoff_Points",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Week_Receive_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_1_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_1_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_2_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_2_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_3_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_3_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_4_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_4_Time_Limit",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_5_Item_Num",
+            "type": "int32"
+        },
+        {
+            "name": "Personal_Award_15_Item_Info_5_Time_Limit",
+            "type": "int32"
+        }
+    ]
+}

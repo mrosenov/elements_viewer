@@ -1,0 +1,41 @@
+{
+    "name": "LIST_178",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "f2",
+            "type": "int32"
+        },
+        {
+            "name": "f3",
+            "type": "int32"
+        },
+        {
+            "name": "f4",
+            "type": "int32"
+        },
+        {
+            "name": "f5",
+            "type": "int32"
+        },
+        {
+            "name": "f6",
+            "type": "int32"
+        },
+        {
+            "name": "f7",
+            "type": "int32"
+        },
+        {
+            "name": "f8",
+            "type": "int32"
+        }
+    ]
+}

@@ -1,0 +1,853 @@
+{
+    "name": "BUILDING_REGION_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Build_Region_1_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_1_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_1_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_1_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_1_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_1_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_1_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_2_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_2_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_2_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_2_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_2_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_2_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_2_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_3_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_3_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_3_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_3_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_3_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_3_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_3_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_4_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_4_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_4_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_4_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_4_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_4_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_4_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_5_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_5_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_5_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_5_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_5_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_5_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_5_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_6_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_6_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_6_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_6_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_6_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_6_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_6_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_7_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_7_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_7_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_7_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_7_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_7_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_7_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_8_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_8_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_8_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_8_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_8_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_8_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_8_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_9_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_9_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_9_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_9_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_9_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_9_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_9_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_10_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_10_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_10_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_10_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_10_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_10_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_10_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_11_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_11_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_11_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_11_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_11_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_11_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_11_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_12_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_12_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_12_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_12_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_12_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_12_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_12_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_13_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_13_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_13_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_13_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_13_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_13_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_13_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_14_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_14_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_14_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_14_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_14_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_14_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_14_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_15_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_15_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_15_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_15_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_15_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_15_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_15_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_16_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_16_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_16_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_16_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_16_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_16_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_16_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_17_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_17_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_17_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_17_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_17_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_17_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_17_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_18_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_18_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_18_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_18_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_18_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_18_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_18_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_19_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_19_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_19_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_19_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_19_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_19_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_19_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_20_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_20_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_20_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_20_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_20_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_20_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_20_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_21_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_21_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_21_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_21_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_21_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_21_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_21_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_22_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_22_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_22_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_22_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_22_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_22_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_22_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_23_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_23_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_23_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_23_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_23_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_23_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_23_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_24_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_24_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_24_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_24_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_24_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_24_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_24_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_25_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_25_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_25_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_25_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_25_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_25_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_25_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_26_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_26_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_26_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_26_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_26_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_26_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_26_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_27_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_27_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_27_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_27_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_27_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_27_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_27_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_28_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_28_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_28_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_28_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_28_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_28_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_28_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_29_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_29_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_29_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_29_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_29_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_29_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_29_Region_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_30_Name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "Build_Region_30_Center_X",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_30_Center_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_30_Length",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_30_Width",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_30_Region_Index",
+            "type": "int32"
+        },
+        {
+            "name": "Build_Region_30_Region_ID",
+            "type": "int32"
+        }
+    ]
+}

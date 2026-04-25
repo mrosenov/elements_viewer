@@ -1,0 +1,157 @@
+{
+    "name": "INTERACTION_OBJECT_HOOK_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Object_Hook_Name",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Character_Hook_Name",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Start_Task_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Start_Open_Controller_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Start_Close_Controller_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Prepare_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Start_Object_Action",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Start_Character_Action",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Static_Object_Action",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Static_Character_Action",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Move_Object_Action",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Move_Character_Action",
+            "type": "wstring:200"
+        },
+        {
+            "name": "End_Object_Action",
+            "type": "wstring:200"
+        },
+        {
+            "name": "End_Character_Action",
+            "type": "wstring:200"
+        },
+        {
+            "name": "End_Task_ID",
+            "type": "int32"
+        },
+        {
+            "name": "End_Open_Controller_ID",
+            "type": "int32"
+        },
+        {
+            "name": "End_Close_Controller_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Info_1_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Info_1_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Item_Info_2_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Info_2_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Item_Info_3_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Info_3_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Item_Info_4_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Info_4_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Item_Info_5_Item_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Item_Info_5_Prop",
+            "type": "float"
+        },
+        {
+            "name": "Accident",
+            "type": "int32"
+        },
+        {
+            "name": "Showbutton",
+            "type": "int32"
+        },
+        {
+            "name": "Buttontext",
+            "type": "wstring:200"
+        },
+        {
+            "name": "Absolute_X",
+            "type": "int32"
+        },
+        {
+            "name": "Absolute_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Absolute_Z",
+            "type": "int32"
+        },
+        {
+            "name": "Relative_X",
+            "type": "int32"
+        },
+        {
+            "name": "Relative_Y",
+            "type": "int32"
+        },
+        {
+            "name": "Relative_Z",
+            "type": "int32"
+        }
+    ]
+}

@@ -1,0 +1,613 @@
+{
+    "name": "JINFASHEN_TO_MONEY_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Jinshen_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_1_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_1_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_2_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_2_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_3_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_3_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_4_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_4_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_5_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_5_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_5_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_6_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_6_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_6_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_7_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_7_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_7_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_8_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_8_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_8_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_9_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_9_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_9_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_10_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_10_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_10_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_11_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_11_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_11_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_12_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_12_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_12_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_13_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_13_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_13_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_14_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_14_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_14_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_15_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_15_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_15_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_16_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_16_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_16_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_17_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_17_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_17_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_18_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_18_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_18_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_19_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_19_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_19_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_20_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_20_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_20_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_21_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_21_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_21_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_22_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_22_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_22_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_23_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_23_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_23_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_24_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_24_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_24_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_25_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_25_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Jinshen_25_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_1_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_1_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_1_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_2_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_2_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_2_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_3_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_3_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_3_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_4_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_4_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_4_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_5_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_5_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_5_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_6_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_6_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_6_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_7_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_7_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_7_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_8_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_8_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_8_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_9_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_9_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_9_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_10_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_10_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_10_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_11_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_11_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_11_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_12_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_12_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_12_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_13_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_13_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_13_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_14_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_14_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_14_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_15_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_15_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_15_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_16_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_16_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_16_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_17_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_17_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_17_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_18_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_18_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_18_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_19_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_19_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_19_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_20_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_20_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_20_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_21_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_21_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_21_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_22_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_22_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_22_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_23_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_23_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_23_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_24_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_24_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_24_Reputation",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_25_ID",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_25_Money",
+            "type": "int32"
+        },
+        {
+            "name": "Fashen_25_Reputation",
+            "type": "int32"
+        }
+    ]
+}

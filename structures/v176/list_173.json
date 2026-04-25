@@ -1,0 +1,45 @@
+{
+    "name": "ARENA_SEASON_TIME_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Season_Info_1_Start_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Season_Info_1_End_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Season_Info_2_Start_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Season_Info_2_End_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Season_Info_3_Start_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Season_Info_3_End_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Season_Info_4_Start_Time",
+            "type": "int32"
+        },
+        {
+            "name": "Season_Info_4_End_Time",
+            "type": "int32"
+        }
+    ]
+}
