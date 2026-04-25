@@ -114,9 +114,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'save_
     $versionLabel = preg_replace('/[^a-zA-Z0-9_]/', '', $_POST['version'] ?? '');
     $listIdx      = (int)($_POST['list'] ?? -1);
     $listName     = trim($_POST['name'] ?? '');
-    $names        = $_POST['names'] ?? [];
-    $types        = $_POST['types'] ?? [];
-    $refs         = $_POST['refs']  ?? [];
+    // Prefer the JSON-bundled payload (used by the JS submit handler) so we
+    // don't lose rows past PHP's max_input_vars cap. Fall back to per-row
+    // arrays for backward compatibility / no-JS clients.
+    $names = $types = $refs = [];
+    $bundled = $_POST['fields_json'] ?? '';
+    if ($bundled !== '') {
+        $decoded = json_decode($bundled, true);
+        if (is_array($decoded)) {
+            foreach ($decoded as $row) {
+                $names[] = $row['name'] ?? '';
+                $types[] = $row['type'] ?? '';
+                $refs[]  = $row['refs'] ?? '';
+            }
+        }
+    } else {
+        $names = $_POST['names'] ?? [];
+        $types = $_POST['types'] ?? [];
+        $refs  = $_POST['refs']  ?? [];
+    }
     // Preserve existing name_field / id_field (the template UI doesn't expose them).
     $preservedNameField = trim($_POST['name_field'] ?? '');
     $preservedIdField   = trim($_POST['id_field']   ?? '');
@@ -497,6 +513,47 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
   </div>
 </div>
 
+<!-- ░░ EXPORT C++ STRUCT MODAL ░░ -->
+<div id="cpp-modal" class="hidden fixed inset-0 bg-black/70 backdrop-blur-sm z-[150] items-center justify-center p-4"
+     onclick="if(event.target===this)closeCppModal()">
+  <div class="bg-[#0d1117] border border-slate-700 rounded-md shadow-2xl w-full max-w-3xl flex flex-col max-h-[85vh]">
+    <!-- Header -->
+    <div class="px-4 py-3 border-b border-slate-800 flex items-center justify-between gap-2 shrink-0">
+      <div class="flex items-center gap-2 min-w-0">
+        <svg class="w-4 h-4 text-purple-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12v1a3 3 0 01-3 3H7a3 3 0 01-3-3v-1m4-4l4 4m0 0l4-4m-4 4V4"/></svg>
+        <span class="mono text-[12px] font-semibold text-slate-100 truncate">Export C++ struct</span>
+        <span id="cpp-meta" class="mono text-[10px] text-slate-500 truncate"></span>
+      </div>
+      <div class="flex items-center gap-1 shrink-0">
+        <button type="button" onclick="copyCppStruct()"
+          class="px-2.5 py-1 rounded border text-[10px] mono uppercase tracking-widest bg-slate-800/60 hover:bg-slate-800 border-slate-700/50 hover:border-slate-600 text-slate-300 transition-colors flex items-center gap-1">
+          <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+          Copy
+        </button>
+        <button type="button" onclick="closeCppModal()"
+          class="w-6 h-6 flex items-center justify-center rounded text-slate-500 hover:text-slate-200 hover:bg-slate-800 transition-colors">
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </div>
+    <!-- Body -->
+    <div class="overflow-auto px-4 py-3 bg-[#090c12]">
+      <pre id="cpp-output" class="mono text-[11px] text-slate-200 leading-relaxed whitespace-pre"></pre>
+    </div>
+    <!-- Footer -->
+    <div class="px-4 py-3 border-t border-slate-800 flex justify-between items-center gap-2 shrink-0">
+      <p class="text-[10px] mono text-slate-600">
+        <span class="text-slate-500">wstring:N</span> → <span class="text-emerald-300">namechar[N/2]</span> ·
+        <span class="text-slate-500">int32</span> → <span class="text-emerald-300">unsigned int</span>
+      </p>
+      <button type="button" onclick="closeCppModal()"
+        class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-slate-800/60 hover:bg-slate-800 border-slate-700/50 hover:border-slate-600 text-slate-300 transition-colors">
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+
 <!-- ░░ TOPBAR ░░ -->
 <header class="h-11 shrink-0 bg-[#0d1117] border-b border-slate-800 flex items-center px-4 gap-3 z-50 relative">
   <!-- Logo -->
@@ -824,8 +881,8 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
               <table class="w-full text-[11px] mono">
                 <thead class="sticky top-0 bg-[#0d1117]">
                   <tr class="border-b border-slate-800">
-                    <th class="text-left px-3 py-1.5 font-normal text-slate-600">Label</th>
-                    <th class="text-left px-3 py-1.5 font-normal text-slate-600">Value</th>
+                    <th class="text-left px-3 py-1.5 font-normal text-slate-300">Label</th>
+                    <th class="text-left px-3 py-1.5 font-normal text-slate-300">Value</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -860,7 +917,7 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
 
         <!-- Schema Editor -->
         <div class="flex-1 flex flex-col overflow-hidden min-w-0">
-          <form method="post" id="schemaForm" class="flex-1 flex flex-col overflow-hidden min-w-0">
+          <form method="post" id="schemaForm" onsubmit="return prepareSchemaSubmit(this)" class="flex-1 flex flex-col overflow-hidden min-w-0">
             <input type="hidden" name="action"   value="save_list">
             <input type="hidden" name="version"  value="<?= h($reader->getVersionLabel()) ?>">
             <input type="hidden" name="list"     value="<?= (int)$selectedListIdx ?>">
@@ -868,6 +925,9 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
             <input type="hidden" name="off_qs"   value="<?= (int)$rowOffset ?>">
             <input type="hidden" name="name_field" value="<?= h($preservedNameField) ?>">
             <input type="hidden" name="id_field"   value="<?= h($preservedIdField) ?>">
+            <!-- Bundled row payload — sidesteps PHP's max_input_vars cap (default 1000)
+                 which otherwise truncates names[]/types[]/refs[] past ~331 rows. -->
+            <input type="hidden" name="fields_json" id="fields-json" value="">
 
             <!-- Header -->
             <div class="shrink-0 bg-[#0d1117] border-b border-slate-800 px-4 py-2 flex items-center gap-2 flex-wrap">
@@ -955,6 +1015,11 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
                 class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-cyan-950/20 hover:bg-cyan-950/50 border-cyan-800/30 hover:border-cyan-700/50 text-cyan-300 transition-colors flex items-center gap-1.5">
                 <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/></svg>
                 Import .cfg
+              </button>
+              <button type="button" onclick="openCppModal()"
+                class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-purple-950/20 hover:bg-purple-950/50 border-purple-800/30 hover:border-purple-700/50 text-purple-300 transition-colors flex items-center gap-1.5">
+                <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12v1a3 3 0 01-3 3H7a3 3 0 01-3-3v-1m4-4l4 4m0 0l4-4m-4 4V4"/></svg>
+                Export C++
               </button>
               <button type="submit" class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-emerald-950/30 hover:bg-emerald-950/60 border-emerald-800/40 hover:border-emerald-700/60 text-emerald-300 transition-colors">
                 Save Schema
@@ -1201,6 +1266,37 @@ function truncateSchema(){
   recomputeSchemaBadges();
   toast('All '+n+' fields removed. Click "Save Schema" to persist.','error');
 }
+// Bundle every schema row into a single JSON hidden field, then strip the
+// per-row inputs from submission (by clearing their `name` attr, since
+// `disabled` would also visually grey them out). PHP reads `fields_json`
+// when present and falls back to names[]/types[]/refs[] otherwise. This
+// avoids PHP's max_input_vars=1000 cap that truncated saves past ~331 rows.
+function prepareSchemaSubmit(form){
+  const tbody=document.getElementById('schema-tbody');
+  const out=[];
+  if(tbody){
+    const rows=tbody.querySelectorAll('tr');
+    for(let i=0;i<rows.length;i++){
+      const tr=rows[i];
+      const nameEl=tr.querySelector('input[name="names[]"], input[data-orig-name="names[]"]');
+      const typeEl=tr.querySelector('select[name="types[]"], select[data-orig-name="types[]"]');
+      const refsEl=tr.querySelector('input[name="refs[]"], input[data-orig-name="refs[]"]');
+      out.push({
+        name: nameEl ? nameEl.value : '',
+        type: typeEl ? typeEl.value : '',
+        refs: refsEl ? refsEl.value : '',
+      });
+      // Strip name so the browser doesn't include this field in the POST.
+      // Stash the original on a data attr so we can restore on validation failure.
+      if(nameEl){ nameEl.setAttribute('data-orig-name','names[]'); nameEl.removeAttribute('name'); }
+      if(typeEl){ typeEl.setAttribute('data-orig-name','types[]'); typeEl.removeAttribute('name'); }
+      if(refsEl){ refsEl.setAttribute('data-orig-name','refs[]'); refsEl.removeAttribute('name'); }
+    }
+  }
+  const json=document.getElementById('fields-json');
+  if(json) json.value=JSON.stringify(out);
+  return true;
+}
 
 // ── Import .cfg modal ───────────────────────────────────────────────────────
 function _parseCfg(text){
@@ -1261,12 +1357,187 @@ function importCfgFromText(){
   closeCfgModal();
   toast('Imported '+parsed.fields.length+' field'+(parsed.fields.length===1?'':'s')+' into "'+parsed.name+'". Click Save Schema to persist.','success');
 }
-// Esc closes the modal when it's open.
-document.addEventListener('keydown',function(e){
-  if(e.key==='Escape'){
-    const m=document.getElementById('cfg-modal');
-    if(m && !m.classList.contains('hidden')) closeCfgModal();
+// ── Export C++ struct modal ─────────────────────────────────────────────────
+// Map a stored schema type to a C++ declaration. Returns {decl, suffix} where
+// `decl` is the type token (placed before the field name) and `suffix` is
+// appended after the field name (used for arrays).
+function _cppForType(t){
+  if(t==='int32')   return {decl:'unsigned int', suffix:''};
+  if(t==='int64')   return {decl:'__int64',      suffix:''};
+  if(t==='float')   return {decl:'float',        suffix:''};
+  if(t==='double')  return {decl:'double',       suffix:''};
+  if(t.indexOf('wstring:')===0){
+    const n=parseInt(t.slice(8),10);
+    const chars=isFinite(n) && n>0 ? Math.floor(n/2) : 0;
+    return {decl:'namechar', suffix:'['+chars+']'};
   }
+  if(t.indexOf('byte:')===0){
+    const tail=t.slice(5);
+    if(tail==='AUTO') return {decl:'unsigned char', suffix:'[/* AUTO */]'};
+    const n=parseInt(tail,10);
+    return {decl:'unsigned char', suffix:'['+(isFinite(n) && n>0 ? n : 0)+']'};
+  }
+  return {decl:t, suffix:''};
+}
+// Tab-align: advance from `fromCol` to `toCol` using `T`-wide tab stops.
+// Returns a run of '\t' characters (≥1 if from<to).
+function _alignTabs(fromCol, toCol, T){
+  let out='', col=fromCol;
+  while(col < toCol){
+    col = col + T - (col % T);
+    out += '\t';
+  }
+  return out;
+}
+// Parse a flat field name like `Page_1_Goods_1_Item_Req_1_ID` into a path of
+// (struct-name, index) pairs plus a final leaf name. A numeric token is
+// treated as a path index ONLY when more tokens follow it; a trailing number
+// (e.g. `Unknown_2`) is kept as part of the leaf name.
+function _parseFieldPath(name){
+  const parts=name.split('_');
+  const path=[];
+  let buf=[];
+  for(let i=0;i<parts.length;i++){
+    const tok=parts[i];
+    if(/^\d+$/.test(tok) && i < parts.length-1 && buf.length>0){
+      path.push({name: buf.join('_'), idx: parseInt(tok,10)});
+      buf=[];
+    } else {
+      buf.push(tok);
+    }
+  }
+  return {path: path, leaf: buf.join('_')};
+}
+// Build a nested tree from parsed field paths. Each node has:
+//   ordered  – [{kind:'leaf'|'struct', key}] in first-appearance order
+//   leaves   – {key: {name, type}}
+//   structs  – {key: {maxIdx, node}}
+function _buildCppTree(fields){
+  const root={ordered:[], leaves:{}, structs:{}};
+  for(const f of fields){
+    const parsed=_parseFieldPath(f.name);
+    let node=root;
+    for(const step of parsed.path){
+      if(!(step.name in node.structs)){
+        node.structs[step.name]={maxIdx: step.idx, node:{ordered:[], leaves:{}, structs:{}}};
+        node.ordered.push({kind:'struct', key: step.name});
+      } else if(step.idx > node.structs[step.name].maxIdx){
+        node.structs[step.name].maxIdx = step.idx;
+      }
+      node = node.structs[step.name].node;
+    }
+    const leafKey = parsed.leaf || ('field_'+node.ordered.length);
+    if(!(leafKey in node.leaves)){
+      node.leaves[leafKey] = {name: leafKey, type: f.type};
+      node.ordered.push({kind:'leaf', key: leafKey});
+    }
+  }
+  return root;
+}
+// Render a tree node recursively. `indent` is the number of leading tabs for
+// fields at this level. The name column is computed per-level using only the
+// leaf type-decl widths (struct lines are multi-line and skip alignment).
+function _renderCppNode(node, indent, T){
+  // First pass — gather entries and find the longest leaf decl at this level.
+  let maxDecl=0;
+  const entries=[];
+  for(const e of node.ordered){
+    if(e.kind==='leaf'){
+      const leaf=node.leaves[e.key];
+      const cpp=_cppForType(leaf.type);
+      entries.push({kind:'leaf', decl: cpp.decl, lhs: leaf.name + cpp.suffix + ';'});
+      if(cpp.decl.length > maxDecl) maxDecl = cpp.decl.length;
+    } else {
+      const s=node.structs[e.key];
+      entries.push({kind:'struct', name: e.key, maxIdx: s.maxIdx, child: s.node});
+    }
+  }
+  const endOfLongest = indent*T + maxDecl;
+  const nameCol      = maxDecl > 0 ? endOfLongest + T - (endOfLongest % T) : 0;
+  const lead         = '\t'.repeat(indent);
+  let out='';
+  for(const it of entries){
+    if(it.kind==='leaf'){
+      const startCol = indent*T + it.decl.length;
+      const pad      = _alignTabs(startCol, nameCol, T);
+      out += lead + it.decl + pad + it.lhs + '\n';
+    } else {
+      out += lead + 'struct\n';
+      out += lead + '{\n';
+      out += _renderCppNode(it.child, indent+1, T);
+      out += lead + '} ' + it.name + '[' + it.maxIdx + '];\n';
+    }
+  }
+  return out;
+}
+function _generateCppStruct(){
+  const tbody=document.getElementById('schema-tbody');
+  const nameInp=document.querySelector('#schemaForm input[name="name"]');
+  const structName=(nameInp && nameInp.value.trim()) ? nameInp.value.trim() : 'UNNAMED_STRUCT';
+  if(!tbody) return {text:'struct '+structName+'\n{\n};\n', total:0, fields:0, structName:structName};
+  const T=4;
+  const rows=tbody.querySelectorAll('tr');
+  const fields=[];
+  let totalBytes=0;
+  for(let i=0;i<rows.length;i++){
+    const tr=rows[i];
+    const nameEl=tr.querySelector('input[name="names[]"]');
+    const typeEl=tr.querySelector('select[name="types[]"]');
+    const fname=nameEl ? nameEl.value.trim() : '';
+    const ftype=typeEl ? typeEl.value : 'int32';
+    totalBytes += typeWidth(ftype);
+    if(!fname && !ftype) continue;
+    fields.push({name: fname || ('field_'+i), type: ftype});
+  }
+  if(fields.length===0){
+    return {text:'struct '+structName+'\n{\n};\n', total:totalBytes, fields:0, structName:structName};
+  }
+  const tree=_buildCppTree(fields);
+  let out='struct '+structName+'\n{\n';
+  out += _renderCppNode(tree, 1, T);
+  out += '};\n';
+  return {text:out, total:totalBytes, fields:fields.length, structName:structName};
+}
+function openCppModal(){
+  const r=_generateCppStruct();
+  const pre=document.getElementById('cpp-output');
+  if(pre) pre.textContent=r.text;
+  const meta=document.getElementById('cpp-meta');
+  if(meta) meta.textContent='— '+r.fields+' field'+(r.fields===1?'':'s')+', '+r.total+' bytes';
+  const m=document.getElementById('cpp-modal');
+  if(m){m.classList.remove('hidden'); m.classList.add('flex');}
+}
+function closeCppModal(){
+  const m=document.getElementById('cpp-modal');
+  if(m){m.classList.add('hidden'); m.classList.remove('flex');}
+}
+function copyCppStruct(){
+  const pre=document.getElementById('cpp-output');
+  if(!pre) return;
+  const txt=pre.textContent;
+  const done=function(ok){ toast(ok?'C++ struct copied to clipboard.':'Copy failed.', ok?'success':'error'); };
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(function(){done(true);},function(){done(false);});
+  } else {
+    // Legacy fallback
+    try {
+      const ta=document.createElement('textarea');
+      ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.select();
+      const ok=document.execCommand('copy');
+      document.body.removeChild(ta);
+      done(ok);
+    } catch(_){ done(false); }
+  }
+}
+
+// Esc closes whichever modal is open.
+document.addEventListener('keydown',function(e){
+  if(e.key!=='Escape') return;
+  const cfg=document.getElementById('cfg-modal');
+  if(cfg && !cfg.classList.contains('hidden')){ closeCfgModal(); return; }
+  const cpp=document.getElementById('cpp-modal');
+  if(cpp && !cpp.classList.contains('hidden')){ closeCppModal(); return; }
 });
 
 // Recompute badges on every type change (initial wiring)
