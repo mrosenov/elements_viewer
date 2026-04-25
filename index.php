@@ -513,6 +513,57 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
   </div>
 </div>
 
+<!-- ░░ IMPORT C++ STRUCT MODAL ░░ -->
+<div id="cpp-import-modal" class="hidden fixed inset-0 bg-black/70 backdrop-blur-sm z-[150] items-center justify-center p-4"
+     onclick="if(event.target===this)closeCppImportModal()">
+  <div class="bg-[#0d1117] border border-slate-700 rounded-md shadow-2xl w-full max-w-2xl flex flex-col max-h-[85vh]">
+    <!-- Header -->
+    <div class="px-4 py-3 border-b border-slate-800 flex items-center justify-between shrink-0">
+      <div class="flex items-center gap-2">
+        <svg class="w-4 h-4 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/></svg>
+        <span class="mono text-[12px] font-semibold text-slate-100">Import schema from C++ struct</span>
+      </div>
+      <button type="button" onclick="closeCppImportModal()"
+        class="w-6 h-6 flex items-center justify-center rounded text-slate-500 hover:text-slate-200 hover:bg-slate-800 transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <!-- Body -->
+    <div class="px-4 py-3 space-y-2 overflow-y-auto">
+      <p class="text-[11px] mono text-slate-400 leading-relaxed">
+        Paste a C++ <span class="text-yellow-300">struct</span> definition. Nested anonymous structs are flattened into prefixed field names (e.g. <span class="text-slate-500">pages_1_goods_1_id_goods</span>).
+      </p>
+      <ul class="text-[11px] mono text-slate-500 list-disc list-inside space-y-0.5 pl-1">
+        <li><span class="text-yellow-300">int</span> / <span class="text-yellow-300">unsigned int</span> → <span class="text-emerald-300">int32</span></li>
+        <li><span class="text-yellow-300">__int64</span> → <span class="text-emerald-300">int64</span> · <span class="text-yellow-300">float</span> · <span class="text-yellow-300">double</span></li>
+        <li><span class="text-yellow-300">namechar X[N]</span> → <span class="text-emerald-300">wstring:(N*2)</span> (each namechar = 2 bytes)</li>
+        <li><span class="text-yellow-300">unsigned char X[N]</span> → <span class="text-emerald-300">byte:N</span></li>
+        <li><span class="text-yellow-300">int X[N]</span> (non-namechar/byte arrays) → expanded to <span class="text-slate-600">X_1, X_2, …</span></li>
+      </ul>
+      <textarea id="cpp-import-textarea" rows="14"
+        placeholder="struct ITEM_TRADE_CONFIG&#10;{&#10;    unsigned int    id;&#10;    namechar        name[32];&#10;    struct {&#10;        namechar    page_title[8];&#10;        struct {&#10;            unsigned int id_goods;&#10;            unsigned int goods_num;&#10;        } goods[48];&#10;    } pages[4];&#10;    unsigned int    id_dialog;&#10;};"
+        spellcheck="false"
+        class="w-full bg-slate-900/80 border border-slate-700/60 focus:border-yellow-700 rounded px-2 py-1.5 text-[11px] mono text-slate-200 placeholder-slate-700 outline-none transition-colors resize-y"></textarea>
+      <p class="text-[10px] mono text-slate-600 leading-relaxed">
+        Comments (<span class="text-slate-500">// …</span> and <span class="text-slate-500">/* … */</span>) are stripped.
+        Importing replaces all current rows — click <span class="text-emerald-300">Save Schema</span> afterwards to persist to
+        <span id="cpp-import-target" class="text-yellow-300"></span>.
+      </p>
+    </div>
+    <!-- Footer -->
+    <div class="px-4 py-3 border-t border-slate-800 flex gap-2 justify-end shrink-0">
+      <button type="button" onclick="closeCppImportModal()"
+        class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-slate-800/60 hover:bg-slate-800 border-slate-700/50 hover:border-slate-600 text-slate-300 transition-colors">
+        Cancel
+      </button>
+      <button type="button" onclick="importCppFromText()"
+        class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-yellow-950/40 hover:bg-yellow-950/70 border-yellow-800/50 hover:border-yellow-700/70 text-yellow-300 transition-colors">
+        Parse & Import
+      </button>
+    </div>
+  </div>
+</div>
+
 <!-- ░░ EXPORT C++ STRUCT MODAL ░░ -->
 <div id="cpp-modal" class="hidden fixed inset-0 bg-black/70 backdrop-blur-sm z-[150] items-center justify-center p-4"
      onclick="if(event.target===this)closeCppModal()">
@@ -1016,6 +1067,11 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
                 <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/></svg>
                 Import .cfg
               </button>
+              <button type="button" onclick="openCppImportModal()"
+                class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-yellow-950/20 hover:bg-yellow-950/50 border-yellow-800/30 hover:border-yellow-700/50 text-yellow-300 transition-colors flex items-center gap-1.5">
+                <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/></svg>
+                Import C++
+              </button>
               <button type="button" onclick="openCppModal()"
                 class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-purple-950/20 hover:bg-purple-950/50 border-purple-800/30 hover:border-purple-700/50 text-purple-300 transition-colors flex items-center gap-1.5">
                 <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12v1a3 3 0 01-3 3H7a3 3 0 01-3-3v-1m4-4l4 4m0 0l4-4m-4 4V4"/></svg>
@@ -1357,6 +1413,215 @@ function importCfgFromText(){
   closeCfgModal();
   toast('Imported '+parsed.fields.length+' field'+(parsed.fields.length===1?'':'s')+' into "'+parsed.name+'". Click Save Schema to persist.','success');
 }
+
+// ── Import C++ struct modal ─────────────────────────────────────────────────
+// Strip /* ... */ blocks and // line comments. Done first so the tokenizer
+// doesn't have to know about comment syntax.
+function _stripCppComments(src){
+  src = src.replace(/\/\*[\s\S]*?\*\//g, ' ');
+  src = src.replace(/\/\/[^\n]*/g, ' ');
+  return src;
+}
+// Tokenize into {kind, val} where kind ∈ {'id','num','punct'}.
+function _tokenizeCpp(src){
+  src = _stripCppComments(src);
+  const out=[];
+  // __int64 has leading underscores so the identifier regex covers it.
+  const re = /([A-Za-z_][A-Za-z_0-9]*)|(\d+)|([{}()\[\];,])/g;
+  let m;
+  while((m = re.exec(src)) !== null){
+    if(m[1])      out.push({kind:'id',    val:m[1]});
+    else if(m[2]) out.push({kind:'num',   val:parseInt(m[2],10)});
+    else          out.push({kind:'punct', val:m[3]});
+  }
+  return out;
+}
+// Recursive-descent parser for the constrained subset:
+//   struct [TAG] { field+ } [;]
+//   field = TYPE NAME [ '[' N ']' ] ';'
+//         | struct [TAG] { field+ } NAME [ '[' N ']' ] ';'
+// TYPE is one or more identifier tokens, the LAST id before '[' or ';' is
+// the field name.
+function _parseCppStruct(text){
+  const toks = _tokenizeCpp(text);
+  let pos = 0;
+  const peek = (off=0)=>toks[pos+off];
+  const isPunct = (p,off=0)=>{const t=peek(off); return t && t.kind==='punct' && t.val===p;};
+  const isId    = (s,off=0)=>{const t=peek(off); return t && t.kind==='id'    && t.val===s;};
+  const eatPunct = (p)=>{
+    if(!isPunct(p)) throw new Error('Expected "'+p+'" near token '+pos+' ('+JSON.stringify(peek())+')');
+    pos++;
+  };
+  function parseStructBody(){
+    // Caller has already consumed `struct` and an optional tag and the `{`.
+    const fields=[];
+    while(peek() && !isPunct('}')){
+      fields.push(parseField());
+    }
+    eatPunct('}');
+    return fields;
+  }
+  function parseField(){
+    if(isId('struct')){
+      pos++;
+      // Optional tag (identifier before '{').
+      if(peek() && peek().kind==='id' && isPunct('{',1)) pos++;
+      eatPunct('{');
+      const inner = parseStructBody();
+      // Now: NAME [ '[' N ']' ] ';'
+      if(!peek() || peek().kind!=='id') throw new Error('Expected field name after struct body near token '+pos);
+      const fname = peek().val; pos++;
+      let arr = 1;
+      if(isPunct('[')){
+        pos++;
+        if(!peek() || peek().kind!=='num') throw new Error('Expected number inside [] for "'+fname+'"');
+        arr = peek().val; pos++;
+        eatPunct(']');
+      }
+      eatPunct(';');
+      return {kind:'struct', name:fname, fields:inner, arraySize:arr};
+    }
+    // Plain field. Collect identifier tokens up to '[' or ';'. Last id = name.
+    const ids=[];
+    while(peek() && peek().kind==='id'){
+      ids.push(peek().val); pos++;
+    }
+    if(ids.length < 2) throw new Error('Expected "type name;" near token '+pos+', got '+JSON.stringify(ids));
+    const fname = ids.pop();
+    const typeStr = ids.join(' ');
+    let arr = null;
+    if(isPunct('[')){
+      pos++;
+      if(!peek() || peek().kind!=='num') throw new Error('Expected number inside [] for "'+fname+'"');
+      arr = peek().val; pos++;
+      eatPunct(']');
+    }
+    eatPunct(';');
+    return {kind:'leaf', name:fname, typeStr:typeStr, arraySize:arr};
+  }
+  // Top-level: locate the first 'struct' keyword and parse from there.
+  while(peek() && !isId('struct')) pos++;
+  if(!peek()) throw new Error('No "struct" keyword found.');
+  pos++;
+  let topName = null;
+  if(peek() && peek().kind==='id' && isPunct('{',1)){
+    topName = peek().val; pos++;
+  } else if(peek() && peek().kind==='id' && !isPunct('{',1)){
+    // Tag-only declaration like `struct FOO;` — not supported.
+    topName = peek().val; pos++;
+  }
+  eatPunct('{');
+  const fields = parseStructBody();
+  if(isPunct(';')) pos++;
+  return {name: topName || 'UNNAMED_STRUCT', fields: fields};
+}
+// Map a single C++ leaf field to a schema {name, type} (or array of them
+// if the field is a non-namechar/byte array — those expand to N copies).
+function _cppLeafToSchema(prefix, leaf){
+  const t   = leaf.typeStr.replace(/\s+/g,' ').trim();
+  const arr = leaf.arraySize;
+  const fname = prefix + leaf.name;
+  // Width-grouped type lookup. Both signed and unsigned collapse to the
+  // same schema type since the binary layout is identical.
+  let scalarType = null;
+  if(t==='int' || t==='unsigned int' || t==='signed int' || t==='unsigned' || t==='signed' ||
+     t==='long' || t==='unsigned long' || t==='signed long' ||
+     t==='DWORD' || t==='int32_t' || t==='uint32_t'){
+    scalarType = 'int32';
+  } else if(t==='short' || t==='unsigned short' || t==='signed short' ||
+            t==='WORD' || t==='int16_t' || t==='uint16_t'){
+    // 16-bit isn't a primary schema type — store as byte:2 to preserve width.
+    scalarType = 'byte:2';
+  } else if(t==='__int64' || t==='unsigned __int64' || t==='signed __int64' ||
+            t==='long long' || t==='unsigned long long' || t==='signed long long' ||
+            t==='int64_t' || t==='uint64_t'){
+    scalarType = 'int64';
+  } else if(t==='float'){
+    scalarType = 'float';
+  } else if(t==='double'){
+    scalarType = 'double';
+  } else if(t==='namechar' || t==='wchar_t'){
+    if(arr == null || arr <= 0) throw new Error('"'+fname+'": '+t+' must be an array (e.g. '+leaf.name+'[N])');
+    return [{name: fname, type: 'wstring:'+(arr*2)}];
+  } else if(t==='char' || t==='signed char' || t==='unsigned char' || t==='byte' || t==='BYTE' || t==='uint8_t' || t==='int8_t'){
+    return [{name: fname, type: arr != null ? 'byte:'+arr : 'byte:1'}];
+  } else {
+    throw new Error('"'+fname+'": unrecognized C++ type "'+t+'"');
+  }
+  // Scalar (non-byte/wstring): if arrayed, expand into N suffix-numbered copies.
+  if(arr == null) return [{name: fname, type: scalarType}];
+  const out=[];
+  for(let i=1;i<=arr;i++) out.push({name: fname+'_'+i, type: scalarType});
+  return out;
+}
+// Walk the parsed tree and produce the flat field list. Nested struct arrays
+// expand into prefixed names: pages_1_…, pages_2_…, etc. Round-trips through
+// the Export C++ generator since its parser detects `_<digit>_` as a path
+// index when followed by more tokens.
+function _flattenCppToSchema(parsed){
+  const fields=[];
+  function walk(prefix, kids){
+    for(const f of kids){
+      if(f.kind==='leaf'){
+        const items = _cppLeafToSchema(prefix, f);
+        for(const it of items) fields.push(it);
+      } else {
+        const n = f.arraySize > 0 ? f.arraySize : 1;
+        for(let i=1;i<=n;i++){
+          walk(prefix + f.name + '_' + i + '_', f.fields);
+        }
+      }
+    }
+  }
+  walk('', parsed.fields);
+  return fields;
+}
+function openCppImportModal(){
+  const m=document.getElementById('cpp-import-modal');
+  if(!m) return;
+  // Surface the destination file so the user knows where Save Schema will write.
+  const tgt=document.getElementById('cpp-import-target');
+  const verEl=document.querySelector('input[name="version"]');
+  const lstEl=document.querySelector('input[name="list"]');
+  if(tgt && verEl && lstEl){
+    tgt.textContent = verEl.value+'/list_'+lstEl.value+'.json';
+  }
+  m.classList.remove('hidden'); m.classList.add('flex');
+  setTimeout(function(){
+    const ta=document.getElementById('cpp-import-textarea');
+    if(ta) ta.focus();
+  }, 50);
+}
+function closeCppImportModal(){
+  const m=document.getElementById('cpp-import-modal');
+  if(m){m.classList.add('hidden'); m.classList.remove('flex');}
+}
+function importCppFromText(){
+  const ta=document.getElementById('cpp-import-textarea');
+  if(!ta) return;
+  const src = (ta.value||'').trim();
+  if(!src){ toast('Paste a C++ struct first.','warning'); return; }
+  let parsed, flat;
+  try { parsed = _parseCppStruct(src); }
+  catch(e){ toast('Parse error: '+e.message,'error'); return; }
+  try { flat = _flattenCppToSchema(parsed); }
+  catch(e){ toast('Flatten error: '+e.message,'error'); return; }
+  if(!flat.length){ toast('No fields produced from struct.','warning'); return; }
+  // Replace list-name input
+  const nameInp=document.querySelector('#schemaForm input[name="name"]');
+  if(nameInp) nameInp.value=parsed.name;
+  // Wipe + repopulate schema rows
+  const tbody=document.getElementById('schema-tbody');
+  if(!tbody){ toast('Schema editor not available.','error'); return; }
+  tbody.innerHTML='';
+  for(let i=0;i<flat.length;i++){
+    tbody.appendChild(_buildSchemaRow(i, flat[i].name, flat[i].type, ''));
+  }
+  recomputeSchemaBadges();
+  closeCppImportModal();
+  toast('Parsed "'+parsed.name+'": '+flat.length+' flat field'+(flat.length===1?'':'s')+'. Click Save Schema to persist.','success');
+}
+
 // ── Export C++ struct modal ─────────────────────────────────────────────────
 // Map a stored schema type to a C++ declaration. Returns {decl, suffix} where
 // `decl` is the type token (placed before the field name) and `suffix` is
