@@ -1,0 +1,2805 @@
+{
+  "name": "BUILDING_ESSENCE",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int32"
+    },
+    {
+      "name": "name",
+      "type": "wstring:64"
+    },
+    {
+      "name": "constructing_model",
+      "type": "int32"
+    },
+    {
+      "name": "building_desc",
+      "type": "wstring:512"
+    },
+    {
+      "name": "update_building_1_ordinary",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_hightlight",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_Unk1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_Unk2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_1_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_1_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_2_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_2_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_3_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_3_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_4_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_4_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_5_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_5_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_6_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_6_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_7_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_7_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_8_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_8_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_9_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_9_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_10_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_require_building_10_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_building_model",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_task_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_finish_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_item_id_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_item_num_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_time_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_item_id_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_item_num_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_time_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_item_id_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_item_num_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_time_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_item_id_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_item_num_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_time_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_item_id_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_item_num_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_item_time_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_added_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_added_grass_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_mine_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_monster_core_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_monster_food_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_add_money_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_open_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_1_controller_close_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_ordinary",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_hightlight",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_Unk1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_Unk2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_1_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_1_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_2_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_2_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_3_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_3_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_4_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_4_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_5_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_5_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_6_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_6_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_7_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_7_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_8_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_8_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_9_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_9_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_10_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_require_building_10_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_building_model",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_task_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_finish_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_item_id_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_item_num_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_time_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_item_id_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_item_num_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_time_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_item_id_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_item_num_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_time_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_item_id_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_item_num_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_time_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_item_id_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_item_num_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_item_time_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_added_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_added_grass_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_mine_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_monster_core_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_monster_food_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_add_money_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_open_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_2_controller_close_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_ordinary",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_hightlight",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_Unk1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_Unk2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_1_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_1_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_2_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_2_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_3_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_3_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_4_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_4_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_5_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_5_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_6_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_6_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_7_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_7_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_8_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_8_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_9_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_9_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_10_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_require_building_10_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_building_model",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_task_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_finish_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_item_id_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_item_num_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_time_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_item_id_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_item_num_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_time_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_item_id_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_item_num_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_time_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_item_id_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_item_num_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_time_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_item_id_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_item_num_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_item_time_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_added_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_added_grass_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_mine_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_monster_core_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_monster_food_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_add_money_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_open_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_3_controller_close_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_ordinary",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_hightlight",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_Unk1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_Unk2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_1_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_1_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_2_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_2_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_3_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_3_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_4_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_4_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_5_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_5_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_6_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_6_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_7_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_7_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_8_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_8_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_9_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_9_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_10_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_require_building_10_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_building_model",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_task_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_finish_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_item_id_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_item_num_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_time_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_item_id_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_item_num_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_time_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_item_id_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_item_num_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_time_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_item_id_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_item_num_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_time_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_item_id_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_item_num_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_item_time_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_added_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_added_grass_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_mine_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_monster_core_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_monster_food_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_add_money_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_open_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_4_controller_close_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_ordinary",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_hightlight",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_Unk1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_Unk2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_1_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_1_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_2_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_2_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_3_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_3_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_4_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_4_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_5_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_5_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_6_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_6_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_7_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_7_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_8_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_8_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_9_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_9_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_10_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_require_building_10_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_building_model",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_task_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_finish_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_item_id_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_item_num_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_time_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_item_id_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_item_num_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_time_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_item_id_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_item_num_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_time_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_item_id_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_item_num_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_time_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_item_id_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_item_num_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_item_time_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_added_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_added_grass_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_mine_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_monster_core_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_monster_food_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_add_money_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_open_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_5_controller_close_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_ordinary",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_hightlight",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_Unk1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_Unk2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_1_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_1_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_2_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_2_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_3_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_3_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_4_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_4_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_5_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_5_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_6_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_6_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_7_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_7_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_8_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_8_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_9_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_9_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_10_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_require_building_10_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_building_model",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_task_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_finish_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_item_id_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_item_num_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_time_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_item_id_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_item_num_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_time_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_item_id_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_item_num_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_time_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_item_id_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_item_num_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_time_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_item_id_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_item_num_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_item_time_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_added_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_added_grass_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_mine_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_monster_core_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_monster_food_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_add_money_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_open_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_6_controller_close_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_ordinary",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_hightlight",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_Unk1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_Unk2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_1_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_1_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_2_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_2_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_3_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_3_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_4_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_4_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_5_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_5_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_6_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_6_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_7_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_7_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_8_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_8_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_9_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_9_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_10_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_require_building_10_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_building_model",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_task_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_finish_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_item_id_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_item_num_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_time_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_item_id_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_item_num_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_time_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_item_id_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_item_num_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_time_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_item_id_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_item_num_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_time_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_item_id_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_item_num_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_item_time_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_added_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_added_grass_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_mine_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_monster_core_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_monster_food_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_add_money_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_open_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_7_controller_close_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_ordinary",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_hightlight",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_Unk1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_Unk2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_1_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_1_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_2_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_2_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_3_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_3_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_4_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_4_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_5_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_5_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_6_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_6_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_7_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_7_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_8_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_8_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_9_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_9_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_10_building_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_require_building_10_level",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_building_model",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_task_id",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_finish_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_item_id_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_item_num_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_time_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_item_id_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_item_num_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_time_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_item_id_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_item_num_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_time_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_item_id_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_item_num_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_time_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_item_id_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_item_num_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_item_time_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_added_grass_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_added_grass_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_mine_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_mine_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_monster_core_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_monster_core_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_monster_food_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_monster_food_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_money_num",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_add_money_time",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_open_15",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_1",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_2",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_3",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_4",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_5",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_6",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_7",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_8",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_9",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_10",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_11",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_12",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_13",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_14",
+      "type": "int32"
+    },
+    {
+      "name": "update_building_8_controller_close_15",
+      "type": "int32"
+    }
+  ]
+}

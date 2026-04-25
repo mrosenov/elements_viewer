@@ -1,0 +1,3613 @@
+{
+    "name": "FACTION_SHOP_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "faction_item_list_1_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_1_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_1_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_1_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_1_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_1_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_1_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_1_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_2_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_2_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_2_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_2_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_2_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_2_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_2_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_2_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_3_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_3_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_3_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_3_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_3_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_3_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_3_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_3_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_4_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_4_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_4_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_4_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_4_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_4_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_4_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_4_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_5_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_5_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_5_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_5_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_5_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_5_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_5_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_5_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_6_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_6_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_6_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_6_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_6_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_6_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_6_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_6_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_7_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_7_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_7_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_7_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_7_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_7_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_7_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_7_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_8_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_8_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_8_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_8_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_8_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_8_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_8_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_8_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_9_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_9_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_9_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_9_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_9_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_9_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_9_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_9_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_10_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_10_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_10_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_10_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_10_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_10_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_10_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_10_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_11_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_11_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_11_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_11_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_11_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_11_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_11_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_11_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_12_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_12_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_12_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_12_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_12_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_12_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_12_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_12_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_13_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_13_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_13_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_13_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_13_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_13_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_13_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_13_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_14_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_14_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_14_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_14_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_14_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_14_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_14_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_14_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_15_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_15_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_15_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_15_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_15_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_15_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_15_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_15_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_16_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_16_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_16_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_16_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_16_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_16_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_16_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_16_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_17_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_17_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_17_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_17_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_17_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_17_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_17_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_17_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_18_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_18_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_18_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_18_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_18_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_18_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_18_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_18_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_19_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_19_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_19_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_19_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_19_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_19_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_19_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_19_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_20_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_20_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_20_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_20_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_20_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_20_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_20_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_20_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_21_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_21_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_21_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_21_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_21_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_21_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_21_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_21_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_22_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_22_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_22_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_22_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_22_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_22_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_22_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_22_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_23_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_23_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_23_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_23_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_23_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_23_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_23_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_23_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_24_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_24_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_24_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_24_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_24_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_24_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_24_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_24_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_25_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_25_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_25_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_25_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_25_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_25_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_25_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_25_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_25_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_26_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_26_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_26_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_26_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_26_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_26_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_26_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_26_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_26_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_27_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_27_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_27_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_27_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_27_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_27_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_27_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_27_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_27_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_28_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_28_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_28_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_28_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_28_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_28_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_28_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_28_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_28_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_29_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_29_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_29_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_29_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_29_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_29_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_29_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_29_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_29_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_30_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_30_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_30_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_30_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_30_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_30_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_30_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_30_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_30_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_31_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_31_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_31_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_31_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_31_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_31_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_31_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_31_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_31_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_32_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_32_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_32_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_32_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_32_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_32_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_32_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_32_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_32_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_33_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_33_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_33_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_33_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_33_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_33_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_33_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_33_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_33_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_34_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_34_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_34_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_34_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_34_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_34_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_34_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_34_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_34_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_35_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_35_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_35_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_35_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_35_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_35_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_35_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_35_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_35_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_36_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_36_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_36_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_36_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_36_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_36_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_36_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_36_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_36_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_37_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_37_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_37_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_37_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_37_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_37_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_37_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_37_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_37_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_38_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_38_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_38_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_38_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_38_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_38_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_38_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_38_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_38_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_39_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_39_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_39_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_39_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_39_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_39_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_39_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_39_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_39_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_40_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_40_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_40_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_40_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_40_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_40_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_40_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_40_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_40_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_41_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_41_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_41_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_41_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_41_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_41_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_41_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_41_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_41_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_42_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_42_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_42_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_42_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_42_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_42_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_42_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_42_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_42_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_43_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_43_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_43_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_43_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_43_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_43_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_43_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_43_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_43_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_44_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_44_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_44_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_44_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_44_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_44_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_44_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_44_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_44_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_45_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_45_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_45_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_45_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_45_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_45_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_45_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_45_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_45_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_46_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_46_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_46_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_46_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_46_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_46_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_46_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_46_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_46_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_47_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_47_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_47_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_47_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_47_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_47_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_47_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_47_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_47_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_48_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_48_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_48_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_48_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_48_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_48_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_48_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_48_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_48_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_49_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_49_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_49_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_49_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_49_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_49_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_49_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_49_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_49_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_50_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_50_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_50_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_50_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_50_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_50_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_50_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_50_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_50_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_51_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_51_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_51_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_51_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_51_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_51_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_51_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_51_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_51_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_52_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_52_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_52_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_52_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_52_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_52_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_52_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_52_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_52_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_53_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_53_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_53_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_53_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_53_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_53_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_53_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_53_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_53_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_54_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_54_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_54_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_54_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_54_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_54_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_54_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_54_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_54_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_55_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_55_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_55_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_55_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_55_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_55_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_55_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_55_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_55_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_56_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_56_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_56_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_56_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_56_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_56_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_56_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_56_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_56_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_57_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_57_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_57_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_57_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_57_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_57_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_57_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_57_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_57_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_58_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_58_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_58_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_58_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_58_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_58_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_58_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_58_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_58_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_59_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_59_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_59_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_59_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_59_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_59_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_59_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_59_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_59_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_60_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_60_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_60_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_60_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_60_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_60_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_60_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_60_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_60_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_61_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_61_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_61_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_61_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_61_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_61_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_61_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_61_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_61_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_62_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_62_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_62_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_62_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_62_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_62_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_62_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_62_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_62_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_63_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_63_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_63_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_63_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_63_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_63_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_63_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_63_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_63_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_64_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_64_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_64_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_64_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_64_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_64_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_64_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_64_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_64_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_65_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_65_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_65_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_65_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_65_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_65_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_65_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_65_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_65_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_66_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_66_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_66_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_66_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_66_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_66_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_66_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_66_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_66_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_67_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_67_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_67_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_67_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_67_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_67_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_67_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_67_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_67_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_68_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_68_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_68_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_68_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_68_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_68_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_68_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_68_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_68_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_69_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_69_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_69_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_69_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_69_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_69_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_69_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_69_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_69_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_70_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_70_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_70_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_70_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_70_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_70_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_70_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_70_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_70_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_71_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_71_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_71_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_71_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_71_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_71_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_71_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_71_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_71_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_72_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_72_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_72_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_72_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_72_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_72_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_72_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_72_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_72_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_73_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_73_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_73_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_73_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_73_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_73_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_73_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_73_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_73_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_74_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_74_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_74_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_74_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_74_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_74_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_74_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_74_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_74_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_75_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_75_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_75_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_75_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_75_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_75_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_75_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_75_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_75_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_76_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_76_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_76_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_76_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_76_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_76_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_76_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_76_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_76_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_77_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_77_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_77_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_77_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_77_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_77_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_77_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_77_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_77_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_78_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_78_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_78_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_78_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_78_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_78_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_78_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_78_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_78_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_79_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_79_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_79_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_79_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_79_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_79_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_79_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_79_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_79_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_80_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_80_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_80_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_80_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_80_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_80_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_80_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_80_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_80_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_81_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_81_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_81_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_81_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_81_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_81_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_81_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_81_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_81_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_82_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_82_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_82_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_82_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_82_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_82_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_82_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_82_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_82_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_83_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_83_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_83_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_83_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_83_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_83_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_83_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_83_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_83_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_84_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_84_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_84_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_84_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_84_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_84_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_84_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_84_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_84_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_85_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_85_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_85_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_85_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_85_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_85_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_85_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_85_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_85_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_86_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_86_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_86_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_86_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_86_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_86_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_86_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_86_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_86_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_87_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_87_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_87_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_87_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_87_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_87_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_87_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_87_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_87_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_88_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_88_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_88_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_88_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_88_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_88_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_88_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_88_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_88_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_89_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_89_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_89_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_89_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_89_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_89_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_89_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_89_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_89_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_90_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_90_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_90_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_90_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_90_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_90_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_90_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_90_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_90_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_91_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_91_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_91_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_91_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_91_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_91_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_91_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_91_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_91_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_92_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_92_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_92_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_92_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_92_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_92_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_92_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_92_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_92_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_93_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_93_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_93_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_93_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_93_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_93_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_93_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_93_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_93_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_94_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_94_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_94_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_94_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_94_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_94_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_94_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_94_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_94_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_95_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_95_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_95_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_95_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_95_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_95_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_95_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_95_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_95_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_96_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_96_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_96_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_96_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_96_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_96_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_96_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_96_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_96_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_97_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_97_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_97_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_97_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_97_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_97_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_97_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_97_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_97_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_98_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_98_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_98_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_98_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_98_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_98_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_98_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_98_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_98_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_99_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_99_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_99_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_99_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_99_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_99_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_99_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_99_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_99_unk4",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_100_item_index",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_100_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_100_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_100_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_100_contribution",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_100_unk1",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_100_unk2",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_100_unk3",
+            "type": "int32"
+        },
+        {
+            "name": "faction_item_list_100_unk4",
+            "type": "int32"
+        }
+    ]
+}

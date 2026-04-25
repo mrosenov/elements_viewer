@@ -1,0 +1,2453 @@
+{
+    "name": "TRANSCRIPT_STRATEGY_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "level_list_1_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_1_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_1_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_1_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_1_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_1_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_1_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_1_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_1_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_1_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_1_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_2_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_2_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_2_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_2_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_2_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_2_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_2_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_2_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_2_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_2_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_2_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_3_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_3_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_3_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_3_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_3_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_3_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_3_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_3_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_3_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_3_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_3_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_4_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_4_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_4_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_4_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_4_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_4_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_4_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_4_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_4_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_4_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_4_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_5_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_5_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_5_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_5_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_5_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_5_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_5_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_5_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_5_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_5_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_5_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_6_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_6_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_6_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_6_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_6_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_6_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_6_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_6_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_6_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_6_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_6_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_7_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_7_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_7_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_7_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_7_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_7_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_7_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_7_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_7_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_7_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_7_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_8_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_8_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_8_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_8_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_8_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_8_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_8_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_8_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_8_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_8_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_8_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_9_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_9_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_9_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_9_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_9_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_9_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_9_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_9_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_9_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_9_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_9_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_10_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_10_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_10_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_10_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_10_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_10_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_10_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_10_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_10_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_10_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_10_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_11_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_11_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_11_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_11_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_11_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_11_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_11_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_11_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_11_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_11_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_11_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_12_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_12_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_12_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_12_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_12_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_12_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_12_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_12_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_12_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_12_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_12_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_13_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_13_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_13_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_13_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_13_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_13_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_13_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_13_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_13_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_13_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_13_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_14_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_14_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_14_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_14_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_14_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_14_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_14_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_14_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_14_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_14_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_14_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_15_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_15_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_15_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_15_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_15_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_15_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_15_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_15_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_15_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_15_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_15_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_16_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_16_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_16_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_16_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_16_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_16_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_16_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_16_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_16_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_16_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_16_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_17_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_17_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_17_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_17_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_17_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_17_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_17_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_17_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_17_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_17_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_17_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_18_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_18_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_18_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_18_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_18_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_18_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_18_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_18_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_18_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_18_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_18_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_19_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_19_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_19_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_19_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_19_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_19_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_19_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_19_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_19_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_19_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_19_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_20_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_20_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_20_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_20_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_20_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_20_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_20_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_20_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_20_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_20_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_20_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_21_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_21_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_21_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_21_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_21_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_21_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_21_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_21_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_21_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_21_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_21_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_22_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_22_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_22_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_22_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_22_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_22_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_22_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_22_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_22_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_22_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_22_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_23_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_23_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_23_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_23_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_23_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_23_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_23_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_23_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_23_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_23_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_23_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_24_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_24_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_24_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_24_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_24_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_24_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_24_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_24_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_24_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_24_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_24_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_25_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_25_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_25_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_25_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_25_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_25_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_25_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_25_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_25_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_25_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_25_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_26_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_26_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_26_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_26_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_26_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_26_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_26_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_26_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_26_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_26_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_26_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_27_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_27_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_27_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_27_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_27_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_27_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_27_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_27_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_27_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_27_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_27_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_28_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_28_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_28_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_28_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_28_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_28_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_28_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_28_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_28_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_28_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_28_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_29_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_29_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_29_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_29_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_29_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_29_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_29_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_29_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_29_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_29_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_29_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_30_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_30_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_30_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_30_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_30_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_30_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_30_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_30_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_30_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_30_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_30_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_31_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_31_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_31_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_31_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_31_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_31_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_31_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_31_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_31_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_31_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_31_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_32_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_32_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_32_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_32_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_32_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_32_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_32_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_32_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_32_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_32_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_32_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_33_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_33_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_33_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_33_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_33_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_33_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_33_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_33_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_33_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_33_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_33_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_34_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_34_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_34_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_34_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_34_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_34_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_34_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_34_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_34_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_34_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_34_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_35_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_35_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_35_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_35_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_35_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_35_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_35_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_35_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_35_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_35_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_35_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_36_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_36_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_36_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_36_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_36_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_36_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_36_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_36_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_36_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_36_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_36_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_37_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_37_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_37_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_37_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_37_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_37_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_37_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_37_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_37_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_37_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_37_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_38_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_38_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_38_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_38_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_38_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_38_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_38_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_38_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_38_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_38_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_38_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_39_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_39_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_39_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_39_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_39_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_39_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_39_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_39_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_39_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_39_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_39_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_40_level_type",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_40_monster_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_40_monster_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_40_monster_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_40_monster_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_40_monster_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_40_monster_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_40_monster_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_40_monster_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_40_monster_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_list_40_monster_10",
+            "type": "int32"
+        },
+        {
+            "name": "unk_1",
+            "type": "int32"
+        },
+        {
+            "name": "unk_2",
+            "type": "int32"
+        },
+        {
+            "name": "unk_3",
+            "type": "int32"
+        },
+        {
+            "name": "unk_4",
+            "type": "int32"
+        },
+        {
+            "name": "unk_5",
+            "type": "int32"
+        },
+        {
+            "name": "unk_6",
+            "type": "int32"
+        },
+        {
+            "name": "unk_7",
+            "type": "int32"
+        },
+        {
+            "name": "unk_8",
+            "type": "int32"
+        },
+        {
+            "name": "unk_9",
+            "type": "int32"
+        },
+        {
+            "name": "unk_10",
+            "type": "int32"
+        },
+        {
+            "name": "unk_11",
+            "type": "int32"
+        },
+        {
+            "name": "unk_12",
+            "type": "int32"
+        },
+        {
+            "name": "unk_13",
+            "type": "int32"
+        },
+        {
+            "name": "unk_14",
+            "type": "int32"
+        },
+        {
+            "name": "unk_15",
+            "type": "int32"
+        },
+        {
+            "name": "unk_16",
+            "type": "int32"
+        },
+        {
+            "name": "unk_17",
+            "type": "int32"
+        },
+        {
+            "name": "unk_18",
+            "type": "int32"
+        },
+        {
+            "name": "unk_19",
+            "type": "int32"
+        },
+        {
+            "name": "unk_20",
+            "type": "int32"
+        },
+        {
+            "name": "unk_21",
+            "type": "int32"
+        },
+        {
+            "name": "unk_22",
+            "type": "int32"
+        },
+        {
+            "name": "unk_23",
+            "type": "int32"
+        },
+        {
+            "name": "unk_24",
+            "type": "int32"
+        },
+        {
+            "name": "unk_25",
+            "type": "int32"
+        },
+        {
+            "name": "unk_26",
+            "type": "int32"
+        },
+        {
+            "name": "unk_27",
+            "type": "int32"
+        },
+        {
+            "name": "unk_28",
+            "type": "int32"
+        },
+        {
+            "name": "unk_29",
+            "type": "int32"
+        },
+        {
+            "name": "unk_30",
+            "type": "int32"
+        },
+        {
+            "name": "unk_31",
+            "type": "int32"
+        },
+        {
+            "name": "unk_32",
+            "type": "int32"
+        },
+        {
+            "name": "unk_33",
+            "type": "int32"
+        },
+        {
+            "name": "unk_34",
+            "type": "int32"
+        },
+        {
+            "name": "unk_35",
+            "type": "int32"
+        },
+        {
+            "name": "unk_36",
+            "type": "int32"
+        },
+        {
+            "name": "unk_37",
+            "type": "int32"
+        },
+        {
+            "name": "unk_38",
+            "type": "int32"
+        },
+        {
+            "name": "unk_39",
+            "type": "int32"
+        },
+        {
+            "name": "unk_40",
+            "type": "int32"
+        },
+        {
+            "name": "unk_41",
+            "type": "int32"
+        },
+        {
+            "name": "unk_42",
+            "type": "int32"
+        },
+        {
+            "name": "unk_43",
+            "type": "int32"
+        },
+        {
+            "name": "unk_44",
+            "type": "int32"
+        },
+        {
+            "name": "unk_45",
+            "type": "int32"
+        },
+        {
+            "name": "unk_46",
+            "type": "int32"
+        },
+        {
+            "name": "unk_47",
+            "type": "int32"
+        },
+        {
+            "name": "unk_48",
+            "type": "int32"
+        },
+        {
+            "name": "unk_49",
+            "type": "int32"
+        },
+        {
+            "name": "unk_50",
+            "type": "int32"
+        },
+        {
+            "name": "unk_51",
+            "type": "int32"
+        },
+        {
+            "name": "unk_52",
+            "type": "int32"
+        },
+        {
+            "name": "unk_53",
+            "type": "int32"
+        },
+        {
+            "name": "unk_54",
+            "type": "int32"
+        },
+        {
+            "name": "unk_55",
+            "type": "int32"
+        },
+        {
+            "name": "unk_56",
+            "type": "int32"
+        },
+        {
+            "name": "unk_57",
+            "type": "int32"
+        },
+        {
+            "name": "unk_58",
+            "type": "int32"
+        },
+        {
+            "name": "unk_59",
+            "type": "int32"
+        },
+        {
+            "name": "unk_60",
+            "type": "int32"
+        },
+        {
+            "name": "unk_61",
+            "type": "int32"
+        },
+        {
+            "name": "unk_62",
+            "type": "int32"
+        },
+        {
+            "name": "unk_63",
+            "type": "int32"
+        },
+        {
+            "name": "unk_64",
+            "type": "int32"
+        },
+        {
+            "name": "unk_65",
+            "type": "int32"
+        },
+        {
+            "name": "unk_66",
+            "type": "int32"
+        },
+        {
+            "name": "unk_67",
+            "type": "int32"
+        },
+        {
+            "name": "unk_68",
+            "type": "int32"
+        },
+        {
+            "name": "unk_69",
+            "type": "int32"
+        },
+        {
+            "name": "unk_70",
+            "type": "int32"
+        },
+        {
+            "name": "unk_71",
+            "type": "int32"
+        },
+        {
+            "name": "unk_72",
+            "type": "int32"
+        },
+        {
+            "name": "unk_73",
+            "type": "int32"
+        },
+        {
+            "name": "unk_74",
+            "type": "int32"
+        },
+        {
+            "name": "unk_75",
+            "type": "int32"
+        },
+        {
+            "name": "unk_76",
+            "type": "int32"
+        },
+        {
+            "name": "unk_77",
+            "type": "int32"
+        },
+        {
+            "name": "unk_78",
+            "type": "int32"
+        },
+        {
+            "name": "unk_79",
+            "type": "int32"
+        },
+        {
+            "name": "unk_80",
+            "type": "int32"
+        },
+        {
+            "name": "unk_81",
+            "type": "int32"
+        },
+        {
+            "name": "unk_82",
+            "type": "int32"
+        },
+        {
+            "name": "unk_83",
+            "type": "int32"
+        },
+        {
+            "name": "unk_84",
+            "type": "int32"
+        },
+        {
+            "name": "unk_85",
+            "type": "int32"
+        },
+        {
+            "name": "unk_86",
+            "type": "int32"
+        },
+        {
+            "name": "unk_87",
+            "type": "int32"
+        },
+        {
+            "name": "unk_88",
+            "type": "int32"
+        },
+        {
+            "name": "unk_89",
+            "type": "int32"
+        },
+        {
+            "name": "unk_90",
+            "type": "int32"
+        },
+        {
+            "name": "unk_91",
+            "type": "int32"
+        },
+        {
+            "name": "unk_92",
+            "type": "int32"
+        },
+        {
+            "name": "unk_93",
+            "type": "int32"
+        },
+        {
+            "name": "unk_94",
+            "type": "int32"
+        },
+        {
+            "name": "unk_95",
+            "type": "int32"
+        },
+        {
+            "name": "unk_96",
+            "type": "int32"
+        },
+        {
+            "name": "unk_97",
+            "type": "int32"
+        },
+        {
+            "name": "unk_98",
+            "type": "int32"
+        },
+        {
+            "name": "unk_99",
+            "type": "int32"
+        },
+        {
+            "name": "unk_100",
+            "type": "int32"
+        },
+        {
+            "name": "unk_101",
+            "type": "int32"
+        },
+        {
+            "name": "unk_102",
+            "type": "int32"
+        },
+        {
+            "name": "unk_103",
+            "type": "int32"
+        },
+        {
+            "name": "unk_104",
+            "type": "int32"
+        },
+        {
+            "name": "unk_105",
+            "type": "int32"
+        },
+        {
+            "name": "unk_106",
+            "type": "int32"
+        },
+        {
+            "name": "unk_107",
+            "type": "int32"
+        },
+        {
+            "name": "unk_108",
+            "type": "int32"
+        },
+        {
+            "name": "unk_109",
+            "type": "int32"
+        },
+        {
+            "name": "unk_110",
+            "type": "int32"
+        },
+        {
+            "name": "unk_111",
+            "type": "int32"
+        },
+        {
+            "name": "unk_112",
+            "type": "int32"
+        },
+        {
+            "name": "unk_113",
+            "type": "int32"
+        },
+        {
+            "name": "unk_114",
+            "type": "int32"
+        },
+        {
+            "name": "unk_115",
+            "type": "int32"
+        },
+        {
+            "name": "unk_116",
+            "type": "int32"
+        },
+        {
+            "name": "unk_117",
+            "type": "int32"
+        },
+        {
+            "name": "unk_118",
+            "type": "int32"
+        },
+        {
+            "name": "unk_119",
+            "type": "int32"
+        },
+        {
+            "name": "unk_120",
+            "type": "int32"
+        },
+        {
+            "name": "unk_121",
+            "type": "int32"
+        },
+        {
+            "name": "unk_122",
+            "type": "int32"
+        },
+        {
+            "name": "unk_123",
+            "type": "int32"
+        },
+        {
+            "name": "unk_124",
+            "type": "int32"
+        },
+        {
+            "name": "unk_125",
+            "type": "int32"
+        },
+        {
+            "name": "unk_126",
+            "type": "int32"
+        },
+        {
+            "name": "unk_127",
+            "type": "int32"
+        },
+        {
+            "name": "unk_128",
+            "type": "int32"
+        },
+        {
+            "name": "unk_129",
+            "type": "int32"
+        },
+        {
+            "name": "unk_130",
+            "type": "int32"
+        },
+        {
+            "name": "unk_131",
+            "type": "int32"
+        },
+        {
+            "name": "unk_132",
+            "type": "int32"
+        },
+        {
+            "name": "unk_133",
+            "type": "int32"
+        },
+        {
+            "name": "unk_134",
+            "type": "int32"
+        },
+        {
+            "name": "unk_135",
+            "type": "int32"
+        },
+        {
+            "name": "unk_136",
+            "type": "int32"
+        },
+        {
+            "name": "unk_137",
+            "type": "int32"
+        },
+        {
+            "name": "unk_138",
+            "type": "int32"
+        },
+        {
+            "name": "unk_139",
+            "type": "int32"
+        },
+        {
+            "name": "unk_140",
+            "type": "int32"
+        },
+        {
+            "name": "unk_141",
+            "type": "int32"
+        },
+        {
+            "name": "unk_142",
+            "type": "int32"
+        },
+        {
+            "name": "unk_143",
+            "type": "int32"
+        },
+        {
+            "name": "unk_144",
+            "type": "int32"
+        },
+        {
+            "name": "unk_145",
+            "type": "int32"
+        },
+        {
+            "name": "unk_146",
+            "type": "int32"
+        },
+        {
+            "name": "unk_147",
+            "type": "int32"
+        },
+        {
+            "name": "unk_148",
+            "type": "int32"
+        },
+        {
+            "name": "unk_149",
+            "type": "int32"
+        },
+        {
+            "name": "unk_150",
+            "type": "int32"
+        },
+        {
+            "name": "unk_151",
+            "type": "int32"
+        },
+        {
+            "name": "unk_152",
+            "type": "int32"
+        },
+        {
+            "name": "unk_153",
+            "type": "int32"
+        },
+        {
+            "name": "unk_154",
+            "type": "int32"
+        },
+        {
+            "name": "unk_155",
+            "type": "int32"
+        },
+        {
+            "name": "unk_156",
+            "type": "int32"
+        },
+        {
+            "name": "unk_157",
+            "type": "int32"
+        },
+        {
+            "name": "unk_158",
+            "type": "int32"
+        },
+        {
+            "name": "unk_159",
+            "type": "int32"
+        },
+        {
+            "name": "unk_160",
+            "type": "int32"
+        },
+        {
+            "name": "unk_161",
+            "type": "int32"
+        },
+        {
+            "name": "unk_162",
+            "type": "int32"
+        },
+        {
+            "name": "unk_163",
+            "type": "int32"
+        },
+        {
+            "name": "unk_164",
+            "type": "int32"
+        },
+        {
+            "name": "unk_165",
+            "type": "int32"
+        },
+        {
+            "name": "unk_166",
+            "type": "int32"
+        },
+        {
+            "name": "unk_167",
+            "type": "int32"
+        },
+        {
+            "name": "unk_168",
+            "type": "int32"
+        },
+        {
+            "name": "unk_169",
+            "type": "int32"
+        },
+        {
+            "name": "unk_170",
+            "type": "int32"
+        }
+    ]
+}
