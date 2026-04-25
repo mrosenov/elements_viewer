@@ -107,6 +107,94 @@ function save_list_entry($dir, $versionLabel, $listIdx, $entry) {
 }
 
 // ---------------------------------------------------------------------------
+// AJAX endpoint: diff list sizes between two .data files
+// ---------------------------------------------------------------------------
+//   GET ?action=diff_lists&file_a=...&file_b=...
+// Returns JSON describing per-list (sizeof, count) for both files. Used by
+// the Compare modal to surface struct-layout changes between game versions.
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['action'] ?? '') === 'diff_lists') {
+    header('Content-Type: application/json');
+    $fileA = basename($_GET['file_a'] ?? '');
+    $fileB = basename($_GET['file_b'] ?? '');
+    $pathA = $dataDir ? $dataDir . '/' . $fileA : '';
+    $pathB = $dataDir ? $dataDir . '/' . $fileB : '';
+    if (!$dataDir || !is_file($pathA) || !is_file($pathB)) {
+        echo json_encode(['error' => 'One or both files not found in data/.']);
+        exit;
+    }
+    if ($fileA === $fileB) {
+        echo json_encode(['error' => 'Pick two different files to compare.']);
+        exit;
+    }
+    try {
+        $rA = (new ElementsReader($pathA))->scan();
+        $rB = (new ElementsReader($pathB))->scan();
+    } catch (Throwable $e) {
+        echo json_encode(['error' => $e->getMessage()]);
+        exit;
+    }
+    // Look up schema names from A's version (so each row has a human label).
+    $structA    = load_structure($structDir, $rA->getVersionLabel());
+    $namesByIdx = [];
+    foreach (($structA['lists'] ?? []) as $key => $entry) {
+        $namesByIdx[(int)$key] = is_array($entry) ? ($entry['name'] ?? '') : '';
+    }
+    $byIdxA = $byIdxB = [];
+    foreach ($rA->getLists() as $L) $byIdxA[(int)$L['index']] = $L;
+    foreach ($rB->getLists() as $L) $byIdxB[(int)$L['index']] = $L;
+    $maxIdx = max(
+        empty($byIdxA) ? -1 : max(array_keys($byIdxA)),
+        empty($byIdxB) ? -1 : max(array_keys($byIdxB))
+    );
+    $rows = [];
+    $sumChangedSize = 0; $sumChangedCount = 0; $sumOnlyA = 0; $sumOnlyB = 0;
+    for ($i = 0; $i <= $maxIdx; $i++) {
+        $a = $byIdxA[$i] ?? null;
+        $b = $byIdxB[$i] ?? null;
+        if (!$a && !$b) continue;
+        $sa = $a ? (int)$a['sizeof'] : null;
+        $sb = $b ? (int)$b['sizeof'] : null;
+        $ca = $a ? (int)$a['count']  : null;
+        $cb = $b ? (int)$b['count']  : null;
+        $sizeChanged  = ($a && $b && $sa !== $sb);
+        $countChanged = ($a && $b && $ca !== $cb);
+        $onlyInA      = ($a && !$b);
+        $onlyInB      = (!$a && $b);
+        if ($sizeChanged)  $sumChangedSize++;
+        if ($countChanged) $sumChangedCount++;
+        if ($onlyInA)      $sumOnlyA++;
+        if ($onlyInB)      $sumOnlyB++;
+        $rows[] = [
+            'idx'           => $i,
+            'name'          => $namesByIdx[$i] ?? '',
+            'sizeof_a'      => $sa,
+            'sizeof_b'      => $sb,
+            'count_a'       => $ca,
+            'count_b'       => $cb,
+            'size_changed'  => $sizeChanged,
+            'count_changed' => $countChanged,
+            'only_in_a'     => $onlyInA,
+            'only_in_b'     => $onlyInB,
+        ];
+    }
+    echo json_encode([
+        'file_a'    => $fileA,
+        'file_b'    => $fileB,
+        'version_a' => $rA->getVersionLabel(),
+        'version_b' => $rB->getVersionLabel(),
+        'rows'      => $rows,
+        'totals'    => [
+            'rows'          => count($rows),
+            'changed_size'  => $sumChangedSize,
+            'changed_count' => $sumChangedCount,
+            'only_a'        => $sumOnlyA,
+            'only_b'        => $sumOnlyB,
+        ],
+    ]);
+    exit;
+}
+
+// ---------------------------------------------------------------------------
 // Handle POST (save a list definition)
 // ---------------------------------------------------------------------------
 $saveMsg = '';
@@ -464,6 +552,85 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
 <!-- ░░ TOASTS ░░ -->
 <div id="toast-container" class="fixed top-3 right-3 z-[200] flex flex-col gap-2 pointer-events-none"></div>
 
+<!-- ░░ COMPARE LIST SIZES MODAL ░░ -->
+<div id="diff-modal" class="hidden fixed inset-0 bg-black/70 backdrop-blur-sm z-[150] items-center justify-center p-4"
+     onclick="if(event.target===this)closeDiffModal()">
+  <div class="bg-[#0d1117] border border-slate-700 rounded-md shadow-2xl w-full max-w-5xl flex flex-col max-h-[90vh]">
+    <!-- Header -->
+    <div class="px-4 py-3 border-b border-slate-800 flex items-center justify-between gap-2 shrink-0">
+      <div class="flex items-center gap-2 min-w-0">
+        <svg class="w-4 h-4 text-orange-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+        <span class="mono text-[12px] font-semibold text-slate-100 truncate">Compare list sizes</span>
+        <span id="diff-meta" class="mono text-[10px] text-slate-500 truncate"></span>
+      </div>
+      <button type="button" onclick="closeDiffModal()"
+        class="w-6 h-6 flex items-center justify-center rounded text-slate-500 hover:text-slate-200 hover:bg-slate-800 transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <!-- Controls -->
+    <div class="px-4 py-2.5 border-b border-slate-800 flex items-center gap-2 flex-wrap shrink-0 bg-[#090c12]">
+      <span class="text-[11px] mono text-slate-400">A:</span>
+      <span id="diff-file-a" class="text-[11px] mono text-cyan-300"><?= h($fileName) ?></span>
+      <span class="text-slate-600 mx-1">vs</span>
+      <span class="text-[11px] mono text-slate-400">B:</span>
+      <select id="diff-file-b"
+        class="bg-slate-900 border border-slate-700 text-slate-200 rounded px-2 py-1 text-[11px] mono focus:border-orange-700 outline-none">
+        <option value="">— pick file —</option>
+        <?php foreach ($dataFiles as $f): if ($f === $fileName) continue; ?>
+          <option value="<?= h($f) ?>"><?= h($f) ?></option>
+        <?php endforeach; ?>
+      </select>
+      <button type="button" onclick="runDiff()"
+        class="px-3 py-1 rounded border text-[11px] mono uppercase tracking-widest bg-orange-950/30 hover:bg-orange-950/60 border-orange-800/40 hover:border-orange-700/60 text-orange-300 transition-colors">
+        Run
+      </button>
+      <span class="ml-auto flex items-center gap-3">
+        <label class="flex items-center gap-1.5 text-[11px] mono text-slate-300 cursor-pointer">
+          <input type="checkbox" id="diff-only-size" onchange="renderDiffTable()" class="accent-red-500"> only sizeof Δ
+        </label>
+        <label class="flex items-center gap-1.5 text-[11px] mono text-slate-300 cursor-pointer">
+          <input type="checkbox" id="diff-only-count" onchange="renderDiffTable()" class="accent-yellow-500"> only count Δ
+        </label>
+        <input type="text" id="diff-search" oninput="renderDiffTable()" placeholder="filter by # or name…"
+          class="bg-slate-900 border border-slate-700 text-slate-200 placeholder-slate-600 rounded px-2 py-1 text-[11px] mono focus:border-orange-700 outline-none w-44"/>
+      </span>
+    </div>
+    <!-- Body / table -->
+    <div class="flex-1 overflow-auto">
+      <div id="diff-empty" class="p-8 text-center">
+        <p class="text-[12px] mono text-slate-500">Pick a second file from the dropdown and click <span class="text-orange-300">Run</span>.</p>
+      </div>
+      <table id="diff-table" class="hidden w-full text-[11px] mono">
+        <thead class="sticky top-0 bg-[#0d1117] border-b border-slate-800 text-slate-400 text-[10px] uppercase tracking-widest">
+          <tr>
+            <th class="px-3 py-2 text-right">#</th>
+            <th class="px-3 py-2 text-left">Name (A)</th>
+            <th class="px-3 py-2 text-right">sizeof A</th>
+            <th class="px-3 py-2 text-right">sizeof B</th>
+            <th class="px-3 py-2 text-right">Δ size</th>
+            <th class="px-3 py-2 text-right">count A</th>
+            <th class="px-3 py-2 text-right">count B</th>
+            <th class="px-3 py-2 text-right">Δ count</th>
+            <th class="px-3 py-2 text-left">Status</th>
+          </tr>
+        </thead>
+        <tbody id="diff-tbody" class="divide-y divide-slate-800/60"></tbody>
+      </table>
+    </div>
+    <!-- Footer -->
+    <div class="px-4 py-2.5 border-t border-slate-800 flex items-center gap-3 text-[10px] mono shrink-0 bg-[#090c12]">
+      <span id="diff-totals" class="text-slate-500"></span>
+      <span class="ml-auto text-slate-600">
+        <span class="inline-block w-2 h-2 rounded-sm bg-red-500/70 align-middle mr-1"></span>sizeof changed (struct layout shift)
+        <span class="inline-block w-2 h-2 rounded-sm bg-yellow-500/70 align-middle ml-3 mr-1"></span>count changed
+        <span class="inline-block w-2 h-2 rounded-sm bg-cyan-500/70 align-middle ml-3 mr-1"></span>only in A
+        <span class="inline-block w-2 h-2 rounded-sm bg-purple-500/70 align-middle ml-3 mr-1"></span>only in B
+      </span>
+    </div>
+  </div>
+</div>
+
 <!-- ░░ IMPORT .CFG MODAL ░░ -->
 <div id="cfg-modal" class="hidden fixed inset-0 bg-black/70 backdrop-blur-sm z-[150] items-center justify-center p-4"
      onclick="if(event.target===this)closeCfgModal()">
@@ -644,6 +811,12 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
       <span class="text-[11px] mono text-slate-300">Lists Count</span>
       <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-slate-900 text-slate-400 border-slate-700"><?= count($reader->getLists()) ?></span>
     </div>
+    <button type="button" onclick="openDiffModal()"
+      class="flex items-center gap-1.5 px-2.5 py-1 rounded border text-[11px] mono uppercase tracking-widest bg-orange-950/20 hover:bg-orange-950/50 border-orange-800/30 hover:border-orange-700/50 text-orange-300 transition-colors"
+      title="Compare list sizes against another elements.data file">
+      <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+      Compare
+    </button>
     <?php if ($reader->getTalkProcCount() !== null): ?>
       <div class="flex items-center gap-1.5">
         <span class="text-[11px] mono text-slate-300">Talk Proc Records</span>
@@ -1622,6 +1795,131 @@ function importCppFromText(){
   toast('Parsed "'+parsed.name+'": '+flat.length+' flat field'+(flat.length===1?'':'s')+'. Click Save Schema to persist.','success');
 }
 
+// ── Compare list sizes modal ────────────────────────────────────────────────
+// Holds the most recent diff response so the filter checkboxes can re-render
+// without re-hitting the server.
+var _diffData = null;
+function openDiffModal(){
+  const m=document.getElementById('diff-modal');
+  if(!m) return;
+  m.classList.remove('hidden'); m.classList.add('flex');
+  setTimeout(function(){
+    const sel=document.getElementById('diff-file-b');
+    if(sel) sel.focus();
+  }, 50);
+}
+function closeDiffModal(){
+  const m=document.getElementById('diff-modal');
+  if(m){m.classList.add('hidden'); m.classList.remove('flex');}
+}
+function runDiff(){
+  const fileA=document.getElementById('diff-file-a').textContent.trim();
+  const fileB=document.getElementById('diff-file-b').value;
+  if(!fileA){ toast('No A file loaded.','error'); return; }
+  if(!fileB){ toast('Pick a second file from the dropdown.','warning'); return; }
+  const meta=document.getElementById('diff-meta');
+  if(meta) meta.textContent='— loading…';
+  const tbody=document.getElementById('diff-tbody');
+  if(tbody) tbody.innerHTML='';
+  const tbl=document.getElementById('diff-table');
+  const empty=document.getElementById('diff-empty');
+  if(tbl) tbl.classList.add('hidden');
+  if(empty){ empty.classList.remove('hidden'); empty.querySelector('p').textContent='Loading…'; }
+  const url='?action=diff_lists&file_a='+encodeURIComponent(fileA)+'&file_b='+encodeURIComponent(fileB);
+  fetch(url, {credentials:'same-origin'})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(data.error){
+        if(meta) meta.textContent='';
+        if(empty) empty.querySelector('p').textContent='Error: '+data.error;
+        toast('Diff failed: '+data.error,'error');
+        return;
+      }
+      _diffData = data;
+      if(meta) meta.textContent='— '+data.version_a+' vs '+data.version_b;
+      renderDiffTable();
+    })
+    .catch(function(e){
+      if(meta) meta.textContent='';
+      if(empty) empty.querySelector('p').textContent='Network error: '+e;
+      toast('Diff request failed: '+e,'error');
+    });
+}
+function renderDiffTable(){
+  if(!_diffData) return;
+  const tbody=document.getElementById('diff-tbody');
+  const tbl=document.getElementById('diff-table');
+  const empty=document.getElementById('diff-empty');
+  const onlySize=document.getElementById('diff-only-size').checked;
+  const onlyCount=document.getElementById('diff-only-count').checked;
+  const search=(document.getElementById('diff-search').value||'').trim().toLowerCase();
+  const totals=document.getElementById('diff-totals');
+  let shown=0;
+  let html='';
+  for(const r of _diffData.rows){
+    if(onlySize && !r.size_changed) continue;
+    if(onlyCount && !r.count_changed) continue;
+    if(search){
+      const hay = ('#'+r.idx+' '+(r.name||'')).toLowerCase();
+      if(hay.indexOf(search) === -1) continue;
+    }
+    shown++;
+    // Pick the dominant accent: only-A > only-B > size > count > none
+    let rowCls='hover:bg-slate-800/40';
+    let badge='';
+    if(r.only_in_a){
+      rowCls='bg-cyan-950/30 hover:bg-cyan-950/50';
+      badge='<span class="px-1.5 py-0.5 rounded bg-cyan-900/60 border border-cyan-700/50 text-cyan-200 text-[10px]">only in A</span>';
+    } else if(r.only_in_b){
+      rowCls='bg-purple-950/30 hover:bg-purple-950/50';
+      badge='<span class="px-1.5 py-0.5 rounded bg-purple-900/60 border border-purple-700/50 text-purple-200 text-[10px]">only in B</span>';
+    } else if(r.size_changed){
+      rowCls='bg-red-950/30 hover:bg-red-950/50';
+      badge='<span class="px-1.5 py-0.5 rounded bg-red-900/60 border border-red-700/50 text-red-200 text-[10px]">struct changed</span>';
+      if(r.count_changed){
+        badge += ' <span class="px-1.5 py-0.5 rounded bg-yellow-900/40 border border-yellow-700/40 text-yellow-300 text-[10px] ml-1">count Δ</span>';
+      }
+    } else if(r.count_changed){
+      rowCls='bg-yellow-950/20 hover:bg-yellow-950/40';
+      badge='<span class="px-1.5 py-0.5 rounded bg-yellow-900/40 border border-yellow-700/40 text-yellow-300 text-[10px]">count Δ</span>';
+    } else {
+      badge='<span class="text-slate-600 text-[10px]">—</span>';
+    }
+    const dSize = (r.sizeof_a!=null && r.sizeof_b!=null) ? (r.sizeof_b - r.sizeof_a) : null;
+    const dCnt  = (r.count_a !=null && r.count_b !=null) ? (r.count_b  - r.count_a)  : null;
+    const fmt = function(v){return v==null ? '<span class="text-slate-700">—</span>' : v.toLocaleString();};
+    const dfmt = function(d, hot){
+      if(d===null) return '<span class="text-slate-700">—</span>';
+      if(d===0)    return '<span class="text-slate-600">0</span>';
+      const cls = hot ? (d>0 ? 'text-red-300' : 'text-red-300') : (d>0 ? 'text-emerald-300' : 'text-orange-300');
+      return '<span class="'+cls+'">'+(d>0?'+':'')+d.toLocaleString()+'</span>';
+    };
+    html += '<tr class="'+rowCls+' transition-colors">'+
+      '<td class="px-3 py-1.5 text-right text-slate-400">'+r.idx+'</td>'+
+      '<td class="px-3 py-1.5 text-slate-200">'+(r.name ? esc(r.name) : '<span class="text-slate-700">(no schema)</span>')+'</td>'+
+      '<td class="px-3 py-1.5 text-right text-slate-300">'+fmt(r.sizeof_a)+'</td>'+
+      '<td class="px-3 py-1.5 text-right text-slate-300">'+fmt(r.sizeof_b)+'</td>'+
+      '<td class="px-3 py-1.5 text-right">'+dfmt(dSize, true)+'</td>'+
+      '<td class="px-3 py-1.5 text-right text-slate-400">'+fmt(r.count_a)+'</td>'+
+      '<td class="px-3 py-1.5 text-right text-slate-400">'+fmt(r.count_b)+'</td>'+
+      '<td class="px-3 py-1.5 text-right">'+dfmt(dCnt, false)+'</td>'+
+      '<td class="px-3 py-1.5">'+badge+'</td>'+
+      '</tr>';
+  }
+  tbody.innerHTML = html || '<tr><td colspan="9" class="px-3 py-6 text-center text-slate-500">No rows match the current filter.</td></tr>';
+  if(tbl) tbl.classList.remove('hidden');
+  if(empty) empty.classList.add('hidden');
+  if(totals){
+    const t=_diffData.totals||{};
+    totals.textContent =
+      'Total '+t.rows+' lists  ·  '+
+      t.changed_size+' sizeof Δ  ·  '+
+      t.changed_count+' count Δ  ·  '+
+      t.only_a+' only in A  ·  '+
+      t.only_b+' only in B  ·  showing '+shown;
+  }
+}
+
 // ── Export C++ struct modal ─────────────────────────────────────────────────
 // Map a stored schema type to a C++ declaration. Returns {decl, suffix} where
 // `decl` is the type token (placed before the field name) and `suffix` is
@@ -1799,6 +2097,10 @@ function copyCppStruct(){
 // Esc closes whichever modal is open.
 document.addEventListener('keydown',function(e){
   if(e.key!=='Escape') return;
+  const diff=document.getElementById('diff-modal');
+  if(diff && !diff.classList.contains('hidden')){ closeDiffModal(); return; }
+  const cppi=document.getElementById('cpp-import-modal');
+  if(cppi && !cppi.classList.contains('hidden')){ closeCppImportModal(); return; }
   const cfg=document.getElementById('cfg-modal');
   if(cfg && !cfg.classList.contains('hidden')){ closeCfgModal(); return; }
   const cpp=document.getElementById('cpp-modal');
