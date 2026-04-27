@@ -1,12 +1,12 @@
 {
-    "name": "COLORANT2_ITEM_ESSENCE",
+    "name": "COLORANT_ITEM_ESSENCE",
     "fields": [
         {
-            "name": "ID",
+            "name": "id",
             "type": "int32"
         },
         {
-            "name": "Name",
+            "name": "name",
             "type": "wstring:64"
         },
         {
@@ -15,6 +15,18 @@
         },
         {
             "name": "file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "color",
+            "type": "int32"
+        },
+        {
+            "name": "quality",
+            "type": "int32"
+        },
+        {
+            "name": "index",
             "type": "int32"
         },
         {
@@ -31,10 +43,6 @@
         },
         {
             "name": "proc_type",
-            "type": "int32"
-        },
-        {
-            "name": "unlock_color_index",
             "type": "int32"
         }
     ]

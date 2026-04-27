@@ -1,0 +1,57 @@
+{
+    "name": "RUNE2013_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "lv_limit",
+            "type": "int32"
+        },
+        {
+            "name": "lvup_exp_1_1",
+            "type": "int32"
+        },
+        {
+            "name": "lvup_exp_1_2",
+            "type": "int32"
+        },
+        {
+            "name": "lvup_exp_1_3",
+            "type": "int32"
+        },
+        {
+            "name": "lvup_exp_1_4",
+            "type": "int32"
+        },
+        {
+            "name": "lvup_exp_1_5",
+            "type": "int32"
+        },
+        {
+            "name": "lvup_exp_1_6",
+            "type": "int32"
+        },
+        {
+            "name": "lvup_exp_1_7",
+            "type": "int32"
+        },
+        {
+            "name": "lvup_exp_1_8",
+            "type": "int32"
+        },
+        {
+            "name": "lvup_exp_1_9",
+            "type": "int32"
+        },
+        {
+            "name": "lvup_exp_1_10",
+            "type": "int32"
+        }
+    ]
+}

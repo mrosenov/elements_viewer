@@ -1,0 +1,89 @@
+{
+    "name": "CHANGE_SHAPE_PROP_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "monster_id",
+            "type": "int32"
+        },
+        {
+            "name": "action_type",
+            "type": "int32"
+        },
+        {
+            "name": "is_replace_name",
+            "type": "int32"
+        },
+        {
+            "name": "move_type",
+            "type": "int32"
+        },
+        {
+            "name": "recover_prop",
+            "type": "float"
+        },
+        {
+            "name": "change_faction",
+            "type": "int32"
+        },
+        {
+            "name": "faction",
+            "type": "int32"
+        },
+        {
+            "name": "enemy_faction",
+            "type": "int32"
+        },
+        {
+            "name": "shield_skill",
+            "type": "int32"
+        },
+        {
+            "name": "can_use_medicine",
+            "type": "int32"
+        },
+        {
+            "name": "can_run_helper",
+            "type": "int32"
+        },
+        {
+            "name": "can_fight",
+            "type": "int32"
+        },
+        {
+            "name": "is_fly",
+            "type": "int32"
+        },
+        {
+            "name": "hp_cost",
+            "type": "int32"
+        },
+        {
+            "name": "mp_cost",
+            "type": "int32"
+        },
+        {
+            "name": "is_equip_invalid",
+            "type": "int32"
+        },
+        {
+            "name": "is_replace_prop",
+            "type": "int32"
+        },
+        {
+            "name": "is_buff_positive",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        }
+    ]
+}

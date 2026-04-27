@@ -1,0 +1,225 @@
+{
+    "name": "TALISMAN_MAINPART_ESSENCE",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int32"
+    },
+    {
+      "name": "name",
+      "type": "wstring:64"
+    },
+    {
+      "name": "file_model_1",
+      "type": "int32"
+    },
+    {
+      "name": "file_model_2",
+      "type": "int32"
+    },
+    {
+      "name": "file_model_3",
+      "type": "int32"
+    },
+    {
+      "name": "file_model_4",
+      "type": "int32"
+    },
+    {
+      "name": "file_model_5",
+      "type": "int32"
+    },
+    {
+      "name": "file_model_6",
+      "type": "int32"
+    },
+    {
+      "name": "file_model_7",
+      "type": "int32"
+    },
+    {
+      "name": "file_matter",
+      "type": "int32"
+    },
+    {
+      "name": "file_icon",
+      "type": "int32"
+    },
+    {
+      "name": "color_change",
+      "type": "int32"
+    },
+    {
+      "name": "show_level",
+      "type": "wstring:32"
+    },
+    {
+      "name": "level",
+      "type": "int32"
+    },
+    {
+      "name": "init_level",
+      "type": "int32"
+    },
+    {
+      "name": "character_combo_id",
+      "type": "int64"
+    },
+    {
+      "name": "character_combo_id2",
+      "type": "int64"
+    },
+    {
+      "name": "char_lev_1",
+      "type": "int64"
+    },
+    {
+      "name": "char_lev_1_2",
+      "type": "int64"
+    },
+    {
+      "name": "char_lev_2",
+      "type": "int64"
+    },
+    {
+      "name": "char_lev_2_2",
+      "type": "int64"
+    },
+    {
+      "name": "char_lev_3",
+      "type": "int64"
+    },
+    {
+      "name": "char_lev_3_2",
+      "type": "int64"
+    },
+    {
+      "name": "require_gender",
+      "type": "int32"
+    },
+    {
+      "name": "require_level",
+      "type": "int32"
+    },
+    {
+      "name": "sect_mask",
+      "type": "int32"
+    },
+    {
+      "name": "sect_mask_1",
+      "type": "int32"
+    },
+    {
+      "name": "sect_mask_2",
+      "type": "int32"
+    },
+    {
+      "name": "sect_mask_3",
+      "type": "int32"
+    },
+    {
+      "name": "require_race",
+      "type": "int32"
+    },
+    {
+      "name": "require_level2",
+      "type": "int32"
+    },
+    {
+      "name": "renascence_count",
+      "type": "int32"
+    },
+    {
+      "name": "god_devil_mask",
+      "type": "int32"
+    },
+    {
+      "name": "title_require",
+      "type": "int32"
+    },
+    {
+      "name": "max_level",
+      "type": "int32"
+    },
+    {
+      "name": "max_level2",
+      "type": "int32"
+    },
+    {
+      "name": "energy_recover_speed",
+      "type": "float"
+    },
+    {
+      "name": "energy_recover_factor",
+      "type": "float"
+    },
+    {
+      "name": "energy_drop_speed",
+      "type": "float"
+    },
+    {
+      "name": "fee_levelup",
+      "type": "int32"
+    },
+    {
+      "name": "fee_expfood",
+      "type": "int32"
+    },
+    {
+      "name": "fee_reset",
+      "type": "int32"
+    },
+    {
+      "name": "is_aircraft",
+      "type": "int32"
+    },
+    {
+      "name": "fly_speed",
+      "type": "float"
+    },
+    {
+      "name": "fly_mode",
+      "type": "int32"
+    },
+    {
+      "name": "fly_energy_drop_speed",
+      "type": "float"
+    },
+    {
+      "name": "fly_exp_added",
+      "type": "int32"
+    },
+    {
+      "name": "auto_bloodsmelt_required_amount",
+      "type": "int32"
+    },
+    {
+      "name": "bloodsmelt_item",
+      "type": "int32"
+    },
+    {
+      "name": "auxilary_item",
+      "type": "int32"
+    },
+    {
+      "name": "auxilary_item_amount",
+      "type": "int32"
+    },
+    {
+      "name": "price",
+      "type": "int32"
+    },
+    {
+      "name": "shop_price",
+      "type": "int32"
+    },
+    {
+      "name": "pile_num_max",
+      "type": "int32"
+    },
+    {
+      "name": "proc_type",
+      "type": "int32"
+    }
+  ]
+}

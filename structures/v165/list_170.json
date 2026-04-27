@@ -1,0 +1,65 @@
+{
+    "name": "RUNE2013_ITEM_ESSENCE",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int32"
+    },
+    {
+      "name": "name",
+      "type": "wstring:64"
+    },
+    {
+      "name": "file_matter",
+      "type": "int32"
+    },
+    {
+      "name": "file_icon",
+      "type": "int32"
+    },
+    {
+      "name": "unknown_1",
+      "type": "int32"
+    },
+    {
+      "name": "unknown_2",
+      "type": "int32"
+    },
+    {
+      "name": "unknown_3",
+      "type": "int32"
+    },
+    {
+      "name": "quality",
+      "type": "int32"
+    },
+    {
+      "name": "prop_type",
+      "type": "int32"
+    },
+    {
+      "name": "add_value",
+      "type": "float"
+    },
+    {
+      "name": "self_exp",
+      "type": "int32"
+    },
+    {
+      "name": "price",
+      "type": "int32"
+    },
+    {
+      "name": "shop_price",
+      "type": "int32"
+    },
+    {
+      "name": "pile_num_max",
+      "type": "int32"
+    },
+    {
+      "name": "proc_type",
+      "type": "int32"
+    }
+  ]
+}

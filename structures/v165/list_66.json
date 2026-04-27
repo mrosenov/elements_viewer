@@ -1,0 +1,269 @@
+{
+    "name": "VEHICLE_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "file_model",
+            "type": "int32"
+        },
+        {
+            "name": "file_matter",
+            "type": "int32"
+        },
+        {
+            "name": "file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "level_required",
+            "type": "int32"
+        },
+        {
+            "name": "renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "nation_position_mask",
+            "type": "int32"
+        },
+        {
+            "name": "only_qianji",
+            "type": "int32"
+        },
+        {
+            "name": "only_in_war",
+            "type": "int32"
+        },
+        {
+            "name": "is_multi_ride",
+            "type": "int32"
+        },
+        {
+            "name": "multi_ride_mode",
+            "type": "int32"
+        },
+        {
+            "name": "multi_ride_limit",
+            "type": "int32"
+        },
+        {
+            "name": "speed",
+            "type": "float"
+        },
+        {
+            "name": "max_speed",
+            "type": "float"
+        },
+        {
+            "name": "height",
+            "type": "float"
+        },
+        {
+            "name": "init_upgrade",
+            "type": "int32"
+        },
+        {
+            "name": "addon_prop_1",
+            "type": "float"
+        },
+        {
+            "name": "addon_prop_2",
+            "type": "float"
+        },
+        {
+            "name": "addon_prop_3",
+            "type": "float"
+        },
+        {
+            "name": "addon_prop_4",
+            "type": "float"
+        },
+        {
+            "name": "addon_prop_5",
+            "type": "float"
+        },
+        {
+            "name": "addon_1_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_1_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_2_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_2_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_3_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_3_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_4_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_4_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_5_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_5_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_6_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_6_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_7_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_7_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_8_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_8_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_9_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_9_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_10_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_10_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_11_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_11_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_12_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_12_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_13_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_13_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_14_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_14_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_15_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_15_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_16_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_16_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_17_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_17_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_18_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_18_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_19_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_19_prop",
+            "type": "float"
+        },
+        {
+            "name": "addon_20_id",
+            "type": "int32"
+        },
+        {
+            "name": "addon_20_prop",
+            "type": "float"
+        },
+        {
+            "name": "price",
+            "type": "int32"
+        },
+        {
+            "name": "shop_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "proc_type",
+            "type": "int32"
+        }
+    ]
+}

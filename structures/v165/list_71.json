@@ -1,0 +1,441 @@
+{
+    "name": "SPECIAL_ID_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "version",
+            "type": "int32"
+        },
+        {
+            "name": "id_tmpl_jinfashen_config",
+            "type": "int32"
+        },
+        {
+            "name": "monster_drop_prob",
+            "type": "float"
+        },
+        {
+            "name": "id_money_matter",
+            "type": "int32"
+        },
+        {
+            "name": "id_speaker",
+            "type": "int32"
+        },
+        {
+            "name": "id_destroying_matter",
+            "type": "int32"
+        },
+        {
+            "name": "id_townscroll",
+            "type": "int32"
+        },
+        {
+            "name": "id_attacker_droptable",
+            "type": "int32"
+        },
+        {
+            "name": "id_defender_droptable",
+            "type": "int32"
+        },
+        {
+            "name": "id_talisman_reset_matter",
+            "type": "int32"
+        },
+        {
+            "name": "fee_talisman_merge",
+            "type": "int32"
+        },
+        {
+            "name": "fee_talisman_enchant",
+            "type": "int32"
+        },
+        {
+            "name": "id_war_material1",
+            "type": "int32"
+        },
+        {
+            "name": "id_war_material2",
+            "type": "int32"
+        },
+        {
+            "name": "fee_pet_gained",
+            "type": "int32"
+        },
+        {
+            "name": "fee_pet_free",
+            "type": "int32"
+        },
+        {
+            "name": "fee_pet_refine",
+            "type": "int32"
+        },
+        {
+            "name": "fee_pet_rename",
+            "type": "int32"
+        },
+        {
+            "name": "id_male_war_statue",
+            "type": "int32"
+        },
+        {
+            "name": "id_female_war_statue",
+            "type": "int32"
+        },
+        {
+            "name": "id_vehicle_upgrade_item",
+            "type": "int32"
+        },
+        {
+            "name": "fee_lock",
+            "type": "int32"
+        },
+        {
+            "name": "fee_unlock",
+            "type": "int32"
+        },
+        {
+            "name": "unlock_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "unlocking_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "id_damaged_item",
+            "type": "int32"
+        },
+        {
+            "name": "id_repair_damaged_item",
+            "type": "int32"
+        },
+        {
+            "name": "id_bleed_identity_host_item",
+            "type": "int32"
+        },
+        {
+            "name": "fee_restore_soul",
+            "type": "int32"
+        },
+        {
+            "name": "id_lowgrade_soul_stone",
+            "type": "int32"
+        },
+        {
+            "name": "id_highgrade_soul_stone",
+            "type": "int32"
+        },
+        {
+            "name": "id_enter_arena_item",
+            "type": "int32"
+        },
+        {
+            "name": "id_enter_arena_reborn_item",
+            "type": "int32"
+        },
+        {
+            "name": "id_change_face_item",
+            "type": "int32"
+        },
+        {
+            "name": "id_speaker2",
+            "type": "int32"
+        },
+        {
+            "name": "id_unique_bid_item",
+            "type": "int32"
+        },
+        {
+            "name": "fee_gem_refine",
+            "type": "int32"
+        },
+        {
+            "name": "fee_gem_extract",
+            "type": "int32"
+        },
+        {
+            "name": "fee_gem_tessellation",
+            "type": "int32"
+        },
+        {
+            "name": "fee_gem_single_dismantle",
+            "type": "int32"
+        },
+        {
+            "name": "fee_gem_smelt",
+            "type": "int32"
+        },
+        {
+            "name": "fee_gem_slot_identify",
+            "type": "int32"
+        },
+        {
+            "name": "fee_gem_slot_customize",
+            "type": "int32"
+        },
+        {
+            "name": "fee_gem_slot_rebuild",
+            "type": "int32"
+        },
+        {
+            "name": "gem_upgrade_upper_limit",
+            "type": "int32"
+        },
+        {
+            "name": "id_gem_smelt_article",
+            "type": "int32"
+        },
+        {
+            "name": "id_gem_smelt_article_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_gem_smelt_article_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_gem_refine_article",
+            "type": "int32"
+        },
+        {
+            "name": "id_gem_refine_article_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_gem_refine_article_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_gem_slot_lock_article",
+            "type": "int32"
+        },
+        {
+            "name": "id_gem_slot_lock_article_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_gem_slot_lock_article_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_gem_slot_rebuild_article_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_gem_slot_rebuild_article_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_gem_slot_rebuild_article_3",
+            "type": "int32"
+        },
+        {
+            "name": "id_consign_role_item",
+            "type": "int32"
+        },
+        {
+            "name": "consign_role_item_count",
+            "type": "int32"
+        },
+        {
+            "name": "consign_role_type",
+            "type": "int32"
+        },
+        {
+            "name": "id_treasure_region_upgrade_item",
+            "type": "int32"
+        },
+        {
+            "name": "id_speaker_special_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_speaker_special_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_speaker_special_3",
+            "type": "int32"
+        },
+        {
+            "name": "id_speaker_special_anony_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_speaker_special_anony_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_speaker_special_anony_3",
+            "type": "int32"
+        },
+        {
+            "name": "id_cross_speaker_special_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_cross_speaker_special_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_cross_speaker_special_3",
+            "type": "int32"
+        },
+        {
+            "name": "id_cross_speaker_special_anony_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_cross_speaker_special_anony_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_cross_speaker_special_anony_3",
+            "type": "int32"
+        },
+        {
+            "name": "id_change_name_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_change_name_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_change_name_3",
+            "type": "int32"
+        },
+        {
+            "name": "id_change_name_family_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_change_name_family_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_change_name_family_3",
+            "type": "int32"
+        },
+        {
+            "name": "id_change_name_guild_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_change_name_guild_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_change_name_guild_3",
+            "type": "int32"
+        },
+        {
+            "name": "id_equip_hole_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_equip_hole_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_equip_hole_3",
+            "type": "int32"
+        },
+        {
+            "name": "id_xingzuo_levelup_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_xingzuo_levelup_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_xingzuo_levelup_3",
+            "type": "int32"
+        },
+        {
+            "name": "fee_xingzuo_add",
+            "type": "int32"
+        },
+        {
+            "name": "fee_xingzuo_remove",
+            "type": "int32"
+        },
+        {
+            "name": "fee_xingzuo_identify",
+            "type": "int32"
+        },
+        {
+            "name": "id_fix_prop_lose",
+            "type": "int32"
+        },
+        {
+            "name": "id_rose_free",
+            "type": "int32"
+        },
+        {
+            "name": "id_rose_money",
+            "type": "int32"
+        },
+        {
+            "name": "id_rename_equip_Props1",
+            "type": "int32"
+        },
+        {
+            "name": "id_rename_equip_Props2",
+            "type": "int32"
+        },
+        {
+            "name": "id_rune2013_fragment_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_rune2013_fragment_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_rune2013_erase_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_rune2013_erase_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_rune2013_merge_extra_num_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_rune2013_merge_extra_num_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_matrix_card_break",
+            "type": "int32"
+        },
+        {
+            "name": "fee_vehicle_enhance",
+            "type": "int32"
+        },
+        {
+            "name": "id_change_face_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_change_face_item_3",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_3",
+            "type": "int32"
+        }
+    ]
+}

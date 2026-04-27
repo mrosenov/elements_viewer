@@ -1,0 +1,4409 @@
+{
+    "name": "LIVENESS_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "scores_1",
+            "type": "int32"
+        },
+        {
+            "name": "scores_2",
+            "type": "int32"
+        },
+        {
+            "name": "scores_3",
+            "type": "int32"
+        },
+        {
+            "name": "scores_4",
+            "type": "int32"
+        },
+        {
+            "name": "scores_5",
+            "type": "int32"
+        },
+        {
+            "name": "scores_6",
+            "type": "int32"
+        },
+        {
+            "name": "scores_7",
+            "type": "int32"
+        },
+        {
+            "name": "scores_8",
+            "type": "int32"
+        },
+        {
+            "name": "scores_9",
+            "type": "int32"
+        },
+        {
+            "name": "scores_10",
+            "type": "int32"
+        },
+        {
+            "name": "scores_11",
+            "type": "int32"
+        },
+        {
+            "name": "scores_12",
+            "type": "int32"
+        },
+        {
+            "name": "scores_13",
+            "type": "int32"
+        },
+        {
+            "name": "scores_14",
+            "type": "int32"
+        },
+        {
+            "name": "scores_15",
+            "type": "int32"
+        },
+        {
+            "name": "gifts_1",
+            "type": "int32"
+        },
+        {
+            "name": "gifts_2",
+            "type": "int32"
+        },
+        {
+            "name": "gifts_3",
+            "type": "int32"
+        },
+        {
+            "name": "gifts_4",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_1_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_1_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_1_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_1_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_1_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_1_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_1_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_1_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_1_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_2_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_2_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_2_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_2_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_2_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_2_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_2_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_2_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_2_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_3_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_3_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_3_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_3_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_3_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_3_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_3_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_3_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_3_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_4_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_4_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_4_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_4_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_4_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_4_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_4_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_4_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_4_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_5_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_5_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_5_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_5_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_5_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_5_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_5_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_5_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_5_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_6_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_6_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_6_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_6_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_6_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_6_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_6_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_6_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_6_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_7_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_7_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_7_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_7_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_7_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_7_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_7_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_7_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_7_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_8_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_8_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_8_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_8_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_8_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_8_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_8_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_8_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_8_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_9_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_9_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_9_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_9_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_9_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_9_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_9_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_9_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_9_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_10_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_10_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_10_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_10_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_10_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_10_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_10_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_10_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_10_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_11_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_11_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_11_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_11_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_11_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_11_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_11_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_11_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_11_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_12_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_12_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_12_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_12_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_12_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_12_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_12_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_12_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_12_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_13_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_13_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_13_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_13_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_13_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_13_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_13_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_13_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_13_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_14_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_14_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_14_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_14_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_14_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_14_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_14_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_14_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_14_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_15_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_15_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_15_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_15_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_15_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_15_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_15_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_15_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_15_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_16_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_16_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_16_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_16_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_16_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_16_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_16_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_16_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_16_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_17_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_17_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_17_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_17_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_17_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_17_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_17_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_17_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_17_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_18_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_18_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_18_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_18_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_18_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_18_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_18_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_18_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_18_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_19_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_19_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_19_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_19_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_19_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_19_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_19_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_19_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_19_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_20_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_20_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_20_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_20_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_20_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_20_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_20_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_20_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_20_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_21_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_21_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_21_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_21_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_21_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_21_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_21_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_21_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_21_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_22_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_22_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_22_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_22_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_22_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_22_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_22_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_22_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_22_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_23_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_23_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_23_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_23_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_23_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_23_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_23_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_23_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_23_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_24_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_24_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_24_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_24_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_24_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_24_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_24_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_24_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_24_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_25_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_25_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_25_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_25_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_25_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_25_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_25_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_25_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_25_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_26_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_26_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_26_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_26_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_26_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_26_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_26_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_26_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_26_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_27_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_27_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_27_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_27_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_27_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_27_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_27_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_27_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_27_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_28_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_28_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_28_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_28_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_28_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_28_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_28_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_28_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_28_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_29_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_29_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_29_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_29_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_29_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_29_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_29_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_29_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_29_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_30_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_30_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_30_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_30_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_30_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_30_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_30_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_30_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_30_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_31_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_31_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_31_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_31_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_31_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_31_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_31_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_31_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_31_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_32_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_32_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_32_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_32_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_32_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_32_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_32_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_32_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_32_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_33_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_33_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_33_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_33_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_33_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_33_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_33_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_33_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_33_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_34_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_34_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_34_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_34_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_34_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_34_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_34_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_34_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_34_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_35_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_35_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_35_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_35_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_35_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_35_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_35_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_35_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_35_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_36_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_36_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_36_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_36_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_36_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_36_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_36_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_36_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_36_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_37_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_37_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_37_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_37_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_37_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_37_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_37_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_37_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_37_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_38_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_38_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_38_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_38_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_38_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_38_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_38_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_38_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_38_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_39_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_39_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_39_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_39_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_39_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_39_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_39_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_39_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_39_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_40_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_40_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_40_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_40_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_40_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_40_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_40_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_40_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_40_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_41_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_41_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_41_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_41_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_41_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_41_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_41_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_41_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_41_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_42_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_42_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_42_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_42_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_42_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_42_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_42_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_42_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_42_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_43_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_43_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_43_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_43_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_43_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_43_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_43_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_43_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_43_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_44_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_44_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_44_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_44_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_44_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_44_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_44_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_44_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_44_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_45_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_45_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_45_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_45_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_45_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_45_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_45_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_45_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_45_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_46_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_46_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_46_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_46_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_46_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_46_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_46_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_46_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_46_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_47_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_47_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_47_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_47_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_47_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_47_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_47_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_47_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_47_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_48_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_48_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_48_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_48_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_48_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_48_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_48_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_48_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_48_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_49_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_49_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_49_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_49_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_49_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_49_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_49_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_49_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_49_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_50_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_50_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_50_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_50_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_50_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_50_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_50_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_50_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_50_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_51_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_51_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_51_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_51_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_51_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_51_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_51_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_51_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_51_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_52_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_52_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_52_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_52_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_52_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_52_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_52_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_52_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_52_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_53_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_53_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_53_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_53_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_53_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_53_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_53_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_53_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_53_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_54_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_54_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_54_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_54_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_54_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_54_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_54_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_54_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_54_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_55_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_55_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_55_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_55_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_55_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_55_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_55_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_55_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_55_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_56_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_56_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_56_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_56_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_56_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_56_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_56_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_56_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_56_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_57_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_57_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_57_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_57_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_57_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_57_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_57_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_57_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_57_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_58_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_58_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_58_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_58_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_58_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_58_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_58_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_58_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_58_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_59_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_59_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_59_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_59_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_59_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_59_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_59_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_59_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_59_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_60_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_60_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_60_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_60_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_60_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_60_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_60_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_60_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_60_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_61_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_61_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_61_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_61_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_61_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_61_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_61_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_61_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_61_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_62_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_62_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_62_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_62_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_62_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_62_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_62_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_62_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_62_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_63_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_63_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_63_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_63_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_63_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_63_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_63_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_63_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_63_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_64_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_64_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_64_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_64_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_64_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_64_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_64_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_64_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_64_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_65_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_65_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_65_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_65_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_65_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_65_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_65_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_65_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_65_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_66_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_66_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_66_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_66_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_66_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_66_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_66_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_66_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_66_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_67_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_67_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_67_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_67_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_67_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_67_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_67_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_67_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_67_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_68_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_68_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_68_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_68_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_68_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_68_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_68_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_68_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_68_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_69_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_69_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_69_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_69_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_69_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_69_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_69_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_69_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_69_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_70_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_70_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_70_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_70_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_70_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_70_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_70_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_70_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_70_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_71_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_71_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_71_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_71_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_71_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_71_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_71_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_71_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_71_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_72_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_72_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_72_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_72_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_72_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_72_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_72_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_72_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_72_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_73_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_73_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_73_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_73_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_73_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_73_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_73_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_73_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_73_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_74_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_74_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_74_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_74_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_74_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_74_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_74_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_74_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_74_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_75_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_75_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_75_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_75_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_75_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_75_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_75_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_75_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_75_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_76_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_76_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_76_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_76_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_76_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_76_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_76_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_76_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_76_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_77_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_77_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_77_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_77_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_77_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_77_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_77_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_77_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_77_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_78_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_78_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_78_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_78_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_78_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_78_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_78_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_78_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_78_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_79_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_79_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_79_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_79_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_79_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_79_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_79_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_79_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_79_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_80_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_80_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_80_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_80_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_80_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_80_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_80_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_80_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_80_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_81_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_81_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_81_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_81_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_81_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_81_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_81_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_81_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_81_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_82_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_82_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_82_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_82_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_82_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_82_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_82_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_82_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_82_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_83_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_83_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_83_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_83_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_83_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_83_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_83_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_83_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_83_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_84_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_84_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_84_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_84_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_84_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_84_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_84_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_84_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_84_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_85_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_85_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_85_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_85_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_85_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_85_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_85_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_85_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_85_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_86_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_86_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_86_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_86_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_86_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_86_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_86_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_86_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_86_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_87_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_87_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_87_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_87_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_87_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_87_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_87_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_87_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_87_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_88_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_88_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_88_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_88_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_88_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_88_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_88_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_88_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_88_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_89_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_89_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_89_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_89_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_89_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_89_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_89_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_89_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_89_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_90_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_90_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_90_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_90_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_90_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_90_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_90_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_90_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_90_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_91_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_91_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_91_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_91_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_91_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_91_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_91_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_91_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_91_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_92_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_92_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_92_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_92_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_92_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_92_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_92_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_92_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_92_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_93_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_93_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_93_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_93_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_93_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_93_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_93_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_93_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_93_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_94_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_94_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_94_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_94_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_94_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_94_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_94_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_94_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_94_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_95_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_95_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_95_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_95_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_95_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_95_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_95_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_95_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_95_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_96_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_96_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_96_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_96_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_96_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_96_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_96_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_96_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_96_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_97_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_97_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_97_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_97_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_97_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_97_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_97_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_97_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_97_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_98_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_98_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_98_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_98_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_98_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_98_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_98_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_98_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_98_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_99_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_99_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_99_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_99_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_99_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_99_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_99_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_99_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_99_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_100_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_100_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_100_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_100_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_100_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_100_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_100_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_100_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_100_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_101_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_101_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_101_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_101_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_101_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_101_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_101_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_101_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_101_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_102_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_102_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_102_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_102_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_102_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_102_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_102_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_102_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_102_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_103_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_103_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_103_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_103_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_103_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_103_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_103_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_103_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_103_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_104_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_104_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_104_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_104_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_104_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_104_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_104_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_104_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_104_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_105_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_105_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_105_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_105_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_105_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_105_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_105_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_105_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_105_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_106_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_106_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_106_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_106_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_106_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_106_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_106_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_106_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_106_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_107_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_107_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_107_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_107_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_107_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_107_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_107_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_107_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_107_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_108_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_108_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_108_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_108_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_108_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_108_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_108_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_108_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_108_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_109_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_109_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_109_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_109_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_109_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_109_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_109_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_109_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_109_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_110_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_110_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_110_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_110_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_110_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_110_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_110_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_110_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_110_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_111_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_111_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_111_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_111_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_111_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_111_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_111_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_111_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_111_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_112_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_112_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_112_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_112_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_112_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_112_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_112_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_112_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_112_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_113_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_113_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_113_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_113_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_113_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_113_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_113_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_113_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_113_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_114_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_114_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_114_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_114_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_114_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_114_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_114_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_114_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_114_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_115_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_115_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_115_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_115_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_115_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_115_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_115_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_115_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_115_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_116_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_116_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_116_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_116_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_116_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_116_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_116_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_116_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_116_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_117_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_117_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_117_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_117_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_117_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_117_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_117_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_117_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_117_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_118_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_118_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_118_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_118_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_118_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_118_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_118_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_118_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_118_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_119_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_119_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_119_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_119_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_119_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_119_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_119_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_119_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_119_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_120_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "element_list_120_type_activity",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_120_require_level",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_120_renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_120_type_judge",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_120_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_120_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_120_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "element_list_120_unknown_3",
+            "type": "int32"
+        }
+    ]
+}
