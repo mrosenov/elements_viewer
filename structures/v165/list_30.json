@@ -1,0 +1,721 @@
+{
+    "name": "NPC_TRANSMIT_SERVICE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "targets_1_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_1_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_1_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_1_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_1_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_1_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_1_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_1_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_1_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_1_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_1_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_2_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_2_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_2_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_2_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_2_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_2_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_2_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_2_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_2_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_2_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_2_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_3_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_3_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_3_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_3_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_3_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_3_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_3_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_3_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_3_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_3_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_3_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_4_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_4_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_4_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_4_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_4_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_4_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_4_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_4_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_4_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_4_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_4_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_5_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_5_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_5_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_5_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_5_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_5_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_5_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_5_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_5_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_5_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_5_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_6_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_6_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_6_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_6_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_6_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_6_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_6_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_6_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_6_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_6_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_6_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_7_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_7_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_7_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_7_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_7_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_7_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_7_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_7_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_7_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_7_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_7_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_8_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_8_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_8_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_8_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_8_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_8_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_8_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_8_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_8_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_8_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_8_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_9_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_9_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_9_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_9_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_9_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_9_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_9_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_9_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_9_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_9_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_9_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_10_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_10_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_10_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_10_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_10_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_10_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_10_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_10_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_10_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_10_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_10_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_11_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_11_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_11_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_11_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_11_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_11_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_11_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_11_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_11_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_11_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_11_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_12_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_12_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_12_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_12_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_12_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_12_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_12_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_12_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_12_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_12_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_12_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_13_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_13_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_13_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_13_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_13_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_13_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_13_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_13_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_13_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_13_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_13_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_14_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_14_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_14_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_14_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_14_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_14_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_14_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_14_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_14_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_14_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_14_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_15_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_15_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_15_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_15_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_15_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_15_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_15_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_15_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_15_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_15_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_15_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "targets_16_id_world",
+            "type": "int32"
+        },
+        {
+            "name": "targets_16_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "targets_16_x",
+            "type": "float"
+        },
+        {
+            "name": "targets_16_y",
+            "type": "float"
+        },
+        {
+            "name": "targets_16_z",
+            "type": "float"
+        },
+        {
+            "name": "targets_16_fee",
+            "type": "int32"
+        },
+        {
+            "name": "targets_16_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "targets_16_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "targets_16_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "targets_16_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "targets_16_required_level",
+            "type": "int32"
+        },
+        {
+            "name": "id_dialog",
+            "type": "int32"
+        }
+    ]
+}

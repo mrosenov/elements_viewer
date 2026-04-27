@@ -1,0 +1,169 @@
+{
+    "name": "RECIPE_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "id_major_type",
+            "type": "int32"
+        },
+        {
+            "name": "id_sub_type",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "level",
+            "type": "int32"
+        },
+        {
+            "name": "products_1_probability",
+            "type": "float"
+        },
+        {
+            "name": "products_1_id_to_make",
+            "type": "int32"
+        },
+        {
+            "name": "products_1_min_num_make",
+            "type": "int32"
+        },
+        {
+            "name": "products_1_max_num_make",
+            "type": "int32"
+        },
+        {
+            "name": "products_2_probability",
+            "type": "float"
+        },
+        {
+            "name": "products_2_id_to_make",
+            "type": "int32"
+        },
+        {
+            "name": "products_2_min_num_make",
+            "type": "int32"
+        },
+        {
+            "name": "products_2_max_num_make",
+            "type": "int32"
+        },
+        {
+            "name": "products_3_probability",
+            "type": "float"
+        },
+        {
+            "name": "products_3_id_to_make",
+            "type": "int32"
+        },
+        {
+            "name": "products_3_min_num_make",
+            "type": "int32"
+        },
+        {
+            "name": "products_3_max_num_make",
+            "type": "int32"
+        },
+        {
+            "name": "price",
+            "type": "int32"
+        },
+        {
+            "name": "duration",
+            "type": "float"
+        },
+        {
+            "name": "materials_1_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_1_num",
+            "type": "int32"
+        },
+        {
+            "name": "materials_2_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_2_num",
+            "type": "int32"
+        },
+        {
+            "name": "materials_3_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_3_num",
+            "type": "int32"
+        },
+        {
+            "name": "materials_4_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_4_num",
+            "type": "int32"
+        },
+        {
+            "name": "materials_5_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_5_num",
+            "type": "int32"
+        },
+        {
+            "name": "materials_6_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_6_num",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_class",
+            "type": "int32"
+        },
+        {
+            "name": "required_1",
+            "type": "int32"
+        },
+        {
+            "name": "required_2",
+            "type": "int32"
+        },
+        {
+            "name": "required_3",
+            "type": "int32"
+        },
+        {
+            "name": "required_4",
+            "type": "int32"
+        },
+        {
+            "name": "required_5",
+            "type": "int32"
+        },
+        {
+            "name": "required_6",
+            "type": "int32"
+        },
+        {
+            "name": "required_7",
+            "type": "int32"
+        },
+        {
+            "name": "cool_time",
+            "type": "int32"
+        },
+        {
+            "name": "cool_type",
+            "type": "int32"
+        }
+    ]
+}

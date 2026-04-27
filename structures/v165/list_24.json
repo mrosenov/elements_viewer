@@ -1,0 +1,1617 @@
+{
+    "name": "NPC_SELL_SERVICE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "pages_1_page_title",
+            "type": "wstring:16"
+        },
+        {
+            "name": "pages_1_discount",
+            "type": "float"
+        },
+        {
+            "name": "pages_1_id_goods_1",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_2",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_3",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_4",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_5",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_6",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_7",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_8",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_9",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_10",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_11",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_12",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_13",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_14",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_15",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_16",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_17",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_18",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_19",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_20",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_21",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_22",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_23",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_24",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_25",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_26",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_27",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_28",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_29",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_30",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_31",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_32",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_33",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_34",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_35",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_36",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_37",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_38",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_39",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_40",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_41",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_42",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_43",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_44",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_45",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_46",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_47",
+            "type": "int32"
+        },
+        {
+            "name": "pages_1_id_goods_48",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_page_title",
+            "type": "wstring:16"
+        },
+        {
+            "name": "pages_2_discount",
+            "type": "float"
+        },
+        {
+            "name": "pages_2_id_goods_1",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_2",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_3",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_4",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_5",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_6",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_7",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_8",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_9",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_10",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_11",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_12",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_13",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_14",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_15",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_16",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_17",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_18",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_19",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_20",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_21",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_22",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_23",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_24",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_25",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_26",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_27",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_28",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_29",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_30",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_31",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_32",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_33",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_34",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_35",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_36",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_37",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_38",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_39",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_40",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_41",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_42",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_43",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_44",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_45",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_46",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_47",
+            "type": "int32"
+        },
+        {
+            "name": "pages_2_id_goods_48",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_page_title",
+            "type": "wstring:16"
+        },
+        {
+            "name": "pages_3_discount",
+            "type": "float"
+        },
+        {
+            "name": "pages_3_id_goods_1",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_2",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_3",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_4",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_5",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_6",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_7",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_8",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_9",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_10",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_11",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_12",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_13",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_14",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_15",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_16",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_17",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_18",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_19",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_20",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_21",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_22",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_23",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_24",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_25",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_26",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_27",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_28",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_29",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_30",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_31",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_32",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_33",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_34",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_35",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_36",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_37",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_38",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_39",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_40",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_41",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_42",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_43",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_44",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_45",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_46",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_47",
+            "type": "int32"
+        },
+        {
+            "name": "pages_3_id_goods_48",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_page_title",
+            "type": "wstring:16"
+        },
+        {
+            "name": "pages_4_discount",
+            "type": "float"
+        },
+        {
+            "name": "pages_4_id_goods_1",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_2",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_3",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_4",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_5",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_6",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_7",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_8",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_9",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_10",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_11",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_12",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_13",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_14",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_15",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_16",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_17",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_18",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_19",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_20",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_21",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_22",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_23",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_24",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_25",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_26",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_27",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_28",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_29",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_30",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_31",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_32",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_33",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_34",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_35",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_36",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_37",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_38",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_39",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_40",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_41",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_42",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_43",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_44",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_45",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_46",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_47",
+            "type": "int32"
+        },
+        {
+            "name": "pages_4_id_goods_48",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_page_title",
+            "type": "wstring:16"
+        },
+        {
+            "name": "pages_5_discount",
+            "type": "float"
+        },
+        {
+            "name": "pages_5_id_goods_1",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_2",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_3",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_4",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_5",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_6",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_7",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_8",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_9",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_10",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_11",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_12",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_13",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_14",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_15",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_16",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_17",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_18",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_19",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_20",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_21",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_22",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_23",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_24",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_25",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_26",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_27",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_28",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_29",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_30",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_31",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_32",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_33",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_34",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_35",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_36",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_37",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_38",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_39",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_40",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_41",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_42",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_43",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_44",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_45",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_46",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_47",
+            "type": "int32"
+        },
+        {
+            "name": "pages_5_id_goods_48",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_page_title",
+            "type": "wstring:16"
+        },
+        {
+            "name": "pages_6_discount",
+            "type": "float"
+        },
+        {
+            "name": "pages_6_id_goods_1",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_2",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_3",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_4",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_5",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_6",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_7",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_8",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_9",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_10",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_11",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_12",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_13",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_14",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_15",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_16",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_17",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_18",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_19",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_20",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_21",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_22",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_23",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_24",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_25",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_26",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_27",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_28",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_29",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_30",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_31",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_32",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_33",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_34",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_35",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_36",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_37",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_38",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_39",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_40",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_41",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_42",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_43",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_44",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_45",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_46",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_47",
+            "type": "int32"
+        },
+        {
+            "name": "pages_6_id_goods_48",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_page_title",
+            "type": "wstring:16"
+        },
+        {
+            "name": "pages_7_discount",
+            "type": "float"
+        },
+        {
+            "name": "pages_7_id_goods_1",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_2",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_3",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_4",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_5",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_6",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_7",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_8",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_9",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_10",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_11",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_12",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_13",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_14",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_15",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_16",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_17",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_18",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_19",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_20",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_21",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_22",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_23",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_24",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_25",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_26",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_27",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_28",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_29",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_30",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_31",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_32",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_33",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_34",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_35",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_36",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_37",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_38",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_39",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_40",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_41",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_42",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_43",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_44",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_45",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_46",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_47",
+            "type": "int32"
+        },
+        {
+            "name": "pages_7_id_goods_48",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_page_title",
+            "type": "wstring:16"
+        },
+        {
+            "name": "pages_8_discount",
+            "type": "float"
+        },
+        {
+            "name": "pages_8_id_goods_1",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_2",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_3",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_4",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_5",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_6",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_7",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_8",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_9",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_10",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_11",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_12",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_13",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_14",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_15",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_16",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_17",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_18",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_19",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_20",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_21",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_22",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_23",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_24",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_25",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_26",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_27",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_28",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_29",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_30",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_31",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_32",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_33",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_34",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_35",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_36",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_37",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_38",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_39",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_40",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_41",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_42",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_43",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_44",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_45",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_46",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_47",
+            "type": "int32"
+        },
+        {
+            "name": "pages_8_id_goods_48",
+            "type": "int32"
+        },
+        {
+            "name": "id_dialog",
+            "type": "int32"
+        }
+    ]
+}

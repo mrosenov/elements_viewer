@@ -1,0 +1,137 @@
+{
+    "name": "MEDICINE_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "id_major_type",
+            "type": "int32"
+        },
+        {
+            "name": "id_sub_type",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "file_matter",
+            "type": "int32"
+        },
+        {
+            "name": "file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "require_level",
+            "type": "int32"
+        },
+        {
+            "name": "renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "cool_time",
+            "type": "int32"
+        },
+        {
+            "name": "only_in_war",
+            "type": "int32"
+        },
+        {
+            "name": "type",
+            "type": "int32"
+        },
+        {
+            "name": "hp_1",
+            "type": "int32"
+        },
+        {
+            "name": "hp_2",
+            "type": "int32"
+        },
+        {
+            "name": "hp_3",
+            "type": "int32"
+        },
+        {
+            "name": "hp_4",
+            "type": "int32"
+        },
+        {
+            "name": "mp_1",
+            "type": "int32"
+        },
+        {
+            "name": "mp_2",
+            "type": "int32"
+        },
+        {
+            "name": "mp_3",
+            "type": "int32"
+        },
+        {
+            "name": "mp_4",
+            "type": "int32"
+        },
+        {
+            "name": "dp_1",
+            "type": "int32"
+        },
+        {
+            "name": "dp_2",
+            "type": "int32"
+        },
+        {
+            "name": "dp_3",
+            "type": "int32"
+        },
+        {
+            "name": "dp_4",
+            "type": "int32"
+        },
+        {
+            "name": "hmp",
+            "type": "int32"
+        },
+        {
+            "name": "map_restrict_1",
+            "type": "int32"
+        },
+        {
+            "name": "map_restrict_2",
+            "type": "int32"
+        },
+        {
+            "name": "map_restrict_3",
+            "type": "int32"
+        },
+        {
+            "name": "map_restrict_4",
+            "type": "int32"
+        },
+        {
+            "name": "map_restrict_5",
+            "type": "int32"
+        },
+        {
+            "name": "price",
+            "type": "int32"
+        },
+        {
+            "name": "shop_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "proc_type",
+            "type": "int32"
+        }
+    ]
+}

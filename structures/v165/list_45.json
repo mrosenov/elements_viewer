@@ -1,0 +1,325 @@
+{
+    "name": "MINE_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "id_type",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "level",
+            "type": "int32"
+        },
+        {
+            "name": "level_required",
+            "type": "int32"
+        },
+        {
+            "name": "id_equipment_required",
+            "type": "int32"
+        },
+        {
+            "name": "eliminate_tool",
+            "type": "int32"
+        },
+        {
+            "name": "time_min",
+            "type": "int32"
+        },
+        {
+            "name": "time_max",
+            "type": "int32"
+        },
+        {
+            "name": "exp",
+            "type": "int32"
+        },
+        {
+            "name": "skillpoint",
+            "type": "int32"
+        },
+        {
+            "name": "cursor_icon",
+            "type": "int32"
+        },
+        {
+            "name": "file_model",
+            "type": "int32"
+        },
+        {
+            "name": "materials_1_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_1_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_2_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_2_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_3_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_3_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_4_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_4_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_5_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_5_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_6_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_6_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_7_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_7_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_8_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_8_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_9_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_9_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_10_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_10_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_11_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_11_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_12_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_12_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_13_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_13_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_14_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_14_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_15_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_15_probability",
+            "type": "float"
+        },
+        {
+            "name": "materials_16_id",
+            "type": "int32"
+        },
+        {
+            "name": "materials_16_probability",
+            "type": "float"
+        },
+        {
+            "name": "num1",
+            "type": "int32"
+        },
+        {
+            "name": "probability1",
+            "type": "float"
+        },
+        {
+            "name": "num2",
+            "type": "int32"
+        },
+        {
+            "name": "probability2",
+            "type": "float"
+        },
+        {
+            "name": "task_in",
+            "type": "int32"
+        },
+        {
+            "name": "task_out",
+            "type": "int32"
+        },
+        {
+            "name": "uninterruptable",
+            "type": "int32"
+        },
+        {
+            "name": "npcgen_1_id_monster",
+            "type": "int32"
+        },
+        {
+            "name": "npcgen_1_num",
+            "type": "int32"
+        },
+        {
+            "name": "npcgen_1_radius",
+            "type": "float"
+        },
+        {
+            "name": "npcgen_2_id_monster",
+            "type": "int32"
+        },
+        {
+            "name": "npcgen_2_num",
+            "type": "int32"
+        },
+        {
+            "name": "npcgen_2_radius",
+            "type": "float"
+        },
+        {
+            "name": "npcgen_3_id_monster",
+            "type": "int32"
+        },
+        {
+            "name": "npcgen_3_num",
+            "type": "int32"
+        },
+        {
+            "name": "npcgen_3_radius",
+            "type": "float"
+        },
+        {
+            "name": "npcgen_4_id_monster",
+            "type": "int32"
+        },
+        {
+            "name": "npcgen_4_num",
+            "type": "int32"
+        },
+        {
+            "name": "npcgen_4_radius",
+            "type": "float"
+        },
+        {
+            "name": "aggros_1_monster_faction",
+            "type": "int32"
+        },
+        {
+            "name": "aggros_1_radius",
+            "type": "float"
+        },
+        {
+            "name": "aggros_1_num",
+            "type": "int32"
+        },
+        {
+            "name": "role_in_war",
+            "type": "int32"
+        },
+        {
+            "name": "permenent",
+            "type": "int32"
+        },
+        {
+            "name": "activate_controller_mode",
+            "type": "int32"
+        },
+        {
+            "name": "activate_controller_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "activate_controller_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "activate_controller_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "activate_controller_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "deactivate_controller_mode",
+            "type": "int32"
+        },
+        {
+            "name": "deactivate_controller_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "deactivate_controller_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "deactivate_controller_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "deactivate_controller_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "close_collision_detection",
+            "type": "int32"
+        }
+    ]
+}

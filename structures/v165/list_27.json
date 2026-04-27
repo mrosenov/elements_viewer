@@ -1,0 +1,1045 @@
+{
+    "name": "NPC_TASK_OUT_SERVICE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "id_task_set",
+            "type": "int32"
+        },
+        {
+            "name": "task_storage_type",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_3",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_4",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_5",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_6",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_7",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_8",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_9",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_10",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_11",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_12",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_13",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_14",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_15",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_16",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_17",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_18",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_19",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_20",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_21",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_22",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_23",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_24",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_25",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_26",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_27",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_28",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_29",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_30",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_31",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_32",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_33",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_34",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_35",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_36",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_37",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_38",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_39",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_40",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_41",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_42",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_43",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_44",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_45",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_46",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_47",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_48",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_49",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_50",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_51",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_52",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_53",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_54",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_55",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_56",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_57",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_58",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_59",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_60",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_61",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_62",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_63",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_64",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_65",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_66",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_67",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_68",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_69",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_70",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_71",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_72",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_73",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_74",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_75",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_76",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_77",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_78",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_79",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_80",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_81",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_82",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_83",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_84",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_85",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_86",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_87",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_88",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_89",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_90",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_91",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_92",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_93",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_94",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_95",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_96",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_97",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_98",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_99",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_100",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_101",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_102",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_103",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_104",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_105",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_106",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_107",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_108",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_109",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_110",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_111",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_112",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_113",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_114",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_115",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_116",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_117",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_118",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_119",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_120",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_121",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_122",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_123",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_124",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_125",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_126",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_127",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_128",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_129",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_130",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_131",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_132",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_133",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_134",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_135",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_136",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_137",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_138",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_139",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_140",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_141",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_142",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_143",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_144",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_145",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_146",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_147",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_148",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_149",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_150",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_151",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_152",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_153",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_154",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_155",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_156",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_157",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_158",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_159",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_160",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_161",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_162",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_163",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_164",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_165",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_166",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_167",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_168",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_169",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_170",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_171",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_172",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_173",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_174",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_175",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_176",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_177",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_178",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_179",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_180",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_181",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_182",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_183",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_184",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_185",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_186",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_187",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_188",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_189",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_190",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_191",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_192",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_193",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_194",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_195",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_196",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_197",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_198",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_199",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_200",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_201",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_202",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_203",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_204",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_205",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_206",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_207",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_208",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_209",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_210",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_211",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_212",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_213",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_214",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_215",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_216",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_217",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_218",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_219",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_220",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_221",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_222",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_223",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_224",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_225",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_226",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_227",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_228",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_229",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_230",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_231",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_232",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_233",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_234",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_235",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_236",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_237",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_238",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_239",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_240",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_241",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_242",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_243",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_244",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_245",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_246",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_247",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_248",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_249",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_250",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_251",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_252",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_253",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_254",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_255",
+            "type": "int32"
+        },
+        {
+            "name": "id_tasks_256",
+            "type": "int32"
+        }
+    ]
+}

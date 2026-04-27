@@ -1,0 +1,333 @@
+{
+    "name": "PIE_LOVE_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "sns_config_1_fee_press_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id_press_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id2_press_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id_press_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id_support_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id_support_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id_against_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id_against_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_fee_apply_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id_apply_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id_apply_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_fee_response_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id_response_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id_accept_apply_task1",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id_accept_apply_task2",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_1_id_accept_apply_task3",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_fee_press_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id_press_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id2_press_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id_press_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id_support_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id_support_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id_against_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id_against_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_fee_apply_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id_apply_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id_apply_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_fee_response_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id_response_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id_accept_apply_task1",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id_accept_apply_task2",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_2_id_accept_apply_task3",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_fee_press_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id_press_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id2_press_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id_press_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id_support_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id_support_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id_against_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id_against_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_fee_apply_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id_apply_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id_apply_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_fee_response_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id_response_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id_accept_apply_task1",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id_accept_apply_task2",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_3_id_accept_apply_task3",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_fee_press_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id_press_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id2_press_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id_press_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id_support_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id_support_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id_against_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id_against_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_fee_apply_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id_apply_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id_apply_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_fee_response_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id_response_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id_accept_apply_task1",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id_accept_apply_task2",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_4_id_accept_apply_task3",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_fee_press_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id_press_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id2_press_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id_press_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id_support_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id_support_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id_against_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id_against_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_fee_apply_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id_apply_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id_apply_msg_task",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_fee_response_msg",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id_response_msg_item",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id_accept_apply_task1",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id_accept_apply_task2",
+            "type": "int32"
+        },
+        {
+            "name": "sns_config_5_id_accept_apply_task3",
+            "type": "int32"
+        }
+    ]
+}

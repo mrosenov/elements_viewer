@@ -1,0 +1,6089 @@
+{
+    "name": "PLAYER_LEVELEXP_CONFIG",
+    "fields": [
+        {
+            "name": "ID",
+            "type": "int32"
+        },
+        {
+            "name": "Name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "Level_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_4",
+            "type": "double"
+        },
+        {
+            "name": "Level_5",
+            "type": "double"
+        },
+        {
+            "name": "Level_6",
+            "type": "double"
+        },
+        {
+            "name": "Level_7",
+            "type": "double"
+        },
+        {
+            "name": "Level_8",
+            "type": "double"
+        },
+        {
+            "name": "Level_9",
+            "type": "double"
+        },
+        {
+            "name": "Level_10",
+            "type": "double"
+        },
+        {
+            "name": "Level_11",
+            "type": "double"
+        },
+        {
+            "name": "Level_12",
+            "type": "double"
+        },
+        {
+            "name": "Level_13",
+            "type": "double"
+        },
+        {
+            "name": "Level_14",
+            "type": "double"
+        },
+        {
+            "name": "Level_15",
+            "type": "double"
+        },
+        {
+            "name": "Level_16",
+            "type": "double"
+        },
+        {
+            "name": "Level_17",
+            "type": "double"
+        },
+        {
+            "name": "Level_18",
+            "type": "double"
+        },
+        {
+            "name": "Level_19",
+            "type": "double"
+        },
+        {
+            "name": "Level_20",
+            "type": "double"
+        },
+        {
+            "name": "Level_21",
+            "type": "double"
+        },
+        {
+            "name": "Level_22",
+            "type": "double"
+        },
+        {
+            "name": "Level_23",
+            "type": "double"
+        },
+        {
+            "name": "Level_24",
+            "type": "double"
+        },
+        {
+            "name": "Level_25",
+            "type": "double"
+        },
+        {
+            "name": "Level_26",
+            "type": "double"
+        },
+        {
+            "name": "Level_27",
+            "type": "double"
+        },
+        {
+            "name": "Level_28",
+            "type": "double"
+        },
+        {
+            "name": "Level_29",
+            "type": "double"
+        },
+        {
+            "name": "Level_30",
+            "type": "double"
+        },
+        {
+            "name": "Level_31",
+            "type": "double"
+        },
+        {
+            "name": "Level_32",
+            "type": "double"
+        },
+        {
+            "name": "Level_33",
+            "type": "double"
+        },
+        {
+            "name": "Level_34",
+            "type": "double"
+        },
+        {
+            "name": "Level_35",
+            "type": "double"
+        },
+        {
+            "name": "Level_36",
+            "type": "double"
+        },
+        {
+            "name": "Level_37",
+            "type": "double"
+        },
+        {
+            "name": "Level_38",
+            "type": "double"
+        },
+        {
+            "name": "Level_39",
+            "type": "double"
+        },
+        {
+            "name": "Level_40",
+            "type": "double"
+        },
+        {
+            "name": "Level_41",
+            "type": "double"
+        },
+        {
+            "name": "Level_42",
+            "type": "double"
+        },
+        {
+            "name": "Level_43",
+            "type": "double"
+        },
+        {
+            "name": "Level_44",
+            "type": "double"
+        },
+        {
+            "name": "Level_45",
+            "type": "double"
+        },
+        {
+            "name": "Level_46",
+            "type": "double"
+        },
+        {
+            "name": "Level_47",
+            "type": "double"
+        },
+        {
+            "name": "Level_48",
+            "type": "double"
+        },
+        {
+            "name": "Level_49",
+            "type": "double"
+        },
+        {
+            "name": "Level_50",
+            "type": "double"
+        },
+        {
+            "name": "Level_51",
+            "type": "double"
+        },
+        {
+            "name": "Level_52",
+            "type": "double"
+        },
+        {
+            "name": "Level_53",
+            "type": "double"
+        },
+        {
+            "name": "Level_54",
+            "type": "double"
+        },
+        {
+            "name": "Level_55",
+            "type": "double"
+        },
+        {
+            "name": "Level_56",
+            "type": "double"
+        },
+        {
+            "name": "Level_57",
+            "type": "double"
+        },
+        {
+            "name": "Level_58",
+            "type": "double"
+        },
+        {
+            "name": "Level_59",
+            "type": "double"
+        },
+        {
+            "name": "Level_60",
+            "type": "double"
+        },
+        {
+            "name": "Level_61",
+            "type": "double"
+        },
+        {
+            "name": "Level_62",
+            "type": "double"
+        },
+        {
+            "name": "Level_63",
+            "type": "double"
+        },
+        {
+            "name": "Level_64",
+            "type": "double"
+        },
+        {
+            "name": "Level_65",
+            "type": "double"
+        },
+        {
+            "name": "Level_66",
+            "type": "double"
+        },
+        {
+            "name": "Level_67",
+            "type": "double"
+        },
+        {
+            "name": "Level_68",
+            "type": "double"
+        },
+        {
+            "name": "Level_69",
+            "type": "double"
+        },
+        {
+            "name": "Level_70",
+            "type": "double"
+        },
+        {
+            "name": "Level_71",
+            "type": "double"
+        },
+        {
+            "name": "Level_72",
+            "type": "double"
+        },
+        {
+            "name": "Level_73",
+            "type": "double"
+        },
+        {
+            "name": "Level_74",
+            "type": "double"
+        },
+        {
+            "name": "Level_75",
+            "type": "double"
+        },
+        {
+            "name": "Level_76",
+            "type": "double"
+        },
+        {
+            "name": "Level_77",
+            "type": "double"
+        },
+        {
+            "name": "Level_78",
+            "type": "double"
+        },
+        {
+            "name": "Level_79",
+            "type": "double"
+        },
+        {
+            "name": "Level_80",
+            "type": "double"
+        },
+        {
+            "name": "Level_81",
+            "type": "double"
+        },
+        {
+            "name": "Level_82",
+            "type": "double"
+        },
+        {
+            "name": "Level_83",
+            "type": "double"
+        },
+        {
+            "name": "Level_84",
+            "type": "double"
+        },
+        {
+            "name": "Level_85",
+            "type": "double"
+        },
+        {
+            "name": "Level_86",
+            "type": "double"
+        },
+        {
+            "name": "Level_87",
+            "type": "double"
+        },
+        {
+            "name": "Level_88",
+            "type": "double"
+        },
+        {
+            "name": "Level_89",
+            "type": "double"
+        },
+        {
+            "name": "Level_90",
+            "type": "double"
+        },
+        {
+            "name": "Level_91",
+            "type": "double"
+        },
+        {
+            "name": "Level_92",
+            "type": "double"
+        },
+        {
+            "name": "Level_93",
+            "type": "double"
+        },
+        {
+            "name": "Level_94",
+            "type": "double"
+        },
+        {
+            "name": "Level_95",
+            "type": "double"
+        },
+        {
+            "name": "Level_96",
+            "type": "double"
+        },
+        {
+            "name": "Level_97",
+            "type": "double"
+        },
+        {
+            "name": "Level_98",
+            "type": "double"
+        },
+        {
+            "name": "Level_99",
+            "type": "double"
+        },
+        {
+            "name": "Level_100",
+            "type": "double"
+        },
+        {
+            "name": "Level_101",
+            "type": "double"
+        },
+        {
+            "name": "Level_102",
+            "type": "double"
+        },
+        {
+            "name": "Level_103",
+            "type": "double"
+        },
+        {
+            "name": "Level_104",
+            "type": "double"
+        },
+        {
+            "name": "Level_105",
+            "type": "double"
+        },
+        {
+            "name": "Level_106",
+            "type": "double"
+        },
+        {
+            "name": "Level_107",
+            "type": "double"
+        },
+        {
+            "name": "Level_108",
+            "type": "double"
+        },
+        {
+            "name": "Level_109",
+            "type": "double"
+        },
+        {
+            "name": "Level_110",
+            "type": "double"
+        },
+        {
+            "name": "Level_111",
+            "type": "double"
+        },
+        {
+            "name": "Level_112",
+            "type": "double"
+        },
+        {
+            "name": "Level_113",
+            "type": "double"
+        },
+        {
+            "name": "Level_114",
+            "type": "double"
+        },
+        {
+            "name": "Level_115",
+            "type": "double"
+        },
+        {
+            "name": "Level_116",
+            "type": "double"
+        },
+        {
+            "name": "Level_117",
+            "type": "double"
+        },
+        {
+            "name": "Level_118",
+            "type": "double"
+        },
+        {
+            "name": "Level_119",
+            "type": "double"
+        },
+        {
+            "name": "Level_120",
+            "type": "double"
+        },
+        {
+            "name": "Level_121",
+            "type": "double"
+        },
+        {
+            "name": "Level_122",
+            "type": "double"
+        },
+        {
+            "name": "Level_123",
+            "type": "double"
+        },
+        {
+            "name": "Level_124",
+            "type": "double"
+        },
+        {
+            "name": "Level_125",
+            "type": "double"
+        },
+        {
+            "name": "Level_126",
+            "type": "double"
+        },
+        {
+            "name": "Level_127",
+            "type": "double"
+        },
+        {
+            "name": "Level_128",
+            "type": "double"
+        },
+        {
+            "name": "Level_129",
+            "type": "double"
+        },
+        {
+            "name": "Level_130",
+            "type": "double"
+        },
+        {
+            "name": "Level_131",
+            "type": "double"
+        },
+        {
+            "name": "Level_132",
+            "type": "double"
+        },
+        {
+            "name": "Level_133",
+            "type": "double"
+        },
+        {
+            "name": "Level_134",
+            "type": "double"
+        },
+        {
+            "name": "Level_135",
+            "type": "double"
+        },
+        {
+            "name": "Level_136",
+            "type": "double"
+        },
+        {
+            "name": "Level_137",
+            "type": "double"
+        },
+        {
+            "name": "Level_138",
+            "type": "double"
+        },
+        {
+            "name": "Level_139",
+            "type": "double"
+        },
+        {
+            "name": "Level_140",
+            "type": "double"
+        },
+        {
+            "name": "Level_141",
+            "type": "double"
+        },
+        {
+            "name": "Level_142",
+            "type": "double"
+        },
+        {
+            "name": "Level_143",
+            "type": "double"
+        },
+        {
+            "name": "Level_144",
+            "type": "double"
+        },
+        {
+            "name": "Level_145",
+            "type": "double"
+        },
+        {
+            "name": "Level_146",
+            "type": "double"
+        },
+        {
+            "name": "Level_147",
+            "type": "double"
+        },
+        {
+            "name": "Level_148",
+            "type": "double"
+        },
+        {
+            "name": "Level_149",
+            "type": "double"
+        },
+        {
+            "name": "Level_150",
+            "type": "double"
+        },
+        {
+            "name": "Level_151",
+            "type": "double"
+        },
+        {
+            "name": "Level_152",
+            "type": "double"
+        },
+        {
+            "name": "Level_153",
+            "type": "double"
+        },
+        {
+            "name": "Level_154",
+            "type": "double"
+        },
+        {
+            "name": "Level_155",
+            "type": "double"
+        },
+        {
+            "name": "Level_156",
+            "type": "double"
+        },
+        {
+            "name": "Level_157",
+            "type": "double"
+        },
+        {
+            "name": "Level_158",
+            "type": "double"
+        },
+        {
+            "name": "Level_159",
+            "type": "double"
+        },
+        {
+            "name": "Level_160",
+            "type": "double"
+        },
+        {
+            "name": "Level_161",
+            "type": "double"
+        },
+        {
+            "name": "Level_162",
+            "type": "double"
+        },
+        {
+            "name": "Level_163",
+            "type": "double"
+        },
+        {
+            "name": "Level_164",
+            "type": "double"
+        },
+        {
+            "name": "Level_165",
+            "type": "double"
+        },
+        {
+            "name": "Level_166",
+            "type": "double"
+        },
+        {
+            "name": "Level_167",
+            "type": "double"
+        },
+        {
+            "name": "Level_168",
+            "type": "double"
+        },
+        {
+            "name": "Level_169",
+            "type": "double"
+        },
+        {
+            "name": "Level_170",
+            "type": "double"
+        },
+        {
+            "name": "Level_171",
+            "type": "double"
+        },
+        {
+            "name": "Level_172",
+            "type": "double"
+        },
+        {
+            "name": "Level_173",
+            "type": "double"
+        },
+        {
+            "name": "Level_174",
+            "type": "double"
+        },
+        {
+            "name": "Level_175",
+            "type": "double"
+        },
+        {
+            "name": "Level_176",
+            "type": "double"
+        },
+        {
+            "name": "Level_177",
+            "type": "double"
+        },
+        {
+            "name": "Level_178",
+            "type": "double"
+        },
+        {
+            "name": "Level_179",
+            "type": "double"
+        },
+        {
+            "name": "Level_180",
+            "type": "double"
+        },
+        {
+            "name": "Level_181",
+            "type": "double"
+        },
+        {
+            "name": "Level_182",
+            "type": "double"
+        },
+        {
+            "name": "Level_183",
+            "type": "double"
+        },
+        {
+            "name": "Level_184",
+            "type": "double"
+        },
+        {
+            "name": "Level_185",
+            "type": "double"
+        },
+        {
+            "name": "Level_186",
+            "type": "double"
+        },
+        {
+            "name": "Level_187",
+            "type": "double"
+        },
+        {
+            "name": "Level_188",
+            "type": "double"
+        },
+        {
+            "name": "Level_189",
+            "type": "double"
+        },
+        {
+            "name": "Level_190",
+            "type": "double"
+        },
+        {
+            "name": "Level_191",
+            "type": "double"
+        },
+        {
+            "name": "Level_192",
+            "type": "double"
+        },
+        {
+            "name": "Level_193",
+            "type": "double"
+        },
+        {
+            "name": "Level_194",
+            "type": "double"
+        },
+        {
+            "name": "Level_195",
+            "type": "double"
+        },
+        {
+            "name": "Level_196",
+            "type": "double"
+        },
+        {
+            "name": "Level_197",
+            "type": "double"
+        },
+        {
+            "name": "Level_198",
+            "type": "double"
+        },
+        {
+            "name": "Level_199",
+            "type": "double"
+        },
+        {
+            "name": "Level_200",
+            "type": "double"
+        },
+        {
+            "name": "Level_1_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_2_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_3_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_4_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_5_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_6_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_7_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_8_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_9_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_10_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_11_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_12_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_13_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_14_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_15_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_16_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_17_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_18_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_19_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_20_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_21_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_22_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_23_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_24_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_25_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_26_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_27_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_28_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_29_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_30_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_31_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_32_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_33_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_34_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_35_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_36_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_37_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_38_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_39_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_40_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_41_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_42_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_43_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_44_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_45_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_46_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_47_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_48_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_49_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_50_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_51_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_52_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_53_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_54_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_55_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_56_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_57_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_58_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_59_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_60_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_61_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_62_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_63_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_64_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_65_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_66_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_67_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_68_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_69_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_70_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_71_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_72_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_73_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_74_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_75_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_76_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_77_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_78_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_79_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_80_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_81_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_82_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_83_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_84_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_85_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_86_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_87_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_88_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_89_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_90_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_91_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_92_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_93_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_94_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_95_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_96_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_97_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_98_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_99_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_100_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_101_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_102_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_103_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_104_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_105_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_106_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_107_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_108_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_109_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_110_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_111_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_112_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_113_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_114_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_115_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_116_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_117_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_118_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_119_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_120_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_121_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_122_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_123_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_124_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_125_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_126_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_127_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_128_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_129_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_130_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_131_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_132_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_133_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_134_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_135_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_136_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_137_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_138_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_139_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_140_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_141_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_142_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_143_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_144_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_145_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_146_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_147_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_148_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_149_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_150_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_151_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_152_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_153_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_154_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_155_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_156_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_157_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_158_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_159_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_160_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_161_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_162_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_163_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_164_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_165_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_166_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_167_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_168_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_169_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_170_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_171_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_172_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_173_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_174_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_175_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_176_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_177_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_178_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_179_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_180_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_181_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_182_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_183_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_184_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_185_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_186_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_187_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_188_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_189_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_190_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_191_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_192_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_193_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_194_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_195_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_196_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_197_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_198_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_199_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Level_200_Ascended_1",
+            "type": "double"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Unknown",
+            "type": "int32"
+        },
+        {
+            "name": "Level_1_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_2_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_3_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_4_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_5_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_6_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_7_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_8_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_9_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_10_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_11_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_12_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_13_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_14_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_15_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_16_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_17_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_18_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_19_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_20_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_21_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_22_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_23_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_24_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_25_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_26_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_27_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_28_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_29_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_30_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_31_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_32_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_33_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_34_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_35_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_36_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_37_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_38_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_39_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_40_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_41_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_42_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_43_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_44_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_45_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_46_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_47_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_48_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_49_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_50_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_51_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_52_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_53_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_54_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_55_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_56_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_57_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_58_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_59_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_60_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_61_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_62_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_63_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_64_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_65_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_66_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_67_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_68_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_69_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_70_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_71_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_72_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_73_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_74_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_75_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_76_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_77_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_78_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_79_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_80_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_81_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_82_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_83_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_84_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_85_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_86_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_87_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_88_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_89_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_90_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_91_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_92_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_93_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_94_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_95_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_96_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_97_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_98_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_99_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_100_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_101_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_102_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_103_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_104_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_105_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_106_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_107_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_108_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_109_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_110_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_111_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_112_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_113_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_114_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_115_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_116_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_117_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_118_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_119_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_120_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_121_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_122_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_123_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_124_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_125_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_126_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_127_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_128_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_129_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_130_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_131_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_132_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_133_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_134_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_135_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_136_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_137_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_138_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_139_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_140_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_141_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_142_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_143_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_144_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_145_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_146_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_147_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_148_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_149_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_150_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_151_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_152_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_153_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_154_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_155_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_156_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_157_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_158_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_159_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_160_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_161_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_162_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_163_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_164_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_165_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_166_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_167_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_168_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_169_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_170_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_171_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_172_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_173_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_174_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_175_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_176_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_177_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_178_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_179_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_180_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_181_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_182_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_183_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_184_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_185_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_186_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_187_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_188_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_189_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_190_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_191_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_192_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_193_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_194_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_195_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_196_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_197_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_198_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_199_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_200_Ascended_2",
+            "type": "double"
+        },
+        {
+            "name": "Level_1_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_2_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_3_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_4_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_5_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_6_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_7_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_8_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_9_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_10_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_11_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_12_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_13_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_14_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_15_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_16_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_17_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_18_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_19_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_20_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_21_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_22_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_23_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_24_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_25_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_26_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_27_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_28_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_29_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_30_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_31_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_32_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_33_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_34_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_35_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_36_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_37_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_38_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_39_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_40_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_41_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_42_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_43_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_44_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_45_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_46_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_47_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_48_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_49_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_50_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_51_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_52_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_53_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_54_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_55_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_56_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_57_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_58_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_59_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_60_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_61_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_62_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_63_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_64_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_65_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_66_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_67_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_68_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_69_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_70_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_71_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_72_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_73_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_74_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_75_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_76_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_77_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_78_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_79_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_80_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_81_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_82_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_83_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_84_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_85_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_86_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_87_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_88_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_89_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_90_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_91_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_92_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_93_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_94_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_95_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_96_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_97_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_98_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_99_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_100_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_101_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_102_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_103_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_104_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_105_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_106_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_107_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_108_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_109_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_110_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_111_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_112_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_113_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_114_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_115_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_116_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_117_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_118_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_119_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_120_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_121_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_122_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_123_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_124_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_125_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_126_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_127_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_128_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_129_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_130_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_131_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_132_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_133_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_134_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_135_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_136_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_137_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_138_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_139_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_140_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_141_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_142_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_143_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_144_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_145_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_146_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_147_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_148_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_149_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_150_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_151_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_152_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_153_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_154_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_155_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_156_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_157_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_158_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_159_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_160_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_161_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_162_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_163_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_164_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_165_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_166_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_167_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_168_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_169_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_170_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_171_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_172_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_173_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_174_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_175_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_176_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_177_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_178_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_179_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_180_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_181_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_182_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_183_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_184_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_185_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_186_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_187_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_188_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_189_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_190_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_191_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_192_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_193_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_194_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_195_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_196_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_197_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_198_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_199_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Level_200_Ascended_3",
+            "type": "double"
+        },
+        {
+            "name": "Esper_Level_1",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_2",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_3",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_4",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_5",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_6",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_7",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_8",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_9",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_10",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_11",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_12",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_13",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_14",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_15",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_16",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_17",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_18",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_19",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_20",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_21",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_22",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_23",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_24",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_25",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_26",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_27",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_28",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_29",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_30",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_31",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_32",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_33",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_34",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_35",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_36",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_37",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_38",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_39",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_40",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_41",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_42",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_43",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_44",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_45",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_46",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_47",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_48",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_49",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_50",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_51",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_52",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_53",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_54",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_55",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_56",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_57",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_58",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_59",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_60",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_61",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_62",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_63",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_64",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_65",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_66",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_67",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_68",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_69",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_70",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_71",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_72",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_73",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_74",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_75",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_76",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_77",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_78",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_79",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_80",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_81",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_82",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_83",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_84",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_85",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_86",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_87",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_88",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_89",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_90",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_91",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_92",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_93",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_94",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_95",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_96",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_97",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_98",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_99",
+            "type": "int32"
+        },
+        {
+            "name": "Esper_Level_100",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_Level_1",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_Level_2",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_Level_3",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_Level_4",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_Level_5",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_Level_6",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_Level_7",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_Level_8",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_Level_9",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_Level_10",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_1_1_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_1_2_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_1_3_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_1_4_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_1_5_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_1_6_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_1_7_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_1_8_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_1_9_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_1_10_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_2_1_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_2_2_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_2_3_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_2_4_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_2_5_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_2_6_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_2_7_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_2_8_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_2_9_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_2_10_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_3_1_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_3_2_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_3_3_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_3_4_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_3_5_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_3_6_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_3_7_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_3_8_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_3_9_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_3_10_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_4_1_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_4_2_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_4_3_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_4_4_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_4_5_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_4_6_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_4_7_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_4_8_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_4_9_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_4_10_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_5_1_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_5_2_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_5_3_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_5_4_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_5_5_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_5_6_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_5_7_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_5_8_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_5_9_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_5_10_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_6_1_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_6_2_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_6_3_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_6_4_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_6_5_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_6_6_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_6_7_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_6_8_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_6_9_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_6_10_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_7_1_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_7_2_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_7_3_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_7_4_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_7_5_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_7_6_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_7_7_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_7_8_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_7_9_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_7_10_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_8_1_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_8_2_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_8_3_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_8_4_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_8_5_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_8_6_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_8_7_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_8_8_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_8_9_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_8_10_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_9_1_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_9_2_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_9_3_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_9_4_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_9_5_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_9_6_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_9_7_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_9_8_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_9_9_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_9_10_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_10_1_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_10_2_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_10_3_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_10_4_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_10_5_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_10_6_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_10_7_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_10_8_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_10_9_",
+            "type": "int32"
+        },
+        {
+            "name": "Craft_EXP_Gain_Level_10_10",
+            "type": "int32"
+        },
+        {
+            "name": "Pet_Level_1",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_2",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_3",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_4",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_5",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_6",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_7",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_8",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_9",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_10",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_11",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_12",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_13",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_14",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_15",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_16",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_17",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_18",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_19",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_20",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_21",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_22",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_23",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_24",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_25",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_26",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_27",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_28",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_29",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_30",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_31",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_32",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_33",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_34",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_35",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_36",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_37",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_38",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_39",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_40",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_41",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_42",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_43",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_44",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_45",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_46",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_47",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_48",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_49",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_50",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_51",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_52",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_53",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_54",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_55",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_56",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_57",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_58",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_59",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_60",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_61",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_62",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_63",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_64",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_65",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_66",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_67",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_68",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_69",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_70",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_71",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_72",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_73",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_74",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_75",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_76",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_77",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_78",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_79",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_80",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_81",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_82",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_83",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_84",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_85",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_86",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_87",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_88",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_89",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_90",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_91",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_92",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_93",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_94",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_95",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_96",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_97",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_98",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_99",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_100",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_101",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_102",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_103",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_104",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_105",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_106",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_107",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_108",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_109",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_110",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_111",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_112",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_113",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_114",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_115",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_116",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_117",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_118",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_119",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_120",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_121",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_122",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_123",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_124",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_125",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_126",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_127",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_128",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_129",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_130",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_131",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_132",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_133",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_134",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_135",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_136",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_137",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_138",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_139",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_140",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_141",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_142",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_143",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_144",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_145",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_146",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_147",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_148",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_149",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_150",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_151",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_152",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_153",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_154",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_155",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_156",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_157",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_158",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_159",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_160",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_161",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_162",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_163",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_164",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_165",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_166",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_167",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_168",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_169",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_170",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_171",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_172",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_173",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_174",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_175",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_176",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_177",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_178",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_179",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_180",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_181",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_182",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_183",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_184",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_185",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_186",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_187",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_188",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_189",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_190",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_191",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_192",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_193",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_194",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_195",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_196",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_197",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_198",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_199",
+            "type": "double"
+        },
+        {
+            "name": "Pet_Level_200",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_1_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_1",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_1",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_2_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_2",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_2",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_3_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_3",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_3",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_4_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_4",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_4",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_5_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_5",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_5",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_6_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_6",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_6",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_7_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_7",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_7",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_8_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_8",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_8",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_9_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_9",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_9",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_10_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_10",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_10",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_11_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_11",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_11",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_12_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_12",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_12",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_13_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_13",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_13",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_14_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_14",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_14",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_15_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_15",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_15",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_16_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_16",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_16",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_17_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_17",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_17",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_18_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_18",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_18",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_19_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_19",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_19",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_20_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_20",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_20",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_21_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_21",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_21",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_22_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_22",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_22",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_23_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_23",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_23",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_24_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_24",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_24",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_25_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_25",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_25",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_26_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_26",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_26",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_27_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_27",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_27",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_28_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_28",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_28",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_29_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_29",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_29",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_30_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_30",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_30",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_31_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_31",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_31",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_32_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_32",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_32",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_33_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_33",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_33",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_34_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_34",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_34",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_35_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_35",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_35",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_36_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_36",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_36",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_37_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_37",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_37",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_38_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_38",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_38",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_39_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_39",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_39",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_40_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_40",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_40",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_41_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_41",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_41",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_42_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_42",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_42",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_43_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_43",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_43",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_44_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_44",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_44",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_45_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_45",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_45",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_46_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_46",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_46",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_47_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_47",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_47",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_48_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_48",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_48",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_49_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_49",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_49",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_50_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_50",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_50",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_51_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_51",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_51",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_52_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_52",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_52",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_53_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_53",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_53",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_54_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_54",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_54",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_55_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_55",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_55",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_56_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_56",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_56",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_57_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_57",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_57",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_58_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_58",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_58",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_59_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_59",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_59",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_60_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_60",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_60",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_61_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_61",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_61",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_62_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_62",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_62",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_63_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_63",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_63",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_64_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_64",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_64",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_65_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_65",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_65",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_66_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_66",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_66",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_67_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_67",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_67",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_68_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_68",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_68",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_69_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_69",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_69",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_70_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_70",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_70",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_71_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_71",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_71",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_72_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_72",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_72",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_73_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_73",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_73",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_74_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_74",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_74",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_75_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_75",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_75",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_76_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_76",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_76",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_77_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_77",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_77",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_78_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_78",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_78",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_79_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_79",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_79",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_80_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_80",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_80",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_81_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_81",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_81",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_82_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_82",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_82",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_83_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_83",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_83",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_84_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_84",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_84",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_85_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_85",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_85",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_86_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_86",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_86",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_87_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_87",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_87",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_88_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_88",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_88",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_89_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_89",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_89",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_90_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_90",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_90",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_91_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_91",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_91",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_92_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_92",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_92",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_93_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_93",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_93",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_94_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_94",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_94",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_95_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_95",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_95",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_96_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_96",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_96",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_97_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_97",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_97",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_98_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_98",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_98",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_99_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_99",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_99",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_100_EXP",
+            "type": "double"
+        },
+        {
+            "name": "Chroma_Level_Up_Chance_100",
+            "type": "float"
+        },
+        {
+            "name": "Chroma_Failure_EXP_100",
+            "type": "double"
+        }
+    ]
+}

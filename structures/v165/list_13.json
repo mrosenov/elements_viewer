@@ -1,0 +1,61 @@
+{
+    "name": "TRANSMITROLL_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "file_matter",
+            "type": "int32"
+        },
+        {
+            "name": "file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "require_level",
+            "type": "int32"
+        },
+        {
+            "name": "tag",
+            "type": "int32"
+        },
+        {
+            "name": "x",
+            "type": "float"
+        },
+        {
+            "name": "y",
+            "type": "float"
+        },
+        {
+            "name": "z",
+            "type": "float"
+        },
+        {
+            "name": "price",
+            "type": "int32"
+        },
+        {
+            "name": "shop_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "proc_type",
+            "type": "int32"
+        }
+    ]
+}

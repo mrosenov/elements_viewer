@@ -1,0 +1,489 @@
+{
+    "name": "PARAM_ADJUST_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "adjust_config_id",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_1_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_1_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_1_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_1_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_1_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_2_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_2_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_2_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_2_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_2_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_3_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_3_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_3_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_3_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_3_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_4_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_4_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_4_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_4_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_4_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_5_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_5_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_5_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_5_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_5_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_6_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_6_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_6_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_6_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_6_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_7_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_7_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_7_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_7_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_7_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_8_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_8_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_8_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_8_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_8_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_9_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_9_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_9_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_9_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_9_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_10_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_10_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_10_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_10_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_10_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_11_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_11_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_11_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_11_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_11_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_12_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_12_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_12_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_12_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_12_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_13_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_13_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_13_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_13_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_13_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_14_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_14_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_14_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_14_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_14_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_15_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_15_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_15_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_15_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_15_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_16_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_adjust_16_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_16_adjust_money",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_16_adjust_matter",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_adjust_16_adjust_attack",
+            "type": "float"
+        },
+        {
+            "name": "team_adjust_1_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_adjust_2_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_adjust_3_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_adjust_4_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_adjust_5_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_adjust_6_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_adjust_7_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_adjust_8_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_adjust_9_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_adjust_10_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_adjust_11_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_profession_adjust_1_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_profession_adjust_2_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_profession_adjust_3_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_profession_adjust_4_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_profession_adjust_5_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_profession_adjust_6_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_profession_adjust_7_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_profession_adjust_8_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "team_profession_adjust_9_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_produce_1_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_produce_1_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_produce_2_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_produce_2_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_produce_3_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_produce_3_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_produce_4_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_produce_4_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_produce_5_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_produce_5_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_produce_6_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_produce_6_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_produce_7_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_produce_7_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_produce_8_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_produce_8_adjust_exp",
+            "type": "float"
+        },
+        {
+            "name": "level_diff_produce_9_level_diff",
+            "type": "int32"
+        },
+        {
+            "name": "level_diff_produce_9_adjust_exp",
+            "type": "float"
+        }
+    ]
+}

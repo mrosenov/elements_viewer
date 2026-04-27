@@ -1,0 +1,549 @@
+{
+    "name": "DROPTABLE_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "id_type",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "num_to_drop_1_probability",
+            "type": "float"
+        },
+        {
+            "name": "num_to_drop_2_probability",
+            "type": "float"
+        },
+        {
+            "name": "num_to_drop_3_probability",
+            "type": "float"
+        },
+        {
+            "name": "num_to_drop_4_probability",
+            "type": "float"
+        },
+        {
+            "name": "num_to_drop_5_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_1_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_1_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_2_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_2_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_3_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_3_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_4_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_4_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_5_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_5_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_6_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_6_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_7_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_7_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_8_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_8_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_9_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_9_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_10_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_10_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_11_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_11_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_12_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_12_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_13_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_13_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_14_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_14_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_15_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_15_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_16_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_16_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_17_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_17_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_18_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_18_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_19_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_19_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_20_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_20_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_21_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_21_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_22_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_22_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_23_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_23_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_24_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_24_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_25_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_25_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_26_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_26_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_27_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_27_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_28_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_28_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_29_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_29_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_30_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_30_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_31_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_31_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_32_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_32_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_33_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_33_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_34_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_34_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_35_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_35_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_36_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_36_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_37_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_37_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_38_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_38_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_39_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_39_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_40_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_40_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_41_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_41_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_42_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_42_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_43_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_43_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_44_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_44_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_45_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_45_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_46_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_46_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_47_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_47_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_48_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_48_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_49_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_49_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_50_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_50_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_51_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_51_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_52_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_52_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_53_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_53_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_54_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_54_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_55_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_55_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_56_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_56_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_57_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_57_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_58_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_58_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_59_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_59_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_60_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_60_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_61_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_61_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_62_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_62_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_63_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_63_probability",
+            "type": "float"
+        },
+        {
+            "name": "drops_64_id_obj",
+            "type": "int32"
+        },
+        {
+            "name": "drops_64_probability",
+            "type": "float"
+        }
+    ]
+}

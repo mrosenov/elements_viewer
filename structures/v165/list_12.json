@@ -1,0 +1,9 @@
+{
+    "name": "UNKNOWN12",
+    "fields": [
+        {
+            "name": "id",
+            "type": "byte:4"
+        }
+    ]
+}

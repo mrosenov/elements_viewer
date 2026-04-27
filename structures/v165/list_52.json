@@ -1,0 +1,61 @@
+{
+    "name": "NPC_RESETPROP_SERVICE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "prop_entry_1_id_object_need",
+            "type": "int32"
+        },
+        {
+            "name": "prop_entry_1_resetprop_type",
+            "type": "int32"
+        },
+        {
+            "name": "prop_entry_2_id_object_need",
+            "type": "int32"
+        },
+        {
+            "name": "prop_entry_2_resetprop_type",
+            "type": "int32"
+        },
+        {
+            "name": "prop_entry_3_id_object_need",
+            "type": "int32"
+        },
+        {
+            "name": "prop_entry_3_resetprop_type",
+            "type": "int32"
+        },
+        {
+            "name": "prop_entry_4_id_object_need",
+            "type": "int32"
+        },
+        {
+            "name": "prop_entry_4_resetprop_type",
+            "type": "int32"
+        },
+        {
+            "name": "prop_entry_5_id_object_need",
+            "type": "int32"
+        },
+        {
+            "name": "prop_entry_5_resetprop_type",
+            "type": "int32"
+        },
+        {
+            "name": "prop_entry_6_id_object_need",
+            "type": "int32"
+        },
+        {
+            "name": "prop_entry_6_resetprop_type",
+            "type": "int32"
+        }
+    ]
+}

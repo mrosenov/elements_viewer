@@ -1,0 +1,685 @@
+{
+    "name": "EQUIPMENT_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "id_major_type",
+            "type": "int32"
+        },
+        {
+            "name": "id_sub_type",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "equip_type",
+            "type": "int32"
+        },
+        {
+            "name": "equip_mask",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_male",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_female",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_male_armor_xuanyuan",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_female_armor_xuanyuan",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_big_male",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_big_female",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_small_male",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_small_female",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_tiny_male",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_tiny_female",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_tetrapod_male",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_big_male_left",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_big_female_left",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_back_male",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_back_female",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_female_taihao",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_back_female_fash",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_female_taihao_fash",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_big_male_sword",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_big_female_sword",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_big_male_scythe",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_big_female_scythe",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_big_male_bow",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_big_female_bow",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved1",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved2",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved3",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved4",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved5",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved6",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved7",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved8",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved9",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved10",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved11",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved12",
+            "type": "int32"
+        },
+        {
+            "name": "file_matter",
+            "type": "int32"
+        },
+        {
+            "name": "file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "equip_location",
+            "type": "int32"
+        },
+        {
+            "name": "action_type",
+            "type": "int32"
+        },
+        {
+            "name": "show_level",
+            "type": "wstring:32"
+        },
+        {
+            "name": "level",
+            "type": "int32"
+        },
+        {
+            "name": "grade",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "character_combo_id",
+            "type": "int64"
+        },
+        {
+            "name": "character_combo_id2",
+            "type": "int64"
+        },
+        {
+            "name": "char_lev_1",
+            "type": "int64"
+        },
+        {
+            "name": "char_lev_1_2",
+            "type": "int64"
+        },
+        {
+            "name": "char_lev_2",
+            "type": "int64"
+        },
+        {
+            "name": "char_lev_2_2",
+            "type": "int64"
+        },
+        {
+            "name": "char_lev_3",
+            "type": "int64"
+        },
+        {
+            "name": "char_lev_3_2",
+            "type": "int64"
+        },
+        {
+            "name": "require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "require_level",
+            "type": "int32"
+        },
+        {
+            "name": "sect_mask",
+            "type": "int32"
+        },
+        {
+            "name": "sect_mask_1",
+            "type": "int32"
+        },
+        {
+            "name": "sect_mask_2",
+            "type": "int32"
+        },
+        {
+            "name": "sect_mask_3",
+            "type": "int32"
+        },
+        {
+            "name": "require_race",
+            "type": "int32"
+        },
+        {
+            "name": "require_level2",
+            "type": "int32"
+        },
+        {
+            "name": "renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "god_devil_mask",
+            "type": "int32"
+        },
+        {
+            "name": "nation_position_mask",
+            "type": "int32"
+        },
+        {
+            "name": "title_require",
+            "type": "int32"
+        },
+        {
+            "name": "require_repu_1_index",
+            "type": "int32"
+        },
+        {
+            "name": "require_repu_1_num",
+            "type": "int32"
+        },
+        {
+            "name": "require_repu_2_index",
+            "type": "int32"
+        },
+        {
+            "name": "require_repu_2_num",
+            "type": "int32"
+        },
+        {
+            "name": "require_territory",
+            "type": "int32"
+        },
+        {
+            "name": "hp",
+            "type": "int32"
+        },
+        {
+            "name": "mp",
+            "type": "int32"
+        },
+        {
+            "name": "dp",
+            "type": "int32"
+        },
+        {
+            "name": "deity_power",
+            "type": "int32"
+        },
+        {
+            "name": "min_dmg",
+            "type": "int32"
+        },
+        {
+            "name": "max_dmg",
+            "type": "int32"
+        },
+        {
+            "name": "defence",
+            "type": "int32"
+        },
+        {
+            "name": "attack",
+            "type": "int32"
+        },
+        {
+            "name": "armor",
+            "type": "int32"
+        },
+        {
+            "name": "attack_range",
+            "type": "float"
+        },
+        {
+            "name": "price",
+            "type": "int32"
+        },
+        {
+            "name": "shop_price",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon1",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon2",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon3",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon4",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon5",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon6",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon7",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon8",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon9",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon10",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon11",
+            "type": "int32"
+        },
+        {
+            "name": "fee_estone",
+            "type": "int32"
+        },
+        {
+            "name": "fee_install_pstone",
+            "type": "int32"
+        },
+        {
+            "name": "fee_uninstall_pstone",
+            "type": "int32"
+        },
+        {
+            "name": "fee_install_sstone",
+            "type": "int32"
+        },
+        {
+            "name": "fee_uninstall_sstone",
+            "type": "int32"
+        },
+        {
+            "name": "id_estone",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_1",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_2",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_3",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_4",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_5",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_6",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_7",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_8",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_9",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_10",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_11",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_12",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_13",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_14",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_15",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_16",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_17",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_18",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_19",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value_20",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_1_level",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_1_prop_1_id",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_1_prop_1_probability",
+            "type": "float"
+        },
+        {
+            "name": "hidden_prop_1_prop_2_id",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_1_prop_2_probability",
+            "type": "float"
+        },
+        {
+            "name": "hidden_prop_1_prop_3_id",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_1_prop_3_probability",
+            "type": "float"
+        },
+        {
+            "name": "hidden_prop_1_prop_4_id",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_1_prop_4_probability",
+            "type": "float"
+        },
+        {
+            "name": "hidden_prop_1_prop_5_id",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_1_prop_5_probability",
+            "type": "float"
+        },
+        {
+            "name": "hidden_prop_2_level",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_2_prop_1_id",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_2_prop_1_probability",
+            "type": "float"
+        },
+        {
+            "name": "hidden_prop_2_prop_2_id",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_2_prop_2_probability",
+            "type": "float"
+        },
+        {
+            "name": "hidden_prop_2_prop_3_id",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_2_prop_3_probability",
+            "type": "float"
+        },
+        {
+            "name": "hidden_prop_2_prop_4_id",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_2_prop_4_probability",
+            "type": "float"
+        },
+        {
+            "name": "hidden_prop_2_prop_5_id",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_2_prop_5_probability",
+            "type": "float"
+        },
+        {
+            "name": "blood_sacrifice",
+            "type": "int32"
+        },
+        {
+            "name": "can_punching",
+            "type": "int32"
+        },
+        {
+            "name": "color",
+            "type": "int32"
+        },
+        {
+            "name": "fixed_color",
+            "type": "int32"
+        },
+        {
+            "name": "dyed",
+            "type": "int32"
+        },
+        {
+            "name": "soul_level",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_addon_1_level",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_addon_1_addon",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_addon_2_level",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_addon_2_addon",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_addon_3_level",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_addon_3_addon",
+            "type": "int32"
+        },
+        {
+            "name": "gem_slot_identify",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "proc_type",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_9",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_10",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_11",
+            "type": "int32"
+        }
+    ]
+}

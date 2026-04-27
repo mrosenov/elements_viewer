@@ -1,0 +1,93 @@
+{
+    "name": "NPC_WAR_TOWERBUILD_SERVICE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "build_info_1_id_in_build",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_1_id_buildup",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_1_id_object_need",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_1_time_use",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_1_fee",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_2_id_in_build",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_2_id_buildup",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_2_id_object_need",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_2_time_use",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_2_fee",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_3_id_in_build",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_3_id_buildup",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_3_id_object_need",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_3_time_use",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_3_fee",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_4_id_in_build",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_4_id_buildup",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_4_id_object_need",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_4_time_use",
+            "type": "int32"
+        },
+        {
+            "name": "build_info_4_fee",
+            "type": "int32"
+        }
+    ]
+}

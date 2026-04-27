@@ -1,0 +1,137 @@
+{
+    "name": "REFINE_TICKET_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "file_matter",
+            "type": "int32"
+        },
+        {
+            "name": "file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "ext_reserved_prob",
+            "type": "float"
+        },
+        {
+            "name": "ext_succeed_prob",
+            "type": "float"
+        },
+        {
+            "name": "new_mode",
+            "type": "int32"
+        },
+        {
+            "name": "refine_level",
+            "type": "int32"
+        },
+        {
+            "name": "bind_equip",
+            "type": "int32"
+        },
+        {
+            "name": "new_succeed_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_9",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_10",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_11",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_12",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_13",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_14",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_15",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_16",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_17",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_18",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_19",
+            "type": "float"
+        },
+        {
+            "name": "new_succeed_prob_20",
+            "type": "float"
+        },
+        {
+            "name": "price",
+            "type": "int32"
+        },
+        {
+            "name": "shop_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "proc_type",
+            "type": "int32"
+        }
+    ]
+}

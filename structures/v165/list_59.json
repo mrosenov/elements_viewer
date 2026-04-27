@@ -1,0 +1,137 @@
+{
+    "name": "SUITE_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "max_equips",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_1_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_2_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_3_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_4_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_5_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_6_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_7_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_8_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_9_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_10_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_11_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_12_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_13_id",
+            "type": "int32"
+        },
+        {
+            "name": "equipments_14_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_1_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_2_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_3_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_4_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_5_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_6_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_7_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_8_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_9_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_10_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_11_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_12_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_13_id",
+            "type": "int32"
+        },
+        {
+            "name": "file_gfx",
+            "type": "byte:128"
+        },
+        {
+            "name": "hh_type",
+            "type": "int32"
+        },
+        {
+            "name": "equip_soul_suite",
+            "type": "int32"
+        }
+    ]
+}
