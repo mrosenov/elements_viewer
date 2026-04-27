@@ -1,0 +1,81 @@
+{
+    "name": "SIGN_IN_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "sign_start_time",
+            "type": "int32"
+        },
+        {
+            "name": "sign_end_time",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_end_time",
+            "type": "int32"
+        },
+        {
+            "name": "sign_score",
+            "type": "int32"
+        },
+        {
+            "name": "sign_package",
+            "type": "int32"
+        },
+        {
+            "name": "package_list_info_1_package_id",
+            "type": "int32"
+        },
+        {
+            "name": "package_list_info_1_score_consume",
+            "type": "int32"
+        },
+        {
+            "name": "package_list_info_1_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "package_list_info_2_package_id",
+            "type": "int32"
+        },
+        {
+            "name": "package_list_info_2_score_consume",
+            "type": "int32"
+        },
+        {
+            "name": "package_list_info_2_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "package_list_info_3_package_id",
+            "type": "int32"
+        },
+        {
+            "name": "package_list_info_3_score_consume",
+            "type": "int32"
+        },
+        {
+            "name": "package_list_info_3_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "package_list_info_4_package_id",
+            "type": "int32"
+        },
+        {
+            "name": "package_list_info_4_score_consume",
+            "type": "int32"
+        },
+        {
+            "name": "package_list_info_4_exchange_count",
+            "type": "int32"
+        }
+    ]
+}

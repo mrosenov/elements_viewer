@@ -1,0 +1,33 @@
+{
+    "name": "COMPOUND_MINE_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "file_mine_1",
+            "type": "int32"
+        },
+        {
+            "name": "file_mine_2",
+            "type": "int32"
+        },
+        {
+            "name": "file_mine_3",
+            "type": "int32"
+        },
+        {
+            "name": "count",
+            "type": "int32"
+        },
+        {
+            "name": "file_mine_spe",
+            "type": "int32"
+        }
+    ]
+}

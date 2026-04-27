@@ -1,0 +1,53 @@
+{
+    "name": "COLORANT_DEFAULT_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "colorant_1",
+            "type": "int32"
+        },
+        {
+            "name": "colorant_2",
+            "type": "int32"
+        },
+        {
+            "name": "colorant_3",
+            "type": "int32"
+        },
+        {
+            "name": "colorant_4",
+            "type": "int32"
+        },
+        {
+            "name": "colorant_5",
+            "type": "int32"
+        },
+        {
+            "name": "colorant_6",
+            "type": "int32"
+        },
+        {
+            "name": "colorant_7",
+            "type": "int32"
+        },
+        {
+            "name": "colorant_8",
+            "type": "int32"
+        },
+        {
+            "name": "colorant_9",
+            "type": "int32"
+        },
+        {
+            "name": "colorant_10",
+            "type": "int32"
+        }
+    ]
+}
