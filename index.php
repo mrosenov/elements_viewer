@@ -195,6 +195,123 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['action'] ?? '') === 'diff_li
 }
 
 // ---------------------------------------------------------------------------
+// Endpoint: download a .cfg file describing every list in the current .data
+// ---------------------------------------------------------------------------
+//   GET ?action=export_cfg&file=<fileName>
+// Format (one record per list):
+//   <total_lists_incl_talk_proc>
+//   <total_lists_excl_talk_proc>
+//   <blank>
+//   <idx> - <NAME>
+//   <offset>                       (4=default; 8 for first list = file header;
+//                                   4 + marker bytes for lists preceded by
+//                                   md5/exporter_meta/tag_block markers)
+//   <Field1;Field2;...>
+//   <type1;type2;...>
+//   <blank>
+//   ...
+//   <talk_idx> - TALK_PROC
+//   0
+//   RAW
+//   byte:AUTO
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['action'] ?? '') === 'export_cfg') {
+    $fileN = basename($_GET['file'] ?? '');
+    $path  = $dataDir ? $dataDir . '/' . $fileN : '';
+    if (!$dataDir || !is_file($path)) {
+        http_response_code(404);
+        header('Content-Type: text/plain; charset=utf-8');
+        echo 'File not found in data/.';
+        exit;
+    }
+    try {
+        $r = (new ElementsReader($path))->scan();
+    } catch (Throwable $e) {
+        http_response_code(500);
+        header('Content-Type: text/plain; charset=utf-8');
+        echo 'Scan error: ' . $e->getMessage();
+        exit;
+    }
+    $structure = load_structure($structDir, $r->getVersionLabel());
+    $byIdx     = [];
+    foreach (($structure['lists'] ?? []) as $key => $entry) {
+        if (is_array($entry)) $byIdx[(int)$key] = $entry;
+    }
+    $lists                 = $r->getLists();
+    $hasTalkProc           = ($r->getTalkProcCount() !== null);
+    $totalExclTalkProc     = count($lists);
+    $totalInclTalkProc     = $totalExclTalkProc + ($hasTalkProc ? 1 : 0);
+
+    $lines   = [];
+    $lines[] = (string)$totalInclTalkProc;
+    $lines[] = (string)$totalExclTalkProc;
+    $lines[] = '';
+
+    $missingSchema = 0;
+    for ($i = 0; $i < $totalExclTalkProc; $i++) {
+        $L           = $lists[$i];
+        $headerStart = (int)$L['data_offset'] - 8;     // 8 = sizeof + count
+        if ($i === 0) {
+            // First list: offset = bytes from file start to this header
+            // (file header = 8 + any leading markers).
+            $offset = $headerStart;
+        } else {
+            $prev        = $lists[$i - 1];
+            $prevBodyEnd = (int)$prev['data_offset'] + (int)$prev['body_bytes'];
+            $gap         = $headerStart - $prevBodyEnd;
+            // Default per-list editor overhead is 4 bytes (the sizeof field
+            // it skips); add any marker bytes (md5, exporter_meta, etc.).
+            $offset      = 4 + max(0, $gap);
+        }
+
+        $idx   = (int)$L['index'];
+        $entry = $byIdx[$idx] ?? null;
+        if ($entry && !empty($entry['fields'])) {
+            $name  = $entry['name'] ?? ('UNNAMED_' . $idx);
+            $names = [];
+            $types = [];
+            foreach ($entry['fields'] as $f) {
+                $names[] = $f['name'] ?? '';
+                $types[] = $f['type'] ?? 'byte:1';
+            }
+        } else {
+            // No schema yet — emit a single opaque blob of the right width so
+            // the .cfg still loads. The user can refine later.
+            $missingSchema++;
+            $name  = 'UNKNOWN_' . $idx;
+            $names = ['Data'];
+            $types = ['byte:' . (int)$L['sizeof']];
+        }
+
+        $lines[] = $idx . ' - ' . $name;
+        $lines[] = (string)$offset;
+        $lines[] = implode(';', $names);
+        $lines[] = implode(';', $types);
+        $lines[] = '';
+    }
+
+    if ($hasTalkProc) {
+        $lines[] = $totalExclTalkProc . ' - TALK_PROC';
+        $lines[] = '0';
+        $lines[] = 'RAW';
+        $lines[] = 'byte:AUTO';
+    }
+
+    // CRLF — the editor lives on Windows.
+    $cfg = implode("\r\n", $lines) . "\r\n";
+
+    $stem         = preg_replace('/\.data$/i', '', $fileN);
+    $downloadName = $stem . '_' . $r->getVersionLabel() . '.cfg';
+
+    header('Content-Type: text/plain; charset=ascii');
+    header('Content-Disposition: attachment; filename="' . $downloadName . '"');
+    header('Content-Length: ' . strlen($cfg));
+    header('X-Cfg-Lists: ' . $totalInclTalkProc);
+    header('X-Cfg-Missing-Schema: ' . $missingSchema);
+    echo $cfg;
+    exit;
+}
+
+// ---------------------------------------------------------------------------
 // Handle POST (save a list definition)
 // ---------------------------------------------------------------------------
 $saveMsg = '';
@@ -817,6 +934,18 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
       <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
       Compare
     </button>
+    <a href="?action=export_cfg&amp;file=<?= h(urlencode($fileName)) ?>"
+       class="flex items-center gap-1.5 px-2.5 py-1 rounded border text-[11px] mono uppercase tracking-widest bg-emerald-950/20 hover:bg-emerald-950/50 border-emerald-800/30 hover:border-emerald-700/50 text-emerald-300 transition-colors"
+       title="Download a .cfg file for the elements.data editor (uses every list's saved schema; lists without a schema fall back to a single byte:N blob)">
+      <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12v1a3 3 0 01-3 3H7a3 3 0 01-3-3v-1m4-4l4 4m0 0l4-4m-4 4V4"/></svg>
+      Export .cfg
+    </a>
+    <a href="search.php?file=<?= h(urlencode($fileName)) ?><?= $selectedListIdx >= 0 ? '&list=' . $selectedListIdx : '' ?>"
+       class="flex items-center gap-1.5 px-2.5 py-1 rounded border text-[11px] mono uppercase tracking-widest bg-purple-950/20 hover:bg-purple-950/50 border-purple-800/30 hover:border-purple-700/50 text-purple-300 transition-colors"
+       title="Open Advanced Search — query any list by field values with operators like >, <, contains, etc.">
+      <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+      Search
+    </a>
     <?php if ($reader->getTalkProcCount() !== null): ?>
       <div class="flex items-center gap-1.5">
         <span class="text-[11px] mono text-slate-300">Talk Proc Records</span>
