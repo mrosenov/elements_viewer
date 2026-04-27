@@ -2,810 +2,755 @@
     "name": "EQUIPMENT_ESSENCE",
     "fields": [
         {
-            "name": "ID",
+            "name": "id",
             "type": "int32"
         },
         {
-            "name": "Type",
-            "type": "int32",
-            "refs": [
-                1
-            ]
+            "name": "id_major_type",
+            "type": "int32"
         },
         {
-            "name": "Sub Type",
-            "type": "int32",
-            "refs": [
-                2
-            ]
+            "name": "id_sub_type",
+            "type": "int32"
         },
         {
-            "name": "Name",
+            "name": "name",
             "type": "wstring:64"
         },
         {
-            "name": "Equip Type",
+            "name": "equip_type",
             "type": "int32"
         },
         {
-            "name": "Equip Mask",
+            "name": "equip_mask",
             "type": "int32"
         },
         {
-            "name": "Medium_Male",
+            "name": "file_model_male",
             "type": "int32"
         },
         {
-            "name": "Medium_Female",
+            "name": "file_model_female",
             "type": "int32"
         },
         {
-            "name": "Voida_Helmat_Male",
+            "name": "file_model_male_armor_xuanyuan",
             "type": "int32"
         },
         {
-            "name": "Voida_Helmat_Female",
+            "name": "file_model_female_armor_xuanyuan",
             "type": "int32"
         },
         {
-            "name": "Big_Male",
+            "name": "file_model_big_male",
             "type": "int32"
         },
         {
-            "name": "Big_Female",
+            "name": "file_model_big_female",
             "type": "int32"
         },
         {
-            "name": "Small_Male",
+            "name": "file_model_small_male",
             "type": "int32"
         },
         {
-            "name": "Small_Female",
+            "name": "file_model_small_female",
             "type": "int32"
         },
         {
-            "name": "Psychea_Male",
+            "name": "file_model_tiny_male",
             "type": "int32"
         },
         {
-            "name": "Psychea_Female",
+            "name": "file_model_tiny_female",
             "type": "int32"
         },
         {
-            "name": "Kytos",
+            "name": "file_model_tetrapod_male",
             "type": "int32"
         },
         {
-            "name": "Hydran_Male",
+            "name": "file_model_big_male_left",
             "type": "int32"
         },
         {
-            "name": "Hydran_Female",
+            "name": "file_model_big_female_left",
             "type": "int32"
         },
         {
-            "name": "Forta_Male",
+            "name": "file_model_back_male",
             "type": "int32"
         },
         {
-            "name": "Forta_Female",
+            "name": "file_model_back_female",
             "type": "int32"
         },
         {
-            "name": "Back_Male",
+            "name": "file_model_female_taihao",
             "type": "int32"
         },
         {
-            "name": "Back_Female",
+            "name": "file_model_back_female_fash",
             "type": "int32"
         },
         {
-            "name": "Forta_Female_Fash",
+            "name": "file_model_female_taihao_fash",
             "type": "int32"
         },
         {
-            "name": "Hydran_Male_Sword",
+            "name": "file_model_big_male_sword",
             "type": "int32"
         },
         {
-            "name": "Hydran_Female_Sword",
+            "name": "file_model_big_female_sword",
             "type": "int32"
         },
         {
-            "name": "Hydran_Male_Scythe",
+            "name": "file_model_big_male_scythe",
             "type": "int32"
         },
         {
-            "name": "Hydran_Female_Scythe",
+            "name": "file_model_big_female_scythe",
             "type": "int32"
         },
         {
-            "name": "Hydran_Male_Bow",
+            "name": "file_model_big_male_bow",
             "type": "int32"
         },
         {
-            "name": "Hydran_Female_Bow",
+            "name": "file_model_big_female_bow",
             "type": "int32"
         },
         {
-            "name": "Hydran_Back_Male_Big_Axe",
+            "name": "file_model_reserved1",
             "type": "int32"
         },
         {
-            "name": "Hydran_Back_Female_Big_Axe",
+            "name": "file_model_reserved2",
             "type": "int32"
         },
         {
-            "name": "Hydran_Back_Male_Med_Axe",
+            "name": "file_model_reserved3",
             "type": "int32"
         },
         {
-            "name": "Hydran_Back_Female_Med_Axe",
+            "name": "file_model_reserved4",
             "type": "int32"
         },
         {
-            "name": "Hydran_Back_Male_Small_Axe",
+            "name": "file_model_reserved5",
             "type": "int32"
         },
         {
-            "name": "Hydran_Back_Female_Small_Axe",
+            "name": "file_model_reserved6",
             "type": "int32"
         },
         {
-            "name": "Unk1",
+            "name": "file_model_reserved7",
             "type": "int32"
         },
         {
-            "name": "Unk2",
+            "name": "file_model_reserved8",
             "type": "int32"
         },
         {
-            "name": "Unk3",
+            "name": "file_model_reserved9",
             "type": "int32"
         },
         {
-            "name": "Unk4",
+            "name": "file_model_reserved10",
             "type": "int32"
         },
         {
-            "name": "Unk5",
+            "name": "file_model_reserved11",
             "type": "int32"
         },
         {
-            "name": "Unk6",
+            "name": "file_model_reserved12",
             "type": "int32"
         },
         {
-            "name": "Unk7",
+            "name": "file_model_reserved13",
             "type": "int32"
         },
         {
-            "name": "Unk8",
+            "name": "file_model_reserved14",
             "type": "int32"
         },
         {
-            "name": "Unk9",
+            "name": "file_model_reserved15",
             "type": "int32"
         },
         {
-            "name": "Unk10",
+            "name": "file_model_reserved16",
             "type": "int32"
         },
         {
-            "name": "Unk11",
+            "name": "file_model_reserved17",
             "type": "int32"
         },
         {
-            "name": "Unk12",
+            "name": "file_model_reserved18",
             "type": "int32"
         },
         {
-            "name": "Unk13",
+            "name": "file_model_reserved19",
             "type": "int32"
         },
         {
-            "name": "Unk14",
+            "name": "file_model_reserved20",
             "type": "int32"
         },
         {
-            "name": "Unk15",
+            "name": "file_model_reserved21",
             "type": "int32"
         },
         {
-            "name": "Unk16",
+            "name": "file_model_reserved22",
             "type": "int32"
         },
         {
-            "name": "Unk17",
+            "name": "file_model_reserved23",
             "type": "int32"
         },
         {
-            "name": "Unk18",
+            "name": "file_model_reserved24",
             "type": "int32"
         },
         {
-            "name": "Unk19",
+            "name": "file_model_reserved25",
             "type": "int32"
         },
         {
-            "name": "Unk20",
+            "name": "file_model_reserved26",
             "type": "int32"
         },
         {
-            "name": "Drop Path",
+            "name": "file_matter",
             "type": "int32"
         },
         {
-            "name": "Icon Path",
+            "name": "file_icon",
             "type": "int32"
         },
         {
-            "name": "Equip Location",
+            "name": "equip_location",
             "type": "int32"
         },
         {
-            "name": "Action Type",
+            "name": "action_type",
             "type": "int32"
         },
         {
-            "name": "Title",
+            "name": "show_level",
             "type": "wstring:32"
         },
         {
-            "name": "Level",
+            "name": "level",
             "type": "int32"
         },
         {
-            "name": "Grade",
+            "name": "grade",
             "type": "int32"
         },
         {
-            "name": "Unk21",
+            "name": "unknown_1",
             "type": "int32"
         },
         {
-            "name": "Unk22",
+            "name": "unknown_2",
             "type": "int32"
         },
         {
-            "name": "Unk23",
+            "name": "unknown_3",
             "type": "int32"
         },
         {
-            "name": "Char_Combo_ID_1",
+            "name": "character_combo_id",
             "type": "int64"
         },
         {
-            "name": "Char_Combo_ID_2",
+            "name": "character_combo_id2",
             "type": "int64"
         },
         {
-            "name": "Char_Level_1",
+            "name": "character_combo_id3",
             "type": "int64"
         },
         {
-            "name": "Char_Level_1_2",
+            "name": "char_lev_1",
             "type": "int64"
         },
         {
-            "name": "Char_Level_2",
+            "name": "char_lev_1_2",
             "type": "int64"
         },
         {
-            "name": "Char_Level_2_2",
+            "name": "char_lev_2",
             "type": "int64"
         },
         {
-            "name": "Char_Level_3",
+            "name": "char_lev_2_2",
             "type": "int64"
         },
         {
-            "name": "Char_Level_3_3",
+            "name": "char_lev_3",
             "type": "int64"
         },
         {
-            "name": "Unk24",
+            "name": "char_lev_3_2",
+            "type": "int64"
+        },
+        {
+            "name": "require_gender",
             "type": "int32"
         },
         {
-            "name": "Unk25",
+            "name": "require_level",
             "type": "int32"
         },
         {
-            "name": "Required Gender",
+            "name": "sect_mask",
             "type": "int32"
         },
         {
-            "name": "Required Level",
+            "name": "sect_mask_1",
             "type": "int32"
         },
         {
-            "name": "Required Faction_1",
+            "name": "sect_mask_2",
             "type": "int32"
         },
         {
-            "name": "Required Faction_2",
+            "name": "sect_mask_3",
             "type": "int32"
         },
         {
-            "name": "Required Faction_3",
+            "name": "require_race",
             "type": "int32"
         },
         {
-            "name": "Required Faction_4",
+            "name": "require_level2",
             "type": "int32"
         },
         {
-            "name": "Required Race",
+            "name": "renascence_count",
             "type": "int32"
         },
         {
-            "name": "Required Tier",
+            "name": "god_devil_mask",
             "type": "int32"
         },
         {
-            "name": "Required Ascended",
+            "name": "nation_position_mask",
             "type": "int32"
         },
         {
-            "name": "God_Devil_Mask",
+            "name": "title_require",
             "type": "int32"
         },
         {
-            "name": "Coronation_Pos",
+            "name": "require_repu_index_1",
             "type": "int32"
         },
         {
-            "name": "Required Title",
+            "name": "require_repu_num_1",
             "type": "int32"
         },
         {
-            "name": "Req_Reputation_1",
+            "name": "require_repu_index_2",
             "type": "int32"
         },
         {
-            "name": "Req_Reputation_Amt_1",
+            "name": "require_repu_num_2",
             "type": "int32"
         },
         {
-            "name": "Req_Reputation_2",
+            "name": "require_territory",
             "type": "int32"
         },
         {
-            "name": "Req_Reputation_Amt_2",
+            "name": "hp",
             "type": "int32"
         },
         {
-            "name": "Required Territory",
+            "name": "mp",
             "type": "int32"
         },
         {
-            "name": "Health",
+            "name": "dp",
             "type": "int32"
         },
         {
-            "name": "Spirit",
+            "name": "deity_power",
             "type": "int32"
         },
         {
-            "name": "Vigor",
+            "name": "min_dmg",
             "type": "int32"
         },
         {
-            "name": "Chroma_Power",
+            "name": "max_dmg",
             "type": "int32"
         },
         {
-            "name": "Min_Atk_Power",
+            "name": "defence",
             "type": "int32"
         },
         {
-            "name": "Max_Atk_Power",
+            "name": "attack",
             "type": "int32"
         },
         {
-            "name": "Defense",
+            "name": "armor",
             "type": "int32"
         },
         {
-            "name": "Accuracy",
-            "type": "int32"
-        },
-        {
-            "name": "Evasion",
-            "type": "int32"
-        },
-        {
-            "name": "Atack_Range",
+            "name": "attack_range",
             "type": "float"
         },
         {
-            "name": "Sell_Price",
+            "name": "price",
             "type": "int32"
         },
         {
-            "name": "Buy_Price",
+            "name": "shop_price",
             "type": "int32"
         },
         {
-            "name": "Bonus_Attribute_1",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Bonus_Attribute_2",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Bonus_Attribute_3",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Bonus_Attribute_4",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Bonus_Attribute_5",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Bonus_Attribute_6",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Bonus_Attribute_7",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Bonus_Attribute_8",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Bonus_Attribute_9",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Bonus_Attribute_10",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Bonus_Attribute_11",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Refine_Price",
+            "name": "id_addon1",
             "type": "int32"
         },
         {
-            "name": "Imbune_Price",
+            "name": "id_addon2",
             "type": "int32"
         },
         {
-            "name": "Imbune_Price_Remove",
+            "name": "id_addon3",
             "type": "int32"
         },
         {
-            "name": "SStone_Price",
+            "name": "id_addon4",
             "type": "int32"
         },
         {
-            "name": "SStone_Price_Remove",
+            "name": "id_addon5",
             "type": "int32"
         },
         {
-            "name": "Refine_Tailsman",
-            "type": "int32",
-            "refs": [
-                53
-            ]
-        },
-        {
-            "name": "REF_1",
+            "name": "id_addon6",
             "type": "int32"
         },
         {
-            "name": "REF_2",
+            "name": "id_addon7",
             "type": "int32"
         },
         {
-            "name": "REF_3",
+            "name": "id_addon8",
             "type": "int32"
         },
         {
-            "name": "REF_4",
+            "name": "id_addon9",
             "type": "int32"
         },
         {
-            "name": "REF_5",
+            "name": "id_addon10",
             "type": "int32"
         },
         {
-            "name": "REF_6",
+            "name": "id_addon11",
             "type": "int32"
         },
         {
-            "name": "REF_7",
+            "name": "fee_estone",
             "type": "int32"
         },
         {
-            "name": "REF_8",
+            "name": "fee_install_pstone",
             "type": "int32"
         },
         {
-            "name": "REF_9",
+            "name": "fee_uninstall_pstone",
             "type": "int32"
         },
         {
-            "name": "REF_10",
+            "name": "fee_install_sstone",
             "type": "int32"
         },
         {
-            "name": "REF_11",
+            "name": "fee_uninstall_sstone",
             "type": "int32"
         },
         {
-            "name": "REF_12",
+            "name": "id_estone",
             "type": "int32"
         },
         {
-            "name": "REF_13",
+            "name": "ehanced_value1",
             "type": "int32"
         },
         {
-            "name": "REF_14",
+            "name": "ehanced_value2",
             "type": "int32"
         },
         {
-            "name": "REF_15",
+            "name": "ehanced_value3",
             "type": "int32"
         },
         {
-            "name": "REF_16",
+            "name": "ehanced_value4",
             "type": "int32"
         },
         {
-            "name": "REF_17",
+            "name": "ehanced_value5",
             "type": "int32"
         },
         {
-            "name": "REF_18",
+            "name": "ehanced_value6",
             "type": "int32"
         },
         {
-            "name": "REF_19",
+            "name": "ehanced_value7",
             "type": "int32"
         },
         {
-            "name": "REF_20",
+            "name": "ehanced_value8",
             "type": "int32"
         },
         {
-            "name": "Refine_Level_1",
+            "name": "ehanced_value9",
             "type": "int32"
         },
         {
-            "name": "Attribute_ID_1_1",
+            "name": "ehanced_value10",
             "type": "int32"
         },
         {
-            "name": "Attribute_Chance_1_1",
+            "name": "ehanced_value11",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value12",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value13",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value14",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value15",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value16",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value17",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value18",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value19",
+            "type": "int32"
+        },
+        {
+            "name": "ehanced_value20",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_1_level",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_1_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "hidden_prop_1_probability_1",
             "type": "float"
         },
         {
-            "name": "Attribute_ID_1_2",
+            "name": "hidden_prop_1_id_2",
             "type": "int32"
         },
         {
-            "name": "Attribute_Chance_1_2",
+            "name": "hidden_prop_1_probability_2",
             "type": "float"
         },
         {
-            "name": "Attribute_ID_1_3",
+            "name": "hidden_prop_1_id_3",
             "type": "int32"
         },
         {
-            "name": "Attribute_Chance_1_3",
+            "name": "hidden_prop_1_probability_3",
             "type": "float"
         },
         {
-            "name": "Attribute_ID_1_4",
+            "name": "hidden_prop_1_id_4",
             "type": "int32"
         },
         {
-            "name": "Attribute_Chance_1_4",
+            "name": "hidden_prop_1_probability_4",
             "type": "float"
         },
         {
-            "name": "Attribute_ID_1_5",
+            "name": "hidden_prop_1_id_5",
             "type": "int32"
         },
         {
-            "name": "Attribute_Chance_1_5",
+            "name": "hidden_prop_1_probability_5",
             "type": "float"
         },
         {
-            "name": "Refine_Level_2",
+            "name": "hidden_prop_2_level",
             "type": "int32"
         },
         {
-            "name": "Attribute_ID_2_1",
+            "name": "hidden_prop_2_id_1",
             "type": "int32"
         },
         {
-            "name": "Attribute_Chance_2_1",
+            "name": "hidden_prop_2_probability_1",
             "type": "float"
         },
         {
-            "name": "Attribute_ID_2_2",
+            "name": "hidden_prop_2_id_2",
             "type": "int32"
         },
         {
-            "name": "Attribute_Chance_2_2",
+            "name": "hidden_prop_2_probability_2",
             "type": "float"
         },
         {
-            "name": "Attribute_ID_2_3",
+            "name": "hidden_prop_2_id_3",
             "type": "int32"
         },
         {
-            "name": "Attribute_Chance_2_3",
+            "name": "hidden_prop_2_probability_3",
             "type": "float"
         },
         {
-            "name": "Attribute_ID_2_4",
+            "name": "hidden_prop_2_id_4",
             "type": "int32"
         },
         {
-            "name": "Attribute_Chance_2_4",
+            "name": "hidden_prop_2_probability_4",
             "type": "float"
         },
         {
-            "name": "Attribute_ID_2_5",
+            "name": "hidden_prop_2_id_5",
             "type": "int32"
         },
         {
-            "name": "Attribute_Chance_2_5",
+            "name": "hidden_prop_2_probability_5",
             "type": "float"
         },
         {
-            "name": "Bloodbound",
+            "name": "blood_sacrifice",
             "type": "int32"
         },
         {
-            "name": "Can_Punching",
+            "name": "can_punching",
             "type": "int32"
         },
         {
-            "name": "Dyeable",
+            "name": "color",
             "type": "int32"
         },
         {
-            "name": "Dyed_Fixed_Color",
+            "name": "fixed_color",
             "type": "int32"
         },
         {
-            "name": "Dyed",
+            "name": "dyed",
             "type": "int32"
         },
         {
-            "name": "Soul_Level",
+            "name": "soul_level",
             "type": "int32"
         },
         {
-            "name": "Refine_Level_1",
+            "name": "hidden_addon_1_level",
             "type": "int32"
         },
         {
-            "name": "Attribute_ID_1",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Refine_Level_2",
+            "name": "hidden_addon_1_addon",
             "type": "int32"
         },
         {
-            "name": "Attribute_ID_2",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Refine_Level_3",
+            "name": "hidden_addon_2_level",
             "type": "int32"
         },
         {
-            "name": "Attribute_ID_3",
-            "type": "int32",
-            "refs": [
-                0
-            ]
-        },
-        {
-            "name": "Gem_Slot_Identifiable",
+            "name": "hidden_addon_2_addon",
             "type": "int32"
         },
         {
-            "name": "Unk26",
+            "name": "hidden_addon_3_level",
             "type": "int32"
         },
         {
-            "name": "Unk27",
+            "name": "hidden_addon_3_addon",
             "type": "int32"
         },
         {
-            "name": "Unk28",
+            "name": "gem_slot_identify",
             "type": "int32"
         },
         {
-            "name": "Unk29",
+            "name": "unknown_4",
             "type": "int32"
         },
         {
-            "name": "Unk30",
+            "name": "unknown_5",
             "type": "int32"
         },
         {
-            "name": "Stack",
+            "name": "unknown_6",
             "type": "int32"
         },
         {
-            "name": "Trade",
+            "name": "unknown_7",
             "type": "int32"
         },
         {
-            "name": "Unk31",
+            "name": "unknown_8",
             "type": "int32"
         },
         {
-            "name": "Unk32",
+            "name": "pile_num_max",
             "type": "int32"
         },
         {
-            "name": "Unk33",
+            "name": "proc_type",
             "type": "int32"
         },
         {
-            "name": "Unk34",
+            "name": "unknown_9",
             "type": "int32"
         },
         {
-            "name": "Unk35",
+            "name": "unknown_10",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_11",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_12",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_13",
             "type": "int32"
         }
     ]

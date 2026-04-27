@@ -42,7 +42,7 @@
             "type": "int64"
         },
         {
-            "name": "Unk1",
+            "name": "Character_Combo_ID_3",
             "type": "int64"
         },
         {
@@ -75,11 +75,11 @@
         },
         {
             "name": "Install_Fee",
-            "type": "int32"
+            "type": "float"
         },
         {
             "name": "Remove_Fee",
-            "type": "int32"
+            "type": "float"
         },
         {
             "name": "Stack_Amt",
