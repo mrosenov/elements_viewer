@@ -168,6 +168,51 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['action'] ?? '') === 'get_fie
 }
 
 // ---------------------------------------------------------------------------
+// AJAX: compare_records  →  decode two rows and return both for side-by-side diff
+// ---------------------------------------------------------------------------
+//   GET ?action=compare_records&file=X&list=Y&row_a=A&row_b=B
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['action'] ?? '') === 'compare_records') {
+    header('Content-Type: application/json');
+    $fileN   = basename($_GET['file'] ?? '');
+    $listIdx = (int)($_GET['list'] ?? -1);
+    $rowA    = max(0, (int)($_GET['row_a'] ?? 0));
+    $rowB    = max(0, (int)($_GET['row_b'] ?? 0));
+    $path    = $dataDir ? $dataDir . '/' . $fileN : '';
+    if (!$dataDir || !is_file($path)) { echo json_encode(['error' => 'File not found']); exit; }
+    try { $cmpRdr = (new ElementsReader($path))->scan(); }
+    catch (Throwable $e) { echo json_encode(['error' => $e->getMessage()]); exit; }
+    $cmpSt  = s_load_structure($structDir, $cmpRdr->getVersionLabel());
+    $cmpLs  = $cmpRdr->getLists();
+    if ($listIdx < 0 || !isset($cmpLs[$listIdx])) { echo json_encode(['error' => 'List not found']); exit; }
+    $cmpMt  = $cmpLs[$listIdx];
+    $cmpDf  = $cmpSt['lists'][(string)$listIdx] ?? null;
+    $cmpCnt = (int)$cmpMt['count'];
+    if (!$cmpDf || empty($cmpDf['fields'])) { echo json_encode(['error' => 'No schema for this list']); exit; }
+    if ($rowA >= $cmpCnt || $rowB >= $cmpCnt) {
+        echo json_encode(['error' => "Row out of range (list has $cmpCnt records)"]); exit;
+    }
+    $cmpSch = $cmpDf['fields'];
+    try {
+        $dA = $cmpRdr->decodeList($listIdx, $cmpSch, 1, $rowA);
+        $dB = $cmpRdr->decodeList($listIdx, $cmpSch, 1, $rowB);
+    } catch (Throwable $e) { echo json_encode(['error' => 'Decode: ' . $e->getMessage()]); exit; }
+    $fA = $fB = [];
+    if (!empty($dA['rows'])) foreach ($dA['rows'][0] as $k => $v) $fA[$k] = s_format_value($v);
+    if (!empty($dB['rows'])) foreach ($dB['rows'][0] as $k => $v) $fB[$k] = s_format_value($v);
+    echo json_encode([
+        'fields'   => $dA['fields'],
+        'record_a' => ['row' => $rowA, 'data' => $fA],
+        'record_b' => ['row' => $rowB, 'data' => $fB],
+        'list_name' => $cmpDf['name'] ?? ('LIST_' . $listIdx),
+        'list_idx'  => $listIdx,
+        'id_field'  => $cmpDf['id_field']   ?? '',
+        'name_field'=> $cmpDf['name_field'] ?? '',
+        'count'     => $cmpCnt,
+    ]);
+    exit;
+}
+
+// ---------------------------------------------------------------------------
 // AJAX: run_search  →  execute multi-condition search, return matching rows
 // ---------------------------------------------------------------------------
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_GET['action'] ?? '') === 'run_search') {
@@ -214,13 +259,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_GET['action'] ?? '') === 'run_se
     }
 
     // Validate conditions
+    // Special field value '__any__' means "search across all fields"
     $validConds = [];
     foreach ($conditions as $c) {
         $fn = trim($c['field']    ?? '');
         $op = trim($c['operator'] ?? '');
         $cv = $c['value'] ?? '';
-        if ($fn === '' || $op === '' || !isset($fieldTypes[$fn])) continue;
-        $validConds[] = ['field' => $fn, 'operator' => $op, 'value' => $cv, 'type' => $fieldTypes[$fn]];
+        if ($fn === '' || $op === '') continue;
+        if ($fn !== '__any__' && !isset($fieldTypes[$fn])) continue;
+        $validConds[] = [
+            'field'    => $fn,
+            'operator' => $op,
+            'value'    => $cv,
+            'type'     => ($fn === '__any__') ? '__any__' : $fieldTypes[$fn],
+        ];
     }
     if (empty($validConds)) {
         echo json_encode(['error' => 'No valid conditions after validation. Check field names.']);
@@ -248,12 +300,35 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_GET['action'] ?? '') === 'run_se
             // Evaluate conditions
             $rowMatch = ($logic === 'AND'); // AND=all must match, OR=any must match
             foreach ($validConds as $cond) {
-                $fv = $row[$cond['field']] ?? null;
-                if ($fv === null) {
-                    if ($logic === 'AND') { $rowMatch = false; break; }
-                    continue;
+                if ($cond['field'] === '__any__') {
+                    // "Any field" — check every field in the record until one matches
+                    $hit = false;
+                    foreach ($row as $fn => $fv) {
+                        $ft = $fieldTypes[$fn] ?? 'int32';
+                        // For any-field, map the operator:
+                        //   contains / !contains → string substring on formatted value
+                        //   =  / !=              → exact string match on formatted value
+                        //   >  / >= / < / <=     → numeric comparison (skip non-numeric fields)
+                        $op = $cond['operator'];
+                        $cv = $cond['value'];
+                        if (in_array($op, ['>', '>=', '<', '<='], true)) {
+                            // Only compare numeric fields
+                            if (!in_array($ft, ['int32','int64','float','double'], true)) continue;
+                            if (s_eval_condition($fv, $op, $cv, $ft)) { $hit = true; break; }
+                        } else {
+                            // For = / != / contains / !contains: compare against string representation
+                            $strVal = s_format_value($fv);
+                            if (s_eval_condition($strVal, $op, $cv, 'wstring:1')) { $hit = true; break; }
+                        }
+                    }
+                } else {
+                    $fv = $row[$cond['field']] ?? null;
+                    if ($fv === null) {
+                        if ($logic === 'AND') { $rowMatch = false; break; }
+                        continue;
+                    }
+                    $hit = s_eval_condition($fv, $cond['operator'], $cond['value'], $cond['type']);
                 }
-                $hit = s_eval_condition($fv, $cond['operator'], $cond['value'], $cond['type']);
                 if ($logic === 'AND') {
                     if (!$hit) { $rowMatch = false; break; }
                 } else {
@@ -449,6 +524,17 @@ function h($s) { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
   <!-- Status bar -->
   <div id="results-status" class="hidden shrink-0 px-4 py-1.5 bg-[#090c12] border-b border-slate-800 flex items-center gap-3 text-[11px] mono flex-wrap"></div>
 
+  <!-- Compare selection bar (appears when 1–2 rows are checked) -->
+  <div id="cmp-sel-bar" class="hidden shrink-0 px-4 py-1.5 bg-purple-950/20 border-b border-purple-900/40 flex items-center gap-3 text-[11px] mono">
+    <svg class="w-3.5 h-3.5 text-purple-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 0a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2h-2a2 2 0 01-2-2"/></svg>
+    <span id="cmp-sel-text" class="text-purple-300"></span>
+    <button type="button" id="cmp-sel-btn" onclick="openSearchCompare()" disabled
+      class="flex items-center gap-1.5 px-3 py-1 rounded border text-[10px] mono uppercase tracking-widest bg-purple-950/50 hover:bg-purple-950/80 border-purple-800/50 hover:border-purple-700 text-purple-300 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
+      Compare
+    </button>
+    <button type="button" onclick="clearCmpSel()" class="text-slate-600 hover:text-slate-400 text-[10px] mono transition-colors">clear</button>
+  </div>
+
   <!-- Loading -->
   <div id="loading" class="hidden flex-1 flex items-center justify-center">
     <div class="flex flex-col items-center gap-3">
@@ -485,8 +571,92 @@ function h($s) { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
   </div>
 </div>
 
+<!-- ░░ COMPARE RECORDS MODAL (search.php) ░░ -->
+<div id="cmp-modal" class="hidden fixed inset-0 bg-black/70 backdrop-blur-sm z-[150] items-center justify-center p-4"
+     onclick="if(event.target===this)closeCmpModal()">
+  <div class="bg-[#0d1117] border border-slate-700 rounded-md shadow-2xl w-full max-w-6xl flex flex-col max-h-[92vh]">
+
+    <div class="px-4 py-3 border-b border-slate-800 flex items-center justify-between gap-2 shrink-0">
+      <div class="flex items-center gap-2 min-w-0">
+        <svg class="w-4 h-4 text-purple-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 0a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2h-2a2 2 0 01-2-2"/></svg>
+        <span class="mono text-[12px] font-semibold text-slate-100">Compare Records</span>
+        <span id="cmp-meta" class="mono text-[10px] text-slate-500 truncate"></span>
+      </div>
+      <button type="button" onclick="closeCmpModal()"
+        class="w-6 h-6 flex items-center justify-center rounded text-slate-500 hover:text-slate-200 hover:bg-slate-800 transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+
+    <div class="px-4 py-2.5 border-b border-slate-800 flex items-center gap-3 flex-wrap shrink-0 bg-[#090c12]">
+      <div class="flex items-center gap-2">
+        <span class="text-[11px] mono text-yellow-400 font-semibold">A</span>
+        <span class="text-[11px] mono text-slate-400">Record #</span>
+        <input type="number" id="cmp-row-a" min="0" value="0"
+          class="bg-slate-900 border border-slate-700 focus:border-purple-600 text-slate-200 rounded px-2 py-1 text-[11px] mono outline-none w-24"/>
+      </div>
+      <span class="text-slate-600 mono text-[11px]">vs</span>
+      <div class="flex items-center gap-2">
+        <span class="text-[11px] mono text-cyan-400 font-semibold">B</span>
+        <span class="text-[11px] mono text-slate-400">Record #</span>
+        <input type="number" id="cmp-row-b" min="0" value="1"
+          class="bg-slate-900 border border-slate-700 focus:border-purple-600 text-slate-200 rounded px-2 py-1 text-[11px] mono outline-none w-24"/>
+      </div>
+      <button type="button" onclick="runCmp()"
+        class="flex items-center gap-1.5 px-3 py-1 rounded border text-[11px] mono uppercase tracking-widest bg-purple-950/40 hover:bg-purple-950/70 border-purple-800/50 hover:border-purple-700 text-purple-300 transition-colors">
+        Compare
+      </button>
+      <div class="ml-auto flex items-center gap-2 flex-wrap">
+        <div class="flex rounded overflow-hidden border border-slate-700 text-[10px] mono">
+          <button type="button" id="cmpf-all"  onclick="setCmpFilter('all')"  class="px-2.5 py-1 bg-slate-700 text-slate-200">All</button>
+          <button type="button" id="cmpf-diff" onclick="setCmpFilter('diff')" class="px-2.5 py-1 text-slate-500 hover:text-slate-300 border-l border-slate-700">Changed</button>
+          <button type="button" id="cmpf-same" onclick="setCmpFilter('same')" class="px-2.5 py-1 text-slate-500 hover:text-slate-300 border-l border-slate-700">Same</button>
+        </div>
+        <input type="text" id="cmp-search" oninput="renderCmpTable()" placeholder="filter fields…"
+          class="bg-slate-900 border border-slate-700 text-slate-200 placeholder-slate-600 rounded px-2 py-1 text-[11px] mono focus:border-purple-700 outline-none w-40"/>
+      </div>
+    </div>
+
+    <div class="flex-1 overflow-auto">
+      <div id="cmp-empty" class="p-8 text-center">
+        <p class="text-[12px] mono text-slate-500">Loading…</p>
+      </div>
+      <table id="cmp-table" class="hidden w-full text-[11px] mono">
+        <thead class="sticky top-0 bg-[#0d1117] border-b border-slate-800 text-[10px] uppercase tracking-widest">
+          <tr>
+            <th class="px-3 py-2 text-left text-slate-400 font-medium">Field</th>
+            <th class="px-2 py-2 text-left text-slate-500 font-medium w-28">Type</th>
+            <th class="px-3 py-2 text-left text-yellow-500 font-medium" id="cmp-th-a">Record A</th>
+            <th class="px-3 py-2 text-left text-cyan-500 font-medium"   id="cmp-th-b">Record B</th>
+            <th class="px-3 py-2 text-right text-slate-500 font-medium w-28">Δ Delta</th>
+          </tr>
+        </thead>
+        <tbody id="cmp-tbody" class="divide-y divide-slate-800/40"></tbody>
+      </table>
+    </div>
+
+    <div class="px-4 py-2.5 border-t border-slate-800 flex items-center gap-4 text-[10px] mono shrink-0 bg-[#090c12]">
+      <span id="cmp-stats" class="text-slate-500"></span>
+      <div class="flex items-center gap-3 ml-auto">
+        <span class="flex items-center gap-1.5"><span class="inline-block w-2.5 h-2.5 rounded-sm bg-orange-950 border border-orange-800"></span>changed</span>
+        <span class="flex items-center gap-1.5"><span class="inline-block w-2.5 h-2.5 rounded-sm bg-slate-800/60 border border-slate-700/40"></span>same</span>
+        <button type="button" onclick="closeCmpModal()"
+          class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-slate-800/60 hover:bg-slate-800 border-slate-700/50 hover:border-slate-600 text-slate-300 transition-colors">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- ░░ JAVASCRIPT ░░ -->
 <script>
+// =============================================================================
+// Compare state (shared across both pages via this file)
+// =============================================================================
+let _cmpData   = null;
+let _cmpFilter = 'all';
+
 // =============================================================================
 // State
 // =============================================================================
@@ -502,8 +672,9 @@ let STATE = {
   conditions:  [],   // [{id, field, operator, value}]
   condIdSeq:   0,
   // Column visibility: Set of hidden field names
-  hiddenCols:  new Set(),
-  lastResults: null,  // last search response
+  hiddenCols:    new Set(),
+  lastResults:   null,   // last search response
+  cmpSelected:   new Set(), // row indices selected for comparison (max 2)
 };
 
 // Operator definitions
@@ -527,8 +698,21 @@ const BYTE_OPS = [
   { v: '=',  l: '= equals'   },
   { v: '!=', l: '≠ not equal'},
 ];
+// Operators available when "Any Field" is selected.
+// > / >= / < / <= only test numeric fields; = / != / contains test string repr.
+const ANY_OPS = [
+  { v: 'contains',  l: 'any field contains'     },
+  { v: '!contains', l: 'no field contains'       },
+  { v: '=',         l: 'any field = (exact)'     },
+  { v: '!=',        l: 'no field = (exact)'      },
+  { v: '>',         l: 'any numeric field >'     },
+  { v: '>=',        l: 'any numeric field ≥'     },
+  { v: '<',         l: 'any numeric field <'     },
+  { v: '<=',        l: 'any numeric field ≤'     },
+];
 
 function getOps(type) {
+  if (type === '__any__')              return ANY_OPS;
   if (type && type.startsWith('wstring:')) return STR_OPS;
   if (type && type.startsWith('byte:'))    return BYTE_OPS;
   return NUM_OPS;
@@ -680,9 +864,9 @@ function setLogic(v) {
 function addCondition() {
   if (!STATE.fields.length) return;
   const id = ++STATE.condIdSeq;
-  const firstField = STATE.fields[0];
+  // Default new conditions to "Any Field / contains" for quick global searches
   STATE.conditions.push({
-    id, field: firstField.name, operator: '=', value: ''
+    id, field: '__any__', operator: 'contains', value: ''
   });
   renderConditions();
   // Focus the value input of the new row
@@ -703,10 +887,11 @@ function onCondFieldChange(id, val) {
   if (!cond) return;
   cond.field    = val;
   // Reset operator to first valid one for the new type
-  const ft      = STATE.fields.find(f => f.name === val);
-  const ops     = getOps(ft ? ft.type : '');
+  const isAny   = (val === '__any__');
+  const ft      = isAny ? null : STATE.fields.find(f => f.name === val);
+  const ops     = getOps(isAny ? '__any__' : (ft ? ft.type : ''));
   cond.operator = ops[0].v;
-  // Re-render just the operator select
+  // Re-render the operator select
   const opSel = document.getElementById(`cond-op-${id}`);
   if (opSel) {
     opSel.innerHTML = ops.map(o => `<option value="${o.v}">${esc(o.l)}</option>`).join('');
@@ -715,8 +900,13 @@ function onCondFieldChange(id, val) {
   // Update type badge
   const badge = document.getElementById(`cond-type-${id}`);
   if (badge) {
-    badge.textContent = ft ? ft.type : '';
-    badge.className = typeBadgeClass(ft ? ft.type : '') + ' px-1.5 py-0.5 rounded text-[10px] mono border shrink-0';
+    if (isAny) {
+      badge.textContent = 'any';
+      badge.className   = 'bg-slate-800 text-slate-400 border-slate-600 px-1.5 py-0.5 rounded text-[10px] mono border shrink-0';
+    } else {
+      badge.textContent = ft ? ft.type : '';
+      badge.className   = typeBadgeClass(ft ? ft.type : '') + ' px-1.5 py-0.5 rounded text-[10px] mono border shrink-0';
+    }
   }
 }
 
@@ -752,14 +942,18 @@ function renderConditions() {
     return;
   }
 
-  const fieldOptions = STATE.fields.map(f =>
-    `<option value="${esc(f.name)}">${esc(f.name)}</option>`
-  ).join('');
+  const fieldOptions =
+    `<option value="__any__">— Any Field —</option>` +
+    `<option disabled>──────────────</option>` +
+    STATE.fields.map(f =>
+      `<option value="${esc(f.name)}">${esc(f.name)}</option>`
+    ).join('');
 
   let html = '';
   STATE.conditions.forEach((cond, i) => {
-    const ft   = STATE.fields.find(f => f.name === cond.field);
-    const ops  = getOps(ft ? ft.type : '');
+    const isAny = (cond.field === '__any__');
+    const ft    = isAny ? null : STATE.fields.find(f => f.name === cond.field);
+    const ops   = getOps(isAny ? '__any__' : (ft ? ft.type : ''));
     const opOptions = ops.map(o =>
       `<option value="${o.v}" ${o.v===cond.operator?'selected':''}>${esc(o.l)}</option>`
     ).join('');
@@ -786,8 +980,8 @@ function renderConditions() {
         </select>
 
         <!-- Type badge -->
-        <span id="cond-type-${cond.id}" class="${typeBadgeClass(ft?ft.type:'')} px-1.5 py-0.5 rounded text-[10px] mono border shrink-0">
-          ${esc(ft ? ft.type : '')}
+        <span id="cond-type-${cond.id}" class="${isAny ? 'bg-slate-800 text-slate-400 border-slate-600' : typeBadgeClass(ft?ft.type:'')} px-1.5 py-0.5 rounded text-[10px] mono border shrink-0">
+          ${isAny ? 'any' : esc(ft ? ft.type : '')}
         </span>
 
         <!-- Operator selector -->
@@ -895,20 +1089,109 @@ function renderStatusBar(data) {
     <span class="text-slate-600">·</span>
     <span class="text-slate-500">scanned ${data.scanned.toLocaleString()} / ${data.total.toLocaleString()} records</span>
     ${truncWarn}
-    <span class="ml-auto text-[10px] text-slate-600">Click a row to open in Viewer</span>
+    <span class="ml-auto flex items-center gap-2">
+      <span class="text-[10px] text-slate-600">Click a row to open in Viewer</span>
+      <div class="relative" id="exp-res-wrap">
+        <button type="button" onclick="toggleResExportMenu(event)"
+          class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] mono border bg-emerald-950 text-emerald-300 border-emerald-700 hover:bg-emerald-900 transition-colors select-none cursor-pointer">
+          <svg class="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 4v11"/></svg>
+          Export
+          <svg class="w-2 h-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="exp-res-menu"
+          class="hidden absolute right-0 top-full mt-1 z-50 bg-[#0d1117] border border-slate-700 rounded shadow-xl min-w-[120px] py-1">
+          <button type="button" onclick="exportResultsCSV()" class="w-full text-left flex items-center gap-2 px-3 py-1.5 text-[11px] mono text-slate-300 hover:bg-slate-800 hover:text-emerald-300 transition-colors">
+            <span class="text-emerald-500 font-bold">CSV</span> comma-separated
+          </button>
+          <button type="button" onclick="exportResultsTSV()" class="w-full text-left flex items-center gap-2 px-3 py-1.5 text-[11px] mono text-slate-300 hover:bg-slate-800 hover:text-emerald-300 transition-colors">
+            <span class="text-cyan-500 font-bold">TSV</span> tab-separated
+          </button>
+          <button type="button" onclick="exportResultsJSON()" class="w-full text-left flex items-center gap-2 px-3 py-1.5 text-[11px] mono text-slate-300 hover:bg-slate-800 hover:text-emerald-300 transition-colors">
+            <span class="text-purple-400 font-bold">JSON</span> object array
+          </button>
+        </div>
+      </div>
+    </span>
   `;
+}
+
+function toggleResExportMenu(e) {
+  e.stopPropagation();
+  const menu = document.getElementById('exp-res-menu');
+  if (menu) menu.classList.toggle('hidden');
+}
+document.addEventListener('click', function() {
+  const m = document.getElementById('exp-res-menu');
+  if (m) m.classList.add('hidden');
+});
+
+function _buildExportData(sep) {
+  const d = STATE.lastResults;
+  if (!d || !d.matched || d.matched.length === 0) { toast('No results to export', 'warning'); return null; }
+  const nl = '\r\n';
+  const cellFn = sep === '\t'
+    ? v => String(v).replace(/[\t\r\n]/g, ' ')
+    : v => { const s = String(v); return (s.includes(',') || s.includes('"') || s.includes('\n') || s.includes('\r')) ? '"' + s.replace(/"/g, '""') + '"' : s; };
+  let out = d.fields.map(f => cellFn(f.name)).join(sep) + nl;
+  for (const rec of d.matched) {
+    out += d.fields.map(f => cellFn(rec.data[f.name] ?? '')).join(sep) + nl;
+  }
+  return out;
+}
+
+function _triggerDownload(content, filename, mime) {
+  const blob = new Blob([content], { type: mime });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url; a.download = filename; a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 5000);
+  const m = document.getElementById('exp-res-menu');
+  if (m) m.classList.add('hidden');
+}
+
+function exportResultsCSV() {
+  const csv = _buildExportData(',');
+  if (!csv) return;
+  const name = (STATE.listName || 'results').replace(/[^a-z0-9_]/gi, '_');
+  _triggerDownload(csv, `search_${name}.csv`, 'text/csv;charset=utf-8');
+}
+
+function exportResultsTSV() {
+  const tsv = _buildExportData('\t');
+  if (!tsv) return;
+  const name = (STATE.listName || 'results').replace(/[^a-z0-9_]/gi, '_');
+  _triggerDownload(tsv, `search_${name}.tsv`, 'text/tab-separated-values;charset=utf-8');
+}
+
+function exportResultsJSON() {
+  const d = STATE.lastResults;
+  if (!d || !d.matched || d.matched.length === 0) { toast('No results to export', 'warning'); return; }
+  const arr = d.matched.map(rec => {
+    const obj = {};
+    for (const f of d.fields) obj[f.name] = rec.data[f.name] ?? '';
+    return obj;
+  });
+  const name = (STATE.listName || 'results').replace(/[^a-z0-9_]/gi, '_');
+  _triggerDownload(JSON.stringify(arr, null, 2), `search_${name}.json`, 'application/json');
 }
 
 function renderResultsTable(data) {
   const thead = document.getElementById('results-thead');
   const tbody = document.getElementById('results-tbody');
 
-  const condFields = new Set(STATE.conditions.map(c => c.field));
+  // '__any__' isn't a real column name — exclude it from the highlight set
+  const condFields = new Set(STATE.conditions.map(c => c.field).filter(f => f !== '__any__'));
+
+  // Reset compare selection on new results
+  STATE.cmpSelected.clear();
+  updateCmpSelBar();
 
   // Build header
   let thHtml = '<tr>';
-  // Row# (sticky)
-  thHtml += `<th class="px-3 py-2 text-left whitespace-nowrap sticky left-0 bg-[#0d1117] border-r border-slate-800">#</th>`;
+  // Checkbox (for compare selection) + Row# (sticky)
+  thHtml += `<th class="px-3 py-2 text-left whitespace-nowrap sticky left-0 bg-[#0d1117] border-r border-slate-800 w-12">
+    <span class="text-[9px] text-slate-600 uppercase tracking-widest">cmp</span>
+  </th>`;
   // All schema fields
   for (const f of data.fields) {
     const isCond = condFields.has(f.name);
@@ -929,8 +1212,15 @@ function renderResultsTable(data) {
   let tbHtml = '';
   for (const rec of data.matched) {
     const viewerUrl = `index.php?file=${encodeURIComponent(STATE.file)}&list=${STATE.listIdx}&off=${rec.row}`;
-    tbHtml += `<tr class="result-row cursor-pointer" onclick="window.open('${viewerUrl}','_blank')" title="Open record #${rec.row} in Viewer">`;
-    tbHtml += `<td class="px-3 py-1.5 text-slate-500 whitespace-nowrap border-r border-slate-800/50 text-[10px]">${rec.row}</td>`;
+    tbHtml += `<tr class="result-row" data-row="${rec.row}" title="Record #${rec.row}">`;
+    // Checkbox + row# cell (sticky)
+    tbHtml += `<td class="px-2 py-1.5 whitespace-nowrap border-r border-slate-800/50 sticky left-0 bg-[#0d1117]">
+      <div class="flex items-center gap-1.5">
+        <input type="checkbox" data-cmp-row="${rec.row}" onchange="toggleCmpSel(${rec.row},this.checked)"
+          class="accent-purple-500 w-3 h-3 cursor-pointer" title="Select for comparison"/>
+        <a href="${viewerUrl}" target="_blank" class="text-slate-600 hover:text-cyan-400 text-[10px] transition-colors">${rec.row}</a>
+      </div>
+    </td>`;
     for (const f of data.fields) {
       const val     = rec.data[f.name] ?? '';
       const isCond  = condFields.has(f.name);
@@ -1042,13 +1332,20 @@ function sortByCol(col) {
   });
 
   // Re-render tbody
-  const tbody   = document.getElementById('results-tbody');
-  const condFields = new Set(STATE.conditions.map(c => c.field));
+  const tbody      = document.getElementById('results-tbody');
+  const condFields = new Set(STATE.conditions.map(c => c.field).filter(f => f !== '__any__'));
   let tbHtml = '';
   for (const rec of STATE.lastResults.matched) {
     const viewerUrl = `index.php?file=${encodeURIComponent(STATE.file)}&list=${STATE.listIdx}&off=${rec.row}`;
-    tbHtml += `<tr class="result-row cursor-pointer" onclick="window.open('${viewerUrl}','_blank')">`;
-    tbHtml += `<td class="px-3 py-1.5 text-slate-500 whitespace-nowrap border-r border-slate-800/50 text-[10px]">${rec.row}</td>`;
+    const isSel = STATE.cmpSelected.has(rec.row);
+    tbHtml += `<tr class="result-row" data-row="${rec.row}">`;
+    tbHtml += `<td class="px-2 py-1.5 whitespace-nowrap border-r border-slate-800/50 sticky left-0 bg-[#0d1117]">
+      <div class="flex items-center gap-1.5">
+        <input type="checkbox" data-cmp-row="${rec.row}" ${isSel?'checked':''} onchange="toggleCmpSel(${rec.row},this.checked)"
+          class="accent-purple-500 w-3 h-3 cursor-pointer"/>
+        <a href="${viewerUrl}" target="_blank" class="text-slate-600 hover:text-cyan-400 text-[10px] transition-colors">${rec.row}</a>
+      </div>
+    </td>`;
     for (const f of STATE.lastResults.fields) {
       const val    = rec.data[f.name] ?? '';
       const isCond = condFields.has(f.name);
@@ -1134,6 +1431,186 @@ function toast(msg, type='info') {
 // =============================================================================
 function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// =============================================================================
+// Compare Records (search.php)
+// =============================================================================
+
+function toggleCmpSel(rowIdx, checked) {
+  if (checked) {
+    if (STATE.cmpSelected.size >= 2) {
+      // Bump the oldest selection out
+      const oldest = STATE.cmpSelected.values().next().value;
+      STATE.cmpSelected.delete(oldest);
+      const old = document.querySelector(`input[data-cmp-row="${oldest}"]`);
+      if (old) old.checked = false;
+    }
+    STATE.cmpSelected.add(rowIdx);
+  } else {
+    STATE.cmpSelected.delete(rowIdx);
+  }
+  updateCmpSelBar();
+}
+
+function clearCmpSel() {
+  STATE.cmpSelected.forEach(r => {
+    const cb = document.querySelector(`input[data-cmp-row="${r}"]`);
+    if (cb) cb.checked = false;
+  });
+  STATE.cmpSelected.clear();
+  updateCmpSelBar();
+}
+
+function updateCmpSelBar() {
+  const bar  = document.getElementById('cmp-sel-bar');
+  const text = document.getElementById('cmp-sel-text');
+  const btn  = document.getElementById('cmp-sel-btn');
+  if (!bar) return;
+  const n = STATE.cmpSelected.size;
+  if (n === 0) {
+    bar.classList.add('hidden');
+    return;
+  }
+  bar.classList.remove('hidden');
+  const rows = [...STATE.cmpSelected].sort((a,b)=>a-b);
+  if (n === 1) {
+    text.textContent = `Record #${rows[0]} selected — check one more to compare`;
+    btn.disabled = true;
+  } else {
+    text.textContent = `Records #${rows[0]} and #${rows[1]} selected`;
+    btn.disabled = false;
+  }
+}
+
+async function openSearchCompare() {
+  if (STATE.cmpSelected.size !== 2) return;
+  const [rowA, rowB] = [...STATE.cmpSelected].sort((a,b)=>a-b);
+  // Pre-fill and open modal
+  document.getElementById('cmp-row-a').value = rowA;
+  document.getElementById('cmp-row-b').value = rowB;
+  document.getElementById('cmp-meta').textContent = '';
+  document.getElementById('cmp-empty').innerHTML = '<p class="text-[12px] mono text-slate-500">Loading…</p>';
+  document.getElementById('cmp-empty').classList.remove('hidden');
+  document.getElementById('cmp-table').classList.add('hidden');
+  document.getElementById('cmp-stats').textContent = '';
+  const modal = document.getElementById('cmp-modal');
+  modal.classList.remove('hidden');
+  modal.classList.add('flex');
+  setCmpFilter('all', false);
+  await runCmp();
+}
+
+function closeCmpModal() {
+  const modal = document.getElementById('cmp-modal');
+  modal.classList.add('hidden');
+  modal.classList.remove('flex');
+}
+
+async function runCmp() {
+  const rowA = parseInt(document.getElementById('cmp-row-a').value, 10);
+  const rowB = parseInt(document.getElementById('cmp-row-b').value, 10);
+  if (isNaN(rowA) || isNaN(rowB)) { toast('Enter valid row numbers', 'warning'); return; }
+  if (rowA === rowB)               { toast('Pick two different records', 'warning'); return; }
+  if (STATE.listIdx === null)      { toast('No list selected', 'warning'); return; }
+
+  document.getElementById('cmp-empty').innerHTML =
+    '<div class="flex items-center justify-center gap-2 text-[11px] mono text-slate-500">' +
+    '<svg class="w-4 h-4 spin" fill="none" viewBox="0 0 24 24" stroke="currentColor">' +
+    '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>Loading…</div>';
+  document.getElementById('cmp-empty').classList.remove('hidden');
+  document.getElementById('cmp-table').classList.add('hidden');
+
+  try {
+    const url  = `search.php?action=compare_records&file=${encodeURIComponent(STATE.file)}&list=${STATE.listIdx}&row_a=${rowA}&row_b=${rowB}`;
+    const res  = await fetch(url);
+    const data = await res.json();
+    if (data.error) {
+      document.getElementById('cmp-empty').innerHTML =
+        `<p class="text-[12px] mono text-red-400">${esc(data.error)}</p>`;
+      return;
+    }
+    _cmpData = data;
+    document.getElementById('cmp-meta').textContent =
+      `${data.list_name} · ${data.count.toLocaleString()} records`;
+    document.getElementById('cmp-th-a').textContent = `Record A  (#${rowA})`;
+    document.getElementById('cmp-th-b').textContent = `Record B  (#${rowB})`;
+    renderCmpTable();
+  } catch(e) {
+    document.getElementById('cmp-empty').innerHTML =
+      `<p class="text-[12px] mono text-red-400">Network error: ${esc(e.message)}</p>`;
+  }
+}
+
+function setCmpFilter(f, doRender = true) {
+  _cmpFilter = f;
+  ['all','diff','same'].forEach(x => {
+    const btn = document.getElementById('cmpf-' + x);
+    if (!btn) return;
+    const border = x === 'all' ? '' : ' border-l border-slate-700';
+    btn.className = (f === x
+      ? 'px-2.5 py-1 bg-purple-950/60 text-purple-300'
+      : 'px-2.5 py-1 text-slate-500 hover:text-slate-300') + border;
+  });
+  if (doRender) renderCmpTable();
+}
+
+function renderCmpTable() {
+  if (!_cmpData) return;
+  const search = (document.getElementById('cmp-search')?.value || '').toLowerCase();
+  const tbody  = document.getElementById('cmp-tbody');
+  let nDiff = 0, nSame = 0, nShown = 0, html = '';
+
+  for (const f of _cmpData.fields) {
+    const va   = String(_cmpData.record_a.data[f.name] ?? '');
+    const vb   = String(_cmpData.record_b.data[f.name] ?? '');
+    const diff = (va !== vb);
+    if (diff) nDiff++; else nSame++;
+    if (_cmpFilter === 'diff' && !diff) continue;
+    if (_cmpFilter === 'same' && diff)  continue;
+    if (search && !f.name.toLowerCase().includes(search)
+               && !va.toLowerCase().includes(search)
+               && !vb.toLowerCase().includes(search)) continue;
+    nShown++;
+
+    let delta = '', deltaColor = 'text-slate-700';
+    if (diff) {
+      if (f.type === 'int32' || f.type === 'int64') {
+        const d = parseInt(vb,10) - parseInt(va,10);
+        delta = (d > 0 ? '+' : '') + d.toLocaleString();
+        deltaColor = d > 0 ? 'text-emerald-400' : 'text-red-400';
+      } else if (f.type === 'float' || f.type === 'double') {
+        const d = parseFloat(vb) - parseFloat(va);
+        delta = (d > 0 ? '+' : '') + d.toFixed(4);
+        deltaColor = d > 0 ? 'text-emerald-400' : 'text-red-400';
+      } else { delta = '≠'; deltaColor = 'text-orange-500'; }
+    } else { delta = '='; }
+
+    const rowBg  = diff ? 'bg-orange-950/15 hover:bg-orange-950/25' : 'hover:bg-slate-800/20';
+    const badge  = typeBadgeClass(f.type);
+    const vaDisp = va.length > 52 ? va.slice(0,52) + '…' : va;
+    const vbDisp = vb.length > 52 ? vb.slice(0,52) + '…' : vb;
+
+    html += `<tr class="${rowBg} transition-colors">
+      <td class="px-3 py-1.5 text-slate-300 whitespace-nowrap font-medium">${esc(f.name)}</td>
+      <td class="px-2 py-1.5"><span class="inline-flex px-1 py-0.5 rounded text-[9px] border ${badge}">${esc(f.type)}</span></td>
+      <td class="px-3 py-1.5 ${diff?'text-yellow-300':'text-slate-400'} max-w-[220px]"><span class="block truncate" title="${esc(va)}">${esc(vaDisp)}</span></td>
+      <td class="px-3 py-1.5 ${diff?'text-cyan-300':'text-slate-400'} max-w-[220px]"><span class="block truncate" title="${esc(vb)}">${esc(vbDisp)}</span></td>
+      <td class="px-3 py-1.5 text-right ${deltaColor} whitespace-nowrap">${esc(delta)}</td>
+    </tr>`;
+  }
+
+  tbody.innerHTML = html;
+  document.getElementById('cmp-table').classList.remove('hidden');
+  document.getElementById('cmp-empty').classList.add('hidden');
+  const pct = _cmpData.fields.length > 0
+    ? Math.round(nDiff / _cmpData.fields.length * 100) : 0;
+  document.getElementById('cmp-stats').innerHTML =
+    `<span class="text-orange-400">${nDiff} changed</span> · ` +
+    `<span class="text-slate-500">${nSame} identical</span> · ` +
+    `${_cmpData.fields.length} total fields · ` +
+    `<span class="${nDiff > 0 ? 'text-orange-500' : 'text-emerald-600'}">${pct}% differ</span>` +
+    (nShown < nDiff + nSame ? ` · showing ${nShown}` : '');
 }
 
 // =============================================================================

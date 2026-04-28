@@ -312,6 +312,153 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['action'] ?? '') === 'export_
 }
 
 // ---------------------------------------------------------------------------
+// AJAX: compare two records from the same list side-by-side
+// ---------------------------------------------------------------------------
+//   GET ?action=compare_records&file=X&list=Y&row_a=A&row_b=B
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['action'] ?? '') === 'compare_records') {
+    header('Content-Type: application/json');
+    $fileN   = basename($_GET['file'] ?? '');
+    $listIdx = (int)($_GET['list'] ?? -1);
+    $rowA    = max(0, (int)($_GET['row_a'] ?? 0));
+    $rowB    = max(0, (int)($_GET['row_b'] ?? 0));
+    $path    = $dataDir ? $dataDir . '/' . $fileN : '';
+    if (!$dataDir || !is_file($path)) { echo json_encode(['error' => 'File not found']); exit; }
+    try {
+        $cmpReader = (new ElementsReader($path))->scan();
+    } catch (Throwable $e) { echo json_encode(['error' => $e->getMessage()]); exit; }
+    $cmpStruct = load_structure($structDir, $cmpReader->getVersionLabel());
+    $cmpLists  = $cmpReader->getLists();
+    if ($listIdx < 0 || !isset($cmpLists[$listIdx])) { echo json_encode(['error' => 'List not found']); exit; }
+    $cmpMeta   = $cmpLists[$listIdx];
+    $cmpDef    = $cmpStruct['lists'][(string)$listIdx] ?? null;
+    $cmpCount  = (int)$cmpMeta['count'];
+    if (!$cmpDef || empty($cmpDef['fields'])) {
+        echo json_encode(['error' => 'No schema defined for this list']); exit;
+    }
+    if ($rowA >= $cmpCount || $rowB >= $cmpCount) {
+        echo json_encode(['error' => "Row index out of range (list has $cmpCount records)"]); exit;
+    }
+    $cmpSchema = $cmpDef['fields'];
+    try {
+        $decA = $cmpReader->decodeList($listIdx, $cmpSchema, 1, $rowA);
+        $decB = $cmpReader->decodeList($listIdx, $cmpSchema, 1, $rowB);
+    } catch (Throwable $e) { echo json_encode(['error' => 'Decode: ' . $e->getMessage()]); exit; }
+    $fmtA = $fmtB = [];
+    if (!empty($decA['rows'])) foreach ($decA['rows'][0] as $k => $v) $fmtA[$k] = format_value($v);
+    if (!empty($decB['rows'])) foreach ($decB['rows'][0] as $k => $v) $fmtB[$k] = format_value($v);
+    echo json_encode([
+        'fields'     => $decA['fields'],
+        'record_a'   => ['row' => $rowA, 'data' => $fmtA],
+        'record_b'   => ['row' => $rowB, 'data' => $fmtB],
+        'list_name'  => $cmpDef['name'] ?? ('LIST_' . $listIdx),
+        'list_idx'   => $listIdx,
+        'id_field'   => $cmpDef['id_field']   ?? '',
+        'name_field' => $cmpDef['name_field'] ?? '',
+        'count'      => $cmpCount,
+    ]);
+    exit;
+}
+
+// ---------------------------------------------------------------------------
+// AJAX/download: export all records of a list as CSV, JSON, or TSV
+// ---------------------------------------------------------------------------
+//   GET ?action=export_list&file=X&list=Y&format=csv|json|tsv
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['action'] ?? '') === 'export_list') {
+    $fileN   = basename($_GET['file']   ?? '');
+    $listIdx = (int)($_GET['list']      ?? -1);
+    $format  = strtolower($_GET['format'] ?? 'csv');
+    if (!in_array($format, ['csv', 'json', 'tsv'], true)) $format = 'csv';
+
+    $path = $dataDir ? $dataDir . '/' . $fileN : '';
+    if (!$dataDir || !is_file($path)) {
+        http_response_code(404);
+        header('Content-Type: text/plain; charset=utf-8');
+        echo 'File not found in data/.';
+        exit;
+    }
+    try {
+        $expReader = (new ElementsReader($path))->scan();
+    } catch (Throwable $e) {
+        http_response_code(500);
+        header('Content-Type: text/plain; charset=utf-8');
+        echo 'Scan error: ' . $e->getMessage();
+        exit;
+    }
+    $expStruct = load_structure($structDir, $expReader->getVersionLabel());
+    $expLists  = $expReader->getLists();
+    if ($listIdx < 0 || !isset($expLists[$listIdx])) {
+        http_response_code(400);
+        header('Content-Type: text/plain; charset=utf-8');
+        echo 'List not found.';
+        exit;
+    }
+    $expMeta   = $expLists[$listIdx];
+    $expDef    = $expStruct['lists'][(string)$listIdx] ?? null;
+    $expCount  = (int)$expMeta['count'];
+    if (!$expDef || empty($expDef['fields'])) {
+        http_response_code(400);
+        header('Content-Type: text/plain; charset=utf-8');
+        echo 'No schema defined for this list. Define field names/types first.';
+        exit;
+    }
+    $expSchema    = $expDef['fields'];
+    $safeName     = preg_replace('/[^a-zA-Z0-9_]/', '_', $expDef['name'] ?? ('list_' . $listIdx));
+    $stem         = preg_replace('/\.data$/i', '', $fileN);
+    $downloadName = $stem . '_' . $safeName . '.' . $format;
+
+    $mime = match($format) {
+        'json'  => 'application/json',
+        'tsv'   => 'text/tab-separated-values',
+        default => 'text/csv',
+    };
+    header('Content-Type: ' . $mime . '; charset=utf-8');
+    header('Content-Disposition: attachment; filename="' . $downloadName . '"');
+    header('X-Accel-Buffering: no');
+    if (ob_get_level()) ob_end_clean();
+
+    $chunk = 500;
+
+    if ($format === 'json') {
+        echo '[';
+        $first = true;
+        for ($off = 0; $off < $expCount; $off += $chunk) {
+            $dec = $expReader->decodeList($listIdx, $expSchema, $chunk, $off);
+            foreach ($dec['rows'] ?? [] as $row) {
+                $obj = [];
+                foreach ($expSchema as $f) {
+                    $k = $f['name'];
+                    $obj[$k] = isset($row[$k]) ? format_value($row[$k]) : '';
+                }
+                echo ($first ? "\n" : ",\n") . json_encode($obj, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+                $first = false;
+            }
+            flush();
+        }
+        echo "\n]\n";
+    } else {
+        // CSV or TSV — header row
+        $sep   = $format === 'tsv' ? "\t" : ',';
+        $cells = [];
+        foreach ($expSchema as $f) $cells[] = export_cell($f['name'], $sep);
+        echo implode($sep, $cells) . "\r\n";
+
+        for ($off = 0; $off < $expCount; $off += $chunk) {
+            $dec = $expReader->decodeList($listIdx, $expSchema, $chunk, $off);
+            foreach ($dec['rows'] ?? [] as $row) {
+                $cells = [];
+                foreach ($expSchema as $f) {
+                    $k = $f['name'];
+                    $cells[] = export_cell(isset($row[$k]) ? format_value($row[$k]) : '', $sep);
+                }
+                echo implode($sep, $cells) . "\r\n";
+            }
+            flush();
+        }
+    }
+    exit;
+}
+
+// ---------------------------------------------------------------------------
 // Handle POST (save a list definition)
 // ---------------------------------------------------------------------------
 $saveMsg = '';
@@ -600,6 +747,20 @@ function format_value($v) {
     return (string)$v;
 }
 
+/** Quote a cell value for CSV/TSV export. */
+function export_cell(string $v, string $sep): string {
+    if ($sep === "\t") {
+        // TSV: strip control characters that would break the format
+        return str_replace(["\t", "\r", "\n"], [' ', ' ', ' '], $v);
+    }
+    // CSV (RFC 4180): wrap in double-quotes if value contains comma, quote, or newline
+    if (strpos($v, ',') !== false || strpos($v, '"') !== false ||
+        strpos($v, "\n") !== false || strpos($v, "\r") !== false) {
+        return '"' . str_replace('"', '""', $v) . '"';
+    }
+    return $v;
+}
+
 // Pretty type-color class buckets matching template's typeColor() palette.
 function type_color_class($t) {
     if (preg_match('/^int/', $t))                   return 'bg-blue-950 text-blue-300 border-blue-800';
@@ -886,6 +1047,93 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
         Close
       </button>
     </div>
+  </div>
+</div>
+
+<!-- ░░ COMPARE RECORDS MODAL ░░ -->
+<div id="cmp-modal" class="hidden fixed inset-0 bg-black/70 backdrop-blur-sm z-[150] items-center justify-center p-4"
+     onclick="if(event.target===this)closeCmpModal()">
+  <div class="bg-[#0d1117] border border-slate-700 rounded-md shadow-2xl w-full max-w-6xl flex flex-col max-h-[92vh]">
+
+    <!-- Header -->
+    <div class="px-4 py-3 border-b border-slate-800 flex items-center justify-between gap-2 shrink-0">
+      <div class="flex items-center gap-2 min-w-0">
+        <svg class="w-4 h-4 text-purple-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 0a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2h-2a2 2 0 01-2-2"/></svg>
+        <span class="mono text-[12px] font-semibold text-slate-100">Compare Records</span>
+        <span id="cmp-meta" class="mono text-[10px] text-slate-500 truncate"></span>
+      </div>
+      <button type="button" onclick="closeCmpModal()"
+        class="w-6 h-6 flex items-center justify-center rounded text-slate-500 hover:text-slate-200 hover:bg-slate-800 transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+
+    <!-- Controls -->
+    <div class="px-4 py-2.5 border-b border-slate-800 flex items-center gap-3 flex-wrap shrink-0 bg-[#090c12]">
+      <!-- Record pickers -->
+      <div class="flex items-center gap-2">
+        <span class="text-[11px] mono text-yellow-400 font-semibold">A</span>
+        <span class="text-[11px] mono text-slate-400">Record #</span>
+        <input type="number" id="cmp-row-a" min="0" value="0"
+          class="bg-slate-900 border border-slate-700 focus:border-purple-600 text-slate-200 rounded px-2 py-1 text-[11px] mono outline-none w-24 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"/>
+      </div>
+      <span class="text-slate-600 mono text-[11px]">vs</span>
+      <div class="flex items-center gap-2">
+        <span class="text-[11px] mono text-cyan-400 font-semibold">B</span>
+        <span class="text-[11px] mono text-slate-400">Record #</span>
+        <input type="number" id="cmp-row-b" min="0" value="1"
+          class="bg-slate-900 border border-slate-700 focus:border-purple-600 text-slate-200 rounded px-2 py-1 text-[11px] mono outline-none w-24 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"/>
+      </div>
+      <button type="button" onclick="runCmp()"
+        class="flex items-center gap-1.5 px-3 py-1 rounded border text-[11px] mono uppercase tracking-widest bg-purple-950/40 hover:bg-purple-950/70 border-purple-800/50 hover:border-purple-700 text-purple-300 transition-colors">
+        <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 0a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2h-2a2 2 0 01-2-2"/></svg>
+        Compare
+      </button>
+
+      <!-- Filter pills -->
+      <div class="ml-auto flex items-center gap-2 flex-wrap">
+        <div class="flex rounded overflow-hidden border border-slate-700 text-[10px] mono">
+          <button type="button" id="cmpf-all"  onclick="setCmpFilter('all')"  class="px-2.5 py-1 bg-slate-700 text-slate-200">All</button>
+          <button type="button" id="cmpf-diff" onclick="setCmpFilter('diff')" class="px-2.5 py-1 text-slate-500 hover:text-slate-300 border-l border-slate-700">Changed</button>
+          <button type="button" id="cmpf-same" onclick="setCmpFilter('same')" class="px-2.5 py-1 text-slate-500 hover:text-slate-300 border-l border-slate-700">Same</button>
+        </div>
+        <input type="text" id="cmp-search" oninput="renderCmpTable()" placeholder="filter fields…"
+          class="bg-slate-900 border border-slate-700 text-slate-200 placeholder-slate-600 rounded px-2 py-1 text-[11px] mono focus:border-purple-700 outline-none w-40"/>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="flex-1 overflow-auto">
+      <div id="cmp-empty" class="p-8 text-center">
+        <p class="text-[12px] mono text-slate-500">Enter two row numbers and click <span class="text-purple-300">Compare</span>.</p>
+      </div>
+      <table id="cmp-table" class="hidden w-full text-[11px] mono">
+        <thead class="sticky top-0 bg-[#0d1117] border-b border-slate-800 text-[10px] uppercase tracking-widest">
+          <tr>
+            <th class="px-3 py-2 text-left text-slate-400 font-medium">Field</th>
+            <th class="px-2 py-2 text-left text-slate-500 font-medium w-28">Type</th>
+            <th class="px-3 py-2 text-left text-yellow-500 font-medium" id="cmp-th-a">Record A</th>
+            <th class="px-3 py-2 text-left text-cyan-500 font-medium"   id="cmp-th-b">Record B</th>
+            <th class="px-3 py-2 text-right text-slate-500 font-medium w-28">Δ Delta</th>
+          </tr>
+        </thead>
+        <tbody id="cmp-tbody" class="divide-y divide-slate-800/40"></tbody>
+      </table>
+    </div>
+
+    <!-- Footer -->
+    <div class="px-4 py-2.5 border-t border-slate-800 flex items-center gap-4 text-[10px] mono shrink-0 bg-[#090c12]">
+      <span id="cmp-stats" class="text-slate-500"></span>
+      <div class="flex items-center gap-3 ml-auto">
+        <span class="flex items-center gap-1.5"><span class="inline-block w-2.5 h-2.5 rounded-sm bg-orange-950 border border-orange-800"></span>value changed</span>
+        <span class="flex items-center gap-1.5"><span class="inline-block w-2.5 h-2.5 rounded-sm bg-slate-800/60 border border-slate-700/40"></span>same</span>
+        <button type="button" onclick="closeCmpModal()"
+          class="px-3 py-1.5 rounded border text-[11px] mono uppercase tracking-widest bg-slate-800/60 hover:bg-slate-800 border-slate-700/50 hover:border-slate-600 text-slate-300 transition-colors">
+          Close
+        </button>
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -1206,6 +1454,31 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
           <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">Records</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-slate-900 text-slate-400 border-slate-700"><?= number_format($listCount) ?></span></div>
           <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">Body Size</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-cyan-950 text-cyan-300 border-cyan-800"><?= number_format($listBody) ?> bytes</span></div>
           <div class="flex items-center gap-1.5"><span class="text-[11px] mono text-slate-300">List Offset</span><span class="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] mono border bg-orange-950 text-orange-300 border-orange-800">0x<?= str_pad(strtoupper(dechex($listOffset)), 8, '0', STR_PAD_LEFT) ?></span></div>
+          <?php if ($selectedListDef && !empty($selectedListDef['fields'])): ?>
+          <div class="relative" id="export-dropdown-wrap">
+            <button type="button" onclick="toggleExportMenu(event)"
+              class="inline-flex items-center gap-1 px-2 py-1 rounded text-[11px] mono border bg-emerald-950 text-emerald-300 border-emerald-700 hover:bg-emerald-900 transition-colors select-none cursor-pointer">
+              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 4v11"/></svg>
+              Export
+              <svg class="w-2.5 h-2.5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div id="export-menu"
+              class="hidden absolute right-0 top-full mt-1 z-50 bg-[#0d1117] border border-slate-700 rounded shadow-xl min-w-[120px] py-1">
+              <?php
+                $expBase = '?action=export_list&file=' . urlencode($fileName) . '&list=' . (int)$selectedListIdx . '&format=';
+              ?>
+              <a href="<?= $expBase ?>csv" class="flex items-center gap-2 px-3 py-1.5 text-[11px] mono text-slate-300 hover:bg-slate-800 hover:text-emerald-300 transition-colors">
+                <span class="text-emerald-500 font-bold">CSV</span> comma-separated
+              </a>
+              <a href="<?= $expBase ?>tsv" class="flex items-center gap-2 px-3 py-1.5 text-[11px] mono text-slate-300 hover:bg-slate-800 hover:text-emerald-300 transition-colors">
+                <span class="text-cyan-500 font-bold">TSV</span> tab-separated
+              </a>
+              <a href="<?= $expBase ?>json" class="flex items-center gap-2 px-3 py-1.5 text-[11px] mono text-slate-300 hover:bg-slate-800 hover:text-emerald-300 transition-colors">
+                <span class="text-purple-400 font-bold">JSON</span> object array
+              </a>
+            </div>
+          </div>
+          <?php endif; ?>
         </div>
       </div>
 
@@ -1221,10 +1494,21 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
 
         <!-- Fields table -->
         <div class="w-[50rem] shrink-0 border-r border-slate-800 flex flex-col overflow-hidden">
-          <div class="px-3 py-2 border-b border-slate-800 bg-[#0d1117]">
-            <span class="text-[10px] mono text-slate-300 uppercase tracking-widest">Fields</span>
-            <?php if ($decoded && !empty($decoded['rows'])): ?>
-              <span class="text-[10px] mono text-slate-300 ml-1">— Record #<?= (int)$rowOffset ?></span>
+          <div class="px-3 py-2 border-b border-slate-800 bg-[#0d1117] flex items-center justify-between gap-2">
+            <div>
+              <span class="text-[10px] mono text-slate-300 uppercase tracking-widest">Fields</span>
+              <?php if ($decoded && !empty($decoded['rows'])): ?>
+                <span class="text-[10px] mono text-slate-300 ml-1">— Record #<?= (int)$rowOffset ?></span>
+              <?php endif; ?>
+            </div>
+            <?php if ($reader && $selectedListIdx >= 0 && $selectedListDef && !empty($selectedListDef['fields'])): ?>
+              <button type="button"
+                onclick="openCmpModal(<?= (int)$rowOffset ?>)"
+                class="flex items-center gap-1.5 px-2 py-1 rounded border text-[10px] mono bg-slate-800/50 hover:bg-slate-800 border-slate-700/50 hover:border-purple-700/70 text-slate-500 hover:text-purple-300 transition-colors"
+                title="Compare this record with any other record in <?= h($listLabel) ?>">
+                <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 0a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2h-2a2 2 0 01-2-2"/></svg>
+                Compare
+              </button>
             <?php endif; ?>
           </div>
           <div class="flex-1 overflow-y-auto">
@@ -1836,7 +2120,8 @@ function _cppLeafToSchema(prefix, leaf){
     scalarType = 'byte:2';
   } else if(t==='__int64' || t==='unsigned __int64' || t==='signed __int64' ||
             t==='long long' || t==='unsigned long long' || t==='signed long long' ||
-            t==='int64_t' || t==='uint64_t'){
+            t==='int64_t' || t==='uint64_t' ||
+            t==='Int64' || t==='UInt64'){
     scalarType = 'int64';
   } else if(t==='float'){
     scalarType = 'float';
@@ -2272,6 +2557,183 @@ renderHex();
   const active=document.querySelector('#sidebar-list .rec-item.bg-cyan-950\\/30');
   if(active && active.scrollIntoView) active.scrollIntoView({block:'center'});
 })();
+
+// ── Compare Records ──────────────────────────────────────────────────────────
+const CMP_FILE  = <?= json_encode($fileName) ?>;
+const CMP_LIST  = <?= (int)$selectedListIdx ?>;
+const CMP_COUNT = <?= (int)$listCount ?>;
+
+let _cmpData   = null;
+let _cmpFilter = 'all';
+
+function cmpTypeBadge(t) {
+  if (!t) return 'bg-slate-800 text-slate-500 border-slate-700';
+  if (/^int/.test(t))    return 'bg-blue-950 text-blue-300 border-blue-800';
+  if (t==='float'||t==='double') return 'bg-purple-950 text-purple-300 border-purple-800';
+  if (t.startsWith('wstring:')) return 'bg-emerald-950 text-emerald-300 border-emerald-800';
+  if (t.startsWith('byte:'))    return 'bg-orange-950 text-orange-300 border-orange-800';
+  return 'bg-slate-800 text-slate-500 border-slate-700';
+}
+
+// ── Export dropdown ──────────────────────────────────────────────────────────
+function toggleExportMenu(e) {
+  e.stopPropagation();
+  const menu = document.getElementById('export-menu');
+  if (!menu) return;
+  menu.classList.toggle('hidden');
+}
+document.addEventListener('click', function() {
+  const menu = document.getElementById('export-menu');
+  if (menu) menu.classList.add('hidden');
+});
+
+function openCmpModal(rowA) {
+  if (CMP_LIST < 0) { toast('No list selected', 'warning'); return; }
+  document.getElementById('cmp-row-a').value = rowA;
+  const rowB = rowA > 0 ? rowA - 1 : 1;
+  document.getElementById('cmp-row-b').value = rowB;
+  document.getElementById('cmp-meta').textContent = '';
+  document.getElementById('cmp-empty').classList.remove('hidden');
+  document.getElementById('cmp-table').classList.add('hidden');
+  document.getElementById('cmp-stats').textContent = '';
+  const modal = document.getElementById('cmp-modal');
+  modal.classList.remove('hidden');
+  modal.classList.add('flex');
+  setCmpFilter('all', false);
+  runCmp();
+}
+
+function closeCmpModal() {
+  const modal = document.getElementById('cmp-modal');
+  modal.classList.add('hidden');
+  modal.classList.remove('flex');
+}
+
+async function runCmp() {
+  const rowA = parseInt(document.getElementById('cmp-row-a').value, 10);
+  const rowB = parseInt(document.getElementById('cmp-row-b').value, 10);
+  if (isNaN(rowA) || isNaN(rowB))       { toast('Enter valid row numbers', 'warning'); return; }
+  if (rowA === rowB)                     { toast('Pick two different records', 'warning'); return; }
+  if (CMP_COUNT > 0 && (rowA >= CMP_COUNT || rowB >= CMP_COUNT)) {
+    toast(`Row out of range (max ${CMP_COUNT - 1})`, 'warning'); return;
+  }
+  // Loading state
+  document.getElementById('cmp-empty').innerHTML =
+    '<div class="flex items-center justify-center gap-2 text-[11px] mono text-slate-500"><svg class="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>Loading…</div>';
+  document.getElementById('cmp-empty').classList.remove('hidden');
+  document.getElementById('cmp-table').classList.add('hidden');
+  try {
+    const url = `?action=compare_records&file=${encodeURIComponent(CMP_FILE)}&list=${CMP_LIST}&row_a=${rowA}&row_b=${rowB}`;
+    const res  = await fetch(url);
+    const data = await res.json();
+    if (data.error) {
+      document.getElementById('cmp-empty').innerHTML = `<p class="text-[12px] mono text-red-400">${escHtml(data.error)}</p>`;
+      return;
+    }
+    _cmpData = data;
+    document.getElementById('cmp-meta').textContent =
+      `${data.list_name} · ${data.count.toLocaleString()} records`;
+    document.getElementById('cmp-th-a').textContent = `Record A  (#${rowA})`;
+    document.getElementById('cmp-th-b').textContent = `Record B  (#${rowB})`;
+    renderCmpTable();
+  } catch(e) {
+    document.getElementById('cmp-empty').innerHTML = `<p class="text-[12px] mono text-red-400">Network error: ${escHtml(e.message)}</p>`;
+  }
+}
+
+function setCmpFilter(f, doRender = true) {
+  _cmpFilter = f;
+  const styles = {
+    active:   'px-2.5 py-1 bg-purple-950/60 text-purple-300 border-l border-slate-700',
+    inactive: 'px-2.5 py-1 text-slate-500 hover:text-slate-300 border-l border-slate-700',
+  };
+  ['all','diff','same'].forEach(x => {
+    const btn = document.getElementById('cmpf-' + x);
+    if (btn) {
+      // Remove border-l from first item
+      const base = x === 'all' ? '' : ' border-l border-slate-700';
+      btn.className = (f === x
+        ? 'px-2.5 py-1 bg-purple-950/60 text-purple-300'
+        : 'px-2.5 py-1 text-slate-500 hover:text-slate-300') + base;
+    }
+  });
+  if (doRender) renderCmpTable();
+}
+
+function renderCmpTable() {
+  if (!_cmpData) return;
+  const search = (document.getElementById('cmp-search')?.value || '').toLowerCase();
+  const tbody  = document.getElementById('cmp-tbody');
+
+  let nDiff = 0, nSame = 0, nShown = 0;
+  let html = '';
+
+  for (const f of _cmpData.fields) {
+    const va   = String(_cmpData.record_a.data[f.name] ?? '');
+    const vb   = String(_cmpData.record_b.data[f.name] ?? '');
+    const diff = (va !== vb);
+    if (diff) nDiff++; else nSame++;
+
+    if (_cmpFilter === 'diff' && !diff) continue;
+    if (_cmpFilter === 'same' && diff)  continue;
+    if (search && !f.name.toLowerCase().includes(search)
+               && !va.toLowerCase().includes(search)
+               && !vb.toLowerCase().includes(search)) continue;
+    nShown++;
+
+    // Compute delta for numeric types
+    let delta = '', deltaColor = 'text-slate-600';
+    if (diff) {
+      const isInt   = (f.type === 'int32' || f.type === 'int64');
+      const isFloat = (f.type === 'float' || f.type === 'double');
+      if (isInt) {
+        const d = parseInt(vb, 10) - parseInt(va, 10);
+        delta = (d > 0 ? '+' : '') + d.toLocaleString();
+        deltaColor = d > 0 ? 'text-emerald-400' : 'text-red-400';
+      } else if (isFloat) {
+        const d = parseFloat(vb) - parseFloat(va);
+        delta = (d > 0 ? '+' : '') + d.toFixed(4);
+        deltaColor = d > 0 ? 'text-emerald-400' : 'text-red-400';
+      } else {
+        delta = '≠';
+        deltaColor = 'text-orange-500';
+      }
+    } else {
+      delta = '=';
+      deltaColor = 'text-slate-700';
+    }
+
+    const rowBg  = diff ? 'bg-orange-950/15 hover:bg-orange-950/25' : 'hover:bg-slate-800/20';
+    const vaDisp = va.length > 52 ? va.slice(0, 52) + '…' : va;
+    const vbDisp = vb.length > 52 ? vb.slice(0, 52) + '…' : vb;
+    const badge  = cmpTypeBadge(f.type);
+
+    html += `<tr class="${rowBg} transition-colors">
+      <td class="px-3 py-1.5 text-slate-300 whitespace-nowrap font-medium">${escHtml(f.name)}</td>
+      <td class="px-2 py-1.5"><span class="inline-flex px-1 py-0.5 rounded text-[9px] border ${badge}">${escHtml(f.type)}</span></td>
+      <td class="px-3 py-1.5 ${diff?'text-yellow-300':'text-slate-400'} max-w-[220px]"><span class="block truncate" title="${escHtml(va)}">${escHtml(vaDisp)}</span></td>
+      <td class="px-3 py-1.5 ${diff?'text-cyan-300':'text-slate-400'} max-w-[220px]"><span class="block truncate" title="${escHtml(vb)}">${escHtml(vbDisp)}</span></td>
+      <td class="px-3 py-1.5 text-right ${deltaColor} whitespace-nowrap">${escHtml(delta)}</td>
+    </tr>`;
+  }
+
+  tbody.innerHTML = html;
+  document.getElementById('cmp-table').classList.remove('hidden');
+  document.getElementById('cmp-empty').classList.add('hidden');
+
+  const pct = _cmpData.fields.length > 0
+    ? Math.round(nDiff / _cmpData.fields.length * 100) : 0;
+  document.getElementById('cmp-stats').innerHTML =
+    `<span class="text-orange-400">${nDiff} changed</span> · ` +
+    `<span class="text-slate-500">${nSame} identical</span> · ` +
+    `${_cmpData.fields.length} total fields · ` +
+    `<span class="${nDiff > 0 ? 'text-orange-500' : 'text-emerald-600'}">${pct}% differ</span>` +
+    (nShown < nDiff + nSame ? ` · showing ${nShown}` : '');
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
 
 // ── Flash message → toast ────────────────────────────────────────────────────
 if(FLASH_MSG){
