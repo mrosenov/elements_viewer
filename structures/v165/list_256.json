@@ -1,0 +1,1169 @@
+{
+    "name": "FAIRYHOUSE_PROBABILITY_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "props_1_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_1_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_2_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_2_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_3_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_3_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_4_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_4_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_5_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_5_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_6_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_6_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_7_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_7_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_8_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_8_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_9_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_9_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_10_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_10_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_11_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_11_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_12_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_12_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_13_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_13_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_14_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_14_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_15_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_15_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_16_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_16_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_17_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_17_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_18_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_18_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_19_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_19_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_20_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_20_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_21_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_21_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_22_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_22_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_23_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_23_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_24_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_24_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_25_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_25_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_26_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_26_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_27_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_27_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_28_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_28_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_29_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_29_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_30_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_30_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_31_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_31_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_32_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_32_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_33_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_33_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_34_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_34_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_35_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_35_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_36_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_36_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_37_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_37_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_38_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_38_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_39_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_39_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_40_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_40_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_41_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_41_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_42_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_42_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_43_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_43_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_44_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_44_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_45_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_45_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_46_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_46_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_47_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_47_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_48_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_48_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_49_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_49_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_50_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_50_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_51_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_51_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_52_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_52_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_53_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_53_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_54_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_54_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_55_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_55_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_56_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_56_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_57_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_57_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_58_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_58_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_59_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_59_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_60_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_60_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_61_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_61_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_62_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_62_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_63_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_63_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_64_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_64_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_65_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_65_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_66_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_66_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_67_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_67_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_68_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_68_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_69_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_69_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_70_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_70_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_71_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_71_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_72_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_72_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_73_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_73_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_74_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_74_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_75_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_75_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_76_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_76_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_77_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_77_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_78_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_78_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_79_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_79_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_80_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_80_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_81_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_81_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_82_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_82_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_83_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_83_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_84_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_84_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_85_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_85_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_86_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_86_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_87_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_87_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_88_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_88_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_89_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_89_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_90_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_90_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_91_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_91_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_92_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_92_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_93_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_93_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_94_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_94_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_95_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_95_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_96_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_96_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_97_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_97_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_98_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_98_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_99_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_99_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_100_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_100_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_101_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_101_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_102_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_102_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_103_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_103_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_104_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_104_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_105_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_105_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_106_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_106_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_107_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_107_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_108_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_108_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_109_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_109_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_110_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_110_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_111_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_111_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_112_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_112_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_113_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_113_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_114_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_114_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_115_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_115_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_116_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_116_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_117_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_117_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_118_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_118_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_119_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_119_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_120_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_120_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_121_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_121_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_122_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_122_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_123_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_123_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_124_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_124_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_125_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_125_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_126_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_126_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_127_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_127_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_128_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_128_probability",
+            "type": "float"
+        },
+        {
+            "name": "unknown_1",
+            "type": "float"
+        },
+        {
+            "name": "props_1_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_1_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_2_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_2_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_3_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_3_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_4_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_4_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_5_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_5_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_6_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_6_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_7_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_7_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_8_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_8_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_9_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_9_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_10_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_10_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_11_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_11_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_12_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_12_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_13_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_13_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_14_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_14_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_15_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_15_probability",
+            "type": "float"
+        },
+        {
+            "name": "props_16_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_16_probability",
+            "type": "float"
+        }
+    ]
+}

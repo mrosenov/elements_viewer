@@ -1,0 +1,261 @@
+{
+    "name": "NEW_CRAFTING_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "recipe_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_11",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_12",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_13",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_14",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_15",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_16",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_17",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_18",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_19",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_20",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_21",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_22",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_23",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_24",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_25",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_26",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_27",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_28",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_29",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_30",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_31",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_32",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_33",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_34",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_35",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_36",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_37",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_38",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_39",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_40",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_41",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_42",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_43",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_44",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_45",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_46",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_47",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_48",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_49",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_50",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_51",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_52",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_53",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_54",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_55",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_56",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_57",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_58",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_59",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_60",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_61",
+            "type": "int32"
+        },
+        {
+            "name": "recipe_id_62",
+            "type": "int32"
+        }
+    ]
+}

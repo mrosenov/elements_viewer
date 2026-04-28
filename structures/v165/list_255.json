@@ -1,0 +1,885 @@
+{
+    "name": "FAIRYHOUSE_GENERAL_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_8",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_9",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_10",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_11",
+            "type": "int32"
+        },
+        {
+            "name": "props_1_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_1_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_1_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_2_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_2_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_2_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_3_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_3_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_3_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_4_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_4_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_4_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_5_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_5_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_5_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_6_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_6_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_6_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_7_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_7_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_7_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_8_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_8_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_8_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_9_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_9_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_9_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_10_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_10_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_10_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_11_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_11_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_11_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_12_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_12_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_12_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_13_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_13_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_13_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_14_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_14_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_14_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_15_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_15_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_15_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_16_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_16_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_16_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_17_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_17_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_17_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_18_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_18_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_18_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_19_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_19_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_19_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_20_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_20_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_20_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_21_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_21_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_21_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_22_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_22_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_22_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_23_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_23_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_23_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_24_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_24_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_24_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_25_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_25_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_25_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_26_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_26_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_26_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_27_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_27_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_27_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_28_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_28_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_28_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_29_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_29_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_29_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_30_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_30_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_30_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_31_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_31_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_31_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_32_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_32_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_32_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_33_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_33_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_33_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_34_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_34_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_34_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_35_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_35_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_35_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_36_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_36_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_36_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_37_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_37_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_37_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_38_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_38_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_38_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_39_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_39_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_39_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_40_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_40_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_40_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_41_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_41_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_41_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_42_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_42_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_42_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_43_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_43_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_43_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_44_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_44_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_44_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_45_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_45_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_45_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_46_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_46_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_46_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_47_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_47_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_47_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_48_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_48_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_48_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_49_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_49_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_49_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_50_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_50_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_50_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_51_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_51_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_51_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_52_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_52_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_52_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_53_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_53_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_53_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_54_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_54_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_54_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_55_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_55_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_55_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_56_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_56_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_56_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_57_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_57_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_57_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_58_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_58_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_58_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_59_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_59_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_59_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_60_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_60_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_60_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_61_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_61_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_61_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_62_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_62_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_62_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_63_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_63_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_63_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "props_64_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "props_64_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "props_64_prop_level",
+            "type": "int32"
+        },
+        {
+            "name": "more_props_1_more_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "more_props_1_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "more_props_1_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "more_props_1_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "more_props_1_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "more_props_2_more_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "more_props_2_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "more_props_2_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "more_props_2_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "more_props_2_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "more_props_3_more_prop_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "more_props_3_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "more_props_3_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "more_props_3_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "more_props_3_unknown_4",
+            "type": "int32"
+        }
+    ]
+}

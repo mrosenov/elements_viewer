@@ -1422,11 +1422,11 @@
             "type": "int32"
         },
         {
-            "name": "unknowns_103",
+            "name": "price",
             "type": "int32"
         },
         {
-            "name": "unknowns_104",
+            "name": "shop_price",
             "type": "int32"
         },
         {
