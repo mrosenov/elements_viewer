@@ -1,0 +1,297 @@
+{
+    "name": "EQUIPMENT_RANDOMEXT_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "prop_probability_1",
+            "type": "float"
+        },
+        {
+            "name": "prop_probability_2",
+            "type": "float"
+        },
+        {
+            "name": "prop_probability_3",
+            "type": "float"
+        },
+        {
+            "name": "prop_probability_4",
+            "type": "float"
+        },
+        {
+            "name": "prop_probability_5",
+            "type": "float"
+        },
+        {
+            "name": "prop_probability_6",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_1_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_prop_list_1_max_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_1_min_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_1_add_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_1_probability",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_2_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_prop_list_2_max_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_2_min_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_2_add_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_2_probability",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_3_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_prop_list_3_max_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_3_min_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_3_add_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_3_probability",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_4_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_prop_list_4_max_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_4_min_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_4_add_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_4_probability",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_5_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_prop_list_5_max_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_5_min_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_5_add_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_5_probability",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_6_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_prop_list_6_max_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_6_min_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_6_add_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_6_probability",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_7_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_prop_list_7_max_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_7_min_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_7_add_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_7_probability",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_8_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_prop_list_8_max_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_8_min_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_8_add_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_8_probability",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_9_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_prop_list_9_max_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_9_min_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_9_add_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_9_probability",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_10_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_prop_list_10_max_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_10_min_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_10_add_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_10_probability",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_11_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_prop_list_11_max_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_11_min_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_11_add_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_11_probability",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_12_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_prop_list_12_max_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_12_min_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_12_add_value",
+            "type": "float"
+        },
+        {
+            "name": "base_prop_list_12_probability",
+            "type": "float"
+        },
+        {
+            "name": "level_probability_1",
+            "type": "float"
+        },
+        {
+            "name": "level_probability_2",
+            "type": "float"
+        },
+        {
+            "name": "level_probability_3",
+            "type": "float"
+        },
+        {
+            "name": "level_probability_4",
+            "type": "float"
+        },
+        {
+            "name": "level_probability_5",
+            "type": "float"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "name": "SOUL_DROP_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "monster_id",
+            "type": "int32"
+        },
+        {
+            "name": "soul_drop_list_1_min_count",
+            "type": "int32"
+        },
+        {
+            "name": "soul_drop_list_1_max_count",
+            "type": "int32"
+        },
+        {
+            "name": "soul_drop_list_1_probability",
+            "type": "float"
+        },
+        {
+            "name": "soul_drop_list_1_value",
+            "type": "int32"
+        },
+        {
+            "name": "soul_drop_list_2_min_count",
+            "type": "int32"
+        },
+        {
+            "name": "soul_drop_list_2_max_count",
+            "type": "int32"
+        },
+        {
+            "name": "soul_drop_list_2_probability",
+            "type": "float"
+        },
+        {
+            "name": "soul_drop_list_2_value",
+            "type": "int32"
+        },
+        {
+            "name": "soul_drop_list_3_min_count",
+            "type": "int32"
+        },
+        {
+            "name": "soul_drop_list_3_max_count",
+            "type": "int32"
+        },
+        {
+            "name": "soul_drop_list_3_probability",
+            "type": "float"
+        },
+        {
+            "name": "soul_drop_list_3_value",
+            "type": "int32"
+        },
+        {
+            "name": "soul_drop_list_4_min_count",
+            "type": "int32"
+        },
+        {
+            "name": "soul_drop_list_4_max_count",
+            "type": "int32"
+        },
+        {
+            "name": "soul_drop_list_4_probability",
+            "type": "float"
+        },
+        {
+            "name": "soul_drop_list_4_value",
+            "type": "int32"
+        }
+    ]
+}

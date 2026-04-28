@@ -1,0 +1,3237 @@
+{
+    "name": "LEVEL_UP_REWARD_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "list_levels_1_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_1_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_2_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_3_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_4_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_5_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_6_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_7_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_8_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_9_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_10_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_11_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_12_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_13_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_14_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_15_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_16_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_17_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_18_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_19_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_20_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_21_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_22_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_23_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_24_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_25_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_26_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_27_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_28_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_29_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_30_awards_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_level_required",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "list_levels_31_awards_8_time_limit",
+            "type": "int32"
+        }
+    ]
+}

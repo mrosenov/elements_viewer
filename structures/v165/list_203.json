@@ -1,0 +1,201 @@
+{
+    "name": "MATRIX_CARD_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "model_path_id",
+            "type": "int32"
+        },
+        {
+            "name": "icon_path_id",
+            "type": "int32"
+        },
+        {
+            "name": "normal_icon",
+            "type": "int32"
+        },
+        {
+            "name": "big_icon",
+            "type": "int32"
+        },
+        {
+            "name": "quality",
+            "type": "int32"
+        },
+        {
+            "name": "base_addon_1_addon_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_addon_1_coefficient",
+            "type": "float"
+        },
+        {
+            "name": "base_addon_2_addon_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_addon_2_coefficient",
+            "type": "float"
+        },
+        {
+            "name": "base_addon_3_addon_id",
+            "type": "int32"
+        },
+        {
+            "name": "base_addon_3_coefficient",
+            "type": "float"
+        },
+        {
+            "name": "addons_1_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_1_level",
+            "type": "int32"
+        },
+        {
+            "name": "addons_2_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_2_level",
+            "type": "int32"
+        },
+        {
+            "name": "addons_3_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_3_level",
+            "type": "int32"
+        },
+        {
+            "name": "addons_4_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_4_level",
+            "type": "int32"
+        },
+        {
+            "name": "addons_5_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_5_level",
+            "type": "int32"
+        },
+        {
+            "name": "addons_6_id",
+            "type": "int32"
+        },
+        {
+            "name": "addons_6_level",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_1_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "intimates_1_id",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_1_active_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_1_active_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_1_active_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_2_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "intimates_2_id",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_2_active_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_2_active_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_2_active_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_3_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "intimates_3_id",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_3_active_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_3_active_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_3_active_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_4_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "intimates_4_id",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_4_active_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_4_active_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "intimates_4_active_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "sell_price",
+            "type": "int32"
+        },
+        {
+            "name": "buy_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "trade_behavior",
+            "type": "int32"
+        }
+    ]
+}

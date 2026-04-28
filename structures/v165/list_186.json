@@ -1,0 +1,2213 @@
+{
+    "name": "PHASE_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "phaselist_1",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_2",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_3",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_4",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_5",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_6",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_7",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_8",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_9",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_10",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_11",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_12",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_13",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_14",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_15",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_16",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_17",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_18",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_19",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_20",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_21",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_22",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_23",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_24",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_25",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_26",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_27",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_28",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_29",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_30",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_31",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_32",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_33",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_34",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_35",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_36",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_37",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_38",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_39",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_40",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_41",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_42",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_43",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_44",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_45",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_46",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_47",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_48",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_49",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_50",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_51",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_52",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_53",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_54",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_55",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_56",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_57",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_58",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_59",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_60",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_61",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_62",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_63",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_64",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_65",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_66",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_67",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_68",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_69",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_70",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_71",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_72",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_73",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_74",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_75",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_76",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_77",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_78",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_79",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_80",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_81",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_82",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_83",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_84",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_85",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_86",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_87",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_88",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_89",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_90",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_91",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_92",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_93",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_94",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_95",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_96",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_97",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_98",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_99",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_100",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_101",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_102",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_103",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_104",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_105",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_106",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_107",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_108",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_109",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_110",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_111",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_112",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_113",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_114",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_115",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_116",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_117",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_118",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_119",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_120",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_121",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_122",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_123",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_124",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_125",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_126",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_127",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_128",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_129",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_130",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_131",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_132",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_133",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_134",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_135",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_136",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_137",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_138",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_139",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_140",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_141",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_142",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_143",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_144",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_145",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_146",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_147",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_148",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_149",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_150",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_151",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_152",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_153",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_154",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_155",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_156",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_157",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_158",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_159",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_160",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_161",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_162",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_163",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_164",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_165",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_166",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_167",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_168",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_169",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_170",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_171",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_172",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_173",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_174",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_175",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_176",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_177",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_178",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_179",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_180",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_181",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_182",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_183",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_184",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_185",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_186",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_187",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_188",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_189",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_190",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_191",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_192",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_193",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_194",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_195",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_196",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_197",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_198",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_199",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_200",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_201",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_202",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_203",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_204",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_205",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_206",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_207",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_208",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_209",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_210",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_211",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_212",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_213",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_214",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_215",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_216",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_217",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_218",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_219",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_220",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_221",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_222",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_223",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_224",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_225",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_226",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_227",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_228",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_229",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_230",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_231",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_232",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_233",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_234",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_235",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_236",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_237",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_238",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_239",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_240",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_241",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_242",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_243",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_244",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_245",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_246",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_247",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_248",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_249",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_250",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_251",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_252",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_253",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_254",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_255",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_256",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_257",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_258",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_259",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_260",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_261",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_262",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_263",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_264",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_265",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_266",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_267",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_268",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_269",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_270",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_271",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_272",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_273",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_274",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_275",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_276",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_277",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_278",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_279",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_280",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_281",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_282",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_283",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_284",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_285",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_286",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_287",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_288",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_289",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_290",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_291",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_292",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_293",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_294",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_295",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_296",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_297",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_298",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_299",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_300",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_301",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_302",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_303",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_304",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_305",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_306",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_307",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_308",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_309",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_310",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_311",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_312",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_313",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_314",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_315",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_316",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_317",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_318",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_319",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_320",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_321",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_322",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_323",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_324",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_325",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_326",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_327",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_328",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_329",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_330",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_331",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_332",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_333",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_334",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_335",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_336",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_337",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_338",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_339",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_340",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_341",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_342",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_343",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_344",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_345",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_346",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_347",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_348",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_349",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_350",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_351",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_352",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_353",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_354",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_355",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_356",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_357",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_358",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_359",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_360",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_361",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_362",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_363",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_364",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_365",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_366",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_367",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_368",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_369",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_370",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_371",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_372",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_373",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_374",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_375",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_376",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_377",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_378",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_379",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_380",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_381",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_382",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_383",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_384",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_385",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_386",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_387",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_388",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_389",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_390",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_391",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_392",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_393",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_394",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_395",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_396",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_397",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_398",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_399",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_400",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_401",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_402",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_403",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_404",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_405",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_406",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_407",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_408",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_409",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_410",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_411",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_412",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_413",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_414",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_415",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_416",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_417",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_418",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_419",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_420",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_421",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_422",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_423",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_424",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_425",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_426",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_427",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_428",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_429",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_430",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_431",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_432",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_433",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_434",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_435",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_436",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_437",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_438",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_439",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_440",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_441",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_442",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_443",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_444",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_445",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_446",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_447",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_448",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_449",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_450",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_451",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_452",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_453",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_454",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_455",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_456",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_457",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_458",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_459",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_460",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_461",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_462",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_463",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_464",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_465",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_466",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_467",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_468",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_469",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_470",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_471",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_472",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_473",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_474",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_475",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_476",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_477",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_478",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_479",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_480",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_481",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_482",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_483",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_484",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_485",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_486",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_487",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_488",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_489",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_490",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_491",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_492",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_493",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_494",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_495",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_496",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_497",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_498",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_499",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_500",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_501",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_502",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_503",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_504",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_505",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_506",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_507",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_508",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_509",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_510",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_511",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_512",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_513",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_514",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_515",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_516",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_517",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_518",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_519",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_520",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_521",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_522",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_523",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_524",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_525",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_526",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_527",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_528",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_529",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_530",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_531",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_532",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_533",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_534",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_535",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_536",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_537",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_538",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_539",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_540",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_541",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_542",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_543",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_544",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_545",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_546",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_547",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_548",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_549",
+            "type": "int32"
+        },
+        {
+            "name": "phaselist_550",
+            "type": "int32"
+        }
+    ]
+}

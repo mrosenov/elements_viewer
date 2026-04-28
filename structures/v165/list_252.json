@@ -1,0 +1,1441 @@
+{
+    "name": "NEW_BOX_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "file_matter",
+            "type": "int32"
+        },
+        {
+            "name": "file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "required_level",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "required_gender",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "god_devil_mask",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_9",
+            "type": "int32"
+        },
+        {
+            "name": "gift_1_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_1_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_1_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_2_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_2_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_2_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_3_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_3_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_3_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_4_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_4_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_4_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_5_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_5_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_5_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_6_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_6_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_6_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_7_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_7_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_7_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_8_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_8_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_8_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_9_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_9_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_9_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_9_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_10_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_10_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_10_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_10_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_11_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_11_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_11_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_11_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_12_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_12_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_12_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_12_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_13_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_13_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_13_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_13_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_14_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_14_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_14_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_14_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_15_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_15_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_15_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_15_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_16_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_16_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_16_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_16_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_17_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_17_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_17_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_17_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_18_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_18_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_18_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_18_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_19_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_19_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_19_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_19_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_20_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_20_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_20_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_20_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_21_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_21_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_21_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_21_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_22_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_22_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_22_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_22_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_23_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_23_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_23_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_23_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_24_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_24_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_24_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_24_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_25_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_25_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_25_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_25_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_26_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_26_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_26_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_26_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_27_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_27_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_27_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_27_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_28_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_28_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_28_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_28_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_29_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_29_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_29_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_29_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_30_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_30_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_30_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_30_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_31_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_31_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_31_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_31_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_32_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_32_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_32_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_32_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_33_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_33_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_33_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_33_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_34_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_34_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_34_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_34_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_35_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_35_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_35_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_35_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_36_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_36_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_36_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_36_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_37_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_37_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_37_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_37_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_38_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_38_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_38_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_38_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_39_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_39_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_39_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_39_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_40_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_40_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_40_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_40_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_41_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_41_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_41_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_41_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_42_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_42_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_42_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_42_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_43_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_43_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_43_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_43_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_44_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_44_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_44_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_44_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_45_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_45_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_45_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_45_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_46_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_46_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_46_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_46_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_47_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_47_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_47_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_47_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_48_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_48_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_48_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_48_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_49_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_49_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_49_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_49_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_50_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_50_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_50_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_50_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_51_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_51_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_51_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_51_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_52_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_52_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_52_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_52_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_53_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_53_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_53_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_53_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_54_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_54_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_54_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_54_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_55_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_55_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_55_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_55_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_56_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_56_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_56_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_56_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_57_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_57_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_57_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_57_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_58_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_58_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_58_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_58_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_59_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_59_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_59_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_59_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "gift_60_gift_id",
+            "type": "int32"
+        },
+        {
+            "name": "gift_60_gift_amount",
+            "type": "int32"
+        },
+        {
+            "name": "gift_60_gift_bind",
+            "type": "int32"
+        },
+        {
+            "name": "gift_60_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_1",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_2",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_3",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_4",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_5",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_6",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_7",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_8",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_9",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_10",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_11",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_12",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_13",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_14",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_15",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_16",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_17",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_18",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_19",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_20",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_21",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_22",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_23",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_24",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_25",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_26",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_27",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_28",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_29",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_30",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_31",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_32",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_33",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_34",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_35",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_36",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_37",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_38",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_39",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_40",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_41",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_42",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_43",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_44",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_45",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_46",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_47",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_48",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_49",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_50",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_51",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_52",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_53",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_54",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_55",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_56",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_57",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_58",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_59",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_60",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_61",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_62",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_63",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_64",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_65",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_66",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_67",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_68",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_69",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_70",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_71",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_72",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_73",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_74",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_75",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_76",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_77",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_78",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_79",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_80",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_81",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_82",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_83",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_84",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_85",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_86",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_87",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_88",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_89",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_90",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_91",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_92",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_93",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_94",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_95",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_96",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_97",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_98",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_99",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_100",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_101",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_102",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_103",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_104",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "proc_type",
+            "type": "int32"
+        }
+    ]
+}

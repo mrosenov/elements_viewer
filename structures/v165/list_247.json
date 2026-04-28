@@ -1,0 +1,73 @@
+{
+    "name": "HEADFRAME_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "file_matter",
+            "type": "int32"
+        },
+        {
+            "name": "icon_matter",
+            "type": "int32"
+        },
+        {
+            "name": "time",
+            "type": "int32"
+        },
+        {
+            "name": "price",
+            "type": "int32"
+        },
+        {
+            "name": "shop_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "trade_behavior",
+            "type": "int32"
+        },
+        {
+            "name": "file_1_head_frame",
+            "type": "int32"
+        },
+        {
+            "name": "file_1_head_frame_gfx",
+            "type": "int32"
+        },
+        {
+            "name": "file_2_head_frame",
+            "type": "int32"
+        },
+        {
+            "name": "file_2_head_frame_gfx",
+            "type": "int32"
+        },
+        {
+            "name": "file_3_head_frame",
+            "type": "int32"
+        },
+        {
+            "name": "file_3_head_frame_gfx",
+            "type": "int32"
+        },
+        {
+            "name": "file_4_head_frame",
+            "type": "int32"
+        },
+        {
+            "name": "file_4_head_frame_gfx",
+            "type": "int32"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "name": "AMULET_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "file_matter",
+            "type": "int32"
+        },
+        {
+            "name": "file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "character_combo_id",
+            "type": "int64"
+        },
+        {
+            "name": "character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "require_level",
+            "type": "int32"
+        },
+        {
+            "name": "sect_1",
+            "type": "int32"
+        },
+        {
+            "name": "sect_2",
+            "type": "int32"
+        },
+        {
+            "name": "sect_3",
+            "type": "int32"
+        },
+        {
+            "name": "sect_4",
+            "type": "int32"
+        },
+        {
+            "name": "require_race",
+            "type": "int32"
+        },
+        {
+            "name": "require_level_2",
+            "type": "int32"
+        },
+        {
+            "name": "require_ascenstion_count",
+            "type": "int32"
+        },
+        {
+            "name": "fee_estone",
+            "type": "int32"
+        },
+        {
+            "name": "estone_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_id",
+            "type": "int32"
+        },
+        {
+            "name": "price",
+            "type": "int32"
+        },
+        {
+            "name": "shop_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "trade_behavior",
+            "type": "int32"
+        }
+    ]
+}

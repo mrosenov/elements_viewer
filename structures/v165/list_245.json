@@ -1,0 +1,229 @@
+{
+    "name": "GROUPRAID_EVALAWARD_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "eval_1_max",
+            "type": "int32"
+        },
+        {
+            "name": "eval_1_min",
+            "type": "int32"
+        },
+        {
+            "name": "eval_2_max",
+            "type": "int32"
+        },
+        {
+            "name": "eval_2_min",
+            "type": "int32"
+        },
+        {
+            "name": "eval_3_max",
+            "type": "int32"
+        },
+        {
+            "name": "eval_3_min",
+            "type": "int32"
+        },
+        {
+            "name": "eval_4_max",
+            "type": "int32"
+        },
+        {
+            "name": "eval_4_min",
+            "type": "int32"
+        },
+        {
+            "name": "award_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "award_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_1_boss_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_1_evalid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_1_timeid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_1_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_2_boss_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_2_evalid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_2_timeid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_2_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_3_boss_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_3_evalid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_3_timeid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_3_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_4_boss_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_4_evalid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_4_timeid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_4_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_5_boss_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_5_evalid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_5_timeid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_5_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_6_boss_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_6_evalid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_6_timeid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_6_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_7_boss_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_7_evalid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_7_timeid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_7_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_8_boss_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_8_evalid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_8_timeid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_8_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_9_boss_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_9_evalid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_9_timeid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_9_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_10_boss_id",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_10_evalid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_10_timeid",
+            "type": "int32"
+        },
+        {
+            "name": "raid_level_10_controller_id",
+            "type": "int32"
+        }
+    ]
+}

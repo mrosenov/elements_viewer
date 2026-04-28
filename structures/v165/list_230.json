@@ -1,0 +1,1097 @@
+{
+    "name": "DAILY_SIGN_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "start_time",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_21_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_22_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_23_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_24_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_25_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_25_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_26_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_26_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_27_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_27_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_28_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_28_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_29_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_29_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_30_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_30_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_31_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_31_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_32_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_32_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_33_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_33_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_34_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_34_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_35_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_35_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_36_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_36_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_37_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_37_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_38_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_38_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_39_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_39_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_40_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_40_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_41_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_41_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_42_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_42_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_43_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_43_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_44_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_44_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_45_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_45_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_46_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_46_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_47_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_47_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_48_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_48_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_49_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_49_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_50_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_50_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_51_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_51_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_52_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_52_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_53_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_53_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_54_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_54_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_55_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_55_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_56_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_56_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_57_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_57_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_58_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_58_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_59_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_59_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_60_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_60_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_61_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_61_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_62_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_62_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_63_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_63_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_64_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_64_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_65_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_65_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_66_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_66_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_67_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_67_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_68_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_68_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_69_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_69_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_70_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_70_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_71_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_71_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_72_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_72_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_73_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_73_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_74_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_74_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_75_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_75_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_76_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_76_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_77_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_77_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_78_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_78_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_79_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_79_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_80_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_80_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_81_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_81_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_82_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_82_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_83_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_83_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_84_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_84_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_85_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_85_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_86_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_86_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_87_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_87_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_88_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_88_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_89_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_89_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_90_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_90_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_91_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_91_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_92_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_92_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_93_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_93_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_94_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_94_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_95_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_95_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_96_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_96_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_97_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_97_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_98_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_98_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_99_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_99_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_100_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_100_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_101_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_101_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_102_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_102_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_103_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_103_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_104_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_104_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_105_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_105_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_106_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_106_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_107_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_107_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_108_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_108_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_109_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_109_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_110_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_110_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_111_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_111_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_112_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_112_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_113_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_113_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_114_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_114_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_115_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_115_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_116_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_116_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_117_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_117_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_118_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_118_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_119_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_119_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_120_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_120_count",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_1",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_2",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_3",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_4",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_5",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_6",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_7",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_8",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_9",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_10",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_11",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_12",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_13",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_14",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_15",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_16",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_17",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_18",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_19",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_20",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_21",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_22",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_23",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_24",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_25",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_26",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_27",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_28",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_29",
+            "type": "int32"
+        },
+        {
+            "name": "cost_list_30",
+            "type": "int32"
+        }
+    ]
+}

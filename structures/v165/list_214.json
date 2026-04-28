@@ -1,0 +1,765 @@
+{
+    "name": "TALENT_SCROLL_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "prop_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "prop_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "prop_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "prop_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "spe_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_1_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_1_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_1_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_1_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_1_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_2_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_2_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_2_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_2_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_2_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_3_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_3_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_3_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_3_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_3_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_4_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_4_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_4_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_4_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_4_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_5_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_5_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_5_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_5_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_5_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_6_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_6_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_6_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_6_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_6_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_7_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_7_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_7_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_7_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_7_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_8_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_8_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_8_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_8_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_8_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_9_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_9_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_9_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_9_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_9_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_10_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_10_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_10_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_10_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_10_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_11_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_11_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_11_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_11_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_11_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_12_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_12_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_12_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_12_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_12_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_13_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_13_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_13_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_13_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_13_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_14_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_14_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_14_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_14_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_14_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_15_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_15_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_15_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_15_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_15_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_16_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_16_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_16_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_16_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_16_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_17_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_17_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_17_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_17_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_17_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_18_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_18_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_18_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_18_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_18_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_19_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_19_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_19_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_19_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_19_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_20_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_20_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_20_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_20_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_20_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_21_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_21_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_21_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_21_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_21_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_22_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_22_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_22_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_22_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_22_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_23_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_23_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_23_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_23_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_23_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_24_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_24_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_24_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_24_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_24_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_25_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_25_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_25_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_25_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_25_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_26_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_26_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_26_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_26_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_26_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_27_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_27_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_27_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_27_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_27_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_28_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_28_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_28_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_28_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_28_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_29_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_29_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_29_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_29_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_29_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_30_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_30_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_30_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_30_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_30_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_31_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_31_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_31_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_31_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_31_prob",
+            "type": "float"
+        },
+        {
+            "name": "property_32_prop_id",
+            "type": "int32"
+        },
+        {
+            "name": "property_32_max_value",
+            "type": "float"
+        },
+        {
+            "name": "property_32_min_value",
+            "type": "float"
+        },
+        {
+            "name": "property_32_add_value",
+            "type": "float"
+        },
+        {
+            "name": "property_32_prob",
+            "type": "float"
+        },
+        {
+            "name": "level_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "profession_addon_skill_1",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_2",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_3",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_4",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_5",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_6",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_7",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_8",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_9",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_10",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_11",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_12",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_13",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_14",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_15",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_16",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_17",
+            "type": "int32"
+        },
+        {
+            "name": "profession_addon_skill_18",
+            "type": "int32"
+        }
+    ]
+}

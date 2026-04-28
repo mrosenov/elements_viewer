@@ -1,0 +1,73 @@
+{
+    "name": "BABY_TOY_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "model_path_id",
+            "type": "int32"
+        },
+        {
+            "name": "icon_path_id",
+            "type": "int32"
+        },
+        {
+            "name": "equip_mask",
+            "type": "int32"
+        },
+        {
+            "name": "init_time_points",
+            "type": "int32"
+        },
+        {
+            "name": "toy_level",
+            "type": "int32"
+        },
+        {
+            "name": "added_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "added_defense_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "added_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "added_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "added_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "added_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "sell_price",
+            "type": "int32"
+        },
+        {
+            "name": "buy_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "trade_behavior",
+            "type": "int32"
+        }
+    ]
+}

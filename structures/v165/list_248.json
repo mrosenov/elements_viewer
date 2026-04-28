@@ -1,0 +1,3213 @@
+{
+    "name": "CONVERT_EQUIP_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "item_list_1_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_1_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_1_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_1_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_2_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_2_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_2_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_2_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_3_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_3_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_3_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_3_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_4_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_4_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_4_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_4_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_5_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_5_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_5_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_5_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_6_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_6_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_6_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_6_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_7_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_7_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_7_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_7_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_8_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_8_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_8_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_8_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_9_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_9_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_9_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_9_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_10_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_10_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_10_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_10_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_11_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_11_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_11_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_11_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_12_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_12_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_12_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_12_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_13_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_13_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_13_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_13_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_14_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_14_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_14_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_14_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_15_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_15_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_15_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_15_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_16_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_16_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_16_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_16_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_17_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_17_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_17_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_17_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_18_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_18_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_18_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_18_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_19_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_19_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_19_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_19_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_20_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_20_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_20_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_20_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_21_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_21_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_21_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_21_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_22_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_22_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_22_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_22_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_23_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_23_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_23_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_23_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_24_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_24_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_24_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_24_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_25_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_25_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_25_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_25_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_26_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_26_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_26_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_26_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_27_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_27_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_27_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_27_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_28_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_28_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_28_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_28_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_29_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_29_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_29_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_29_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_30_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_30_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_30_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_30_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_31_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_31_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_31_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_31_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_32_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_32_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_32_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_32_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_33_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_33_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_33_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_33_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_34_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_34_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_34_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_34_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_35_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_35_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_35_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_35_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_36_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_36_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_36_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_36_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_37_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_37_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_37_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_37_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_38_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_38_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_38_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_38_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_39_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_39_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_39_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_39_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_40_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_40_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_40_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_40_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_41_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_41_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_41_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_41_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_42_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_42_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_42_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_42_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_43_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_43_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_43_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_43_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_44_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_44_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_44_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_44_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_45_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_45_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_45_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_45_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_46_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_46_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_46_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_46_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_47_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_47_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_47_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_47_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_48_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_48_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_48_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_48_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_49_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_49_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_49_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_49_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_50_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_50_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_50_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_50_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_51_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_51_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_51_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_51_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_52_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_52_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_52_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_52_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_53_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_53_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_53_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_53_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_54_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_54_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_54_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_54_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_55_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_55_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_55_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_55_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_56_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_56_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_56_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_56_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_57_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_57_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_57_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_57_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_58_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_58_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_58_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_58_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_59_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_59_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_59_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_59_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_60_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_60_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_60_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_60_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_61_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_61_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_61_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_61_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_62_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_62_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_62_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_62_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_63_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_63_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_63_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_63_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_64_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_64_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_64_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_64_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_65_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_65_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_65_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_65_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_66_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_66_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_66_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_66_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_67_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_67_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_67_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_67_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_68_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_68_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_68_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_68_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_69_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_69_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_69_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_69_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_70_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_70_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_70_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_70_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_71_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_71_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_71_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_71_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_72_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_72_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_72_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_72_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_73_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_73_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_73_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_73_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_74_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_74_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_74_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_74_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_75_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_75_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_75_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_75_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_76_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_76_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_76_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_76_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_77_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_77_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_77_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_77_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_78_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_78_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_78_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_78_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_79_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_79_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_79_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_79_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_80_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_80_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_80_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_80_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_81_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_81_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_81_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_81_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_82_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_82_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_82_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_82_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_83_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_83_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_83_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_83_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_84_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_84_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_84_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_84_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_85_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_85_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_85_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_85_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_86_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_86_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_86_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_86_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_87_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_87_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_87_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_87_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_88_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_88_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_88_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_88_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_89_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_89_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_89_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_89_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_90_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_90_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_90_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_90_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_91_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_91_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_91_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_91_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_92_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_92_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_92_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_92_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_93_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_93_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_93_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_93_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_94_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_94_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_94_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_94_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_95_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_95_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_95_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_95_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_96_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_96_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_96_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_96_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_97_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_97_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_97_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_97_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_98_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_98_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_98_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_98_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_99_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_99_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_99_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_99_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_100_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_100_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_100_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_100_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_101_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_101_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_101_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_101_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_102_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_102_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_102_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_102_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_103_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_103_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_103_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_103_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_104_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_104_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_104_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_104_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_105_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_105_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_105_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_105_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_106_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_106_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_106_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_106_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_107_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_107_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_107_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_107_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_108_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_108_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_108_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_108_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_109_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_109_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_109_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_109_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_110_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_110_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_110_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_110_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_111_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_111_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_111_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_111_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_112_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_112_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_112_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_112_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_113_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_113_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_113_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_113_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_114_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_114_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_114_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_114_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_115_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_115_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_115_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_115_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_116_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_116_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_116_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_116_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_117_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_117_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_117_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_117_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_118_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_118_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_118_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_118_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_119_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_119_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_119_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_119_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_120_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_120_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_120_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_120_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_121_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_121_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_121_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_121_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_122_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_122_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_122_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_122_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_123_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_123_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_123_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_123_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_124_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_124_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_124_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_124_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_125_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_125_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_125_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_125_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_126_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_126_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_126_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_126_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_127_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_127_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_127_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_127_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_128_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_128_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_128_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_128_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_129_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_129_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_129_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_129_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_130_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_130_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_130_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_130_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_131_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_131_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_131_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_131_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_132_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_132_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_132_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_132_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_133_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_133_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_133_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_133_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_134_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_134_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_134_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_134_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_135_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_135_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_135_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_135_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_136_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_136_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_136_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_136_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_137_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_137_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_137_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_137_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_138_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_138_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_138_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_138_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_139_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_139_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_139_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_139_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_140_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_140_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_140_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_140_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_141_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_141_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_141_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_141_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_142_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_142_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_142_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_142_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_143_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_143_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_143_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_143_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_144_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_144_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_144_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_144_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_145_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_145_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_145_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_145_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_146_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_146_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_146_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_146_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_147_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_147_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_147_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_147_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_148_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_148_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_148_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_148_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_149_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_149_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_149_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_149_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_150_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_150_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_150_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_150_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_151_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_151_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_151_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_151_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_152_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_152_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_152_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_152_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_153_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_153_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_153_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_153_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_154_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_154_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_154_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_154_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_155_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_155_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_155_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_155_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_156_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_156_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_156_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_156_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_157_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_157_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_157_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_157_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_158_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_158_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_158_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_158_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_159_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_159_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_159_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_159_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_160_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_160_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_160_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_160_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_161_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_161_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_161_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_161_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_162_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_162_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_162_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_162_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_163_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_163_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_163_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_163_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_164_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_164_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_164_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_164_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_165_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_165_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_165_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_165_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_166_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_166_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_166_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_166_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_167_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_167_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_167_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_167_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_168_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_168_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_168_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_168_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_169_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_169_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_169_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_169_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_170_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_170_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_170_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_170_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_171_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_171_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_171_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_171_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_172_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_172_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_172_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_172_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_173_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_173_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_173_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_173_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_174_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_174_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_174_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_174_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_175_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_175_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_175_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_175_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_176_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_176_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_176_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_176_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_177_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_177_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_177_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_177_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_178_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_178_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_178_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_178_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_179_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_179_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_179_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_179_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_180_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_180_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_180_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_180_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_181_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_181_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_181_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_181_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_182_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_182_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_182_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_182_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_183_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_183_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_183_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_183_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_184_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_184_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_184_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_184_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_185_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_185_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_185_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_185_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_186_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_186_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_186_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_186_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_187_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_187_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_187_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_187_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_188_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_188_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_188_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_188_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_189_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_189_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_189_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_189_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_190_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_190_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_190_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_190_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_191_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_191_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_191_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_191_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_192_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_192_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_192_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_192_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_193_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_193_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_193_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_193_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_194_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_194_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_194_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_194_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_195_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_195_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_195_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_195_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_196_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_196_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_196_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_196_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_197_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_197_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_197_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_197_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_198_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_198_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_198_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_198_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_199_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_199_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_199_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_199_output_equip_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_200_equip_require_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_200_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_200_stone_amount",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_200_output_equip_id",
+            "type": "int32"
+        }
+    ]
+}

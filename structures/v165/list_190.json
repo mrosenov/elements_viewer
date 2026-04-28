@@ -1,0 +1,2013 @@
+{
+    "name": "FACTION_AUCTION_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "faction_auction_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_1_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_1_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_1_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_1_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_2_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_2_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_2_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_2_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_3_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_3_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_3_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_3_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_4_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_4_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_4_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_4_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_5_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_5_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_5_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_5_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_6_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_6_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_6_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_6_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_7_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_7_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_7_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_7_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_8_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_8_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_8_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_8_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_9_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_9_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_9_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_9_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_10_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_10_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_10_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_10_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_11_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_11_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_11_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_11_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_12_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_12_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_12_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_12_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_13_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_13_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_13_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_13_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_14_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_14_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_14_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_14_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_15_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_15_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_15_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_15_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_16_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_16_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_16_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_16_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_17_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_17_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_17_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_17_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_18_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_18_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_18_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_18_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_19_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_19_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_19_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_19_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_20_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_20_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_20_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_20_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_21_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_21_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_21_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_21_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_22_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_22_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_22_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_22_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_23_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_23_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_23_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_23_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_24_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_24_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_24_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_24_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_25_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_25_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_25_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_25_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_25_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_26_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_26_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_26_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_26_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_26_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_27_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_27_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_27_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_27_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_27_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_28_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_28_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_28_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_28_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_28_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_29_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_29_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_29_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_29_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_29_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_30_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_30_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_30_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_30_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_30_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_31_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_31_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_31_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_31_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_31_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_32_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_32_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_32_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_32_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_32_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_33_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_33_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_33_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_33_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_33_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_34_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_34_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_34_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_34_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_34_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_35_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_35_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_35_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_35_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_35_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_36_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_36_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_36_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_36_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_36_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_37_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_37_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_37_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_37_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_37_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_38_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_38_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_38_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_38_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_38_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_39_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_39_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_39_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_39_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_39_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_40_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_40_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_40_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_40_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_40_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_41_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_41_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_41_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_41_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_41_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_42_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_42_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_42_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_42_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_42_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_43_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_43_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_43_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_43_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_43_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_44_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_44_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_44_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_44_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_44_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_45_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_45_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_45_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_45_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_45_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_46_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_46_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_46_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_46_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_46_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_47_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_47_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_47_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_47_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_47_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_48_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_48_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_48_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_48_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_48_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_49_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_49_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_49_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_49_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_49_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_50_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_50_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_50_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_50_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_50_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_51_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_51_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_51_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_51_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_51_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_52_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_52_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_52_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_52_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_52_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_53_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_53_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_53_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_53_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_53_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_54_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_54_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_54_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_54_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_54_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_55_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_55_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_55_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_55_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_55_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_56_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_56_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_56_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_56_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_56_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_57_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_57_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_57_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_57_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_57_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_58_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_58_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_58_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_58_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_58_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_59_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_59_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_59_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_59_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_59_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_60_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_60_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_60_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_60_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_60_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_61_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_61_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_61_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_61_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_61_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_62_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_62_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_62_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_62_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_62_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_63_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_63_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_63_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_63_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_63_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_64_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_64_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_64_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_64_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_64_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_65_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_65_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_65_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_65_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_65_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_66_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_66_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_66_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_66_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_66_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_67_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_67_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_67_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_67_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_67_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_68_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_68_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_68_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_68_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_68_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_69_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_69_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_69_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_69_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_69_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_70_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_70_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_70_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_70_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_70_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_71_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_71_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_71_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_71_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_71_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_72_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_72_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_72_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_72_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_72_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_73_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_73_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_73_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_73_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_73_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_74_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_74_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_74_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_74_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_74_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_75_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_75_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_75_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_75_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_75_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_76_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_76_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_76_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_76_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_76_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_77_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_77_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_77_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_77_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_77_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_78_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_78_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_78_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_78_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_78_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_79_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_79_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_79_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_79_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_79_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_80_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_80_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_80_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_80_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_80_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_81_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_81_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_81_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_81_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_81_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_82_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_82_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_82_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_82_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_82_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_83_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_83_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_83_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_83_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_83_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_84_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_84_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_84_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_84_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_84_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_85_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_85_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_85_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_85_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_85_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_86_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_86_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_86_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_86_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_86_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_87_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_87_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_87_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_87_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_87_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_88_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_88_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_88_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_88_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_88_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_89_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_89_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_89_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_89_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_89_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_90_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_90_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_90_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_90_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_90_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_91_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_91_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_91_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_91_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_91_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_92_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_92_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_92_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_92_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_92_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_93_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_93_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_93_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_93_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_93_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_94_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_94_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_94_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_94_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_94_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_95_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_95_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_95_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_95_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_95_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_96_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_96_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_96_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_96_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_96_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_97_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_97_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_97_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_97_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_97_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_98_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_98_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_98_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_98_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_98_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_99_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_99_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_99_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_99_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_99_words",
+            "type": "wstring:200"
+        },
+        {
+            "name": "faction_auction_list_100_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_100_baseprice",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_100_file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_100_aucitontime",
+            "type": "int32"
+        },
+        {
+            "name": "faction_auction_list_100_words",
+            "type": "wstring:200"
+        }
+    ]
+}

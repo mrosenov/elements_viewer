@@ -1,0 +1,525 @@
+{
+    "name": "MATRIX_COLLECT_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "matrixsets_1_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "matrixsets_1_addon",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_1",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_2",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_3",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_4",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_5",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_6",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_7",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_8",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_9",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_10",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_11",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_12",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_13",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_14",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_15",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_16",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_17",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_18",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_19",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_20",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_21",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_22",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_23",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_24",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_25",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_26",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_27",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_28",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_29",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_1_cards_30",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "matrixsets_2_addon",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_1",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_2",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_3",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_4",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_5",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_6",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_7",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_8",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_9",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_10",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_11",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_12",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_13",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_14",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_15",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_16",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_17",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_18",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_19",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_20",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_21",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_22",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_23",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_24",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_25",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_26",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_27",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_28",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_29",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_2_cards_30",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "matrixsets_3_addon",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_1",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_2",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_3",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_4",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_5",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_6",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_7",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_8",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_9",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_10",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_11",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_12",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_13",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_14",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_15",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_16",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_17",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_18",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_19",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_20",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_21",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_22",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_23",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_24",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_25",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_26",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_27",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_28",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_29",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_3_cards_30",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "matrixsets_4_addon",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_1",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_2",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_3",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_4",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_5",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_6",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_7",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_8",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_9",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_10",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_11",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_12",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_13",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_14",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_15",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_16",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_17",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_18",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_19",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_20",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_21",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_22",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_23",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_24",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_25",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_26",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_27",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_28",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_29",
+            "type": "int32"
+        },
+        {
+            "name": "matrixsets_4_cards_30",
+            "type": "int32"
+        }
+    ]
+}

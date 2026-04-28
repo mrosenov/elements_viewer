@@ -1,0 +1,269 @@
+{
+    "name": "TALENT_SCROLL_SKILL_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "skill_1_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_1_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_1_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_1_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_2_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_2_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_2_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_2_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_3_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_3_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_3_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_3_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_4_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_4_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_4_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_4_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_5_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_5_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_5_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_5_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_6_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_6_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_6_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_6_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_7_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_7_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_7_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_7_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_8_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_8_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_8_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_8_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_9_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_9_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_9_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_9_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_10_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_10_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_10_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_10_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_11_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_11_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_11_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_11_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_12_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_12_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_12_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_12_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_13_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_13_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_13_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_13_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_14_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_14_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_14_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_14_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_15_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_15_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_15_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_15_desc",
+            "type": "wstring:512"
+        },
+        {
+            "name": "skill_16_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_16_level",
+            "type": "int32"
+        },
+        {
+            "name": "skill_16_prob",
+            "type": "float"
+        },
+        {
+            "name": "skill_16_desc",
+            "type": "wstring:512"
+        }
+    ]
+}

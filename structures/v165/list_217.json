@@ -1,0 +1,381 @@
+{
+    "name": "HILL_TRANSCRIPTION_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "max_finish_count",
+            "type": "int32"
+        },
+        {
+            "name": "map_id",
+            "type": "int32"
+        },
+        {
+            "name": "open_room_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "open_room_item_count",
+            "type": "int32"
+        },
+        {
+            "name": "room_active_time",
+            "type": "int32"
+        },
+        {
+            "name": "player_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "player_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "character_combo_id",
+            "type": "int64"
+        },
+        {
+            "name": "character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "god_devil_mask",
+            "type": "int32"
+        },
+        {
+            "name": "renascence_count",
+            "type": "int32"
+        },
+        {
+            "name": "required_race",
+            "type": "int32"
+        },
+        {
+            "name": "required_money",
+            "type": "int32"
+        },
+        {
+            "name": "required_reputation_1_type",
+            "type": "int32"
+        },
+        {
+            "name": "required_reputation_1_value",
+            "type": "int32"
+        },
+        {
+            "name": "required_reputation_2_type",
+            "type": "int32"
+        },
+        {
+            "name": "required_reputation_2_value",
+            "type": "int32"
+        },
+        {
+            "name": "required_reputation_3_type",
+            "type": "int32"
+        },
+        {
+            "name": "required_reputation_3_value",
+            "type": "int32"
+        },
+        {
+            "name": "required_reputation_4_type",
+            "type": "int32"
+        },
+        {
+            "name": "required_reputation_4_value",
+            "type": "int32"
+        },
+        {
+            "name": "required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "required_item_count",
+            "type": "int32"
+        },
+        {
+            "name": "is_item_need_consumed",
+            "type": "int32"
+        },
+        {
+            "name": "min_player_num",
+            "type": "int32"
+        },
+        {
+            "name": "max_player_num",
+            "type": "int32"
+        },
+        {
+            "name": "invincible_time",
+            "type": "int32"
+        },
+        {
+            "name": "wait_time_before_leave",
+            "type": "int32"
+        },
+        {
+            "name": "total_exist_time",
+            "type": "int32"
+        },
+        {
+            "name": "controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_task_id",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_items_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_items_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_items_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_items_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_items_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_items_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_items_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_items_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_items_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_items_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "forbidden_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_11",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_12",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_13",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_14",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_15",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_16",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_17",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_18",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_19",
+            "type": "int32"
+        },
+        {
+            "name": "map_variable_id_20",
+            "type": "int32"
+        },
+        {
+            "name": "level_controller_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "level_controller_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "level_controller_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "level_controller_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "level_controller_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "level_controller_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "level_controller_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "level_controller_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "level_controller_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "level_controller_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "strategy_1",
+            "type": "int32"
+        },
+        {
+            "name": "strategy_2",
+            "type": "int32"
+        },
+        {
+            "name": "strategy_3",
+            "type": "int32"
+        },
+        {
+            "name": "strategy_4",
+            "type": "int32"
+        },
+        {
+            "name": "strategy_5",
+            "type": "int32"
+        },
+        {
+            "name": "strategy_6",
+            "type": "int32"
+        },
+        {
+            "name": "strategy_7",
+            "type": "int32"
+        },
+        {
+            "name": "strategy_8",
+            "type": "int32"
+        },
+        {
+            "name": "strategy_9",
+            "type": "int32"
+        },
+        {
+            "name": "strategy_10",
+            "type": "int32"
+        },
+        {
+            "name": "difficulty",
+            "type": "int32"
+        }
+    ]
+}

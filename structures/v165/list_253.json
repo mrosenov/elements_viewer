@@ -1,0 +1,3789 @@
+{
+    "name": "NEW_FASHION_PACK_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "file_matter",
+            "type": "int32"
+        },
+        {
+            "name": "file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "item_duration",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_1_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_1_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_1_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_2_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_2_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_2_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_3_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_3_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_3_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_4_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_4_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_4_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_5_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_5_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_5_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_6_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_6_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_6_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_7_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_7_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_7_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_8_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_8_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_8_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_9_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_9_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_9_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_10_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_10_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_10_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_11_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_11_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_11_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_12_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_12_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_12_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_13_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_13_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_13_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_14_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_14_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_14_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_15_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_15_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_15_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_16_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_16_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_16_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_17_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_17_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_17_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_18_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_18_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_18_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_19_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_19_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_19_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_20_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_20_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_20_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_21_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_21_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_21_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_22_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_22_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_22_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_23_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_23_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_23_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_24_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_24_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_24_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_25_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_25_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_25_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_26_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_26_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_26_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_27_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_27_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_27_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_28_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_28_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_28_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_29_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_29_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_29_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_30_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_30_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_30_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_31_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_31_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_31_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_32_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_32_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_32_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_33_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_33_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_33_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_34_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_34_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_34_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_35_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_35_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_35_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "option_36_character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "option_36_require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_require_ascension",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_require_min_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_require_max_level",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "option_36_award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "price",
+            "type": "int32"
+        },
+        {
+            "name": "shop_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "proc_type",
+            "type": "int32"
+        }
+    ]
+}

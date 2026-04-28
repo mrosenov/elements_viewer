@@ -1,0 +1,1581 @@
+{
+    "name": "CROSS6V6_ITEM_EXCHANGE_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_8",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_1_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_1_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_1_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_1_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_2_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_2_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_2_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_2_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_3_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_3_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_3_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_3_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_4_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_4_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_4_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_4_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_5_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_5_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_5_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_5_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_6_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_6_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_6_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_6_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_7_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_7_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_7_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_7_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_8_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_8_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_8_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_8_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_9_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_9_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_9_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_9_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_10_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_10_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_10_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_10_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_11_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_11_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_11_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_11_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_12_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_12_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_12_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_12_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_13_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_13_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_13_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_13_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_14_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_14_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_14_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_14_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_15_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_15_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_15_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_15_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_16_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_16_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_16_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_16_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_17_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_17_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_17_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_17_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_18_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_18_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_18_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_18_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_19_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_19_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_19_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_19_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_20_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_20_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_20_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_20_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_21_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_21_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_21_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_21_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_22_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_22_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_22_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_22_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_23_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_23_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_23_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_23_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_24_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_24_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_24_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_24_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_25_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_25_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_25_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_25_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_25_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_25_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_26_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_26_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_26_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_26_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_26_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_26_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_27_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_27_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_27_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_27_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_27_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_27_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_28_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_28_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_28_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_28_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_28_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_28_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_29_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_29_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_29_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_29_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_29_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_29_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_30_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_30_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_30_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_30_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_30_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_30_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_31_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_31_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_31_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_31_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_31_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_31_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_32_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_32_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_32_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_32_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_32_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_32_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_33_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_33_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_33_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_33_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_33_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_33_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_34_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_34_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_34_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_34_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_34_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_34_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_35_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_35_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_35_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_35_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_35_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_35_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_36_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_36_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_36_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_36_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_36_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_36_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_37_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_37_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_37_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_37_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_37_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_37_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_38_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_38_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_38_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_38_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_38_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_38_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_39_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_39_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_39_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_39_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_39_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_39_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_40_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_40_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_40_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_40_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_40_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_40_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_41_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_41_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_41_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_41_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_41_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_41_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_42_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_42_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_42_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_42_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_42_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_42_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_43_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_43_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_43_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_43_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_43_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_43_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_44_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_44_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_44_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_44_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_44_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_44_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_45_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_45_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_45_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_45_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_45_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_45_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_46_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_46_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_46_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_46_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_46_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_46_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_47_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_47_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_47_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_47_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_47_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_47_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_48_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_48_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_48_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_48_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_48_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_48_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_49_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_49_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_49_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_49_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_49_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_49_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_50_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_50_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_50_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_50_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_50_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_50_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_51_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_51_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_51_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_51_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_51_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_51_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_52_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_52_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_52_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_52_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_52_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_52_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_53_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_53_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_53_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_53_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_53_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_53_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_54_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_54_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_54_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_54_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_54_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_54_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_55_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_55_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_55_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_55_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_55_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_55_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_56_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_56_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_56_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_56_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_56_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_56_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_57_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_57_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_57_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_57_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_57_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_57_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_58_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_58_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_58_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_58_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_58_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_58_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_59_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_59_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_59_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_59_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_59_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_59_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_60_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_60_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_60_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_60_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_60_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_60_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_61_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_61_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_61_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_61_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_61_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_61_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_62_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_62_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_62_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_62_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_62_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_62_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_63_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_63_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_63_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_63_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_63_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_63_exchange_count",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_64_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_64_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_64_require_currency_id",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_64_require_currnecy_num",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_64_time_limit",
+            "type": "int32"
+        },
+        {
+            "name": "cross6v6_item_exchange_info_64_exchange_count",
+            "type": "int32"
+        }
+    ]
+}

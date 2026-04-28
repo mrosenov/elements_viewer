@@ -1,0 +1,5333 @@
+{
+    "name": "CHARGE_AWARD_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "feedback_list_1_item_list_1_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_2_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_3_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_4_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_5_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_5_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_6_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_6_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_7_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_7_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_8_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_8_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_9_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_9_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_10_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_10_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_11_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_11_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_12_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_12_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_13_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_13_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_14_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_14_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_15_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_15_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_16_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_16_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_17_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_17_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_18_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_18_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_19_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_19_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_20_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_20_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_21_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_21_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_22_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_22_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_23_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_23_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_24_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_1_item_list_24_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_1_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_2_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_3_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_4_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_5_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_5_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_6_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_6_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_7_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_7_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_8_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_8_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_9_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_9_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_10_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_10_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_11_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_11_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_12_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_12_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_13_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_13_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_14_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_14_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_15_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_15_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_16_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_16_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_17_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_17_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_18_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_18_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_19_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_19_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_20_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_20_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_21_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_21_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_22_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_22_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_23_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_23_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_24_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_2_item_list_24_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_1_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_2_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_3_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_4_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_5_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_5_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_6_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_6_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_7_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_7_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_8_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_8_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_9_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_9_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_10_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_10_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_11_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_11_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_12_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_12_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_13_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_13_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_14_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_14_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_15_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_15_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_16_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_16_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_17_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_17_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_18_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_18_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_19_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_19_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_20_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_20_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_21_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_21_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_22_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_22_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_23_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_23_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_24_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_3_item_list_24_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_1_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_2_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_3_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_4_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_5_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_5_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_6_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_6_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_7_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_7_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_8_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_8_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_9_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_9_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_10_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_10_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_11_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_11_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_12_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_12_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_13_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_13_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_14_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_14_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_15_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_15_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_16_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_16_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_17_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_17_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_18_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_18_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_19_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_19_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_20_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_20_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_21_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_21_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_22_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_22_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_23_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_23_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_24_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_4_item_list_24_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_1_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_2_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_3_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_4_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_5_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_5_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_6_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_6_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_7_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_7_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_8_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_8_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_9_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_9_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_10_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_10_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_11_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_11_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_12_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_12_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_13_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_13_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_14_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_14_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_15_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_15_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_16_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_16_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_17_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_17_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_18_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_18_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_19_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_19_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_20_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_20_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_21_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_21_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_22_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_22_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_23_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_23_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_24_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_5_item_list_24_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_1_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_2_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_3_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_4_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_5_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_5_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_6_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_6_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_7_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_7_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_8_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_8_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_9_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_9_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_10_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_10_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_11_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_11_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_12_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_12_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_13_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_13_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_14_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_14_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_15_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_15_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_16_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_16_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_17_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_17_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_18_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_18_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_19_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_19_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_20_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_20_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_21_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_21_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_22_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_22_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_23_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_23_indate",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_24_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "feedback_list_6_item_list_24_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_1_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_1_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_2_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_2_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_3_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_3_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_4_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_4_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_5_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_5_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_5_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_6_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_6_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_6_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_7_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_7_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_7_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_8_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_8_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_8_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_9_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_9_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_9_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_10_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_10_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_10_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_11_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_11_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_11_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_12_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_12_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_12_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_13_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_13_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_13_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_14_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_14_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_14_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_15_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_15_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_15_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_16_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_16_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_16_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_17_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_17_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_17_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_18_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_18_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_18_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_19_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_19_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_19_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_20_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_20_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_20_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_21_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_21_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_21_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_22_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_22_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_22_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_23_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_23_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_23_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_24_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_24_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_1_item_exchange_list_24_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_1_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_1_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_2_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_2_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_3_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_3_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_4_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_4_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_5_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_5_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_5_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_6_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_6_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_6_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_7_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_7_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_7_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_8_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_8_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_8_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_9_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_9_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_9_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_10_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_10_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_10_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_11_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_11_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_11_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_12_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_12_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_12_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_13_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_13_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_13_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_14_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_14_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_14_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_15_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_15_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_15_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_16_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_16_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_16_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_17_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_17_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_17_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_18_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_18_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_18_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_19_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_19_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_19_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_20_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_20_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_20_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_21_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_21_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_21_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_22_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_22_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_22_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_23_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_23_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_23_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_24_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_24_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_2_item_exchange_list_24_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_1_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_1_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_2_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_2_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_3_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_3_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_4_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_4_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_5_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_5_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_5_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_6_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_6_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_6_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_7_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_7_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_7_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_8_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_8_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_8_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_9_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_9_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_9_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_10_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_10_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_10_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_11_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_11_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_11_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_12_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_12_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_12_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_13_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_13_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_13_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_14_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_14_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_14_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_15_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_15_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_15_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_16_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_16_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_16_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_17_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_17_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_17_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_18_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_18_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_18_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_19_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_19_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_19_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_20_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_20_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_20_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_21_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_21_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_21_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_22_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_22_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_22_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_23_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_23_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_23_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_24_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_24_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_3_item_exchange_list_24_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_1_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_1_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_2_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_2_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_3_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_3_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_4_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_4_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_5_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_5_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_5_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_6_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_6_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_6_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_7_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_7_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_7_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_8_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_8_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_8_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_9_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_9_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_9_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_10_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_10_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_10_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_11_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_11_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_11_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_12_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_12_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_12_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_13_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_13_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_13_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_14_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_14_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_14_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_15_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_15_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_15_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_16_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_16_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_16_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_17_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_17_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_17_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_18_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_18_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_18_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_19_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_19_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_19_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_20_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_20_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_20_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_21_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_21_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_21_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_22_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_22_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_22_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_23_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_23_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_23_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_24_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_24_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_4_item_exchange_list_24_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_1_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_1_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_2_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_2_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_3_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_3_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_4_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_4_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_5_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_5_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_5_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_6_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_6_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_6_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_7_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_7_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_7_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_8_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_8_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_8_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_9_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_9_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_9_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_10_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_10_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_10_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_11_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_11_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_11_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_12_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_12_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_12_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_13_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_13_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_13_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_14_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_14_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_14_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_15_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_15_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_15_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_16_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_16_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_16_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_17_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_17_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_17_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_18_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_18_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_18_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_19_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_19_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_19_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_20_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_20_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_20_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_21_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_21_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_21_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_22_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_22_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_22_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_23_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_23_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_23_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_24_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_24_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_5_item_exchange_list_24_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_1_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_1_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_2_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_2_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_3_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_3_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_4_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_4_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_5_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_5_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_5_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_5_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_6_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_6_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_6_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_6_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_7_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_7_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_7_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_7_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_8_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_8_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_8_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_8_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_9_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_9_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_9_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_9_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_10_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_10_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_10_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_10_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_11_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_11_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_11_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_11_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_12_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_12_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_12_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_12_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_13_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_13_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_13_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_13_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_14_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_14_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_14_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_14_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_15_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_15_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_15_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_15_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_16_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_16_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_16_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_16_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_17_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_17_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_17_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_17_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_18_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_18_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_18_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_18_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_19_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_19_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_19_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_19_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_20_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_20_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_20_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_20_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_21_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_21_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_21_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_21_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_22_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_22_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_22_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_22_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_23_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_23_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_23_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_23_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_24_score_required",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_24_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_24_indate",
+            "type": "int32"
+        },
+        {
+            "name": "exchange_list_6_item_exchange_list_24_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "version",
+            "type": "int32"
+        },
+        {
+            "name": "activity_open",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "start_time",
+            "type": "int32"
+        },
+        {
+            "name": "end_time",
+            "type": "int32"
+        },
+        {
+            "name": "score_multiplier",
+            "type": "float"
+        },
+        {
+            "name": "extra_item_list_1_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_1_score_max",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_1_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_1_indate",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_2_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_2_score_max",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_2_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_2_indate",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_3_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_3_score_max",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_3_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_3_indate",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_4_score_min",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_4_score_max",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_4_item_num",
+            "type": "int32"
+        },
+        {
+            "name": "extra_item_list_4_indate",
+            "type": "int32"
+        },
+        {
+            "name": "extra_award_open",
+            "type": "int32"
+        },
+        {
+            "name": "extra_award_start_time",
+            "type": "int32"
+        },
+        {
+            "name": "extra_award_end_time",
+            "type": "int32"
+        }
+    ]
+}

@@ -1,0 +1,169 @@
+{
+    "name": "BABY_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "file_model",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved_1",
+            "type": "int32"
+        },
+        {
+            "name": "initweapon_model",
+            "type": "int32"
+        },
+        {
+            "name": "initbody_model",
+            "type": "int32"
+        },
+        {
+            "name": "init_foot_model",
+            "type": "int32"
+        },
+        {
+            "name": "init_hat_model",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_normal",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_tetra",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_left",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_back",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_changdao",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_judao",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_gong",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_sha_back",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_sha_01",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_sha_02",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved_2",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved_3",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved_4",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved_5",
+            "type": "int32"
+        },
+        {
+            "name": "gender",
+            "type": "int32"
+        },
+        {
+            "name": "sect_mask",
+            "type": "int32"
+        },
+        {
+            "name": "attack_range",
+            "type": "float"
+        },
+        {
+            "name": "skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_11",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_12",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_13",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_14",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_15",
+            "type": "int32"
+        },
+        {
+            "name": "description",
+            "type": "wstring:200"
+        }
+    ]
+}

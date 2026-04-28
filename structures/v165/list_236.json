@@ -1,0 +1,125 @@
+{
+    "name": "FACTION_BASE_ACTIVITY_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "activity_list_1_title",
+            "type": "wstring:16"
+        },
+        {
+            "name": "activity_list_1_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_1_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_1_res_type",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_1_res_count",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_1_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_1_region_index",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_2_title",
+            "type": "wstring:16"
+        },
+        {
+            "name": "activity_list_2_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_2_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_2_res_type",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_2_res_count",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_2_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_2_region_index",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_3_title",
+            "type": "wstring:16"
+        },
+        {
+            "name": "activity_list_3_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_3_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_3_res_type",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_3_res_count",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_3_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_3_region_index",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_4_title",
+            "type": "wstring:16"
+        },
+        {
+            "name": "activity_list_4_build_id",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_4_build_level",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_4_res_type",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_4_res_count",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_4_controller_id",
+            "type": "int32"
+        },
+        {
+            "name": "activity_list_4_region_index",
+            "type": "int32"
+        }
+    ]
+}

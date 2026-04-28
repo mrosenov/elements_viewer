@@ -1,0 +1,173 @@
+{
+    "name": "BABY_FASHION_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "model_path_id",
+            "type": "int32"
+        },
+        {
+            "name": "icon_path_id",
+            "type": "int32"
+        },
+        {
+            "name": "equip_mask",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "equip_location",
+            "type": "int32"
+        },
+        {
+            "name": "action_type",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_normal",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_tetra",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_left",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_back",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_changdao",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_judao",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_gong",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_sha_back",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_sha_01",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_sha_02",
+            "type": "int32"
+        },
+        {
+            "name": "file_model_reserved_1",
+            "type": "int32"
+        },
+        {
+            "name": "require_gender",
+            "type": "int32"
+        },
+        {
+            "name": "require_level",
+            "type": "int32"
+        },
+        {
+            "name": "sect_mask",
+            "type": "int32"
+        },
+        {
+            "name": "title_require",
+            "type": "int32"
+        },
+        {
+            "name": "hp",
+            "type": "int32"
+        },
+        {
+            "name": "mp",
+            "type": "int32"
+        },
+        {
+            "name": "min_dmg",
+            "type": "int32"
+        },
+        {
+            "name": "max_dmg",
+            "type": "int32"
+        },
+        {
+            "name": "defence",
+            "type": "int32"
+        },
+        {
+            "name": "attack",
+            "type": "int32"
+        },
+        {
+            "name": "armor",
+            "type": "int32"
+        },
+        {
+            "name": "attack_range",
+            "type": "float"
+        },
+        {
+            "name": "id_addon_1",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon_2",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon_3",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon_4",
+            "type": "int32"
+        },
+        {
+            "name": "id_addon_5",
+            "type": "int32"
+        },
+        {
+            "name": "fee_install_sstone",
+            "type": "int32"
+        },
+        {
+            "name": "fee_uninstall_sstone",
+            "type": "int32"
+        },
+        {
+            "name": "sell_price",
+            "type": "int32"
+        },
+        {
+            "name": "buy_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "trade_behavior",
+            "type": "int32"
+        }
+    ]
+}

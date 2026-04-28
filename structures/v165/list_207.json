@@ -1,0 +1,265 @@
+{
+    "name": "MATRIX_CARD_UPGREAD_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "exp_1",
+            "type": "int32"
+        },
+        {
+            "name": "exp_2",
+            "type": "int32"
+        },
+        {
+            "name": "exp_3",
+            "type": "int32"
+        },
+        {
+            "name": "exp_4",
+            "type": "int32"
+        },
+        {
+            "name": "exp_5",
+            "type": "int32"
+        },
+        {
+            "name": "exp_6",
+            "type": "int32"
+        },
+        {
+            "name": "exp_7",
+            "type": "int32"
+        },
+        {
+            "name": "exp_8",
+            "type": "int32"
+        },
+        {
+            "name": "exp_9",
+            "type": "int32"
+        },
+        {
+            "name": "exp_10",
+            "type": "int32"
+        },
+        {
+            "name": "exp_11",
+            "type": "int32"
+        },
+        {
+            "name": "exp_12",
+            "type": "int32"
+        },
+        {
+            "name": "exp_13",
+            "type": "int32"
+        },
+        {
+            "name": "exp_14",
+            "type": "int32"
+        },
+        {
+            "name": "exp_15",
+            "type": "int32"
+        },
+        {
+            "name": "exp_16",
+            "type": "int32"
+        },
+        {
+            "name": "exp_17",
+            "type": "int32"
+        },
+        {
+            "name": "exp_18",
+            "type": "int32"
+        },
+        {
+            "name": "exp_19",
+            "type": "int32"
+        },
+        {
+            "name": "exp_20",
+            "type": "int32"
+        },
+        {
+            "name": "exp_21",
+            "type": "int32"
+        },
+        {
+            "name": "exp_22",
+            "type": "int32"
+        },
+        {
+            "name": "exp_23",
+            "type": "int32"
+        },
+        {
+            "name": "exp_24",
+            "type": "int32"
+        },
+        {
+            "name": "exp_25",
+            "type": "int32"
+        },
+        {
+            "name": "exp_26",
+            "type": "int32"
+        },
+        {
+            "name": "exp_27",
+            "type": "int32"
+        },
+        {
+            "name": "exp_28",
+            "type": "int32"
+        },
+        {
+            "name": "exp_29",
+            "type": "int32"
+        },
+        {
+            "name": "exp_30",
+            "type": "int32"
+        },
+        {
+            "name": "exp_31",
+            "type": "int32"
+        },
+        {
+            "name": "exp_32",
+            "type": "int32"
+        },
+        {
+            "name": "exp_33",
+            "type": "int32"
+        },
+        {
+            "name": "exp_34",
+            "type": "int32"
+        },
+        {
+            "name": "exp_35",
+            "type": "int32"
+        },
+        {
+            "name": "exp_36",
+            "type": "int32"
+        },
+        {
+            "name": "exp_37",
+            "type": "int32"
+        },
+        {
+            "name": "exp_38",
+            "type": "int32"
+        },
+        {
+            "name": "exp_39",
+            "type": "int32"
+        },
+        {
+            "name": "exp_40",
+            "type": "int32"
+        },
+        {
+            "name": "exp_41",
+            "type": "int32"
+        },
+        {
+            "name": "exp_42",
+            "type": "int32"
+        },
+        {
+            "name": "exp_43",
+            "type": "int32"
+        },
+        {
+            "name": "exp_44",
+            "type": "int32"
+        },
+        {
+            "name": "exp_45",
+            "type": "int32"
+        },
+        {
+            "name": "exp_46",
+            "type": "int32"
+        },
+        {
+            "name": "exp_47",
+            "type": "int32"
+        },
+        {
+            "name": "exp_48",
+            "type": "int32"
+        },
+        {
+            "name": "exp_49",
+            "type": "int32"
+        },
+        {
+            "name": "exp_50",
+            "type": "int32"
+        },
+        {
+            "name": "exp_51",
+            "type": "int32"
+        },
+        {
+            "name": "exp_52",
+            "type": "int32"
+        },
+        {
+            "name": "exp_53",
+            "type": "int32"
+        },
+        {
+            "name": "exp_54",
+            "type": "int32"
+        },
+        {
+            "name": "exp_55",
+            "type": "int32"
+        },
+        {
+            "name": "exp_56",
+            "type": "int32"
+        },
+        {
+            "name": "exp_57",
+            "type": "int32"
+        },
+        {
+            "name": "exp_58",
+            "type": "int32"
+        },
+        {
+            "name": "exp_59",
+            "type": "int32"
+        },
+        {
+            "name": "val_1",
+            "type": "float"
+        },
+        {
+            "name": "val_2",
+            "type": "float"
+        },
+        {
+            "name": "val_3",
+            "type": "float"
+        },
+        {
+            "name": "val_4",
+            "type": "float"
+        }
+    ]
+}

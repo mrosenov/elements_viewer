@@ -1,0 +1,233 @@
+{
+    "name": "SPECIAL_VIP_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "card_list_1_money",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_1_open_day",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_1_gift_bag_id",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_1_exp_per_day",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_1_exp_added",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_1_free_helper",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_1_no_exp_loss",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_1_buff_list_1_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_1_buff_list_1_skill_level",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_1_buff_list_2_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_1_buff_list_2_skill_level",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_1_buff_list_3_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_1_buff_list_3_skill_level",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_money",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_open_day",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_gift_bag_id",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_exp_per_day",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_exp_added",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_free_helper",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_no_exp_loss",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_buff_list_1_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_buff_list_1_skill_level",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_buff_list_2_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_buff_list_2_skill_level",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_buff_list_3_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_2_buff_list_3_skill_level",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_money",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_open_day",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_gift_bag_id",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_exp_per_day",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_exp_added",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_free_helper",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_no_exp_loss",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_buff_list_1_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_buff_list_1_skill_level",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_buff_list_2_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_buff_list_2_skill_level",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_buff_list_3_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "card_list_3_buff_list_3_skill_level",
+            "type": "int32"
+        },
+        {
+            "name": "remote_bag_money",
+            "type": "int32"
+        },
+        {
+            "name": "remote_bag_day",
+            "type": "int32"
+        },
+        {
+            "name": "remote_exp_per_day",
+            "type": "int32"
+        },
+        {
+            "name": "free_fly_money",
+            "type": "int32"
+        },
+        {
+            "name": "free_fly_day",
+            "type": "int32"
+        },
+        {
+            "name": "fly_exp_per_day",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_1_money",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_1_exp_required",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_2_money",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_2_exp_required",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_3_money",
+            "type": "int32"
+        },
+        {
+            "name": "item_list_3_exp_required",
+            "type": "int32"
+        },
+        {
+            "name": "max_exp",
+            "type": "int32"
+        }
+    ]
+}

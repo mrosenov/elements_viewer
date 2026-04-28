@@ -1,0 +1,3213 @@
+{
+    "name": "BABY_PROPERTY_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "perception_ratio_1",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_2",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_3",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_4",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_5",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_6",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_7",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_8",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_9",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_10",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_11",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_12",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_13",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_14",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_15",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_16",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_17",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_18",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_19",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_20",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_21",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_22",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_23",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_24",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_25",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_26",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_27",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_28",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_29",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_30",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_31",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_32",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_33",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_34",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_35",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_36",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_37",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_38",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_39",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_40",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_41",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_42",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_43",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_44",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_45",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_46",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_47",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_48",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_49",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_50",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_51",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_52",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_53",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_54",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_55",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_56",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_57",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_58",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_59",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_60",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_61",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_62",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_63",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_64",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_65",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_66",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_67",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_68",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_69",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_70",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_71",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_72",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_73",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_74",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_75",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_76",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_77",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_78",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_79",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_80",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_81",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_82",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_83",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_84",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_85",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_86",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_87",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_88",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_89",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_90",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_91",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_92",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_93",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_94",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_95",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_96",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_97",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_98",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_99",
+            "type": "int32"
+        },
+        {
+            "name": "perception_ratio_100",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_1",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_2",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_3",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_4",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_5",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_6",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_7",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_8",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_9",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_10",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_11",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_12",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_13",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_14",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_15",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_16",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_17",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_18",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_19",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_20",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_21",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_22",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_23",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_24",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_25",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_26",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_27",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_28",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_29",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_30",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_31",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_32",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_33",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_34",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_35",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_36",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_37",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_38",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_39",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_40",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_41",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_42",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_43",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_44",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_45",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_46",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_47",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_48",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_49",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_50",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_51",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_52",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_53",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_54",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_55",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_56",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_57",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_58",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_59",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_60",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_61",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_62",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_63",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_64",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_65",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_66",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_67",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_68",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_69",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_70",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_71",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_72",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_73",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_74",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_75",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_76",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_77",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_78",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_79",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_80",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_81",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_82",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_83",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_84",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_85",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_86",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_87",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_88",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_89",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_90",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_91",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_92",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_93",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_94",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_95",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_96",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_97",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_98",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_99",
+            "type": "int32"
+        },
+        {
+            "name": "charm_ratio_100",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_1_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_1_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_1_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_1_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_1_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_1_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_2_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_2_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_2_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_2_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_2_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_2_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_3_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_3_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_3_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_3_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_3_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_3_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_4_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_4_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_4_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_4_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_4_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_4_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_5_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_5_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_5_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_5_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_5_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_5_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_6_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_6_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_6_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_6_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_6_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_6_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_7_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_7_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_7_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_7_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_7_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_7_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_8_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_8_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_8_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_8_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_8_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_8_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_9_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_9_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_9_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_9_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_9_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_9_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_10_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_10_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_10_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_10_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_10_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_10_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_11_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_11_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_11_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_11_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_11_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_11_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_12_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_12_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_12_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_12_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_12_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_12_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_13_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_13_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_13_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_13_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_13_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_13_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_14_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_14_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_14_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_14_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_14_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_14_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_15_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_15_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_15_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_15_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_15_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_15_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_16_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_16_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_16_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_16_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_16_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_16_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_17_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_17_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_17_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_17_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_17_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_17_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_18_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_18_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_18_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_18_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_18_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_18_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_19_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_19_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_19_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_19_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_19_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_19_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_20_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_20_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_20_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_20_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_20_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_20_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_21_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_21_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_21_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_21_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_21_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_21_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_22_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_22_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_22_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_22_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_22_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_22_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_23_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_23_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_23_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_23_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_23_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_23_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_24_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_24_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_24_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_24_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_24_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_24_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_25_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_25_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_25_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_25_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_25_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_25_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_26_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_26_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_26_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_26_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_26_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_26_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_27_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_27_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_27_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_27_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_27_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_27_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_28_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_28_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_28_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_28_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_28_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_28_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_29_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_29_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_29_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_29_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_29_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_29_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_30_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_30_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_30_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_30_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_30_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_30_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_31_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_31_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_31_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_31_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_31_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_31_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_32_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_32_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_32_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_32_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_32_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_32_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_33_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_33_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_33_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_33_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_33_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_33_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_34_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_34_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_34_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_34_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_34_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_34_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_35_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_35_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_35_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_35_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_35_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_35_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_36_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_36_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_36_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_36_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_36_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_36_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_37_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_37_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_37_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_37_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_37_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_37_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_38_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_38_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_38_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_38_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_38_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_38_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_39_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_39_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_39_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_39_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_39_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_39_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_40_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_40_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_40_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_40_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_40_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_40_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_41_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_41_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_41_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_41_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_41_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_41_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_42_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_42_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_42_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_42_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_42_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_42_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_43_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_43_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_43_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_43_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_43_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_43_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_44_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_44_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_44_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_44_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_44_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_44_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_45_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_45_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_45_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_45_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_45_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_45_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_46_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_46_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_46_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_46_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_46_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_46_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_47_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_47_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_47_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_47_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_47_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_47_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_48_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_48_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_48_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_48_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_48_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_48_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_49_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_49_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_49_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_49_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_49_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_49_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_50_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_50_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_50_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_50_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_50_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_50_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_51_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_51_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_51_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_51_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_51_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_51_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_52_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_52_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_52_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_52_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_52_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_52_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_53_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_53_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_53_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_53_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_53_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_53_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_54_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_54_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_54_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_54_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_54_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_54_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_55_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_55_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_55_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_55_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_55_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_55_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_56_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_56_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_56_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_56_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_56_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_56_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_57_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_57_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_57_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_57_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_57_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_57_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_58_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_58_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_58_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_58_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_58_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_58_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_59_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_59_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_59_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_59_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_59_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_59_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_60_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_60_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_60_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_60_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_60_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_60_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_61_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_61_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_61_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_61_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_61_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_61_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_62_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_62_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_62_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_62_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_62_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_62_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_63_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_63_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_63_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_63_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_63_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_63_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_64_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_64_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_64_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_64_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_64_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_64_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_65_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_65_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_65_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_65_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_65_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_65_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_66_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_66_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_66_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_66_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_66_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_66_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_67_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_67_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_67_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_67_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_67_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_67_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_68_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_68_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_68_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_68_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_68_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_68_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_69_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_69_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_69_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_69_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_69_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_69_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_70_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_70_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_70_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_70_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_70_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_70_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_71_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_71_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_71_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_71_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_71_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_71_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_72_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_72_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_72_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_72_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_72_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_72_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_73_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_73_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_73_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_73_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_73_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_73_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_74_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_74_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_74_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_74_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_74_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_74_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_75_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_75_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_75_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_75_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_75_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_75_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_76_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_76_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_76_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_76_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_76_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_76_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_77_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_77_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_77_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_77_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_77_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_77_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_78_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_78_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_78_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_78_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_78_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_78_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_79_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_79_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_79_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_79_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_79_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_79_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_80_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_80_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_80_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_80_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_80_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_80_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_81_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_81_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_81_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_81_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_81_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_81_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_82_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_82_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_82_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_82_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_82_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_82_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_83_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_83_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_83_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_83_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_83_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_83_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_84_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_84_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_84_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_84_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_84_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_84_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_85_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_85_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_85_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_85_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_85_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_85_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_86_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_86_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_86_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_86_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_86_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_86_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_87_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_87_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_87_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_87_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_87_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_87_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_88_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_88_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_88_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_88_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_88_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_88_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_89_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_89_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_89_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_89_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_89_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_89_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_90_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_90_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_90_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_90_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_90_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_90_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_91_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_91_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_91_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_91_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_91_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_91_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_92_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_92_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_92_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_92_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_92_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_92_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_93_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_93_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_93_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_93_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_93_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_93_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_94_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_94_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_94_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_94_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_94_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_94_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_95_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_95_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_95_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_95_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_95_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_95_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_96_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_96_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_96_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_96_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_96_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_96_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_97_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_97_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_97_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_97_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_97_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_97_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_98_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_98_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_98_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_98_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_98_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_98_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_99_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_99_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_99_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_99_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_99_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_99_crit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_100_attack_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_100_defence_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_100_hit_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_100_evade_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_100_crit_damage_ratio",
+            "type": "int32"
+        },
+        {
+            "name": "deity_ratio_info_100_crit_ratio",
+            "type": "int32"
+        }
+    ]
+}

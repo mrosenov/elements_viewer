@@ -1,0 +1,853 @@
+{
+    "name": "BABY_UPGRADE_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "upqrade_exp_req_1",
+            "type": "int32"
+        },
+        {
+            "name": "upqrade_exp_req_2",
+            "type": "int32"
+        },
+        {
+            "name": "upqrade_exp_req_3",
+            "type": "int32"
+        },
+        {
+            "name": "upqrade_exp_req_4",
+            "type": "int32"
+        },
+        {
+            "name": "upqrade_exp_req_5",
+            "type": "int32"
+        },
+        {
+            "name": "upqrade_exp_req_6",
+            "type": "int32"
+        },
+        {
+            "name": "upqrade_exp_req_7",
+            "type": "int32"
+        },
+        {
+            "name": "upqrade_exp_req_8",
+            "type": "int32"
+        },
+        {
+            "name": "upqrade_exp_req_9",
+            "type": "int32"
+        },
+        {
+            "name": "upqrade_exp_req_10",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_1_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_1_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_2_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_2_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_3_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_3_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_4_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_4_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_5_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_5_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_6_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_6_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_7_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_7_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_8_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_8_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_9_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_9_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_10_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_10_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_11_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_11_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_12_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_12_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_13_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_13_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_14_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_14_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_15_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_15_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_16_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_16_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_17_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_17_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_18_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_18_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_19_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_19_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_20_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_20_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_21_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_21_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_22_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_22_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_23_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_23_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_24_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_24_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_25_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_25_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_26_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_26_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_27_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_27_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_28_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_28_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_29_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_29_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_30_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_30_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_31_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_31_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_32_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_32_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_33_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_33_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_34_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_34_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_35_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_35_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_36_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_36_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_37_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_37_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_38_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_38_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_39_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_39_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_40_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_40_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_41_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_41_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_42_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_42_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_43_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_43_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_44_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_44_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_45_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_45_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_46_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_46_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_47_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_47_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_48_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_48_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_49_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_49_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_50_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_50_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_51_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_51_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_52_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_52_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_53_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_53_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_54_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_54_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_55_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_55_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_56_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_56_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_57_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_57_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_58_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_58_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_59_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_59_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_60_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_60_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_61_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_61_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_62_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_62_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_63_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_63_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_64_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_64_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_65_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_65_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_66_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_66_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_67_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_67_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_68_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_68_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_69_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_69_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_70_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_70_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_71_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_71_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_72_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_72_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_73_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_73_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_74_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_74_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_75_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_75_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_76_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_76_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_77_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_77_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_78_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_78_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_79_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_79_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_80_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_80_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_81_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_81_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_82_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_82_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_83_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_83_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_84_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_84_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_85_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_85_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_86_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_86_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_87_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_87_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_88_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_88_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_89_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_89_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_90_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_90_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_91_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_91_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_92_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_92_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_93_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_93_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_94_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_94_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_95_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_95_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_96_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_96_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_97_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_97_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_98_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_98_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_99_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_99_success_prob",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_100_exp_req",
+            "type": "int32"
+        },
+        {
+            "name": "baby_upqrade_list_100_success_prob",
+            "type": "int32"
+        }
+    ]
+}

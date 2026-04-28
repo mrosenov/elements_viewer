@@ -1,0 +1,665 @@
+{
+    "name": "BABY_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "pick_range",
+            "type": "int32"
+        },
+        {
+            "name": "name_color",
+            "type": "int32"
+        },
+        {
+            "name": "sight_range",
+            "type": "float"
+        },
+        {
+            "name": "aggro_range",
+            "type": "float"
+        },
+        {
+            "name": "hunger_speed",
+            "type": "int32"
+        },
+        {
+            "name": "stand_mode",
+            "type": "int32"
+        },
+        {
+            "name": "move_speed",
+            "type": "float"
+        },
+        {
+            "name": "percopperhp",
+            "type": "int32"
+        },
+        {
+            "name": "persilverhp",
+            "type": "int32"
+        },
+        {
+            "name": "hp_limit",
+            "type": "int32"
+        },
+        {
+            "name": "percoppermp",
+            "type": "int32"
+        },
+        {
+            "name": "persilvermp",
+            "type": "int32"
+        },
+        {
+            "name": "mp_limit",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_1_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_1_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_1_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_1_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_1_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_1_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_1_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_1_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_1_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_1_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_2_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_2_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_2_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_2_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_2_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_2_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_2_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_2_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_2_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_2_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_3_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_3_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_3_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_3_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_3_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_3_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_3_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_3_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_3_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_3_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_4_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_4_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_4_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_4_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_4_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_4_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_4_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_4_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_4_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_4_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_5_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_5_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_5_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_5_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_5_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_5_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_5_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_5_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_5_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_5_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_6_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_6_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_6_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_6_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_6_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_6_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_6_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_6_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_6_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_6_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_7_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_7_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_7_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_7_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_7_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_7_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_7_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_7_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_7_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_7_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_8_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_8_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_8_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_8_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_8_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_8_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_8_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_8_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_8_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_8_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_9_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_9_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_9_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_9_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_9_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_9_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_9_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_9_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_9_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_9_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_10_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_10_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_10_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_10_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_10_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_10_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_10_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_10_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_10_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_10_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_11_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_11_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_11_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_11_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_11_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_11_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_11_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_11_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_11_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_11_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_12_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_12_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_12_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_12_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_12_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_12_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_12_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_12_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_12_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_12_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_13_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_13_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_13_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_13_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_13_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_13_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_13_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_13_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_13_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_13_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_14_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_14_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_14_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_14_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_14_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_14_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_14_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_14_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_14_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_14_skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_15_skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_15_skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_15_skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_15_skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_15_skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_15_skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_15_skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_15_skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_15_skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_deity_reg_info_15_skill_id_10",
+            "type": "int32"
+        }
+    ]
+}

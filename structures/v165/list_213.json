@@ -1,0 +1,121 @@
+{
+    "name": "TALENT_SCROLL_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "model_path_id",
+            "type": "int32"
+        },
+        {
+            "name": "icon_path_id",
+            "type": "int32"
+        },
+        {
+            "name": "big_icon",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "talent_scroll_config",
+            "type": "int32"
+        },
+        {
+            "name": "position",
+            "type": "int32"
+        },
+        {
+            "name": "decomposition_id",
+            "type": "int32"
+        },
+        {
+            "name": "decomposition_num",
+            "type": "int32"
+        },
+        {
+            "name": "refine_id",
+            "type": "int32"
+        },
+        {
+            "name": "refine_fee",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "refine_num_1",
+            "type": "int32"
+        },
+        {
+            "name": "refine_num_2",
+            "type": "int32"
+        },
+        {
+            "name": "refine_num_3",
+            "type": "int32"
+        },
+        {
+            "name": "refine_num_4",
+            "type": "int32"
+        },
+        {
+            "name": "refine_num_5",
+            "type": "int32"
+        },
+        {
+            "name": "refine_num_6",
+            "type": "int32"
+        },
+        {
+            "name": "refine_num_7",
+            "type": "int32"
+        },
+        {
+            "name": "refine_num_8",
+            "type": "int32"
+        },
+        {
+            "name": "refine_num_9",
+            "type": "int32"
+        },
+        {
+            "name": "refine_num_10",
+            "type": "int32"
+        },
+        {
+            "name": "sell_price",
+            "type": "int32"
+        },
+        {
+            "name": "buy_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "trade_behavior",
+            "type": "int32"
+        }
+    ]
+}
