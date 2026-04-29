@@ -1,0 +1,2813 @@
+{
+    "name": "TOKEN_BAG_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "items_1_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_1_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_1_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_1_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_1_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_1_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_1_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_2_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_2_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_2_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_2_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_2_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_2_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_2_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_3_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_3_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_3_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_3_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_3_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_3_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_3_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_4_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_4_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_4_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_4_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_4_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_4_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_4_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_5_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_5_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_5_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_5_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_5_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_5_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_5_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_6_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_6_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_6_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_6_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_6_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_6_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_6_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_7_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_7_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_7_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_7_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_7_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_7_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_7_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_8_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_8_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_8_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_8_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_8_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_8_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_8_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_9_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_9_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_9_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_9_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_9_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_9_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_9_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_10_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_10_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_10_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_10_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_10_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_10_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_10_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_11_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_11_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_11_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_11_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_11_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_11_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_11_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_12_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_12_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_12_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_12_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_12_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_12_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_12_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_13_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_13_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_13_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_13_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_13_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_13_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_13_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_14_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_14_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_14_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_14_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_14_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_14_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_14_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_15_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_15_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_15_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_15_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_15_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_15_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_15_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_16_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_16_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_16_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_16_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_16_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_16_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_16_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_17_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_17_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_17_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_17_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_17_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_17_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_17_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_18_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_18_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_18_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_18_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_18_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_18_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_18_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_19_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_19_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_19_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_19_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_19_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_19_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_19_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_20_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_20_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_20_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_20_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_20_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_20_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_20_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_21_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_21_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_21_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_21_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_21_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_21_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_21_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_22_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_22_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_22_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_22_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_22_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_22_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_22_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_23_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_23_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_23_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_23_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_23_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_23_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_23_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_24_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_24_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_24_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_24_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_24_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_24_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_24_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_25_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_25_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_25_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_25_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_25_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_25_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_25_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_26_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_26_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_26_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_26_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_26_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_26_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_26_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_27_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_27_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_27_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_27_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_27_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_27_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_27_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_28_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_28_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_28_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_28_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_28_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_28_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_28_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_29_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_29_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_29_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_29_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_29_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_29_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_29_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_30_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_30_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_30_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_30_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_30_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_30_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_30_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_31_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_31_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_31_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_31_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_31_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_31_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_31_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_32_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_32_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_32_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_32_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_32_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_32_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_32_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_33_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_33_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_33_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_33_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_33_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_33_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_33_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_34_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_34_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_34_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_34_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_34_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_34_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_34_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_35_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_35_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_35_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_35_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_35_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_35_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_35_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_36_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_36_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_36_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_36_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_36_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_36_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_36_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_37_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_37_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_37_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_37_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_37_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_37_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_37_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_38_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_38_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_38_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_38_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_38_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_38_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_38_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_39_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_39_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_39_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_39_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_39_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_39_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_39_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_40_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_40_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_40_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_40_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_40_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_40_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_40_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_41_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_41_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_41_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_41_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_41_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_41_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_41_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_42_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_42_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_42_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_42_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_42_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_42_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_42_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_43_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_43_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_43_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_43_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_43_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_43_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_43_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_44_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_44_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_44_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_44_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_44_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_44_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_44_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_45_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_45_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_45_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_45_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_45_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_45_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_45_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_46_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_46_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_46_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_46_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_46_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_46_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_46_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_47_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_47_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_47_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_47_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_47_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_47_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_47_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_48_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_48_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_48_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_48_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_48_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_48_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_48_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_49_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_49_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_49_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_49_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_49_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_49_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_49_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_50_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_50_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_50_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_50_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_50_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_50_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_50_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_51_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_51_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_51_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_51_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_51_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_51_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_51_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_52_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_52_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_52_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_52_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_52_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_52_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_52_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_53_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_53_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_53_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_53_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_53_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_53_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_53_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_54_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_54_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_54_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_54_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_54_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_54_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_54_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_55_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_55_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_55_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_55_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_55_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_55_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_55_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_56_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_56_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_56_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_56_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_56_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_56_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_56_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_57_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_57_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_57_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_57_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_57_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_57_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_57_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_58_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_58_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_58_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_58_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_58_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_58_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_58_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_59_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_59_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_59_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_59_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_59_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_59_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_59_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_60_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_60_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_60_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_60_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_60_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_60_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_60_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_61_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_61_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_61_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_61_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_61_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_61_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_61_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_62_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_62_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_62_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_62_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_62_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_62_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_62_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_63_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_63_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_63_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_63_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_63_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_63_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_63_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_64_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_64_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_64_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_64_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_64_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_64_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_64_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_65_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_65_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_65_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_65_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_65_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_65_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_65_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_66_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_66_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_66_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_66_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_66_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_66_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_66_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_67_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_67_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_67_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_67_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_67_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_67_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_67_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_68_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_68_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_68_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_68_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_68_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_68_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_68_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_69_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_69_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_69_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_69_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_69_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_69_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_69_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_70_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_70_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_70_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_70_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_70_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_70_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_70_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_71_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_71_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_71_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_71_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_71_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_71_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_71_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_72_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_72_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_72_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_72_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_72_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_72_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_72_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_73_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_73_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_73_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_73_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_73_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_73_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_73_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_74_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_74_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_74_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_74_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_74_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_74_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_74_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_75_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_75_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_75_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_75_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_75_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_75_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_75_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_76_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_76_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_76_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_76_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_76_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_76_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_76_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_77_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_77_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_77_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_77_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_77_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_77_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_77_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_78_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_78_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_78_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_78_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_78_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_78_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_78_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_79_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_79_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_79_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_79_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_79_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_79_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_79_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_80_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_80_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_80_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_80_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_80_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_80_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_80_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_81_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_81_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_81_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_81_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_81_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_81_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_81_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_82_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_82_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_82_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_82_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_82_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_82_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_82_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_83_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_83_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_83_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_83_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_83_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_83_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_83_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_84_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_84_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_84_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_84_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_84_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_84_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_84_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_85_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_85_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_85_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_85_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_85_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_85_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_85_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_86_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_86_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_86_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_86_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_86_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_86_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_86_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_87_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_87_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_87_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_87_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_87_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_87_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_87_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_88_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_88_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_88_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_88_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_88_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_88_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_88_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_89_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_89_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_89_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_89_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_89_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_89_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_89_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_90_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_90_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_90_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_90_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_90_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_90_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_90_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_91_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_91_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_91_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_91_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_91_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_91_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_91_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_92_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_92_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_92_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_92_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_92_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_92_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_92_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_93_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_93_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_93_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_93_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_93_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_93_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_93_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_94_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_94_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_94_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_94_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_94_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_94_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_94_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_95_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_95_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_95_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_95_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_95_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_95_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_95_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_96_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_96_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_96_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_96_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_96_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_96_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_96_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_97_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_97_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_97_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_97_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_97_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_97_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_97_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_98_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_98_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_98_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_98_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_98_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_98_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_98_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_99_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_99_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_99_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_99_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_99_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_99_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_99_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "items_100_item_title",
+            "type": "wstring:32"
+        },
+        {
+            "name": "items_100_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "items_100_item_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_100_item_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_100_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "items_100_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "items_100_unknown_3",
+            "type": "int32"
+        }
+    ]
+}

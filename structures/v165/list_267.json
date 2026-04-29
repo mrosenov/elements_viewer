@@ -1,0 +1,1865 @@
+{
+    "name": "CONSTELLATIONEXP_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "unknown_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "unknown_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "unknown_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "unknown_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "unknown_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "unknown_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "unknown_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "unknown_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "unknown_prob_9",
+            "type": "float"
+        },
+        {
+            "name": "unknown_prob_10",
+            "type": "float"
+        },
+        {
+            "name": "unknown_prob_11",
+            "type": "float"
+        },
+        {
+            "name": "unknown_prob_12",
+            "type": "float"
+        },
+        {
+            "name": "level_1_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_1_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_1_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_1_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_1_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_1_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_1_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_1_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_1_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_2_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_2_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_2_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_2_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_2_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_2_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_2_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_2_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_2_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_3_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_3_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_3_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_3_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_3_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_3_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_3_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_3_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_3_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_4_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_4_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_4_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_4_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_4_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_4_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_4_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_4_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_4_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_5_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_5_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_5_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_5_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_5_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_5_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_5_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_5_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_5_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_6_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_6_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_6_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_6_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_6_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_6_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_6_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_6_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_6_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_7_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_7_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_7_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_7_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_7_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_7_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_7_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_7_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_7_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_8_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_8_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_8_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_8_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_8_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_8_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_8_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_8_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_8_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_9_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_9_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_9_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_9_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_9_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_9_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_9_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_9_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_9_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_10_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_10_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_10_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_10_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_10_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_10_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_10_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_10_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_10_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_11_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_11_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_11_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_11_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_11_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_11_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_11_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_11_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_11_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_12_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_12_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_12_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_12_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_12_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_12_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_12_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_12_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_12_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_13_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_13_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_13_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_13_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_13_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_13_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_13_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_13_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_13_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_14_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_14_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_14_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_14_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_14_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_14_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_14_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_14_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_14_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_15_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_15_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_15_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_15_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_15_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_15_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_15_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_15_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_15_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_16_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_16_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_16_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_16_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_16_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_16_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_16_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_16_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_16_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_17_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_17_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_17_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_17_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_17_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_17_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_17_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_17_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_17_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_18_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_18_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_18_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_18_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_18_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_18_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_18_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_18_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_18_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_19_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_19_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_19_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_19_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_19_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_19_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_19_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_19_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_19_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_20_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_20_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_20_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_20_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_20_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_20_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_20_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_20_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_20_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_21_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_21_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_21_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_21_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_21_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_21_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_21_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_21_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_21_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_22_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_22_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_22_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_22_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_22_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_22_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_22_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_22_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_22_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_23_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_23_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_23_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_23_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_23_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_23_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_23_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_23_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_23_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_24_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_24_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_24_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_24_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_24_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_24_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_24_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_24_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_24_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_25_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_25_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_25_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_25_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_25_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_25_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_25_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_25_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_25_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_26_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_26_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_26_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_26_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_26_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_26_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_26_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_26_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_26_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_27_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_27_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_27_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_27_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_27_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_27_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_27_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_27_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_27_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_28_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_28_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_28_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_28_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_28_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_28_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_28_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_28_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_28_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_29_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_29_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_29_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_29_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_29_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_29_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_29_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_29_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_29_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_30_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_30_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_30_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_30_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_30_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_30_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_30_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_30_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_30_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_31_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_31_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_31_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_31_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_31_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_31_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_31_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_31_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_31_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_32_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_32_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_32_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_32_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_32_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_32_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_32_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_32_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_32_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_33_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_33_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_33_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_33_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_33_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_33_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_33_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_33_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_33_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_34_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_34_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_34_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_34_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_34_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_34_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_34_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_34_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_34_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_35_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_35_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_35_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_35_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_35_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_35_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_35_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_35_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_35_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_36_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_36_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_36_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_36_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_36_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_36_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_36_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_36_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_36_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_37_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_37_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_37_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_37_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_37_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_37_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_37_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_37_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_37_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_38_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_38_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_38_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_38_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_38_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_38_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_38_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_38_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_38_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_39_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_39_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_39_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_39_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_39_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_39_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_39_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_39_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_39_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_40_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_40_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_40_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_40_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_40_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_40_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_40_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_40_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_40_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_41_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_41_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_41_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_41_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_41_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_41_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_41_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_41_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_41_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_42_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_42_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_42_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_42_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_42_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_42_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_42_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_42_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_42_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_43_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_43_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_43_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_43_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_43_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_43_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_43_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_43_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_43_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_44_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_44_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_44_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_44_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_44_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_44_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_44_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_44_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_44_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_45_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_45_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_45_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_45_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_45_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_45_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_45_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_45_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_45_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_46_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_46_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_46_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_46_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_46_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_46_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_46_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_46_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_46_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_47_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_47_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_47_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_47_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_47_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_47_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_47_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_47_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_47_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_48_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_48_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_48_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_48_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_48_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_48_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_48_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_48_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_48_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "level_49_level",
+            "type": "int32"
+        },
+        {
+            "name": "level_49_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "level_49_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "level_49_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "level_49_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "level_49_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "level_49_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "level_49_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "level_49_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "unknown_2_prob_1",
+            "type": "float"
+        },
+        {
+            "name": "unknown_2_prob_2",
+            "type": "float"
+        },
+        {
+            "name": "unknown_2_prob_3",
+            "type": "float"
+        },
+        {
+            "name": "unknown_2_prob_4",
+            "type": "float"
+        },
+        {
+            "name": "unknown_2_prob_5",
+            "type": "float"
+        },
+        {
+            "name": "unknown_2_prob_6",
+            "type": "float"
+        },
+        {
+            "name": "unknown_2_prob_7",
+            "type": "float"
+        },
+        {
+            "name": "unknown_2_prob_8",
+            "type": "float"
+        },
+        {
+            "name": "unknown_2_prob_9",
+            "type": "float"
+        },
+        {
+            "name": "unknown_2_prob_10",
+            "type": "float"
+        }
+    ]
+}

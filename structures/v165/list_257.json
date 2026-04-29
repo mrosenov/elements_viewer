@@ -1,0 +1,41 @@
+{
+    "name": "FAIRYHOUSE_BABY_TRAIT_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "item_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_2",
+            "type": "float"
+        },
+        {
+            "name": "unknown_3",
+            "type": "float"
+        },
+        {
+            "name": "unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "item_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_6",
+            "type": "float"
+        },
+        {
+            "name": "unknown_7",
+            "type": "int32"
+        }
+    ]
+}

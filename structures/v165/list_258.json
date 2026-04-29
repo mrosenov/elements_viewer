@@ -1,0 +1,37 @@
+{
+    "name": "PET_TRAIT_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "spell_id",
+            "type": "int32"
+        },
+        {
+            "name": "spell_level",
+            "type": "int32"
+        },
+        {
+            "name": "probability_1",
+            "type": "float"
+        },
+        {
+            "name": "spell_level_2",
+            "type": "int32"
+        },
+        {
+            "name": "probability_2",
+            "type": "float"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        }
+    ]
+}
