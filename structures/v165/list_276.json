@@ -1,0 +1,2813 @@
+{
+    "name": "GEAR_SCRIPTURE_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "scripture_1_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_1_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_2_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_3_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_4_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_5_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_6_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_7_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_8_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_9_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_10_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_11_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_12_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_13_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_14_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_15_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_16_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_17_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_18_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_19_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_20_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_21_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_22_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_23_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_24_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_25_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_26_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_27_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_28_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_29_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_30_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_31_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_32_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_33_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_34_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_35_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_36_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_37_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_38_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_39_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_40_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_41_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_42_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_43_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_44_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_45_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_46_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_47_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_48_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_49_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_scripture_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_requirement_1_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_requirement_1_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_requirement_2_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_requirement_2_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_requirement_3_required_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_requirement_3_required_item_amount",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "scripture_50_unknown_7",
+            "type": "int32"
+        }
+    ]
+}

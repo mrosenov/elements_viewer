@@ -1,0 +1,633 @@
+{
+    "name": "NEW_GEAR_IDENTIFY_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "gear_list_1_spirit_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_11",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_12",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_13",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_14",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_15",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_16",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_17",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_18",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_19",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_20",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_21",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_22",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_23",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_24",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_25",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_26",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_27",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_28",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_29",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_1_equipment_id_30",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_spirit_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_11",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_12",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_13",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_14",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_15",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_16",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_17",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_18",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_19",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_20",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_21",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_22",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_23",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_24",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_25",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_26",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_27",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_28",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_29",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_2_equipment_id_30",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_spirit_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_11",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_12",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_13",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_14",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_15",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_16",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_17",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_18",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_19",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_20",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_21",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_22",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_23",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_24",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_25",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_26",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_27",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_28",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_29",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_3_equipment_id_30",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_spirit_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_11",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_12",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_13",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_14",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_15",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_16",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_17",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_18",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_19",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_20",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_21",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_22",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_23",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_24",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_25",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_26",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_27",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_28",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_29",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_4_equipment_id_30",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_spirit_stone_id",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_11",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_12",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_13",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_14",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_15",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_16",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_17",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_18",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_19",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_20",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_21",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_22",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_23",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_24",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_25",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_26",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_27",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_28",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_29",
+            "type": "int32"
+        },
+        {
+            "name": "gear_list_5_equipment_id_30",
+            "type": "int32"
+        }
+    ]
+}

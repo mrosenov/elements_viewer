@@ -1,0 +1,137 @@
+{
+    "name": "CLASS_ITEM_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "mold_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_1_equipment_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_1_refinery_min",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_1_refinery_max",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_2_equipment_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_2_refinery_min",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_2_refinery_max",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_3_equipment_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_3_refinery_min",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_3_refinery_max",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_4_equipment_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_4_refinery_min",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_4_refinery_max",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_5_equipment_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_5_refinery_min",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_5_refinery_max",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_6_equipment_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_6_refinery_min",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_6_refinery_max",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_7_equipment_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_7_refinery_min",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_7_refinery_max",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_8_equipment_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_8_refinery_min",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_8_refinery_max",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_9_equipment_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_9_refinery_min",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_9_refinery_max",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_10_equipment_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_10_refinery_min",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_10_refinery_max",
+            "type": "int32"
+        }
+    ]
+}

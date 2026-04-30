@@ -1,0 +1,105 @@
+{
+    "name": "NEW_DOTA_SKILL_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "type",
+            "type": "int32"
+        },
+        {
+            "name": "skill_1_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_2_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_3_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_4_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_5_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_6_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_7_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_8_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_9_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_10_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_11_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_12_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_13_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_14_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_15_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_16_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_17_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_18_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_19_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_20_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_21_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "skill_22_skill_id",
+            "type": "int32"
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "name": "LUCK_VALUE_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "luck_1_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "luck_1_unknown_float",
+            "type": "float"
+        },
+        {
+            "name": "luck_2_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "luck_2_unknown_float",
+            "type": "float"
+        },
+        {
+            "name": "luck_3_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "luck_3_unknown_float",
+            "type": "float"
+        },
+        {
+            "name": "luck_4_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "luck_4_unknown_float",
+            "type": "float"
+        },
+        {
+            "name": "luck_5_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "luck_5_unknown_float",
+            "type": "float"
+        },
+        {
+            "name": "luck_6_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "luck_6_unknown_float",
+            "type": "float"
+        },
+        {
+            "name": "luck_7_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "luck_7_unknown_float",
+            "type": "float"
+        },
+        {
+            "name": "luck_8_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "luck_8_unknown_float",
+            "type": "float"
+        },
+        {
+            "name": "luck_9_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "luck_9_unknown_float",
+            "type": "float"
+        },
+        {
+            "name": "luck_10_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "luck_10_unknown_float",
+            "type": "float"
+        },
+        {
+            "name": "unknowns_1",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_2",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_3",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_4",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_5",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_6",
+            "type": "int32"
+        },
+        {
+            "name": "unknowns_7",
+            "type": "int32"
+        }
+    ]
+}

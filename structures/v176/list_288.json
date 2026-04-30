@@ -1,0 +1,369 @@
+{
+    "name": "ANNIVERSARY_ITEM_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "file_matter",
+            "type": "int32"
+        },
+        {
+            "name": "file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_1",
+            "type": "float"
+        },
+        {
+            "name": "unknown_2",
+            "type": "float"
+        },
+        {
+            "name": "unknown_3",
+            "type": "float"
+        },
+        {
+            "name": "unknown_4",
+            "type": "float"
+        },
+        {
+            "name": "unknown_5",
+            "type": "float"
+        },
+        {
+            "name": "unknown_6",
+            "type": "float"
+        },
+        {
+            "name": "unknown_7",
+            "type": "float"
+        },
+        {
+            "name": "unknown_8",
+            "type": "float"
+        },
+        {
+            "name": "unknown_9",
+            "type": "float"
+        },
+        {
+            "name": "unknown_10",
+            "type": "float"
+        },
+        {
+            "name": "unknown_11",
+            "type": "float"
+        },
+        {
+            "name": "unknown_12",
+            "type": "float"
+        },
+        {
+            "name": "unknown_13",
+            "type": "float"
+        },
+        {
+            "name": "unknown_14",
+            "type": "float"
+        },
+        {
+            "name": "unknown_15",
+            "type": "float"
+        },
+        {
+            "name": "unknown_16",
+            "type": "float"
+        },
+        {
+            "name": "unknown_17",
+            "type": "float"
+        },
+        {
+            "name": "unknown_18",
+            "type": "float"
+        },
+        {
+            "name": "unknown_19",
+            "type": "float"
+        },
+        {
+            "name": "unknown_20",
+            "type": "float"
+        },
+        {
+            "name": "unknown_21",
+            "type": "float"
+        },
+        {
+            "name": "unknown_22",
+            "type": "float"
+        },
+        {
+            "name": "unknown_23",
+            "type": "float"
+        },
+        {
+            "name": "unknown_24",
+            "type": "float"
+        },
+        {
+            "name": "unknown_25",
+            "type": "float"
+        },
+        {
+            "name": "unknown_26",
+            "type": "float"
+        },
+        {
+            "name": "unknown_27",
+            "type": "float"
+        },
+        {
+            "name": "unknown_28",
+            "type": "float"
+        },
+        {
+            "name": "unknown_29",
+            "type": "float"
+        },
+        {
+            "name": "unknown_30",
+            "type": "float"
+        },
+        {
+            "name": "unknown_31",
+            "type": "float"
+        },
+        {
+            "name": "unknown_32",
+            "type": "float"
+        },
+        {
+            "name": "unknown_33",
+            "type": "float"
+        },
+        {
+            "name": "unknown_34",
+            "type": "float"
+        },
+        {
+            "name": "unknown_35",
+            "type": "float"
+        },
+        {
+            "name": "unknown_36",
+            "type": "float"
+        },
+        {
+            "name": "unknown_37",
+            "type": "float"
+        },
+        {
+            "name": "unknown_38",
+            "type": "float"
+        },
+        {
+            "name": "unknown_39",
+            "type": "float"
+        },
+        {
+            "name": "unknown_40",
+            "type": "float"
+        },
+        {
+            "name": "unknown_41",
+            "type": "float"
+        },
+        {
+            "name": "unknown_42",
+            "type": "float"
+        },
+        {
+            "name": "unknown_43",
+            "type": "float"
+        },
+        {
+            "name": "unknown_44",
+            "type": "float"
+        },
+        {
+            "name": "unknown_45",
+            "type": "float"
+        },
+        {
+            "name": "unknown_46",
+            "type": "float"
+        },
+        {
+            "name": "unknown_47",
+            "type": "float"
+        },
+        {
+            "name": "unknown_48",
+            "type": "float"
+        },
+        {
+            "name": "unknown_49",
+            "type": "float"
+        },
+        {
+            "name": "unknown_50",
+            "type": "float"
+        },
+        {
+            "name": "unknown_51",
+            "type": "float"
+        },
+        {
+            "name": "unknown_52",
+            "type": "float"
+        },
+        {
+            "name": "unknown_53",
+            "type": "float"
+        },
+        {
+            "name": "award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_1_probability",
+            "type": "float"
+        },
+        {
+            "name": "award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_2_probability",
+            "type": "float"
+        },
+        {
+            "name": "award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_3_probability",
+            "type": "float"
+        },
+        {
+            "name": "award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_4_probability",
+            "type": "float"
+        },
+        {
+            "name": "award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_5_probability",
+            "type": "float"
+        },
+        {
+            "name": "award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_6_probability",
+            "type": "float"
+        },
+        {
+            "name": "award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_7_probability",
+            "type": "float"
+        },
+        {
+            "name": "award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_8_probability",
+            "type": "float"
+        },
+        {
+            "name": "award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_9_probability",
+            "type": "float"
+        },
+        {
+            "name": "award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_10_probability",
+            "type": "float"
+        },
+        {
+            "name": "price",
+            "type": "int32"
+        },
+        {
+            "name": "shop_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "proc_type",
+            "type": "int32"
+        }
+    ]
+}

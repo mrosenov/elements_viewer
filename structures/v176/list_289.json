@@ -1,0 +1,133 @@
+{
+    "name": "SPIRIT_EXRACTION_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "config_1_level",
+            "type": "int32"
+        },
+        {
+            "name": "config_1_amount",
+            "type": "int32"
+        },
+        {
+            "name": "config_1_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "config_2_level",
+            "type": "int32"
+        },
+        {
+            "name": "config_2_amount",
+            "type": "int32"
+        },
+        {
+            "name": "config_2_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "config_3_level",
+            "type": "int32"
+        },
+        {
+            "name": "config_3_amount",
+            "type": "int32"
+        },
+        {
+            "name": "config_3_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "config_4_level",
+            "type": "int32"
+        },
+        {
+            "name": "config_4_amount",
+            "type": "int32"
+        },
+        {
+            "name": "config_4_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "config_5_level",
+            "type": "int32"
+        },
+        {
+            "name": "config_5_amount",
+            "type": "int32"
+        },
+        {
+            "name": "config_5_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "config_6_level",
+            "type": "int32"
+        },
+        {
+            "name": "config_6_amount",
+            "type": "int32"
+        },
+        {
+            "name": "config_6_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "config_7_level",
+            "type": "int32"
+        },
+        {
+            "name": "config_7_amount",
+            "type": "int32"
+        },
+        {
+            "name": "config_7_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "config_8_level",
+            "type": "int32"
+        },
+        {
+            "name": "config_8_amount",
+            "type": "int32"
+        },
+        {
+            "name": "config_8_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "config_9_level",
+            "type": "int32"
+        },
+        {
+            "name": "config_9_amount",
+            "type": "int32"
+        },
+        {
+            "name": "config_9_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "config_10_level",
+            "type": "int32"
+        },
+        {
+            "name": "config_10_amount",
+            "type": "int32"
+        },
+        {
+            "name": "config_10_unknown",
+            "type": "int32"
+        }
+    ]
+}

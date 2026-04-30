@@ -1,0 +1,2461 @@
+{
+    "name": "CONSTELLATION_SKILL_RELATION_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "relations_1_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_1_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_2_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_2_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_3_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_3_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_4_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_4_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_5_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_5_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_6_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_6_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_7_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_7_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_8_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_8_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_9_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_9_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_10_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_10_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_11_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_11_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_12_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_12_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_13_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_13_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_14_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_14_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_15_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_15_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_16_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_16_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_17_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_17_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_18_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_18_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_19_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_19_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_20_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_20_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_21_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_21_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_22_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_22_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_23_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_23_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_24_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_24_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_25_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_25_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_26_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_26_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_27_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_27_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_28_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_28_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_29_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_29_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_30_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_30_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_31_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_31_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_32_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_32_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_33_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_33_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_34_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_34_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_35_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_35_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_36_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_36_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_37_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_37_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_38_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_38_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_39_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_39_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_40_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_40_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_41_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_41_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_42_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_42_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_43_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_43_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_44_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_44_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_45_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_45_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_46_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_46_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_47_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_47_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_48_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_48_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_49_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_49_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_50_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_50_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_51_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_51_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_52_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_52_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_53_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_53_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_54_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_54_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_55_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_55_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_56_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_56_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_57_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_57_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_58_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_58_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_59_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_59_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_60_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_60_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_61_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_61_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_62_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_62_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_63_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_63_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_64_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_64_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_65_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_65_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_66_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_66_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_67_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_67_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_68_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_68_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_69_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_69_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_70_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_70_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_71_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_71_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_72_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_72_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_73_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_73_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_74_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_74_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_75_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_75_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_76_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_76_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_77_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_77_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_78_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_78_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_79_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_79_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_80_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_80_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_81_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_81_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_82_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_82_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_83_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_83_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_84_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_84_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_85_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_85_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_86_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_86_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_87_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_87_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_88_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_88_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_89_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_89_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_90_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_90_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_91_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_91_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_92_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_92_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_93_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_93_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_94_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_94_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_95_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_95_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_96_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_96_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_97_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_97_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_98_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_98_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_99_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_99_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_100_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_100_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_101_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_101_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_102_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_102_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_103_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_103_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_104_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_104_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_105_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_105_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_106_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_106_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_107_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_107_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_108_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_108_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_109_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_109_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_110_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_110_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_111_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_111_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_112_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_112_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_113_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_113_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_114_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_114_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_115_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_115_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_116_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_116_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_117_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_117_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_118_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_118_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_119_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_119_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_120_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_120_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_121_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_121_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_122_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_122_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_123_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_123_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_124_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_124_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_125_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_125_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_126_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_126_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_127_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_127_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_128_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_128_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_129_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_129_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_130_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_130_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_131_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_131_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_132_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_132_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_133_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_133_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_134_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_134_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_135_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_135_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_136_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_136_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_137_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_137_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_138_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_138_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_139_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_139_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_140_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_140_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_141_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_141_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_142_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_142_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_143_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_143_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_144_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_144_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_145_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_145_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_146_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_146_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_147_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_147_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_148_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_148_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_149_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_149_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_150_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_150_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_151_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_151_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_152_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_152_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_153_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_153_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_154_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_154_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_155_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_155_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_156_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_156_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_157_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_157_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_158_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_158_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_159_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_159_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_160_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_160_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_161_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_161_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_162_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_162_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_163_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_163_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_164_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_164_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_165_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_165_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_166_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_166_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_167_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_167_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_168_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_168_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_169_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_169_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_170_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_170_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_171_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_171_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_172_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_172_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_173_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_173_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_174_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_174_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_175_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_175_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_176_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_176_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_177_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_177_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_178_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_178_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_179_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_179_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_180_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_180_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_181_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_181_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_182_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_182_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_183_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_183_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_184_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_184_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_185_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_185_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_186_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_186_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_187_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_187_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_188_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_188_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_189_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_189_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_190_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_190_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_191_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_191_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_192_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_192_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_193_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_193_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_194_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_194_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_195_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_195_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_196_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_196_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_197_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_197_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_198_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_198_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_199_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_199_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_200_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_200_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_201_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_201_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_202_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_202_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_203_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_203_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_204_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_204_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_205_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_205_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_206_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_206_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_207_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_207_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_208_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_208_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_209_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_209_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_210_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_210_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_211_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_211_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_212_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_212_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_213_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_213_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_214_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_214_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_215_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_215_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_216_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_216_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_217_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_217_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_218_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_218_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_219_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_219_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_220_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_220_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_221_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_221_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_222_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_222_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_223_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_223_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_224_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_224_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_225_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_225_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_226_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_226_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_227_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_227_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_228_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_228_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_229_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_229_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_230_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_230_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_231_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_231_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_232_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_232_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_233_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_233_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_234_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_234_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_235_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_235_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_236_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_236_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_237_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_237_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_238_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_238_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_239_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_239_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_240_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_240_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_241_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_241_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_242_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_242_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_243_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_243_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_244_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_244_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_245_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_245_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_246_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_246_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_247_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_247_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_248_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_248_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_249_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_249_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_250_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_250_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_251_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_251_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_252_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_252_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_253_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_253_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_254_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_254_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_255_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_255_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_256_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_256_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_257_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_257_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_258_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_258_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_259_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_259_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_260_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_260_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_261_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_261_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_262_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_262_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_263_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_263_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_264_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_264_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_265_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_265_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_266_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_266_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_267_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_267_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_268_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_268_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_269_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_269_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_270_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_270_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_271_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_271_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_272_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_272_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_273_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_273_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_274_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_274_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_275_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_275_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_276_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_276_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_277_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_277_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_278_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_278_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_279_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_279_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_280_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_280_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_281_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_281_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_282_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_282_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_283_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_283_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_284_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_284_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_285_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_285_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_286_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_286_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_287_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_287_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_288_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_288_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_289_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_289_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_290_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_290_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_291_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_291_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_292_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_292_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_293_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_293_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_294_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_294_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_295_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_295_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_296_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_296_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_297_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_297_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_298_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_298_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_299_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_299_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_300_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_300_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_301_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_301_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_302_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_302_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_303_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_303_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_304_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_304_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_305_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_305_upgraded_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_306_normal_skill_id",
+            "type": "int32"
+        },
+        {
+            "name": "relations_306_upgraded_skill_id",
+            "type": "int32"
+        }
+    ]
+}

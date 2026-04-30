@@ -1,0 +1,61 @@
+{
+    "name": "TALENT_SCROLL_TRIGGER_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "tomes_1_tome_book_id",
+            "type": "int32"
+        },
+        {
+            "name": "tomes_1_useable_on_star",
+            "type": "int32"
+        },
+        {
+            "name": "tomes_1_increase_reforge_limit",
+            "type": "int32"
+        },
+        {
+            "name": "tomes_2_tome_book_id",
+            "type": "int32"
+        },
+        {
+            "name": "tomes_2_useable_on_star",
+            "type": "int32"
+        },
+        {
+            "name": "tomes_2_increase_reforge_limit",
+            "type": "int32"
+        },
+        {
+            "name": "tomes_3_tome_book_id",
+            "type": "int32"
+        },
+        {
+            "name": "tomes_3_useable_on_star",
+            "type": "int32"
+        },
+        {
+            "name": "tomes_3_increase_reforge_limit",
+            "type": "int32"
+        },
+        {
+            "name": "tomes_4_tome_book_id",
+            "type": "int32"
+        },
+        {
+            "name": "tomes_4_useable_on_star",
+            "type": "int32"
+        },
+        {
+            "name": "tomes_4_increase_reforge_limit",
+            "type": "int32"
+        }
+    ]
+}

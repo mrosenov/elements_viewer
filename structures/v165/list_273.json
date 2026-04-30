@@ -1,0 +1,273 @@
+{
+    "name": "EVENT_REWARD_SET_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "reward_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_1_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_2_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_3_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_4_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_5_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_6_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_7_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_8_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_9_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_10_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_11_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_11_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_11_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_12_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_12_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_12_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_13_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_13_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_13_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_14_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_14_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_14_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_15_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_15_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_15_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_16_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_16_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_16_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_17_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_17_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_17_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_18_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_18_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_18_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_19_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_19_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_19_points_required",
+            "type": "int32"
+        },
+        {
+            "name": "reward_20_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "reward_20_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "reward_20_points_required",
+            "type": "int32"
+        }
+    ]
+}

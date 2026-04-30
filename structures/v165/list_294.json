@@ -1,0 +1,293 @@
+{
+    "name": "NEW_DYE_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "config_1_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_1_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_1_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_1_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_1_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_2_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_2_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_2_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_2_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_2_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_3_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_3_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_3_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_3_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_3_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_4_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_4_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_4_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_4_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_4_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_5_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_5_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_5_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_5_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_5_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_6_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_6_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_6_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_6_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_6_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_7_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_7_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_7_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_7_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_7_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_8_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_8_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_8_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_8_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_8_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_9_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_9_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_9_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_9_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_9_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_10_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_10_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_10_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_10_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_10_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_11_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_11_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_11_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_11_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_11_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_12_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_12_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_12_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_12_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_12_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_13_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_13_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_13_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_13_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_13_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "config_14_text",
+            "type": "wstring:512"
+        },
+        {
+            "name": "config_14_colorant_id",
+            "type": "int32"
+        },
+        {
+            "name": "config_14_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "config_14_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "config_14_unknown_3",
+            "type": "int32"
+        }
+    ]
+}

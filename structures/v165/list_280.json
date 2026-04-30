@@ -1,0 +1,173 @@
+{
+    "name": "MYSTIC_ENHANCE_MATERIAL_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "refinery_1_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_1_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_2_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_2_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_3_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_3_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_4_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_4_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_5_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_5_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_6_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_6_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_7_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_7_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_8_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_8_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_9_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_9_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_10_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_10_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_11_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_11_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_12_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_12_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_13_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_13_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_14_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_14_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_15_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_15_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_16_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_16_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_17_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_17_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_18_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_18_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_19_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_19_talisman_amount",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_20_talisman_id",
+            "type": "int32"
+        },
+        {
+            "name": "refinery_20_talisman_amount",
+            "type": "int32"
+        }
+    ]
+}

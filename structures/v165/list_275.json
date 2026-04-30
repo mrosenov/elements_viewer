@@ -1,0 +1,413 @@
+{
+    "name": "SKILL_SET_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "skill_id_1",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_2",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_3",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_4",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_5",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_6",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_7",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_8",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_9",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_10",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_11",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_12",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_13",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_14",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_15",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_16",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_17",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_18",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_19",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_20",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_21",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_22",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_23",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_24",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_25",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_26",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_27",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_28",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_29",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_30",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_31",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_32",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_33",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_34",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_35",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_36",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_37",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_38",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_39",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_40",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_41",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_42",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_43",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_44",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_45",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_46",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_47",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_48",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_49",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_50",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_51",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_52",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_53",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_54",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_55",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_56",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_57",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_58",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_59",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_60",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_61",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_62",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_63",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_64",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_65",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_66",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_67",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_68",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_69",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_70",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_71",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_72",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_73",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_74",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_75",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_76",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_77",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_78",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_79",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_80",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_81",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_82",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_83",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_84",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_85",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_86",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_87",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_88",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_89",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_90",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_91",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_92",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_93",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_94",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_95",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_96",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_97",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_98",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_99",
+            "type": "int32"
+        },
+        {
+            "name": "skill_id_100",
+            "type": "int32"
+        }
+    ]
+}
