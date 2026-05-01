@@ -1,0 +1,273 @@
+{
+    "name": "GIFT_LETTER_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "pre_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "pre_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "pre_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "pre_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "pre_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "pre_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "pre_unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "pre_unknown_8",
+            "type": "int32"
+        },
+        {
+            "name": "file_matter",
+            "type": "int32"
+        },
+        {
+            "name": "file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "character_combo_id_1",
+            "type": "int64"
+        },
+        {
+            "name": "character_combo_id_2",
+            "type": "int64"
+        },
+        {
+            "name": "unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "title",
+            "type": "wstring:200"
+        },
+        {
+            "name": "unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "text",
+            "type": "wstring:2000"
+        },
+        {
+            "name": "award_1_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_1_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_2_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_2_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_3_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_3_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_4_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_4_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_5_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "award_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_5_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_5_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_6_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "award_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_6_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_6_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_7_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "award_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_7_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_7_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_8_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "award_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_8_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_8_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_9_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "award_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_9_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_9_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_10_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "award_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_10_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_10_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_7",
+            "type": "int32"
+        },
+        {
+            "name": "price",
+            "type": "int32"
+        },
+        {
+            "name": "shop_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "proc_type",
+            "type": "int32"
+        }
+    ]
+}

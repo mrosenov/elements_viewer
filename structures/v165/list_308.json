@@ -1,0 +1,1437 @@
+{
+    "name": "FORTUNE_GIFT_PACK_ESSENCE",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "ui_name",
+            "type": "wstring:32"
+        },
+        {
+            "name": "file_matter",
+            "type": "int32"
+        },
+        {
+            "name": "file_icon",
+            "type": "int32"
+        },
+        {
+            "name": "timeframe_start",
+            "type": "int32"
+        },
+        {
+            "name": "timeframe_end",
+            "type": "int32"
+        },
+        {
+            "name": "timeleft_days",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_1_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_2_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_2_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_3_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_3_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_4_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_4_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_5_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_5_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_6_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_6_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_7_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_7_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_8_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_8_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_9_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_9_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_10_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_10_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_11_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_11_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_12_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_12_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_13_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_13_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_14_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_14_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_15_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_15_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_16_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_16_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_17_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_17_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_18_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_18_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_19_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_19_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "awards_20_require_ascension_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_require_level_min",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_unknown_6",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_award_count",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_gift_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_gift_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_gift_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_gift_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "awards_20_description",
+            "type": "wstring:200"
+        },
+        {
+            "name": "unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "unknown_5",
+            "type": "int32"
+        },
+        {
+            "name": "price",
+            "type": "int32"
+        },
+        {
+            "name": "shop_price",
+            "type": "int32"
+        },
+        {
+            "name": "pile_num_max",
+            "type": "int32"
+        },
+        {
+            "name": "proc_type",
+            "type": "int32"
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "name": "MERGED_STAR_SOUL_SLOT_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "required_points_1",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_2",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_3",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_4",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_5",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_6",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_7",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_8",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_9",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_10",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_11",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_12",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_13",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_14",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_15",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_16",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_17",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_18",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_19",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_20",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_21",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_22",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_23",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_24",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_25",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_26",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_27",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_28",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_29",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_30",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_31",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_32",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_33",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_34",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_35",
+            "type": "int32"
+        },
+        {
+            "name": "required_points_36",
+            "type": "int32"
+        }
+    ]
+}

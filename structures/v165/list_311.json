@@ -1,0 +1,81 @@
+{
+    "name": "MOBILE_PHONE_INFO_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "text",
+            "type": "wstring:2000"
+        },
+        {
+            "name": "award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_1_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_2_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_3_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_4_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_4_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_4_award_bind",
+            "type": "int32"
+        },
+        {
+            "name": "award_4_award_expire",
+            "type": "int32"
+        }
+    ]
+}

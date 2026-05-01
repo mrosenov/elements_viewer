@@ -1,0 +1,5213 @@
+{
+    "name": "CANTEEN_EVENT_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "award_list_1_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_1_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_1_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_1_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_1_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_1_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_1_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_1_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_1_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_1_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_1_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_1_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_1_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_2_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_3_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_4_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_5_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_6_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_7_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_8_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_9_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_10_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_11_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_12_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_13_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_14_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_15_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_16_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_17_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_18_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_19_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_20_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_21_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_22_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_23_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_24_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_25_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_26_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_27_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_28_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_29_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_30_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_31_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_32_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_33_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_34_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_35_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_36_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_37_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_38_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_39_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_40_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_41_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_42_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_43_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_44_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_45_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_46_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_47_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_48_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_49_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_50_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_51_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_52_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_53_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_54_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_55_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_56_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_57_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_58_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_59_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_60_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_61_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_62_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_63_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_64_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_65_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_66_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_67_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_68_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_69_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_70_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_71_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_72_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_73_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_74_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_75_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_76_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_77_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_78_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_79_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_80_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_81_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_82_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_83_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_84_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_85_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_86_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_87_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_88_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_89_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_90_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_91_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_92_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_93_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_94_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_95_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_96_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_97_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_98_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_99_unknown_4",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_award_1_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_award_1_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_award_1_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_award_2_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_award_2_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_award_2_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_award_3_award_id",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_award_3_award_amount",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_award_3_award_expire",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_unknown_1",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_unknown_2",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_unknown_3",
+            "type": "int32"
+        },
+        {
+            "name": "award_list_100_unknown_4",
+            "type": "int32"
+        }
+    ]
+}

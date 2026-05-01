@@ -1,0 +1,1213 @@
+{
+    "name": "RUNE2013_MATERIAL_CONFIG",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int32"
+        },
+        {
+            "name": "name",
+            "type": "wstring:64"
+        },
+        {
+            "name": "consumeable_1_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_1_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_1_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_2_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_2_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_2_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_3_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_3_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_3_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_4_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_4_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_4_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_5_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_5_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_5_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_6_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_6_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_6_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_7_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_7_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_7_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_8_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_8_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_8_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_9_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_9_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_9_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_10_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_10_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_10_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_11_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_11_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_11_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_12_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_12_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_12_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_13_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_13_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_13_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_14_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_14_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_14_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_15_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_15_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_15_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_16_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_16_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_16_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_17_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_17_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_17_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_18_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_18_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_18_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_19_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_19_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_19_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_20_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_20_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_20_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_21_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_21_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_21_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_22_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_22_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_22_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_23_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_23_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_23_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_24_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_24_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_24_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_25_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_25_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_25_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_26_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_26_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_26_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_27_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_27_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_27_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_28_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_28_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_28_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_29_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_29_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_29_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_30_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_30_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_30_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_31_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_31_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_31_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_32_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_32_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_32_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_33_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_33_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_33_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_34_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_34_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_34_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_35_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_35_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_35_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_36_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_36_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_36_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_37_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_37_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_37_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_38_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_38_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_38_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_39_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_39_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_39_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_40_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_40_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_40_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_41_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_41_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_41_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_42_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_42_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_42_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_43_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_43_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_43_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_44_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_44_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_44_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_45_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_45_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_45_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_46_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_46_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_46_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_47_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_47_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_47_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_48_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_48_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_48_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_49_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_49_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_49_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_50_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_50_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_50_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_51_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_51_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_51_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_52_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_52_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_52_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_53_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_53_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_53_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_54_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_54_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_54_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_55_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_55_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_55_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_56_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_56_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_56_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_57_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_57_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_57_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_58_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_58_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_58_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_59_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_59_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_59_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_60_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_60_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_60_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_61_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_61_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_61_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_62_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_62_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_62_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_63_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_63_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_63_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_64_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_64_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_64_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_65_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_65_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_65_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_66_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_66_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_66_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_67_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_67_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_67_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_68_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_68_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_68_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_69_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_69_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_69_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_70_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_70_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_70_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_71_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_71_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_71_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_72_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_72_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_72_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_73_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_73_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_73_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_74_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_74_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_74_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_75_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_75_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_75_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_76_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_76_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_76_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_77_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_77_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_77_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_78_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_78_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_78_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_79_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_79_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_79_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_80_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_80_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_80_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_81_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_81_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_81_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_82_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_82_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_82_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_83_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_83_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_83_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_84_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_84_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_84_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_85_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_85_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_85_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_86_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_86_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_86_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_87_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_87_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_87_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_88_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_88_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_88_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_89_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_89_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_89_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_90_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_90_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_90_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_91_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_91_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_91_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_92_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_92_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_92_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_93_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_93_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_93_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_94_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_94_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_94_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_95_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_95_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_95_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_96_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_96_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_96_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_97_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_97_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_97_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_98_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_98_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_98_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_99_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_99_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_99_unknown",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_100_item_id",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_100_receive_soul_points",
+            "type": "int32"
+        },
+        {
+            "name": "consumeable_100_unknown",
+            "type": "int32"
+        }
+    ]
+}
