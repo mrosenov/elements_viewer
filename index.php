@@ -195,6 +195,47 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['action'] ?? '') === 'diff_li
 }
 
 // ---------------------------------------------------------------------------
+// AJAX endpoint: MD5 checkpoints embedded in the current elements.data
+// ---------------------------------------------------------------------------
+//   GET ?action=md5_checkpoints&file=<fileName>
+// Returns JSON: { file, version, checkpoints: [{offset, before_list, hex, list_name}] }
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && ($_GET['action'] ?? '') === 'md5_checkpoints') {
+    header('Content-Type: application/json');
+    $fileN = basename($_GET['file'] ?? '');
+    $path  = $dataDir ? $dataDir . '/' . $fileN : '';
+    if (!$dataDir || !is_file($path)) {
+        echo json_encode(['error' => 'File not found in data/.']);
+        exit;
+    }
+    try {
+        $r = (new ElementsReader($path))->scan();
+    } catch (Throwable $e) {
+        echo json_encode(['error' => $e->getMessage()]);
+        exit;
+    }
+    $structure  = load_structure($structDir, $r->getVersionLabel());
+    $namesByIdx = [];
+    foreach (($structure['lists'] ?? []) as $key => $entry) {
+        $namesByIdx[(int)$key] = is_array($entry) ? ($entry['name'] ?? '') : '';
+    }
+    $out = [];
+    foreach ($r->getMd5Checkpoints() as $cp) {
+        $out[] = [
+            'offset'      => $cp['offset'],
+            'before_list' => $cp['before_list'],
+            'hex'         => $cp['hex'],
+            'list_name'   => $namesByIdx[$cp['before_list']] ?? '',
+        ];
+    }
+    echo json_encode([
+        'file'        => $fileN,
+        'version'     => $r->getVersionLabel(),
+        'checkpoints' => $out,
+    ]);
+    exit;
+}
+
+// ---------------------------------------------------------------------------
 // Endpoint: download a .cfg file describing every list in the current .data
 // ---------------------------------------------------------------------------
 //   GET ?action=export_cfg&file=<fileName>
@@ -909,6 +950,48 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
   </div>
 </div>
 
+<!-- ░░ MD5 CHECKPOINTS MODAL ░░ -->
+<div id="md5-modal" class="hidden fixed inset-0 bg-black/70 backdrop-blur-sm z-[150] items-center justify-center p-4"
+     onclick="if(event.target===this)closeMd5Modal()">
+  <div class="bg-[#0d1117] border border-slate-700 rounded-md shadow-2xl w-full max-w-2xl flex flex-col max-h-[80vh]">
+    <!-- Header -->
+    <div class="px-4 py-3 border-b border-slate-800 flex items-center justify-between gap-2 shrink-0">
+      <div class="flex items-center gap-2 min-w-0">
+        <svg class="w-4 h-4 text-violet-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        <span class="mono text-[12px] font-semibold text-slate-100">MD5 Checkpoints</span>
+        <span id="md5-meta" class="mono text-[10px] text-slate-500 truncate"></span>
+      </div>
+      <button type="button" onclick="closeMd5Modal()"
+        class="w-6 h-6 flex items-center justify-center rounded text-slate-500 hover:text-slate-200 hover:bg-slate-800 transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <!-- Body -->
+    <div class="flex-1 overflow-auto">
+      <div id="md5-empty" class="p-8 text-center">
+        <p class="text-[12px] mono text-slate-500">Loading…</p>
+      </div>
+      <table id="md5-table" class="hidden w-full text-[11px] mono">
+        <thead class="sticky top-0 bg-[#0d1117] border-b border-slate-800 text-slate-400 text-[10px] uppercase tracking-widest">
+          <tr>
+            <th class="px-3 py-2 text-right w-8">#</th>
+            <th class="px-3 py-2 text-right">Offset (hex)</th>
+            <th class="px-3 py-2 text-right">Offset (dec)</th>
+            <th class="px-3 py-2 text-right">Before list</th>
+            <th class="px-3 py-2 text-left">List name</th>
+            <th class="px-3 py-2 text-left">Checksum bytes (8 B)</th>
+          </tr>
+        </thead>
+        <tbody id="md5-tbody" class="divide-y divide-slate-800/60"></tbody>
+      </table>
+    </div>
+    <!-- Footer -->
+    <div class="px-4 py-2.5 border-t border-slate-800 flex items-center gap-2 text-[10px] mono shrink-0 bg-[#090c12]">
+      <span class="text-slate-600">Checkpoints are 8-byte markers embedded between specific list slots.</span>
+    </div>
+  </div>
+</div>
+
 <!-- ░░ IMPORT .CFG MODAL ░░ -->
 <div id="cfg-modal" class="hidden fixed inset-0 bg-black/70 backdrop-blur-sm z-[150] items-center justify-center p-4"
      onclick="if(event.target===this)closeCfgModal()">
@@ -1228,6 +1311,12 @@ $preservedIdField   = $selectedListDef['id_field']   ?? '';
       title="Compare list sizes against another elements.data file">
       <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
       Compare
+    </button>
+    <button type="button" onclick="openMd5Modal()"
+      class="flex items-center gap-1.5 px-2.5 py-1 rounded border text-[11px] mono uppercase tracking-widest bg-violet-950/20 hover:bg-violet-950/50 border-violet-800/30 hover:border-violet-700/50 text-violet-300 transition-colors"
+      title="Show MD5 checkpoints embedded in this elements.data file">
+      <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+      MD5 Checkpoints
     </button>
     <a href="?action=export_cfg&amp;file=<?= h(urlencode($fileName)) ?>"
        class="flex items-center gap-1.5 px-2.5 py-1 rounded border text-[11px] mono uppercase tracking-widest bg-emerald-950/20 hover:bg-emerald-950/50 border-emerald-800/30 hover:border-emerald-700/50 text-emerald-300 transition-colors"
@@ -2256,6 +2345,70 @@ function importCppFromText(){
   toast('Parsed "'+parsed.name+'": '+flat.length+' flat field'+(flat.length===1?'':'s')+'. Click Save Schema to persist.','success');
 }
 
+// ── MD5 Checkpoints modal ───────────────────────────────────────────────────
+function openMd5Modal(){
+  const m=document.getElementById('md5-modal');
+  if(!m) return;
+  m.classList.remove('hidden'); m.classList.add('flex');
+  loadMd5Checkpoints();
+}
+function closeMd5Modal(){
+  const m=document.getElementById('md5-modal');
+  if(m){m.classList.add('hidden'); m.classList.remove('flex');}
+}
+function loadMd5Checkpoints(){
+  const fileName=<?= json_encode($fileName) ?>;
+  if(!fileName){ showMd5Empty('No file loaded.'); return; }
+  showMd5Empty('Loading…');
+  const url='?action=md5_checkpoints&file='+encodeURIComponent(fileName);
+  fetch(url,{credentials:'same-origin'})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(data.error){ showMd5Empty('Error: '+data.error); return; }
+      renderMd5Table(data);
+    })
+    .catch(function(e){ showMd5Empty('Network error: '+e); });
+}
+function showMd5Empty(msg){
+  const tbl=document.getElementById('md5-table');
+  const empty=document.getElementById('md5-empty');
+  if(tbl) tbl.classList.add('hidden');
+  if(empty){ empty.classList.remove('hidden'); empty.querySelector('p').textContent=msg; }
+}
+function renderMd5Table(data){
+  const meta=document.getElementById('md5-meta');
+  const tbody=document.getElementById('md5-tbody');
+  const tbl=document.getElementById('md5-table');
+  const empty=document.getElementById('md5-empty');
+  if(meta) meta.textContent='— '+data.version+' · '+data.checkpoints.length+' checkpoint'+(data.checkpoints.length===1?'':'s');
+  if(!data.checkpoints.length){ showMd5Empty('No MD5 checkpoints found in this file.'); return; }
+  let html='';
+  data.checkpoints.forEach(function(cp,i){
+    const hexOff='0x'+cp.offset.toString(16).toUpperCase().padStart(8,'0');
+    const decOff=cp.offset.toLocaleString();
+    // Format the 8 hex bytes as space-separated pairs for readability
+    const raw=cp.hex;
+    const byteStr=raw.match(/.{1,2}/g).join(' ').toUpperCase();
+    const name=cp.list_name
+      ? '<span class="text-cyan-300">'+escHtml(cp.list_name)+'</span>'
+      : '<span class="text-slate-600">—</span>';
+    html+='<tr class="hover:bg-slate-800/30 transition-colors">'
+      +'<td class="px-3 py-1.5 text-right text-slate-600">'+(i+1)+'</td>'
+      +'<td class="px-3 py-1.5 text-right text-amber-300 tabular-nums">'+hexOff+'</td>'
+      +'<td class="px-3 py-1.5 text-right text-slate-400 tabular-nums">'+decOff+'</td>'
+      +'<td class="px-3 py-1.5 text-right text-slate-300 tabular-nums">#'+cp.before_list+'</td>'
+      +'<td class="px-3 py-1.5 text-left">'+name+'</td>'
+      +'<td class="px-3 py-1.5 text-left text-slate-500 tabular-nums tracking-wider">'+byteStr+'</td>'
+      +'</tr>';
+  });
+  if(tbody) tbody.innerHTML=html;
+  if(tbl) tbl.classList.remove('hidden');
+  if(empty) empty.classList.add('hidden');
+}
+function escHtml(s){
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
 // ── Compare list sizes modal ────────────────────────────────────────────────
 // Holds the most recent diff response so the filter checkboxes can re-render
 // without re-hitting the server.
@@ -2560,6 +2713,8 @@ document.addEventListener('keydown',function(e){
   if(e.key!=='Escape') return;
   const diff=document.getElementById('diff-modal');
   if(diff && !diff.classList.contains('hidden')){ closeDiffModal(); return; }
+  const md5m=document.getElementById('md5-modal');
+  if(md5m && !md5m.classList.contains('hidden')){ closeMd5Modal(); return; }
   const cppi=document.getElementById('cpp-import-modal');
   if(cppi && !cppi.classList.contains('hidden')){ closeCppImportModal(); return; }
   const cfg=document.getElementById('cfg-modal');

@@ -64,6 +64,12 @@ class ElementsReader
     private $lists = [];
     /** @var int|null talk_proc count (null if not found) */
     private $talkProcCount = null;
+    /**
+     * MD5 checkpoints discovered during scan().
+     * Each entry: ['offset' => int, 'before_list' => int, 'hex' => string]
+     * @var array
+     */
+    private $md5Checkpoints = [];
 
     public function __construct($filepath)
     {
@@ -74,12 +80,13 @@ class ElementsReader
         $this->fileSize = filesize($filepath);
     }
 
-    public function getVersion()       { return $this->version; }
-    public function getVersionLabel()  { return $this->versionLabel; }
-    public function getLists()         { return $this->lists; }
-    public function getTalkProcCount() { return $this->talkProcCount; }
-    public function getFilepath()      { return $this->filepath; }
-    public function getFileSize()      { return $this->fileSize; }
+    public function getVersion()          { return $this->version; }
+    public function getVersionLabel()     { return $this->versionLabel; }
+    public function getLists()            { return $this->lists; }
+    public function getTalkProcCount()    { return $this->talkProcCount; }
+    public function getMd5Checkpoints()   { return $this->md5Checkpoints; }
+    public function getFilepath()         { return $this->filepath; }
+    public function getFileSize()         { return $this->fileSize; }
 
     /**
      * Walk the whole file and build the list index (offset + sizeof + count
@@ -111,7 +118,18 @@ class ElementsReader
             $idx = 0;
             while (true) {
                 if (isset($markers[$idx])) {
-                    $this->skipMarker($fh, $markers[$idx]);
+                    $markerType = $markers[$idx];
+                    if ($markerType === 'md5') {
+                        $markerOffset = ftell($fh);
+                        $md5Raw = fread($fh, 8);
+                        $this->md5Checkpoints[] = [
+                            'offset'      => $markerOffset,
+                            'before_list' => $idx,
+                            'hex'         => strlen($md5Raw) === 8 ? bin2hex($md5Raw) : '',
+                        ];
+                    } else {
+                        $this->skipMarker($fh, $markerType);
+                    }
                 }
 
                 $pos = ftell($fh);
