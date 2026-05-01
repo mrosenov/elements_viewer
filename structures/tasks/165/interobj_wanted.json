@@ -1,0 +1,10 @@
+{
+  "struct": "INTEROBJ_WANTED",
+  "total_bytes": 8,
+  "pack": 1,
+  "description": "Describes one interactive-object usage objective: which object and how many times to interact with it.",
+  "fields": [
+    { "name": "m_ulInterObjId",  "type": "uint32", "offset": 0, "bytes": 4, "description": "Interactive object template ID." },
+    { "name": "m_ulInterObjNum", "type": "uint32", "offset": 4, "bytes": 4, "description": "Number of times the object must be interacted with." }
+  ]
+}

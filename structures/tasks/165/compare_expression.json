@@ -1,0 +1,40 @@
+{
+  "struct": "COMPARE_EXPRESSION",
+  "total_bytes": 68,
+  "pack": 1,
+  "description": "A comparison expression used for prerequisite (m_PremCompExp1/2) and finish-condition (m_FinCompExp1/2) checks. Each side is a string expression (parsed at runtime) plus a compiled expression array. The strings are stored as abase::vector<char> whose _cur_size field drives the variable-section read.",
+  "abase_vector_layout": {
+    "description": "abase::vector<T> is 16 bytes: 4 x 4-byte fields.",
+    "fields": [
+      { "name": "_data",     "offset_within_vector": 0,  "bytes": 4, "description": "Runtime pointer to heap allocation." },
+      { "name": "_finish",   "offset_within_vector": 4,  "bytes": 4, "description": "Runtime pointer to one-past-last element." },
+      { "name": "_max_size", "offset_within_vector": 8,  "bytes": 4, "description": "Runtime capacity." },
+      { "name": "_cur_size", "offset_within_vector": 12, "bytes": 4, "description": "KEY: element count written by SaveFixedDataToBinFile. Read by PHP parser to know how many bytes follow in the variable section." }
+    ]
+  },
+  "fields": [
+    { "name": "strExpLeft",  "type": "abase_vector<char>",         "offset": 0,  "bytes": 16, "description": "Left-side expression string vector. _cur_size at offset +12 gives the byte count of the string that follows in the variable section." },
+    { "name": "arrExpLeft",  "type": "abase_vector<TASK_EXPRESSION>","offset": 16,"bytes": 16, "description": "Compiled expression array for left side. TASK_EXPRESSION = int(4)+float(4) = 8 bytes. _cur_size at offset +12 gives element count." },
+    { "name": "nCompOper",   "type": "int32",                       "offset": 32, "bytes": 4,  "description": "Comparison operator: 0=<, 1=<=, 2==, 3=>=, 4=>, 5=!=." },
+    { "name": "strExpRight", "type": "abase_vector<char>",          "offset": 36, "bytes": 16, "description": "Right-side expression string vector. _cur_size at offset +12 gives the byte count." },
+    { "name": "arrExpRight", "type": "abase_vector<TASK_EXPRESSION>","offset": 52,"bytes": 16, "description": "Compiled expression array for right side." }
+  ],
+  "known_offsets_within_ATaskTemplFixedData": {
+    "m_PremCompExp1":                    1650,
+    "m_PremCompExp1.strExpLeft._cur_size": 1662,
+    "m_PremCompExp1.strExpRight._cur_size":1698,
+    "m_PremCompExp2":                    1718,
+    "m_PremCompExp2.strExpLeft._cur_size": 1730,
+    "m_PremCompExp2.strExpRight._cur_size":1766,
+    "m_FinCompExp1":                     2282,
+    "m_FinCompExp1.strExpLeft._cur_size":  2294,
+    "m_FinCompExp1.strExpRight._cur_size": 2330,
+    "m_FinCompExp2":                     2350,
+    "m_FinCompExp2.strExpLeft._cur_size":  2362,
+    "m_FinCompExp2.strExpRight._cur_size": 2398
+  },
+  "variable_section_sequence": [
+    "if m_bPremNeedComp (fixed@1645): strExpLeft bytes (n1 = fixed@1662), strExpRight bytes (n2 = fixed@1698), strExpLeft bytes (n3 = fixed@1730), strExpRight bytes (n4 = fixed@1766)",
+    "if m_bFinNeedComp (fixed@2277):  strExpLeft bytes (n1 = fixed@2294), strExpRight bytes (n2 = fixed@2330), strExpLeft bytes (n3 = fixed@2362), strExpRight bytes (n4 = fixed@2398)"
+  ]
+}

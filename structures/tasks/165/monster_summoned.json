@@ -1,0 +1,14 @@
+{
+  "struct": "MONSTER_SUMMONED",
+  "total_bytes": 29,
+  "pack": 1,
+  "description": "Describes a prerequisite summoned monster: what monster to summon, how many, and where. Used in the PremMonsterSummoned variable section.",
+  "fields": [
+    { "name": "m_ulMonsterTemplID", "type": "uint32",   "offset": 0,  "bytes": 4,  "description": "Monster template ID to summon." },
+    { "name": "m_bIsMonster",       "type": "bool",     "offset": 4,  "bytes": 1,  "description": "True = monster; false = pet." },
+    { "name": "m_ulMonsterNum",     "type": "uint32",   "offset": 5,  "bytes": 4,  "description": "Number to summon." },
+    { "name": "m_ulMapId",          "type": "uint32",   "offset": 9,  "bytes": 4,  "description": "Map/world ID where the monster is summoned." },
+    { "name": "m_SummonVert",       "type": "ZONE_VERT","offset": 13, "bytes": 12, "description": "Summon position (x, y, z)." },
+    { "name": "m_lPeriod",          "type": "int32",    "offset": 25, "bytes": 4,  "description": "Duration the summoned monster persists (seconds)." }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "struct": "TEAM_MEM_WANTED",
+  "total_bytes": 37,
+  "pack": 1,
+  "description": "Describes requirements for one team-member slot: level range, race, occupation, gender, rebirth count, and more. An array of these is stored in the variable section when m_ulTeamMemsWanted > 0.",
+  "fields": [
+    { "name": "m_ulLevelMin",   "type": "uint32", "offset": 0,  "bytes": 4, "description": "Minimum level for this team slot (0 = no minimum)." },
+    { "name": "m_ulLevelMax",   "type": "uint32", "offset": 4,  "bytes": 4, "description": "Maximum level for this team slot (0 = no maximum)." },
+    { "name": "m_ulRace",       "type": "uint32", "offset": 8,  "bytes": 4, "description": "Required race ID (0 = any)." },
+    { "name": "m_ulOccupation", "type": "uint32", "offset": 12, "bytes": 4, "description": "Required occupation ID (INVALID_VAL = any)." },
+    { "name": "m_ulGender",     "type": "uint32", "offset": 16, "bytes": 4, "description": "Required gender: 0=any, 1=male, 2=female." },
+    { "name": "m_ulLifeAgain",  "type": "uint32", "offset": 20, "bytes": 4, "description": "Minimum rebirth count required." },
+    { "name": "m_bSameFamily",  "type": "bool",   "offset": 24, "bytes": 1, "description": "Must be in the same family as the task holder." },
+    { "name": "m_ulMinCount",   "type": "uint32", "offset": 25, "bytes": 4, "description": "Minimum number of members satisfying these conditions." },
+    { "name": "m_ulMaxCount",   "type": "uint32", "offset": 29, "bytes": 4, "description": "Maximum number of members satisfying these conditions." },
+    { "name": "m_ulTask",       "type": "uint32", "offset": 33, "bytes": 4, "description": "Required task ID that members must have active or completed." }
+  ]
+}

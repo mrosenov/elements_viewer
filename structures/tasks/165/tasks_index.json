@@ -1,0 +1,14 @@
+{
+  "struct": "tasks_index",
+  "file": "tasks.data",
+  "description": "Master index file. Contains the magic header, version info, and per-pack MD5 checksums. Parsed once to discover how many pack files (tasks.dataN) exist and to validate their integrity.",
+  "total_bytes": "variable",
+  "fields": [
+    { "name": "magic",          "type": "uint32",  "offset": 0,  "bytes": 4,  "description": "Magic number identifying this as a ZX task index. Expected value verified by TaskDataReader." },
+    { "name": "version",        "type": "uint32",  "offset": 4,  "bytes": 4,  "description": "Format version of the binary data. Version 165 is the target for this struct set." },
+    { "name": "export_version", "type": "uint32",  "offset": 8,  "bytes": 4,  "description": "Export/tool version used when generating the file." },
+    { "name": "item_count",     "type": "uint32",  "offset": 12, "bytes": 4,  "description": "Total number of top-level task records across all packs." },
+    { "name": "pack_count",     "type": "uint32",  "offset": 16, "bytes": 4,  "description": "Number of pack files (tasks.data1 … tasks.dataN)." },
+    { "name": "md5_array",      "type": "task_md5[pack_count]", "offset": 20, "bytes": "16 × pack_count", "description": "One 16-byte MD5 checksum per pack file, in pack order. struct task_md5 { uint8_t data[16]; }." }
+  ]
+}

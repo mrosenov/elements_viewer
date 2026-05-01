@@ -1,0 +1,11 @@
+{
+  "struct": "ZONE_VERT",
+  "total_bytes": 12,
+  "pack": 1,
+  "description": "3D coordinate / bounding-box corner. Used for zone definitions, teleport destinations, and reach sites throughout the task binary format.",
+  "fields": [
+    { "name": "x", "type": "float", "offset": 0, "bytes": 4, "description": "X coordinate (East-West axis)." },
+    { "name": "y", "type": "float", "offset": 4, "bytes": 4, "description": "Y coordinate (vertical height axis)." },
+    { "name": "z", "type": "float", "offset": 8, "bytes": 4, "description": "Z coordinate (North-South axis)." }
+  ]
+}

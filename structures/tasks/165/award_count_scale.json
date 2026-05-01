@@ -1,0 +1,15 @@
+{
+  "struct": "AWARD_COUNT_SCALE",
+  "total_bytes": "variable",
+  "description": "Award block that selects one of N tiers based on a count (e.g., number of completed objectives). Written/read by LoadAwardDataCountScale.",
+  "constants": { "MAX_AWARD_SCALES": 5 },
+  "serialized_layout": [
+    { "order": 1, "name": "m_ulScales", "type": "uint32",    "bytes": 4,  "description": "Number of scale tiers (0–MAX_AWARD_SCALES=5)." },
+    { "order": 2, "name": "m_Counts",  "type": "uint32[5]", "bytes": 20, "description": "Count thresholds for each tier, always 5 entries." },
+    { "order": 3, "name": "m_Awards",  "type": "AWARD_DATA[m_ulScales]", "bytes": "957 × m_ulScales (+ variable sections)", "description": "m_ulScales full AWARD_DATA records. See award_data.json." }
+  ],
+  "notes": [
+    "If m_ulScales is 0, 24 bytes are written (4 + 20, all zeros).",
+    "Each AWARD_DATA must be fully parsed before advancing."
+  ]
+}

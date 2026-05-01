@@ -1,0 +1,35 @@
+{
+  "struct": "abase::vector<T>",
+  "total_bytes": 16,
+  "pack": 1,
+  "description": "The abase::vector template, compiled as a 32-bit MSVC struct with pack(1). Stores four 4-byte fields mirroring std::vector internals. In the binary file, the _cur_size field at offset +12 is the only field that carries useful data: it tells the reader how many elements of type T to expect in the variable section.",
+  "fields": [
+    { "name": "_data",     "type": "ptr", "offset": 0,  "bytes": 4, "description": "Runtime heap pointer to the element array. Zero in freshly serialized data. Ignore when parsing the binary." },
+    { "name": "_finish",   "type": "ptr", "offset": 4,  "bytes": 4, "description": "Runtime one-past-end pointer. Ignore when parsing." },
+    { "name": "_max_size", "type": "ptr", "offset": 8,  "bytes": 4, "description": "Runtime capacity. Ignore when parsing." },
+    { "name": "_cur_size", "type": "uint32", "offset": 12, "bytes": 4, "description": "KEY: Element count as of serialization. Read this field to know how many T-sized records follow in the variable data section." }
+  ],
+  "usage_examples": [
+    {
+      "location": "ATaskTemplFixedData.m_lChangeKeyArr (fixed offset 485)",
+      "element_type": "int32",
+      "element_size": 4,
+      "_cur_size_absolute_offset": 497,
+      "variable_section": "n×int32 key IDs + n×int32 values + n×bool change-types where n = _cur_size"
+    },
+    {
+      "location": "AWARD_DATA.m_lChangeKeyArr (AWARD_DATA offset 486)",
+      "element_type": "int32",
+      "element_size": 4,
+      "_cur_size_absolute_offset_within_AWARD_DATA": 498,
+      "variable_section": "n×int32 keys + n×int32 values + n×bool types"
+    },
+    {
+      "location": "COMPARE_EXPRESSION.strExpLeft (COMPARE_EXPRESSION offset 0)",
+      "element_type": "char",
+      "element_size": 1,
+      "_cur_size_offset_within_COMPARE_EXPRESSION": 12,
+      "variable_section": "_cur_size bytes of expression string"
+    }
+  ]
+}

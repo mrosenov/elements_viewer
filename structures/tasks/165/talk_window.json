@@ -1,0 +1,18 @@
+{
+  "struct": "talk_window",
+  "total_bytes": "variable",
+  "description": "One dialogue window within a talk_proc. Contains the window's own text (variable length) and a fixed-size array of choice options.",
+  "serialized_layout": [
+    { "order": 1, "name": "id",         "type": "uint32", "bytes": 4,              "description": "Window ID." },
+    { "order": 2, "name": "id_parent",  "type": "uint32", "bytes": 4,              "description": "Parent window ID (0 = root window)." },
+    { "order": 3, "name": "text_len",   "type": "uint32", "bytes": 4,              "description": "Length of the window text in UTF-16LE code units (characters)." },
+    { "order": 4, "name": "text",       "type": "uint16[text_len]", "bytes": "2 × text_len", "description": "Window body text as UTF-16LE." },
+    { "order": 5, "name": "num_option", "type": "uint32", "bytes": 4,              "description": "Number of choice options (buttons) in this window." },
+    { "order": 6, "name": "options",    "type": "talk_option[num_option]", "bytes": "136 × num_option", "description": "Fixed-size option array. See talk_option.json." }
+  ],
+  "notes": [
+    "text_len=0 is valid and produces an empty text block (no bytes read for text).",
+    "num_option=0 is valid (window with no player choices, e.g., a final acknowledgment screen).",
+    "Sanity check: text_len > 65535 or num_option > 1000 is treated as corrupt."
+  ]
+}

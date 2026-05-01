@@ -1,0 +1,16 @@
+{
+  "struct": "TASK_EXPRESSION",
+  "total_bytes": 8,
+  "pack": 1,
+  "description": "A compiled expression token used in COMPARE_EXPRESSION arrays (arrExpLeft / arrExpRight). Each token is an opcode/operand pair.",
+  "fields": [
+    { "name": "op",    "type": "int32", "offset": 0, "bytes": 4, "description": "Opcode or integer operand." },
+    { "name": "value", "type": "float", "offset": 4, "bytes": 4, "description": "Float operand / constant value." }
+  ],
+  "notes": [
+    "TaskExpressionArr is typedef'd as abase::vector<TASK_EXPRESSION> = 16 bytes in the fixed struct.",
+    "The _cur_size field of the vector (at vector_base + 12) gives the element count stored in the binary.",
+    "The actual array data follows inline in the variable section after the owning COMPARE_EXPRESSION's strings are read.",
+    "In practice, arrExpLeft and arrExpRight data in the variable section is not parsed by the PHP reader (only the strings are needed for display)."
+  ]
+}

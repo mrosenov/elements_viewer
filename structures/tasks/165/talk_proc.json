@@ -1,0 +1,15 @@
+{
+  "struct": "talk_proc",
+  "total_bytes": "variable",
+  "description": "Dialogue procedure: one NPC conversation tree attached to a task. Five talk_proc records are always written per task (indices 0–4), even if unused (in which case num_window will be 0). Source: TaskDataSmallTool/ZElementData/ExpTypes.h and its load functions.",
+  "serialized_layout": [
+    { "order": 1, "name": "id_talk",    "type": "uint32",          "bytes": 4,   "description": "Talk ID. 0 = unused slot." },
+    { "order": 2, "name": "text",       "type": "uint16[64]",      "bytes": 128, "description": "NPC dialogue text, UTF-16LE fixed 64-character array." },
+    { "order": 3, "name": "num_window", "type": "uint32",          "bytes": 4,   "description": "Number of dialogue windows in this conversation." },
+    { "order": 4, "name": "windows",    "type": "talk_window[num_window]", "bytes": "variable × num_window", "description": "Variable-length array of talk_window records. See talk_window.json." }
+  ],
+  "notes": [
+    "All 5 slots are written unconditionally. An unused slot has id_talk=0 and num_window=0, costing only 4+128+4=136 bytes.",
+    "Sanity check: num_window > 1000 is treated as corrupt by the PHP reader."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "struct": "MONSTER_WANTED",
+  "total_bytes": 22,
+  "pack": 1,
+  "description": "Describes one kill objective: which monster template to kill, how many, and drop conditions. An array of these is stored in the variable section after the fixed data.",
+  "fields": [
+    { "name": "m_ulMonsterTemplId", "type": "uint32", "offset": 0,  "bytes": 4, "description": "Monster template ID to kill." },
+    { "name": "m_ulMonsterNum",     "type": "uint32", "offset": 4,  "bytes": 4, "description": "Number of this monster that must be killed." },
+    { "name": "m_ulDropItemId",     "type": "uint32", "offset": 8,  "bytes": 4, "description": "Item template ID that must drop from the monster." },
+    { "name": "m_ulDropItemCount",  "type": "uint32", "offset": 12, "bytes": 4, "description": "Number of drop items required." },
+    { "name": "m_bDropCmnItem",     "type": "bool",   "offset": 16, "bytes": 1, "description": "Drop item is a common item (not a task item)." },
+    { "name": "m_fDropProb",        "type": "float",  "offset": 17, "bytes": 4, "description": "Drop probability [0.0–1.0]." },
+    { "name": "m_bKillerLev",       "type": "bool",   "offset": 21, "bytes": 1, "description": "Apply level-based kill restrictions." }
+  ]
+}

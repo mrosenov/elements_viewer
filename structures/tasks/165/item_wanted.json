@@ -1,0 +1,21 @@
+{
+  "struct": "ITEM_WANTED",
+  "total_bytes": 31,
+  "pack": 1,
+  "description": "Describes one item in a prerequisite, collection objective, given-item, or award candidate list. Used in PremItems, GivenItems, ItemsWanted, and inside AWARD_ITEMS_CAND arrays.",
+  "fields": [
+    { "name": "m_ulItemTemplId",        "type": "uint32", "offset": 0,  "bytes": 4, "description": "Item template ID." },
+    { "name": "m_bCommonItem",          "type": "bool",   "offset": 4,  "bytes": 1, "description": "True = common (non-task) item; false = task item." },
+    { "name": "m_ulItemNum",            "type": "uint32", "offset": 5,  "bytes": 4, "description": "Stack count required or awarded." },
+    { "name": "m_fProb",                "type": "float",  "offset": 9,  "bytes": 4, "description": "Drop/award probability [0.0–1.0]. 0 means always." },
+    { "name": "m_bBind",                "type": "bool",   "offset": 13, "bytes": 1, "description": "Awarded item is bound to character." },
+    { "name": "m_lPeriod",              "type": "int32",  "offset": 14, "bytes": 4, "description": "Expiry period in seconds (0 = permanent)." },
+    { "name": "m_bTimetable",           "type": "bool",   "offset": 18, "bytes": 1, "description": "Whether this item is subject to a timetable restriction." },
+    { "name": "m_cDayOfWeek",           "type": "int8",   "offset": 19, "bytes": 1, "description": "Day-of-week restriction (0 = any)." },
+    { "name": "m_cHour",                "type": "int8",   "offset": 20, "bytes": 1, "description": "Hour restriction." },
+    { "name": "m_cMinute",              "type": "int8",   "offset": 21, "bytes": 1, "description": "Minute restriction." },
+    { "name": "m_cRefineCond",          "type": "int8",   "offset": 22, "bytes": 1, "description": "Refine condition type." },
+    { "name": "m_ulRefineLevel",        "type": "uint32", "offset": 23, "bytes": 4, "description": "Required refine level." },
+    { "name": "m_ulReplaceItemTemplId", "type": "uint32", "offset": 27, "bytes": 4, "description": "Replacement item template ID (for conditional awards)." }
+  ]
+}

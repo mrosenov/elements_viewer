@@ -1,0 +1,11 @@
+{
+  "struct": "talk_option",
+  "total_bytes": 136,
+  "pack": 1,
+  "description": "One player choice / button in a dialogue window. Fixed-size, always 136 bytes.",
+  "fields": [
+    { "name": "id",       "type": "uint32",     "offset": 0,   "bytes": 4,   "description": "Option ID, used to reference this choice from other windows." },
+    { "name": "namechar", "type": "uint16[64]", "offset": 4,   "bytes": 128, "description": "Button label text, UTF-16LE fixed 64-character array." },
+    { "name": "id_next",  "type": "uint32",     "offset": 132, "bytes": 4,   "description": "Window ID to navigate to when this option is chosen (0 = close dialogue)." }
+  ]
+}

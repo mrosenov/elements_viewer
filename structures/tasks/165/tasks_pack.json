@@ -1,0 +1,15 @@
+{
+  "struct": "tasks_pack",
+  "file": "tasks.dataN  (N = 1 … pack_count)",
+  "description": "Pack file header followed by an offset table. Each pack holds a contiguous block of task binary records. Only top-level tasks appear in the offset table; sub-tasks are embedded recursively inside their parent records and must be extracted by following the LoadBinary sequence.",
+  "fields": [
+    { "name": "magic",      "type": "uint32",             "offset": 0, "bytes": 4, "description": "Pack magic number, validated on load." },
+    { "name": "item_count", "type": "uint32",             "offset": 4, "bytes": 4, "description": "Number of top-level task records in this pack (= entries in the offset table)." },
+    { "name": "offsets",    "type": "uint32[item_count]", "offset": 8, "bytes": "4 × item_count", "description": "Byte offsets from the start of the file to each top-level task's fixed-data block. Used for direct seek access. Sub-tasks do NOT have entries here." }
+  ],
+  "notes": [
+    "After the header the file contains task binary records back-to-back.",
+    "Each record starts with 2490 bytes of fixed data (ATaskTemplFixedData), followed by variable-length sections.",
+    "Sub-tasks are written inline after their parent's variable sections; see task_record.json for the full LoadBinary sequence."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "struct": "task_record",
+  "description": "The complete binary layout for one task record as written by ATaskTempl::LoadBinary(). This is a recursive structure: each record ends with embedded sub-task records. Applies equally to top-level tasks (reachable via the pack offset table) and sub-tasks (embedded inline).",
+  "sections": [
+    {
+      "order": 1,
+      "name": "fixed_data",
+      "bytes": 2490,
+      "description": "ATaskTemplFixedData block. Fixed-size, pack(1). See fixed_data.json for full field layout.",
+      "ref": "fixed_data.json"
+    },
+    {
+      "order": 2,
+      "name": "LoadDescriptionBin",
+      "bytes": "variable",
+      "description": "Three UTF-16LE strings written as (uint32 char_count, char_count × uint16 codeunits): description text, ok-button text, no-button text."
+    },
+    {
+      "order": 3,
+      "name": "LoadTributeBin",
+      "bytes": "variable",
+      "description": "One UTF-16LE string (uint32 char_count, char_count × uint16): tribute/reward description shown to player."
+    },
+    {
+      "order": 4,
+      "name": "LoadHintTextBin",
+      "bytes": "variable",
+      "description": "One UTF-16LE string (uint32 char_count, char_count × uint16): in-progress hint text."
+    },
+    {
+      "order": 5,
+      "name": "LoadCanDeliverTextBin",
+      "bytes": "variable",
+      "description": "One UTF-16LE string (uint32 char_count, char_count × uint16): text shown when task can be turned in."
+    },
+    {
+      "order": 6,
+      "name": "LoadFixedDataFromBinFile_variable",
+      "bytes": "variable",
+      "description": "Variable sub-sections appended by LoadFixedDataFromBinFile, in this order: (a) signature string [uint32 len + len bytes], (b) timetable start/end arrays [2 × (uint32 count + count × task_tm(24))], (c) ChangeKeyArr [uint32 n + n×4 + n×4 + n×1], (d) PremItems [uint32 count + count × ITEM_WANTED(31)], (e) PremMonsterSummoned [uint32 count + count × MONSTER_SUMMONED(29)], (f) PremTitles [uint32 count + count × uint16], (g) GivenItems [uint32 count + count × ITEM_WANTED(31)], (h) TeamMemsWanted [uint32 count + count × TEAM_MEM_WANTED(37)], (i) PremNeedComp strings — if m_bPremNeedComp(fixed@1645)≠0: 4 strings as uint32+data each, (j) MonsterWanted [uint32 count + count × MONSTER_WANTED(22)], (k) ItemsWanted [uint32 count + count × ITEM_WANTED(31)], (l) InterObjWanted [uint32 count + count × INTEROBJ_WANTED(8)], (m) FinNeedComp strings — if m_bFinNeedComp(fixed@2277)≠0: 4 strings driven by _cur_size values at fixed offsets 2294/2330/2362/2398, (n) 8 award data blocks: Award_S, Award_F, AwByRatio_S, AwByRatio_F, AwByItems_S, AwByItems_F, AwByCount_S, AwByCount_F.",
+      "sub_refs": [
+        "item_wanted.json",
+        "monster_wanted.json",
+        "monster_summoned.json",
+        "team_mem_wanted.json",
+        "interobj_wanted.json",
+        "compare_expression.json",
+        "award_data.json",
+        "award_ratio_scale.json",
+        "award_items_scale.json",
+        "award_count_scale.json"
+      ]
+    },
+    {
+      "order": 7,
+      "name": "talk_procs",
+      "count": 5,
+      "bytes": "variable × 5",
+      "description": "Five talk_proc structures written sequentially. See talk_proc.json.",
+      "ref": "talk_proc.json"
+    },
+    {
+      "order": 8,
+      "name": "m_nSubCount",
+      "type": "uint32",
+      "bytes": 4,
+      "description": "Number of direct child (sub-task) records embedded immediately after this field."
+    },
+    {
+      "order": 9,
+      "name": "sub_tasks",
+      "bytes": "variable",
+      "description": "m_nSubCount recursive task_record blocks written inline. Each sub-task follows the same full LoadBinary sequence and may itself contain further sub-tasks. Maximum observed depth: ~4 levels."
+    }
+  ],
+  "notes": [
+    "Compiled with MSVC #pragma pack(1), 32-bit pointers (4 bytes each).",
+    "All integers are little-endian.",
+    "Sub-tasks share the parent's pack number but have no entry in the offset table (pack_index = -1 in the PHP reader).",
+    "Empirically verified: 45 packs, 13,450 top-level tasks, 14,204 embedded sub-tasks = 27,654 total tasks."
+  ]
+}

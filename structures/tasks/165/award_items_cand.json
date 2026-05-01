@@ -1,0 +1,14 @@
+{
+  "struct": "AWARD_ITEMS_CAND",
+  "total_bytes": "variable",
+  "description": "One candidate item-set group for LoadAwardCandBin. Describes a random-choice pool of items: either pick one (m_bRandChoose=true) or give all. Written by MarshalBasicData / read by UnmarshalBasicData.",
+  "serialized_layout": [
+    { "order": 1, "name": "m_bRandChoose", "type": "uint8",  "bytes": 1, "description": "1 = randomly pick one item from the pool; 0 = award all items." },
+    { "order": 2, "name": "item_count",    "type": "uint8",  "bytes": 1, "description": "Number of ITEM_WANTED entries that follow (stored as single byte, max ~255)." },
+    { "order": 3, "name": "items",         "type": "ITEM_WANTED[item_count]", "bytes": "31 × item_count", "description": "Array of item entries. See item_wanted.json for field layout." }
+  ],
+  "notes": [
+    "item_count is stored as a single byte (char), not a uint32. Maximum practical value is bounded by MAX_AWARD_CANDIDATES=16.",
+    "m_ulAwardCmnItems and m_ulAwardTskItems are derived at runtime by counting m_bCommonItem flags — they are NOT stored in the binary."
+  ]
+}
