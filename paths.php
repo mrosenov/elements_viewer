@@ -107,6 +107,10 @@ $loadError = $loadError ?? '';
         </div>
         GShop Viewer
       </a>
+      <a href="tasks.php" class="flex items-center gap-2.5 px-3 py-1.5 text-[11px] mono text-slate-300 hover:bg-slate-800 hover:text-violet-400 transition-colors">
+        <div class="w-4 h-4 rounded bg-violet-500/15 border border-violet-500/40 flex items-center justify-center shrink-0"><svg class="w-2.5 h-2.5 text-violet-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg></div>
+        Task Viewer
+      </a>
     </div>
   </div>
 
